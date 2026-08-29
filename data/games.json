@@ -165,15 +165,15 @@
     "sourceUrl": "https://github.com/NaGaa95/ct_nx"
   },
   {
-    "title": "Stardew Valley",
-    "category": "Port",
+    "title": "Vita3K-NX",
+    "category": "Emulador",
     "platform": "Switch",
-    "cover": "assets/covers/placeholder-switch.svg",
+    "cover": "assets/covers/vita3k.png",
     "version": "1.6.2",
     "releaseDate": "2026-04-18",
-    "description": "Port homebrew optimizado, carga de partidas guardadas compatible con Steam.",
-    "downloadUrl": "https://github.com/tuusuario/SceneBackup/releases",
-    "sourceUrl": ""
+    "description": "Emulador Vita3K para Nintendo Switch lanzado por NaGaa95.",
+    "downloadUrl": "https://github.com/NaGaa95/Vita3K-nx/releases",
+    "sourceUrl": "https://github.com/NaGaa95/Vita3K-nx"
   },
   {
     "title": "Legend of Zelda The Minish Cap",
