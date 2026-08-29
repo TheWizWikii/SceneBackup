@@ -12,9 +12,9 @@ const DATA_URL = "data/games.json";
 const PLATFORM_STYLES = {
   "pc":     { accent: "#00e5ff", cover: "assets/covers/placeholder-pc.svg" },
   "vita":   { accent: "#ff2ec4", cover: "assets/covers/placeholder-vita.svg" },
-  "switch": { accent: "#a742ff", cover: "assets/covers/placeholder-switch.svg" },
+  "switch": { accent: "#e60012", cover: "assets/covers/placeholder-switch.svg" },
   "3ds":    { accent: "#39ff88", cover: "assets/covers/placeholder-3ds.svg" },
-  "xbox":   { accent: "#5cb62e", cover: "assets/covers/placeholder-default.svg" },
+  "xbox":   { accent: "#107c10", cover: "assets/covers/placeholder-default.svg" },
   "ps3":    { accent: "#3b8dff", cover: "assets/covers/placeholder-default.svg" },
   "default":{ accent: "#ffd400", cover: "assets/covers/placeholder-default.svg" },
 };
