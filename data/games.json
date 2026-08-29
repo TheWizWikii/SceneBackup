@@ -180,7 +180,7 @@
     "category": "Emulador",
     "platform": "Switch",
     "cover": "assets/covers/vita3k.png",
-    "version": "1.6.2",
+    "version": "1.0.0",
     "releaseDate": "2026-04-18",
     "description": "Emulador Vita3K para Nintendo Switch lanzado por NaGaa95.",
     "downloadUrl": "https://github.com/NaGaa95/Vita3K-nx/releases",
