@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scene Backup — Archivo de ports, emuladores y apps</title>
+<meta name="description" content="Archivo personal de ports, emuladores y apps para PC, PS Vita, Nintendo Switch, 3DS y más.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora__blob aurora__blob--a"></span>
+    <span class="aurora__blob aurora__blob--b"></span>
+    <span class="aurora__blob aurora__blob--c"></span>
+  </div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <h1 class="hero__title" data-text="SCENE BACKUP">SCENE<span class="hero__title-break">BACKUP</span></h1>
+      <p class="hero__subtitle">Cada port, emulador o app que consigo levantar, guardado en un mismo sitio: enlace, versión y sistema. Sin buscar en diez carpetas distintas.</p>
+      <div class="hero__stats" id="stats" aria-live="polite">
+        <div class="stat">
+          <span class="stat__value" id="stat-total">—</span>
+          <span class="stat__label">elementos guardados</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" id="stat-platforms">—</span>
+          <span class="stat__label">sistemas</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" id="stat-latest">—</span>
+          <span class="stat__label">último subido</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="filters">
+      <div class="filter-group">
+        <span class="filter-group__label">Tipo</span>
+        <nav class="filterbar" id="category-filterbar" aria-label="Filtrar por tipo">
+          <!-- Botones de categoría (Ports, Emuladores, Apps…) generados por JS -->
+        </nav>
+      </div>
+      <div class="filter-group">
+        <span class="filter-group__label">Sistema</span>
+        <nav class="filterbar" id="platform-filterbar" aria-label="Filtrar por sistema">
+          <!-- Botones de plataforma generados por JS, según el tipo seleccionado -->
+        </nav>
+      </div>
+    </div>
+
+    <section class="search-row">
+      <input type="search" id="search" class="search-input" placeholder="Buscar por nombre…" aria-label="Buscar">
+      <div class="sort-row">
+        <label for="sort" class="sort-label">Ordenar</label>
+        <select id="sort" class="sort-select">
+          <option value="date-desc">Más reciente primero</option>
+          <option value="date-asc">Más antiguo primero</option>
+          <option value="title-asc">Nombre A–Z</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="grid" id="grid" aria-live="polite">
+      <!-- Las cards se generan por JS -->
+    </section>
+
+    <p class="empty-state" id="empty-state" hidden>
+      No hay nada aquí todavía. Añade una entrada en <code>data/games.json</code> y aparecerá en esta sección.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <p>Scene Backup — archivo personal, sin conexión a servidores externos. Los datos viven en <code>data/games.json</code>.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

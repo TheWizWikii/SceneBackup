@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Metal Slug XX",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/metal-slug-xx.png",
+    "version": "0.9.5",
+    "releaseDate": "2026-07-14",
+    "description": "Recompilación estática de Metal Slug XX para ejecutar la versión de Xbox 360 de forma nativa en PC.",
+    "downloadUrl": "https://github.com/TheWizWikii/PortsBackup/releases/download/1.0/MSXX-Recomp.zip",
+    "sourceUrl": "https://github.com/FluffyQuack/rexglue-MetalSlugXX"
+  },
+  {
+    "title": "Resident Evil 0 – N64 Demo Recreation",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/Resident-Evil-0-N64-Demo.png",
+    "version": "260802",
+    "releaseDate": "2026-08-02",
+    "description": "Recreación en Unity del prototipo perdido de Resident Evil 0 para Nintendo 64, basado en la demo de E3 2000.",
+    "downloadUrl": "https://jayjay-1992.itch.io/resident-evil-0-n64-e3tgs-2000-demo-remake",
+    "sourceUrl": "https://jayjay-1992.itch.io/resident-evil-0-n64-e3tgs-2000-demo-remake"
+  },
+  {
+    "title": "Mario Kart Wii (WiiCompiled)",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/wiicompiled.png",
+    "version": "260802",
+    "releaseDate": "2026-08-24",
+    "description": "WiiCompiled es un port nativo para PC de Mario Kart Wii mediante recompilación estática.",
+    "downloadUrl": "https://github.com/patchzyy/wiicompiled",
+    "sourceUrl": "https://github.com/patchzyy/wiicompiled"
+  },
+  {
+    "title": "Sonic Time Twisted",
+    "category": "Port",
+    "platform": "Xbox",
+    "cover": "assets/covers/Sonic-Time-Twisted.png",
+    "version": "1.1.2.1",
+    "releaseDate": "2022-09-05",
+    "description": "Sonic Time Twisted para Xbox One/Series (port no oficial). Fangame estilo clásico.",
+    "downloadUrl": "https://www.mediafire.com/file/74shtqbyzr4q2dg/Sonic_Time_Twisted_%255BUnofficial%255D_%2528v1.1.2.0%2529.appx/file",
+    "sourceUrl": "https://github.com/overbound/SonicTimeTwisted"
+  },
+  {
+    "title": "The Legend of Zelda: Twilight Princess (DUSK)",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/ZeldaTP.png",
+    "version": "1.4.1",
+    "releaseDate": "2026-06-17",
+    "description": "Port nativo de Twilight Princess (GameCube) para PC con gráficos mejorados, FPS desbloqueados y soporte para mods.",
+    "downloadUrl": "https://github.com/TwilitRealm/dusklight/releases",
+    "sourceUrl": "https://twilitrealm.dev/"
+  },
+  {
+    "title": "Tekken 3",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/Tekken3.png",
+    "version": "1.0",
+    "releaseDate": "2026-08-16",
+    "description": "Recompilación estática de Tekken 3 (PSX) para PC usando PSXRecomp.",
+    "downloadUrl": "https://github.com/fabioap-cpu/Tekken3Recomp/releases",
+    "sourceUrl": "https://github.com/fabioap-cpu/Tekken3Recomp"
+  },
+  {
+    "title": "Mega Man X Regenesis",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/Mega-Man-X-Regenesis.png",
+    "version": "1.00.4",
+    "releaseDate": "2026-08-20",
+    "description": "Fangame de Mega Man X con 8 jefes, armas y pixel art estilo SNES pero modernizado.",
+    "downloadUrl": "https://mmxregenesis.itch.io/mega-man-x-regenesis",
+    "sourceUrl": "https://mmxregenesis.itch.io/mega-man-x-regenesis"
+  },
+  {
+    "title": "Sonic Mania Plus",
+    "category": "Port",
+    "platform": "PS3",
+    "cover": "assets/covers/SonicMania.png",
+    "version": "99.99",
+    "releaseDate": "2025-06-23",
+    "description": "Adaptación de Sonic Mania (PLUS) para PlayStation 3.",
+    "downloadUrl": "https://github.com/DropSonic0/Sonic-Mania-Decompilation/releases",
+    "sourceUrl": "https://github.com/DropSonic0/Sonic-Mania-Decompilation"
+  },
+  {
+    "title": "Castlevania: Symphony of the Night",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/Castlevania-Symphony-of-the-Night.png",
+    "version": "0.5.1b",
+    "releaseDate": "2026-08-19",
+    "description": "Recompilación del clásico de PSX a PC con soporte para mandos y resoluciones modernas.",
+    "downloadUrl": "https://github.com/BlackLabelHQ/SymphonyRecomp/releases",
+    "sourceUrl": "https://github.com/BlackLabelHQ/SymphonyRecomp"
+  },
+  {
+    "title": "Barony",
+    "category": "Port",
+    "platform": "VITA",
+    "cover": "assets/covers/Barony.png",
+    "version": "0.0.1-5.0.2",
+    "releaseDate": "2026-07-20",
+    "description": "Port de Barony para PS Vita con todo el contenido single-player y resolución nativa.",
+    "downloadUrl": "https://github.com/TheWizWikii/Vita-Stuff/releases/download/Ports/BARONY.VITA.v0.0.1.7z",
+    "sourceUrl": "https://github.com/Brendonm17/Barony-Vita"
+  },
+  {
+    "title": "Banjo Kazooie",
+    "category": "Port",
+    "platform": "VITA",
+    "cover": "assets/covers/BanjoKazooie.png",
+    "version": "1.0",
+    "releaseDate": "2026-08-19",
+    "description": "Port de Lighthouse (Banjo-Kazooie N64) para PS Vita por rinegatamante.",
+    "downloadUrl": "https://github.com/TheWizWikii/Vita-Stuff/releases/download/Ports/BanjoKazooie1.0.zip",
+    "sourceUrl": "https://github.com/Rinnegatamante/Lighthouse"
+  },
+  {
+    "title": "The Legend of Zelda: Twilight Princess (Dusklight)",
+    "category": "Port",
+    "platform": "VITA",
+    "cover": "assets/covers/duskvita.png",
+    "version": "1.0",
+    "releaseDate": "2026-08-23",
+    "description": "Port prototipo de dusklight (GameCube) para PS Vita.",
+    "downloadUrl": "https://github.com/TheWizWikii/Vita-Stuff/releases/download/Ports/Dusk.Vita.prototipo.zip",
+    "sourceUrl": "https://capitanbarbacoa.itch.io/duskgxm"
+  },
+  {
+    "title": "Bully NX",
+    "category": "Port",
+    "platform": "Switch",
+    "cover": "assets/covers/bully-nx.png",
+    "version": "0.0.2",
+    "releaseDate": "2026-04-02",
+    "description": "Bully: Anniversary Edition para Switch (port de Android).",
+    "downloadUrl": "https://github.com/TheWizWikii/Switch-Stuff/releases/download/ports/bully.zip",
+    "sourceUrl": "https://github.com/givethesourceplox/bully-NX"
+  },
+  {
+    "title": "The Legend of Zelda: Twilight Princess (Dusklight)",
+    "category": "Port",
+    "platform": "Switch",
+    "cover": "assets/covers/dusk-nx.png",
+    "version": "1.4.1.0",
+    "releaseDate": "2026-06-11",
+    "description": "Port nativo de Twilight Princess (GameCube) para Switch con gráficos mejorados, FPS desbloqueados y soporte para mods.",
+    "downloadUrl": "https://github.com/TheWizWikii/Switch-Stuff/releases/download/ports/Dusk.zip",
+    "sourceUrl": "https://github.com/givethesourceplox/dusklight-NX"
+  },
+  {
+    "title": "Chrono Trigger",
+    "category": "Port",
+    "platform": "Switch",
+    "cover": "assets/covers/Chrono-Trigger.png",
+    "version": "1.1.0",
+    "releaseDate": "2026-07-28",
+    "description": "Port de Chrono Trigger para Switch basado en la versión Android v2.1.5.",
+    "downloadUrl": "https://github.com/TheWizWikii/Switch-Stuff/releases/download/ports/ChronoTrigger.zip",
+    "sourceUrl": "https://github.com/NaGaa95/ct_nx"
+  },
+  {
+    "title": "Stardew Valley",
+    "category": "Port",
+    "platform": "Switch",
+    "cover": "assets/covers/placeholder-switch.svg",
+    "version": "1.6.2",
+    "releaseDate": "2026-04-18",
+    "description": "Port homebrew optimizado, carga de partidas guardadas compatible con Steam.",
+    "downloadUrl": "https://github.com/tuusuario/SceneBackup/releases",
+    "sourceUrl": ""
+  },
+  {
+    "title": "Legend of Zelda The Minish Cap",
+    "category": "Port",
+    "platform": "3DS",
+    "cover": "assets/covers/The-Legend-of-Zelda-The-Minish-Cap.png",
+    "version": "1.2-E8",
+    "releaseDate": "2026-03-09",
+    "description": "Port nativo para Nintendo 3DS de The Legend of Zelda: The Minish Cap (GBA) basado en Project Picori.",
+    "downloadUrl": "https://github.com/EstebanPdN/zelda-tmc-3ds/releases",
+    "sourceUrl": "https://github.com/EstebanPdN/zelda-tmc-3ds"
+  },
+  {
+    "title": "Downwell",
+    "category": "Port",
+    "platform": "3DS",
+    "cover": "assets/covers/placeholder-3ds.svg",
+    "version": "1.0.1",
+    "releaseDate": "2026-01-22",
+    "description": "Port homebrew a 60fps, controles adaptados al Circle Pad.",
+    "downloadUrl": "https://github.com/tuusuario/SceneBackup/releases",
+    "sourceUrl": ""
+  }
+]
