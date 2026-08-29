@@ -22,6 +22,17 @@
     "sourceUrl": "https://jayjay-1992.itch.io/resident-evil-0-n64-e3tgs-2000-demo-remake"
   },
   {
+    "title": "GoldenEye 007 Native",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/goldeneyenative.png",
+    "version": "0.1.0",
+    "releaseDate": "2026-08-29",
+    "description": "GoldenEye 007 nativo para PC, macOS y Linux con recompilación estática.",
+    "downloadUrl": "https://github.com/SegfaultEvan/goldeneye-native/releases",
+    "sourceUrl": "https://github.com/SegfaultEvan/goldeneye-native"
+  },
+  {
     "title": "Mario Kart Wii (WiiCompiled)",
     "category": "Port",
     "platform": "PC",
