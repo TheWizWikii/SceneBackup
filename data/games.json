@@ -22,6 +22,17 @@
     "sourceUrl": "https://jayjay-1992.itch.io/resident-evil-0-n64-e3tgs-2000-demo-remake"
   },
   {
+    "title": "UnleashedRecomp-Prospero",
+    "category": "Port",
+    "platform": "PS5",
+    "cover": "assets/covers/Sonic_unleashed.png",
+    "version": "1.0.3 R1",
+    "releaseDate": "2026-10-10",
+    "description": "Port nativo para PlayStation 5 de Sonic Unleashed Recompiled.",
+    "downloadUrl": "https://github.com/Nazky/UnleashedRecomp-Prospero/releases",
+    "sourceUrl": "https://github.com/Nazky/UnleashedRecomp-Prospero"
+  },
+  {
     "title": "GoldenEye 007 Native",
     "category": "Port",
     "platform": "PC",
