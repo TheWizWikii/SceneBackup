@@ -125,10 +125,10 @@
     "category": "Port",
     "platform": "VITA",
     "cover": "assets/covers/Barony.png",
-    "version": "0.0.1-5.0.2",
+    "version": "0.0.2-5.0.2",
     "releaseDate": "2026-07-20",
     "description": "Port de Barony para PS Vita con todo el contenido single-player y resolución nativa.",
-    "downloadUrl": "https://github.com/TheWizWikii/Vita-Stuff/releases/download/Ports/BARONY.VITA.v0.0.1.7z",
+    "downloadUrl": "https://github.com/Brendonm17/Barony-Vita/releases",
     "sourceUrl": "https://github.com/Brendonm17/Barony-Vita"
   },
   {
