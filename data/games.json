@@ -209,14 +209,14 @@
     "sourceUrl": "https://github.com/EstebanPdN/zelda-tmc-3ds"
   },
   {
-    "title": "Downwell",
+    "title": "Zelda A Link to the Past",
     "category": "Port",
     "platform": "3DS",
-    "cover": "assets/covers/placeholder-3ds.svg",
-    "version": "1.0.1",
-    "releaseDate": "2026-01-22",
-    "description": "Port homebrew a 60fps, controles adaptados al Circle Pad.",
-    "downloadUrl": "https://github.com/tuusuario/SceneBackup/releases",
-    "sourceUrl": ""
+    "cover": "assets/covers/Link entre la Luz y la Oscuridad.png",
+    "version": "v3.2,
+    "releaseDate": "2026-10-10",
+    "description": "Port nativo para 3DS de A Link to the Past basado en Zelda3 con doble pantalla.",
+    "downloadUrl": "https://github.com/EstebanPdN/zelda-alttp-3ds/releases",
+    "sourceUrl": "https://github.com/EstebanPdN/zelda-alttp-3ds"
   }
 ]
