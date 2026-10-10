@@ -213,7 +213,7 @@
     "category": "Port",
     "platform": "3DS",
     "cover": "assets/covers/Link entre la Luz y la Oscuridad.png",
-    "version": "3.2,
+    "version": "3.2",
     "releaseDate": "2026-10-10",
     "description": "Port nativo para 3DS de A Link to the Past basado en Zelda3 con doble pantalla.",
     "downloadUrl": "https://github.com/EstebanPdN/zelda-alttp-3ds/releases",
