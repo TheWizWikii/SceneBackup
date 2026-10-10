@@ -81,7 +81,7 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/Tekken3.png",
-    "version": "1.0",
+    "version": "2.1",
     "releaseDate": "2026-08-16",
     "description": "Recompilación estática de Tekken 3 (PSX) para PC usando PSXRecomp.",
     "downloadUrl": "https://github.com/fabioap-cpu/Tekken3Recomp/releases",
