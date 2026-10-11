@@ -552,11 +552,26 @@ main, header, footer { position: relative; z-index: 3; }
 /* Enlaces dentro del modal: ocupan todo el ancho disponible a partes iguales */
 .modal__links {
   display: flex;
+  flex-wrap: wrap;
   gap: 0.6rem;
   margin-top: 0.6rem;
 }
 .modal__links .card__link {
   flex: 1;
+}
+
+/* Botón rojo de YouTube: fila propia a todo el ancho, debajo de Descargar/Código */
+.card__link--youtube {
+  flex: 1 1 100% !important;
+  background: #e62117;
+  border-color: #e62117;
+  color: #fff;
+  font-weight: 600;
+}
+.card__link--youtube:hover {
+  background: #ff3b30;
+  border-color: #ff3b30;
+  box-shadow: 0 0 18px rgba(255, 59, 48, 0.45);
 }
 
 /* neon strip glowing upward, replaces the old connector pins */
