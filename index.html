@@ -76,11 +76,32 @@
     <p class="empty-state" id="empty-state" hidden>
       No hay nada aquí todavía. Añade una entrada en <code>data/games.json</code> y aparecerá en esta sección.
     </p>
+
+    <nav class="pagination" id="pagination" aria-label="Paginación" hidden>
+      <!-- Controles de página generados por JS -->
+    </nav>
   </main>
 
   <footer class="footer">
     <p>Scene Backup — archivo personal, sin conexión a servidores externos. Los datos viven en <code>data/games.json</code>.</p>
   </footer>
+
+  <div class="modal-overlay" id="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <button class="modal__close" id="modal-close" type="button" aria-label="Cerrar">✕</button>
+      <div class="modal__cover">
+        <img id="modal-cover" src="" alt="">
+        <span class="card__category-tag" id="modal-category-tag"></span>
+        <span class="card__platform-tag" id="modal-platform-tag"></span>
+      </div>
+      <div class="modal__body">
+        <h2 class="modal__title" id="modal-title"></h2>
+        <div class="card__meta" id="modal-meta"></div>
+        <p class="modal__desc" id="modal-desc"></p>
+        <div class="modal__links" id="modal-links"></div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/script.js"></script>
 </body>
