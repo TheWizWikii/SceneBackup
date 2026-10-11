@@ -8,7 +8,8 @@
     "releaseDate": "2026-07-14",
     "description": "Recompilación estática de Metal Slug XX para ejecutar la versión de Xbox 360 de forma nativa en PC.",
     "downloadUrl": "https://github.com/TheWizWikii/PortsBackup/releases/download/1.0/MSXX-Recomp.zip",
-    "sourceUrl": "https://github.com/FluffyQuack/rexglue-MetalSlugXX"
+    "sourceUrl": "https://github.com/FluffyQuack/rexglue-MetalSlugXX",
+    "youtubeUrl": "https://youtu.be/TRt7lIiQcj4"
   },
   {
     "title": "Resident Evil 0 – N64 Demo Recreation",
