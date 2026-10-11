@@ -335,7 +335,11 @@ function openModal(game) {
   const sourceBtn = hasLink(game.sourceUrl)
     ? `<a class="card__link card__link--secondary" href="${game.sourceUrl}" target="_blank" rel="noopener">Código fuente</a>`
     : "";
-  els.modalLinks.innerHTML = (downloadBtn + sourceBtn) ||
+  // Botón rojo de YouTube: solo aparece si la entrada trae "youtubeUrl".
+  const youtubeBtn = hasLink(game.youtubeUrl)
+    ? `<a class="card__link card__link--youtube" href="${game.youtubeUrl}" target="_blank" rel="noopener">▶ Ver vídeo en YouTube</a>`
+    : "";
+  els.modalLinks.innerHTML = (downloadBtn + sourceBtn + youtubeBtn) ||
     `<p class="card__hint">No hay enlaces disponibles todavía.</p>`;
 
   state.lastFocused = document.activeElement;
