@@ -44,6 +44,17 @@
     "sourceUrl": "https://github.com/Nazky/UnleashedRecomp-Prospero"
   },
   {
+    "title": "Dolphin",
+    "category": "Emulador",
+    "platform": "PS4",
+    "cover": "assets/covers/dolphin ps4.png",
+    "version": "04.05",
+    "releaseDate": "2026-10-11",
+    "description": "Port de Dolphin para PS4 con jailbreak. Emula GameCube y Wii desde el menú principal.",
+    "downloadUrl": "https://github.com/iHaiDeeZ/DolphinPS4/releases",
+    "sourceUrl": "https://github.com/iHaiDeeZ/DolphinPS4"
+  },
+  {
     "title": "GoldenEye 007 Native",
     "category": "Port",
     "platform": "PC",
