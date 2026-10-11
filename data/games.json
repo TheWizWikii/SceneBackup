@@ -33,6 +33,17 @@
     "sourceUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp"
   },
   {
+    "title": "Tenkaichi3Decomp",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/dbzbt3.jpg",
+    "version": "0.1.2.4",
+    "releaseDate": "2026-10-11",
+    "description": "Port nativo de Budokai Tenkaichi 3 (PS2) para PC mediante descompilación.",
+    "downloadUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases",
+    "sourceUrl": "https://github.com/z3xox/Tenkaichi3Decomp"
+  },
+  {
     "title": "UnleashedRecomp-Prospero",
     "category": "Port",
     "platform": "PS5",
