@@ -12,7 +12,7 @@ const DATA_URL = "data/games.json";
 const PLATFORM_STYLES = {
   "pc":     { accent: "#00e5ff", cover: "assets/covers/placeholder-pc.svg" },
   "vita":   { accent: "#ff2ec4", cover: "assets/covers/placeholder-vita.svg" },
-  "ps5":   { accent: "#ff2ec4", cover: "assets/covers/placeholder-ps5.svg" },
+  "ps5":   { accent: "#833bff", cover: "assets/covers/placeholder-ps5.svg" },
   "ps4":   { accent: "#3b48ff", cover: "assets/covers/placeholder-default.svg" },
   "switch": { accent: "#e60012", cover: "assets/covers/placeholder-switch.svg" },
   "3ds":    { accent: "#39ff88", cover: "assets/covers/placeholder-3ds.svg" },
