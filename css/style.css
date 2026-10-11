@@ -782,6 +782,92 @@ main, header, footer { position: relative; z-index: 3; }
 }
 
 /* =========================================================
+   Modo invierno (opcional, activable con el botón ❄)
+   ========================================================= */
+
+/* Palanca única: el acento "unificado" que ya recorre hover de cards,
+   el underglow, el modal y los botones primarios pasa de cian-violeta
+   a un blanco-hielo. Todo lo que depende de --neon-unified se congela
+   solo, sin tocar los colores propios de cada plataforma. */
+body.winter-mode {
+  --neon-unified: #c9f3ff;
+  --neon-unified-2: #eef9ff;
+}
+
+.winter-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 40;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  border: 1px solid var(--bg-panel-border);
+  background: rgba(15, 18, 32, 0.75);
+  color: var(--text-dim);
+  font-size: 1.15rem;
+  line-height: 1;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: border-color 0.25s var(--ease-out), color 0.25s var(--ease-out), box-shadow 0.25s var(--ease-out), transform 0.2s var(--ease-out);
+}
+
+.winter-toggle:hover {
+  color: var(--text-primary);
+  border-color: #c9f3ff;
+  transform: scale(1.06);
+}
+
+.winter-toggle[aria-pressed="true"] {
+  color: #c9f3ff;
+  border-color: #c9f3ff;
+  box-shadow: 0 0 16px rgba(201, 243, 255, 0.55);
+}
+
+/* Escarcha en los bordes del viewport: invisible hasta que se activa */
+.frost-edges {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.6s var(--ease-out);
+  background:
+    radial-gradient(ellipse 480px 320px at 0% 0%, rgba(255, 255, 255, 0.12), transparent 60%),
+    radial-gradient(ellipse 480px 320px at 100% 0%, rgba(255, 255, 255, 0.12), transparent 60%),
+    radial-gradient(ellipse 560px 280px at 0% 100%, rgba(180, 230, 255, 0.10), transparent 60%),
+    radial-gradient(ellipse 560px 280px at 100% 100%, rgba(180, 230, 255, 0.10), transparent 60%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.07), transparent 160px);
+}
+
+body.winter-mode .frost-edges {
+  opacity: 1;
+}
+
+/* Nieve: contenedor vacío por defecto, el JS solo le añade copos
+   cuando el modo invierno está activo (coste cero el resto del año) */
+.snow {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.snowflake {
+  position: absolute;
+  top: -5vh;
+  border-radius: 50%;
+  background: #fff;
+  animation: snow-fall linear infinite;
+}
+
+@keyframes snow-fall {
+  from { transform: translateY(0) translateX(0); }
+  to   { transform: translateY(110vh) translateX(var(--drift, 24px)); }
+}
+
+/* =========================================================
    Responsive tweaks
    ========================================================= */
 @media (max-width: 480px) {
@@ -790,4 +876,5 @@ main, header, footer { position: relative; z-index: 3; }
   .grid { grid-template-columns: 1fr 1fr; gap: 1.1rem; }
   .modal { max-height: 94vh; }
   .modal__title { font-size: 1.1rem; }
+  .winter-toggle { top: 0.7rem; right: 0.7rem; width: 2.3rem; height: 2.3rem; font-size: 1rem; }
 }
