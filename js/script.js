@@ -402,4 +402,79 @@ els.sort.addEventListener("change", e => {
   render();
 });
 
+// --- Modo invierno (opcional) --------------------------------------
+// Interruptor ❄ fijo arriba a la derecha. Se recuerda en este
+// navegador (localStorage) para que no haga falta reactivarlo cada
+// visita. Todo envuelto en try/catch: en modo privado o con el
+// almacenamiento bloqueado, simplemente no se recuerda la elección,
+// pero el botón sigue funcionando con normalidad.
+const WINTER_KEY = "sb_winter_mode";
+const SNOWFLAKE_COUNT = 22; // discreto a propósito
+
+const winterToggle = document.getElementById("winter-toggle");
+const snowContainer = document.getElementById("snow");
+
+function prefersReducedMotion() {
+  return window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+function readWinterPreference() {
+  try {
+    return localStorage.getItem(WINTER_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function saveWinterPreference(enabled) {
+  try {
+    localStorage.setItem(WINTER_KEY, enabled ? "1" : "0");
+  } catch {
+    // Sin almacenamiento disponible: la elección no persiste, pero no rompe nada.
+  }
+}
+
+function buildSnow() {
+  snowContainer.innerHTML = "";
+  if (prefersReducedMotion()) return; // respeta la preferencia de movimiento reducido
+
+  const frag = document.createDocumentFragment();
+  for (let i = 0; i < SNOWFLAKE_COUNT; i++) {
+    const flake = document.createElement("span");
+    flake.className = "snowflake";
+    const size = (Math.random() * 2.5 + 1.5).toFixed(1); // 1.5–4px
+    const duration = (Math.random() * 10 + 12).toFixed(1); // 12–22s
+    const delay = (-Math.random() * duration).toFixed(1); // negativo: ya en marcha al aparecer
+    const drift = (Math.random() * 60 - 30).toFixed(0); // -30px a 30px de deriva lateral
+    flake.style.left = `${Math.random() * 100}vw`;
+    flake.style.width = `${size}px`;
+    flake.style.height = `${size}px`;
+    flake.style.opacity = (Math.random() * 0.4 + 0.3).toFixed(2); // 0.3–0.7
+    flake.style.animationDuration = `${duration}s`;
+    flake.style.animationDelay = `${delay}s`;
+    flake.style.setProperty("--drift", `${drift}px`);
+    frag.appendChild(flake);
+  }
+  snowContainer.appendChild(frag);
+}
+
+function applyWinterMode(enabled) {
+  document.body.classList.toggle("winter-mode", enabled);
+  winterToggle.setAttribute("aria-pressed", String(enabled));
+  winterToggle.title = enabled ? "Desactivar modo invierno" : "Activar modo invierno";
+  if (enabled) {
+    buildSnow();
+  } else {
+    snowContainer.innerHTML = "";
+  }
+}
+
+winterToggle.addEventListener("click", () => {
+  const next = !document.body.classList.contains("winter-mode");
+  applyWinterMode(next);
+  saveWinterPreference(next);
+});
+
+applyWinterMode(readWinterPreference());
+
 loadGames();
