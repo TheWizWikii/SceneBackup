@@ -22,6 +22,17 @@
     "sourceUrl": "https://jayjay-1992.itch.io/resident-evil-0-n64-e3tgs-2000-demo-remake"
   },
   {
+    "title": "The Simpsons Game Recompiled",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/The-Simpsons-Game-Recomp.png",
+    "version": "0.0.6.5",
+    "releaseDate": "2026-10-11",
+    "description": "Recompilación estática de The Simpsons Game (2007) para PC, Linux y Steam Deck.",
+    "downloadUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases",
+    "sourceUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp"
+  },
+  {
     "title": "UnleashedRecomp-Prospero",
     "category": "Port",
     "platform": "PS5",
