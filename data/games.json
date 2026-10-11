@@ -70,11 +70,11 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/goldeneyenative.png",
-    "version": "0.1.0",
-    "releaseDate": "2026-08-29",
+    "version": "0.5.0",
+    "releaseDate": "2026-10-07",
     "description": "GoldenEye 007 nativo para PC, macOS y Linux con recompilación estática.",
-    "downloadUrl": "https://github.com/SegfaultEvan/goldeneye-native/releases",
-    "sourceUrl": "https://github.com/SegfaultEvan/goldeneye-native"
+    "downloadUrl": "https://github.com/jkdansereau/goldeneye-pc-port/releases",
+    "sourceUrl": "https://github.com/jkdansereau/goldeneye-pc-port"
   },
   {
     "title": "Mario Kart Wii (WiiCompiled)",
