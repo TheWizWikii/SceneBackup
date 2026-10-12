@@ -23,6 +23,17 @@
     "sourceUrl": "https://jayjay-1992.itch.io/resident-evil-0-n64-e3tgs-2000-demo-remake"
   },
   {
+    "title": "VLC media player",
+    "category": "App",
+    "platform": "PS5",
+    "cover": "assets/covers/vlc.png",
+    "version": "0.4",
+    "releaseDate": "2026-10-12",
+    "description": "Port nativo de VLC 3.0 para PlayStation 5, con interfaz diseñada para mando.",
+    "downloadUrl": "https://github.com/ZiZc3/VLC/releases",
+    "sourceUrl": "https://github.com/ZiZc3/VLC"
+  },
+  {
     "title": "The Simpsons Game Recompiled",
     "category": "Port",
     "platform": "PC",
