@@ -34,6 +34,17 @@
     "sourceUrl": "https://github.com/ZiZc3/VLC"
   },
   {
+    "title": "SoulCalibur IV (ReXGlue)",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/SoulCalibur IV.jpg",
+    "version": "0.9.1",
+    "releaseDate": "2026-07-12",
+    "description": "Port nativo para PC de SoulCalibur IV (Xbox 360) mediante recompilación estática con ReXGlue SDK.",
+    "downloadUrl": "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases",
+    "sourceUrl": "https://github.com/FluffyQuack/rexglue-SoulCaliburIV"
+  },
+  {
     "title": "The Simpsons Game Recompiled",
     "category": "Port",
     "platform": "PC",
