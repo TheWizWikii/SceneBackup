@@ -188,6 +188,17 @@
     "sourceUrl": "https://github.com/Brendonm17/Barony-Vita"
   },
   {
+    "title": "Monster Hunter Tri",
+    "category": "Port",
+    "platform": "VITA",
+    "cover": "assets/covers/Monster Hunter Tri.jpg",
+    "version": "0.1",
+    "releaseDate": "2026-10-12",
+    "description": "Port nativo de Monster Hunter Tri (Wii) para PS Vita mediante recompilación estática ARM.",
+    "downloadUrl": "https://github.com/Grarak/mh3-wii/releases",
+    "sourceUrl": "https://github.com/Grarak/mh3-wii"
+  },
+  {
     "title": "Banjo Kazooie",
     "category": "Port",
     "platform": "VITA",
