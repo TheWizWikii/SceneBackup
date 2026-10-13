@@ -31,7 +31,8 @@
     "releaseDate": "2026-10-12",
     "description": "Port nativo de VLC 3.0 para PlayStation 5, con interfaz diseñada para mando.",
     "downloadUrl": "https://github.com/ZiZc3/VLC/releases",
-    "sourceUrl": "https://github.com/ZiZc3/VLC"
+    "sourceUrl": "https://github.com/ZiZc3/VLC",
+    "repo": "ZiZc3/VLC"
   },
   {
     "title": "SoulCalibur IV (ReXGlue)",
@@ -42,7 +43,8 @@
     "releaseDate": "2026-07-12",
     "description": "Port nativo para PC de SoulCalibur IV (Xbox 360) mediante recompilación estática con ReXGlue SDK.",
     "downloadUrl": "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases",
-    "sourceUrl": "https://github.com/FluffyQuack/rexglue-SoulCaliburIV"
+    "sourceUrl": "https://github.com/FluffyQuack/rexglue-SoulCaliburIV",
+    "repo": "FluffyQuack/rexglue-SoulCaliburIV"
   },
   {
     "title": "God of War III Remastered",
@@ -53,7 +55,8 @@
     "releaseDate": "2026-10-13",
     "description": "Port para PC de God of War III Remastered (PS4) para Windows 10 y 11.",
     "downloadUrl": "https://github.com/FelipePrado0/gow3_pc/releases",
-    "sourceUrl": "https://github.com/FelipePrado0/gow3_pc"
+    "sourceUrl": "https://github.com/FelipePrado0/gow3_pc",
+    "repo": "FelipePrado0/gow3_pc"
   },
   {
     "title": "The Simpsons Game Recompiled",
@@ -64,7 +67,8 @@
     "releaseDate": "2026-10-11",
     "description": "Recompilación estática de The Simpsons Game (2007) para PC, Linux y Steam Deck.",
     "downloadUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp/releases",
-    "sourceUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp"
+    "sourceUrl": "https://github.com/YesterMester/TheSimpsonsGameRecomp",
+    "repo": "YesterMester/TheSimpsonsGameRecomp"
   },
   {
     "title": "Tenkaichi3Decomp",
@@ -75,7 +79,8 @@
     "releaseDate": "2026-10-11",
     "description": "Port nativo de Budokai Tenkaichi 3 (PS2) para PC mediante descompilación.",
     "downloadUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases",
-    "sourceUrl": "https://github.com/z3xox/Tenkaichi3Decomp"
+    "sourceUrl": "https://github.com/z3xox/Tenkaichi3Decomp",
+    "repo": "z3xox/Tenkaichi3Decomp"
   },
   {
     "title": "UnleashedRecomp-Prospero",
@@ -86,7 +91,8 @@
     "releaseDate": "2026-10-10",
     "description": "Port nativo para PlayStation 5 de Sonic Unleashed Recompiled.",
     "downloadUrl": "https://github.com/Nazky/UnleashedRecomp-Prospero/releases",
-    "sourceUrl": "https://github.com/Nazky/UnleashedRecomp-Prospero"
+    "sourceUrl": "https://github.com/Nazky/UnleashedRecomp-Prospero",
+    "repo": "Nazky/UnleashedRecomp-Prospero"
   },
   {
     "title": "Dolphin",
@@ -97,7 +103,8 @@
     "releaseDate": "2026-10-11",
     "description": "Port de Dolphin para PS4 con jailbreak. Emula GameCube y Wii desde el menú principal.",
     "downloadUrl": "https://github.com/iHaiDeeZ/DolphinPS4/releases",
-    "sourceUrl": "https://github.com/iHaiDeeZ/DolphinPS4"
+    "sourceUrl": "https://github.com/iHaiDeeZ/DolphinPS4",
+    "repo": "iHaiDeeZ/DolphinPS4"
   },
   {
     "title": "GoldenEye 007 Native",
@@ -108,7 +115,8 @@
     "releaseDate": "2026-10-07",
     "description": "GoldenEye 007 nativo para PC, macOS y Linux con recompilación estática.",
     "downloadUrl": "https://github.com/jkdansereau/goldeneye-pc-port/releases",
-    "sourceUrl": "https://github.com/jkdansereau/goldeneye-pc-port"
+    "sourceUrl": "https://github.com/jkdansereau/goldeneye-pc-port",
+    "repo": "jkdansereau/goldeneye-pc-port"
   },
   {
     "title": "Mario Kart Wii (WiiCompiled)",
@@ -119,7 +127,8 @@
     "releaseDate": "2026-08-24",
     "description": "WiiCompiled es un port nativo para PC de Mario Kart Wii mediante recompilación estática.",
     "downloadUrl": "https://github.com/patchzyy/wiicompiled",
-    "sourceUrl": "https://github.com/patchzyy/wiicompiled"
+    "sourceUrl": "https://github.com/patchzyy/wiicompiled",
+    "repo": "patchzyy/wiicompiled"
   },
   {
     "title": "Sonic Time Twisted",
@@ -141,7 +150,8 @@
     "releaseDate": "2026-06-17",
     "description": "Port nativo de Twilight Princess (GameCube) para PC con gráficos mejorados, FPS desbloqueados y soporte para mods.",
     "downloadUrl": "https://github.com/TwilitRealm/dusklight/releases",
-    "sourceUrl": "https://twilitrealm.dev/"
+    "sourceUrl": "https://twilitrealm.dev/",
+    "repo": "TwilitRealm/dusklight"
   },
   {
     "title": "Tekken 3",
@@ -152,7 +162,8 @@
     "releaseDate": "2026-08-16",
     "description": "Recompilación estática de Tekken 3 (PSX) para PC usando PSXRecomp.",
     "downloadUrl": "https://github.com/fabioap-cpu/Tekken3Recomp/releases",
-    "sourceUrl": "https://github.com/fabioap-cpu/Tekken3Recomp"
+    "sourceUrl": "https://github.com/fabioap-cpu/Tekken3Recomp",
+    "repo": "fabioap-cpu/Tekken3Recomp"
   },
   {
     "title": "Mega Man X Regenesis",
@@ -174,7 +185,8 @@
     "releaseDate": "2025-06-23",
     "description": "Adaptación de Sonic Mania (PLUS) para PlayStation 3.",
     "downloadUrl": "https://github.com/DropSonic0/Sonic-Mania-Decompilation/releases",
-    "sourceUrl": "https://github.com/DropSonic0/Sonic-Mania-Decompilation"
+    "sourceUrl": "https://github.com/DropSonic0/Sonic-Mania-Decompilation",
+    "repo": "DropSonic0/Sonic-Mania-Decompilation"
   },
   {
     "title": "Castlevania: Symphony of the Night",
@@ -185,7 +197,8 @@
     "releaseDate": "2026-08-19",
     "description": "Recompilación del clásico de PSX a PC con soporte para mandos y resoluciones modernas.",
     "downloadUrl": "https://github.com/BlackLabelHQ/SymphonyRecomp/releases",
-    "sourceUrl": "https://github.com/BlackLabelHQ/SymphonyRecomp"
+    "sourceUrl": "https://github.com/BlackLabelHQ/SymphonyRecomp",
+    "repo": "BlackLabelHQ/SymphonyRecomp"
   },
   {
     "title": "Barony",
@@ -196,7 +209,8 @@
     "releaseDate": "2026-07-20",
     "description": "Port de Barony para PS Vita con todo el contenido single-player y resolución nativa.",
     "downloadUrl": "https://github.com/Brendonm17/Barony-Vita/releases",
-    "sourceUrl": "https://github.com/Brendonm17/Barony-Vita"
+    "sourceUrl": "https://github.com/Brendonm17/Barony-Vita",
+    "repo": "Brendonm17/Barony-Vita"
   },
   {
     "title": "Monster Hunter Tri",
@@ -207,7 +221,8 @@
     "releaseDate": "2026-10-12",
     "description": "Port nativo de Monster Hunter Tri (Wii) para PS Vita mediante recompilación estática ARM.",
     "downloadUrl": "https://github.com/Grarak/mh3-wii/releases",
-    "sourceUrl": "https://github.com/Grarak/mh3-wii"
+    "sourceUrl": "https://github.com/Grarak/mh3-wii",
+    "repo": "Grarak/mh3-wii"
   },
   {
     "title": "Banjo Kazooie",
@@ -273,7 +288,8 @@
     "releaseDate": "2026-04-18",
     "description": "Emulador Vita3K para Nintendo Switch lanzado por NaGaa95.",
     "downloadUrl": "https://github.com/NaGaa95/Vita3K-nx/releases",
-    "sourceUrl": "https://github.com/NaGaa95/Vita3K-nx"
+    "sourceUrl": "https://github.com/NaGaa95/Vita3K-nx",
+    "repo": "NaGaa95/Vita3K-nx"
   },
   {
     "title": "Legend of Zelda The Minish Cap",
@@ -284,7 +300,8 @@
     "releaseDate": "2026-03-09",
     "description": "Port nativo para Nintendo 3DS de The Legend of Zelda: The Minish Cap (GBA) basado en Project Picori.",
     "downloadUrl": "https://github.com/EstebanPdN/zelda-tmc-3ds/releases",
-    "sourceUrl": "https://github.com/EstebanPdN/zelda-tmc-3ds"
+    "sourceUrl": "https://github.com/EstebanPdN/zelda-tmc-3ds",
+    "repo": "EstebanPdN/zelda-tmc-3ds"
   },
   {
     "title": "Zelda A Link to the Past",
@@ -295,6 +312,7 @@
     "releaseDate": "2026-10-10",
     "description": "Port nativo para 3DS de A Link to the Past basado en Zelda3 con doble pantalla.",
     "downloadUrl": "https://github.com/EstebanPdN/zelda-alttp-3ds/releases",
-    "sourceUrl": "https://github.com/EstebanPdN/zelda-alttp-3ds"
+    "sourceUrl": "https://github.com/EstebanPdN/zelda-alttp-3ds",
+    "repo": "EstebanPdN/zelda-alttp-3ds"
   }
 ]
