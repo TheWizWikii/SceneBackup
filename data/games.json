@@ -45,6 +45,17 @@
     "sourceUrl": "https://github.com/FluffyQuack/rexglue-SoulCaliburIV"
   },
   {
+    "title": "God of War III Remastered",
+    "category": "Port",
+    "platform": "PC",
+    "cover": "assets/covers/gowrport.jpg",
+    "version": "2.1.7",
+    "releaseDate": "2026-10-13",
+    "description": "Port para PC de God of War III Remastered (PS4) para Windows 10 y 11.",
+    "downloadUrl": "https://github.com/FluffyQuack/rexglue-SoulCaliburIV/releases",
+    "sourceUrl": "https://github.com/FelipePrado0/gow3_pc"
+  },
+  {
     "title": "The Simpsons Game Recompiled",
     "category": "Port",
     "platform": "PC",
