@@ -1,118 +1,643 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scene Backup — Archivo de ports, emuladores y apps</title>
-<meta name="description" content="Archivo personal de ports, emuladores y apps para PC, PS Vita, Nintendo Switch, 3DS y más.">
-<link rel="icon" href="data:,">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scene Backup</title>
+<meta name="description" content="Ports, emuladores, apps y homebrew de la scene, ordenados por sistema.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;800&family=Instrument+Sans:wght@400;500;600&family=Martian+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* Concepto: portal de la scene. Fondo vivo (malla de nodos, suelo en perspectiva, haces de luz) que cambia de color según el sistema. */
+@property --a { syntax: '<color>'; inherits: true; initial-value: #4cc9ff; }
+@property --b { syntax: '<color>'; inherits: true; initial-value: #7b61ff; }
+:root {
+  --bg: #04050c;
+  --ink: #eef1ff;
+  --mut: #8e97c0;
+  --line: rgba(255,255,255,.11);
+  --panel: rgba(12,14,32,.62);
+  --panel-solid: #0b0d1f;
+  --a: #4cc9ff;
+  --b: #7b61ff;
+  --yt: #e62117;
+  --f-display: 'Unbounded', 'Arial Black', sans-serif;
+  --f-body: 'Instrument Sans', system-ui, sans-serif;
+  --f-mono: 'Martian Mono', ui-monospace, monospace;
+  color-scheme: dark;
+  transition: --a .9s ease, --b .9s ease;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--f-body); font-size: 16px; line-height: 1.5;
+  margin: 0; padding-inline: 0; min-height: 100vh; overflow-x: hidden;
+}
+a { color: inherit; }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 2px solid var(--a); outline-offset: 3px; }
 
-  <button
-    class="winter-toggle"
-    id="winter-toggle"
-    type="button"
-    aria-pressed="false"
-    title="Activar modo invierno"
-  >❄</button>
+/* ---------- fondo vivo: madera oscura con tubos de neón ---------- */
+.stage { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; background: #050507; }
+.planks { position: absolute; inset: 0;
+  background:
+    repeating-linear-gradient(90deg, rgba(0,0,0,.85) 0 2px, transparent 2px 9.7vw),
+    repeating-linear-gradient(90deg, rgba(0,0,0,.7) 0 1px, transparent 1px 14.3vw),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.025) 0 6.1vw, transparent 6.1vw 11.3vw),
+    linear-gradient(180deg, #0a0a0d, #040405); }
+.spill { position: absolute; inset: 0; mix-blend-mode: screen; animation: breathe 7s ease-in-out infinite alternate;
+  background:
+    radial-gradient(ellipse 30vw 46vh at 0% 46%, color-mix(in srgb, var(--a) 62%, transparent), transparent 72%),
+    radial-gradient(ellipse 30vw 46vh at 100% 46%, color-mix(in srgb, var(--a) 62%, transparent), transparent 72%),
+    radial-gradient(ellipse 60vw 26vh at 50% 108%, color-mix(in srgb, var(--b) 36%, transparent), transparent 70%); }
+.grain { position: absolute; inset: 0; mix-blend-mode: overlay; opacity: .75;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='700' height='700'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.004 0.5' numOctaves='3' seed='7'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1.5 -0.55'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url%28%23n%29'/%3E%3C/svg%3E"); background-size: 700px 700px; }
+.tube { position: absolute; top: 24%; height: 44%; width: 6px; border-radius: 6px; background: color-mix(in srgb, var(--a) 40%, #fff);
+  box-shadow: 0 0 6px 1px color-mix(in srgb, var(--a) 90%, #fff), 0 0 22px 6px var(--a), 0 0 70px 18px color-mix(in srgb, var(--a) 65%, transparent), 0 0 160px 50px color-mix(in srgb, var(--a) 35%, transparent);
+  animation: breathe 5s ease-in-out infinite alternate; }
+.tube.l { left: 1.2vw; }
+.tube.r { right: 1.2vw; animation-delay: -2.4s; }
+.tube.b { top: auto; bottom: 0; left: 50%; width: 36vw; height: 4px; margin-left: -18vw; background: color-mix(in srgb, var(--b) 45%, #fff);
+  box-shadow: 0 0 10px 2px var(--b), 0 0 60px 14px color-mix(in srgb, var(--b) 60%, transparent); opacity: .55; animation: none; }
+@keyframes breathe { 0% { opacity: .78; } 40% { opacity: 1; } 46% { opacity: .84; } 52% { opacity: 1; } 100% { opacity: .9; } }
+#bg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.vignette { position: absolute; inset: 0; background: radial-gradient(130% 100% at 50% 45%, rgba(2,3,8,.35) 30%, rgba(2,3,8,.88) 100%); }
 
-  <div class="aurora" aria-hidden="true">
-    <span class="aurora__blob aurora__blob--a"></span>
-    <span class="aurora__blob aurora__blob--b"></span>
-    <span class="aurora__blob aurora__blob--c"></span>
-  </div>
-  <div class="scanlines" aria-hidden="true"></div>
-  <div class="noise" aria-hidden="true"></div>
-  <div class="frost-edges" aria-hidden="true"></div>
-  <div class="snow" id="snow" aria-hidden="true"></div>
+/* ---------- estructura ---------- */
+.app { position: relative; z-index: 1; }
+.wrap { width: 100%; max-width: 1280px; margin-inline: auto; padding-inline: clamp(16px, 4vw, 40px); }
 
-  <header class="hero">
-    <div class="hero__inner">
-      <h1 class="hero__title" data-text="SCENE BACKUP">SCENE<span class="hero__title-break">BACKUP</span></h1>
-      <p class="hero__subtitle">Cada port, emulador o app que consigo levantar, guardado en un mismo sitio: enlace, versión y sistema. Sin buscar en diez carpetas distintas.</p>
-      <div class="hero__stats" id="stats" aria-live="polite">
-        <div class="stat">
-          <span class="stat__value" id="stat-total">—</span>
-          <span class="stat__label">elementos guardados</span>
-        </div>
-        <div class="stat">
-          <span class="stat__value" id="stat-platforms">—</span>
-          <span class="stat__label">sistemas</span>
-        </div>
-        <div class="stat">
-          <span class="stat__value" id="stat-latest">—</span>
-          <span class="stat__label">último subido</span>
-        </div>
-      </div>
+.nav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; backdrop-filter: blur(16px) saturate(1.3); -webkit-backdrop-filter: blur(16px) saturate(1.3);
+  background: linear-gradient(to bottom, rgba(4,5,12,.82), rgba(4,5,12,.45)); border-bottom: 1px solid var(--line); }
+.nav .wrap { display: flex; align-items: center; gap: 18px; min-height: 64px; padding-block: 8px; flex-wrap: wrap; }
+.logo { font-family: var(--f-display); font-weight: 800; font-size: 15px; letter-spacing: .02em; text-decoration: none; display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+.logo i { width: 12px; height: 12px; border-radius: 3px; background: linear-gradient(135deg, var(--a), var(--b)); box-shadow: 0 0 16px var(--a); transform: rotate(45deg); }
+.navlinks { display: flex; gap: 4px; overflow-x: auto; flex: 1 1 320px; min-width: 0; scrollbar-width: none; padding-block: 2px; }
+.navlinks::-webkit-scrollbar { display: none; }
+.navlinks a { text-decoration: none; min-height: 40px; padding: 0 14px; display: inline-flex; align-items: center; border-radius: 20px; font-size: 14px; font-weight: 500; color: var(--mut); white-space: nowrap; border: 1px solid transparent; transition: color .2s, background .2s, border-color .2s; }
+.navlinks a:hover { color: var(--ink); background: rgba(255,255,255,.06); }
+.navlinks a[aria-current="page"] { color: var(--ink); border-color: color-mix(in srgb, var(--pa, var(--a)) 70%, transparent); background: color-mix(in srgb, var(--pa, var(--a)) 16%, transparent); box-shadow: 0 0 18px color-mix(in srgb, var(--pa, var(--a)) 35%, transparent); }
+.snowbtn { width: 44px; height: 44px; border-radius: 22px; border: 1px solid var(--line); background: rgba(255,255,255,.05); display: grid; place-items: center; }
+.snowbtn[aria-pressed="true"] { border-color: #bfeaff; background: rgba(191,234,255,.18); box-shadow: 0 0 18px rgba(191,234,255,.4); }
+.snowbtn svg { width: 20px; height: 20px; }
+
+h1, h2, h3 { margin: 0; text-wrap: balance; }
+.block { padding-block: clamp(36px, 6vw, 72px) 0; }
+.block > .wrap > h2, .block h2.t { font-family: var(--f-display); font-weight: 600; font-size: clamp(20px, 2.6vw, 28px); letter-spacing: -.01em; margin-bottom: 8px; }
+.block .sub { color: var(--mut); margin: 0 0 24px; max-width: 60ch; }
+
+/* ---------- portal ---------- */
+.hero { padding-block: clamp(56px, 11vw, 130px) 0; }
+.hero .line { font-family: var(--f-mono); font-size: 13px; color: var(--a); margin: 0 0 18px; display: flex; align-items: center; gap: 12px; }
+.hero .line::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--a); box-shadow: 0 0 12px var(--a); animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .35; transform: scale(.7); } }
+.wordmark { font-family: var(--f-display); font-weight: 800; line-height: .9; letter-spacing: -.045em; font-size: clamp(54px, 15.5vw, 210px); display: flex; flex-direction: column; margin: 0; }
+.wordmark .row { display: flex; overflow: hidden; padding-bottom: .06em; }
+.wordmark .row:nth-child(2) { margin-left: clamp(0px, 5vw, 80px); }
+.wordmark span.ch { display: inline-block; background: linear-gradient(105deg, #fff 8%, var(--a) 45%, var(--b) 85%); background-size: 220% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent;
+  animation: rise .9s cubic-bezier(.2,.8,.2,1) backwards, sheen 7s ease-in-out infinite alternate; animation-delay: calc(var(--i) * 55ms), 0s; }
+@keyframes rise { from { transform: translateY(105%); } }
+@keyframes sheen { to { background-position: 100% 0; } }
+.lead { font-size: clamp(17px, 2vw, 21px); max-width: 52ch; color: #cdd3f2; margin: 28px 0 0; }
+.hero-search { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 10px; max-width: 640px; }
+.field { flex: 1 1 260px; min-width: 0; display: flex; align-items: center; gap: 12px; min-height: 54px; padding: 0 20px; border-radius: 27px; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(10px); transition: border-color .2s, box-shadow .2s; }
+.field:focus-within { border-color: var(--a); box-shadow: 0 0 0 4px color-mix(in srgb, var(--a) 22%, transparent), 0 0 30px color-mix(in srgb, var(--a) 30%, transparent); }
+.field svg { flex: none; width: 18px; height: 18px; color: var(--mut); }
+.field input { flex: 1; min-width: 0; background: none; border: 0; outline: 0; color: var(--ink); font: inherit; font-size: 16px; min-height: 52px; }
+.field input::placeholder { color: #6f78a3; }
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 24px; border-radius: 24px; border: 1px solid transparent; font-weight: 600; text-decoration: none; transition: transform .15s, box-shadow .2s, background .2s; }
+.btn.main { background: linear-gradient(120deg, var(--a), var(--b)); color: #04050c; box-shadow: 0 8px 30px color-mix(in srgb, var(--a) 40%, transparent); }
+.btn.main:hover { transform: translateY(-2px); box-shadow: 0 12px 40px color-mix(in srgb, var(--a) 55%, transparent); }
+.btn.ghost { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.2); }
+.btn.ghost:hover { background: rgba(255,255,255,.13); }
+.btn.yt { background: var(--yt); color: #fff; }
+.btn.yt:hover { background: #ff3b30; box-shadow: 0 0 22px rgba(255,59,48,.5); }
+.stats { display: flex; flex-wrap: wrap; gap: 8px 36px; margin-top: 44px; font-family: var(--f-mono); font-size: 13px; color: var(--mut); }
+.stats b { color: var(--ink); font-weight: 500; font-size: 20px; margin-right: 8px; font-variant-numeric: tabular-nums; }
+
+.gates { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 16px; }
+.gate { position: relative; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; min-height: 230px; padding: 22px; border-radius: 22px; text-decoration: none; overflow: hidden; isolation: isolate;
+  background: linear-gradient(160deg, color-mix(in srgb, var(--ca) 20%, var(--panel-solid)), var(--panel-solid) 70%); border: 1px solid color-mix(in srgb, var(--ca) 40%, transparent);
+  transition: transform .25s cubic-bezier(.2,.8,.2,1), box-shadow .3s, border-color .3s; }
+.gate::before { content: ""; position: absolute; z-index: -1; width: 260px; height: 260px; right: -80px; top: -90px; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--cb) 65%, transparent), transparent); opacity: .5; transition: opacity .3s, transform .5s; }
+.gate:hover { transform: translateY(-6px); border-color: var(--ca); box-shadow: 0 18px 60px color-mix(in srgb, var(--ca) 40%, transparent); }
+.gate:hover::before { opacity: .95; transform: scale(1.2); }
+.gate .stack { display: flex; }
+.gate .stack .cover { width: 92px; border-radius: 8px; border: 1px solid rgba(255,255,255,.2); box-shadow: 0 8px 20px rgba(0,0,0,.5); margin-right: -26px; transition: transform .3s; }
+.gate .stack .cover:nth-child(1) { transform: rotate(-5deg); }
+.gate .stack .cover:nth-child(2) { transform: rotate(1deg) translateY(-5px); }
+.gate .stack .cover:nth-child(3) { transform: rotate(6deg); }
+.gate:hover .stack .cover:nth-child(1) { transform: rotate(-9deg) translateX(-8px); }
+.gate:hover .stack .cover:nth-child(3) { transform: rotate(10deg) translateX(8px); }
+.gate h3 { font-family: var(--f-display); font-weight: 800; font-size: clamp(30px, 3.4vw, 40px); letter-spacing: -.04em; line-height: 1; }
+.gate .gmeta { padding-right: 46px; font-family: var(--f-mono); font-size: 12px; color: #b8c0e8; margin-top: 10px; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.gate .gmeta .n { color: var(--ca); font-weight: 500; }
+.gate .go { position: absolute; right: 18px; bottom: 18px; width: 38px; height: 38px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--ca) 60%, transparent); display: grid; place-items: center; transition: background .2s, transform .3s; }
+.gate:hover .go { background: var(--ca); color: #04050c; transform: translateX(4px); }
+.gate .go svg { width: 16px; height: 16px; }
+
+.rail { display: flex; gap: 16px; overflow-x: auto; padding: 8px clamp(16px, 4vw, 40px) 28px; scroll-snap-type: x proximity; scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--a) 50%, transparent) transparent; }
+.rail .card { flex: 0 0 min(78vw, 300px); scroll-snap-align: start; }
+
+.types { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 12px; }
+.type { display: flex; align-items: center; gap: 16px; padding: 18px 20px; min-height: 84px; border-radius: 18px; text-decoration: none; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(10px); transition: border-color .2s, transform .2s, box-shadow .2s; }
+.type:hover { border-color: var(--a); transform: translateY(-3px); box-shadow: 0 10px 34px color-mix(in srgb, var(--a) 28%, transparent); }
+.type svg { flex: none; width: 30px; height: 30px; color: var(--a); }
+.type b { display: block; font-family: var(--f-display); font-weight: 600; font-size: 17px; letter-spacing: -.01em; }
+.type span { font-family: var(--f-mono); font-size: 12px; color: var(--mut); }
+
+/* ---------- secciones ---------- */
+.shead { padding-block: clamp(40px, 7vw, 90px) 8px; }
+.crumb { font-family: var(--f-mono); font-size: 13px; color: var(--mut); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
+.crumb:hover { color: var(--a); }
+.stitle { font-family: var(--f-display); font-weight: 800; letter-spacing: -.05em; line-height: .92; font-size: clamp(48px, 13vw, 170px); background: linear-gradient(105deg, #fff 5%, var(--a) 50%, var(--b)); -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; overflow-wrap: anywhere; padding-bottom: .08em; animation: fadein .7s ease backwards; }
+@keyframes fadein { from { opacity: 0; transform: translateY(14px); } }
+.sdesc { color: #cdd3f2; font-size: 18px; margin: 14px 0 0; max-width: 60ch; }
+.sinfo { font-family: var(--f-mono); font-size: 13px; color: var(--mut); margin-top: 12px; }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 14px 20px; align-items: center; justify-content: space-between; padding-block: 26px 22px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tab { min-height: 44px; padding: 0 18px; border-radius: 22px; border: 1px solid var(--line); background: rgba(255,255,255,.04); font-size: 14px; font-weight: 500; color: #cdd3f2; transition: all .2s; }
+.tab:hover { border-color: var(--a); color: #fff; }
+.tab[aria-pressed="true"] { background: linear-gradient(120deg, color-mix(in srgb, var(--a) 40%, transparent), color-mix(in srgb, var(--b) 36%, transparent)); border-color: var(--a); color: #fff; box-shadow: 0 0 22px color-mix(in srgb, var(--a) 35%, transparent); }
+.tab small { font-family: var(--f-mono); font-size: 11px; opacity: .7; margin-left: 6px; }
+.tools { display: flex; flex-wrap: wrap; gap: 10px; flex: 1 1 340px; justify-content: flex-end; }
+.tools .field { flex: 1 1 220px; min-height: 46px; max-width: 360px; }
+.tools .field input { min-height: 44px; font-size: 15px; }
+.sel { min-height: 46px; padding: 0 16px; border-radius: 23px; background: var(--panel); border: 1px solid var(--line); color: var(--ink); font: inherit; font-size: 14px; }
+.sel option { background: var(--panel-solid); }
+
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 262px), 1fr)); gap: 18px; }
+.card { --tx: 0deg; --ty: 0deg; --mx: 50%; --my: 50%;
+  position: relative; display: flex; flex-direction: column; border-radius: 18px; overflow: hidden; background: linear-gradient(180deg, color-mix(in srgb, var(--ca) 9%, var(--panel-solid)), var(--panel-solid));
+  border: 1px solid color-mix(in srgb, var(--ca) 24%, rgba(255,255,255,.08)); cursor: pointer; text-align: left;
+  transform: perspective(900px) rotateX(var(--tx)) rotateY(var(--ty)); transition: transform .18s ease-out, box-shadow .3s, border-color .3s; }
+.card::after { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; transition: opacity .25s; background: radial-gradient(240px circle at var(--mx) var(--my), color-mix(in srgb, var(--ca) 28%, transparent), transparent 70%); }
+.card:hover { border-color: var(--ca); box-shadow: 0 16px 50px color-mix(in srgb, var(--ca) 32%, transparent), 0 0 0 1px color-mix(in srgb, var(--ca) 50%, transparent); }
+.card:hover::after { opacity: 1; }
+.card-cover { position: relative; }
+.cover { position: relative; aspect-ratio: 16/9; overflow: hidden; display: block;
+  background: linear-gradient(135deg, color-mix(in srgb, var(--ca) 62%, #05060f), color-mix(in srgb, var(--cb) 34%, #05060f)); }
+.cover .fb { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; font-size: clamp(26px, 4vw, 44px); letter-spacing: -.04em; color: rgba(255,255,255,.55); }
+.cover img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.2,.8,.2,1); }
+.card:hover .cover img { transform: scale(1.06); }
+.cover::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, rgba(4,5,12,.7), transparent 55%); }
+.tag { position: absolute; z-index: 2; left: 12px; top: 12px; font-family: var(--f-mono); font-size: 11px; font-weight: 500; padding: 4px 10px; border-radius: 12px; background: rgba(4,5,12,.72); border: 1px solid color-mix(in srgb, var(--ca) 70%, transparent); color: #fff; backdrop-filter: blur(6px); }
+.card-body { padding: 14px 16px 6px; flex: 1; }
+.card h3 { font-family: var(--f-body); font-weight: 600; font-size: 17px; line-height: 1.25; letter-spacing: -.005em; }
+.meta { margin: 8px 0 0; font-family: var(--f-mono); font-size: 11.5px; color: var(--mut); }
+.card-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 10px 16px 16px; min-height: 62px; }
+.cat { font-size: 13px; color: #b8c0e8; }
+.dl { display: inline-flex; align-items: center; gap: 7px; min-height: 40px; padding: 0 16px; border-radius: 20px; background: var(--ca); color: #04050c; font-weight: 600; font-size: 13.5px; text-decoration: none; position: relative; z-index: 2; transition: transform .15s, box-shadow .2s; }
+.dl:hover { transform: translateY(-2px); box-shadow: 0 6px 22px color-mix(in srgb, var(--ca) 60%, transparent); }
+.dl svg { width: 15px; height: 15px; }
+.hint { font-size: 13px; color: #6f78a3; }
+
+.empty { padding: 60px 0; text-align: center; color: var(--mut); }
+.pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; padding-block: 40px 0; }
+.pager button { min-width: 44px; min-height: 44px; border-radius: 22px; border: 1px solid var(--line); background: rgba(255,255,255,.04); font-weight: 500; }
+.pager button:hover:not(:disabled) { border-color: var(--a); }
+.pager button[aria-current="page"] { background: var(--a); color: #04050c; border-color: var(--a); font-weight: 700; }
+.pager button:disabled { opacity: .35; cursor: default; }
+
+.foot { padding-block: 80px 48px; color: var(--mut); font-size: 13px; font-family: var(--f-mono); }
+.foot .wrap { border-top: 1px solid var(--line); padding-top: 24px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; }
+
+/* ---------- ficha ---------- */
+.ov { position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; padding: 16px; background: rgba(2,3,8,.78); backdrop-filter: blur(10px); animation: fadein .2s ease; }
+.modal { --ca: var(--a); --cb: var(--b); position: relative; width: min(760px, 100%); max-height: calc(100vh - 32px); overflow-y: auto; border-radius: 24px; background: var(--panel-solid); border: 1px solid color-mix(in srgb, var(--ca) 60%, transparent); box-shadow: 0 30px 120px color-mix(in srgb, var(--ca) 35%, transparent); animation: pop .3s cubic-bezier(.2,.9,.3,1.2); }
+@keyframes pop { from { transform: scale(.94) translateY(12px); opacity: 0; } }
+.modal .cover { aspect-ratio: 16/9; }
+.mx { position: absolute; z-index: 5; right: 14px; top: 14px; width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,.3); background: rgba(4,5,12,.7); display: grid; place-items: center; }
+.mx:hover { background: var(--ca); color: #04050c; }
+.mx svg { width: 18px; height: 18px; }
+.mbody { padding: 24px clamp(18px, 4vw, 34px) 30px; }
+.mtags { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+.mtags span { font-family: var(--f-mono); font-size: 11.5px; padding: 4px 11px; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--ca) 60%, transparent); }
+.mtags span:first-child { background: var(--ca); color: #04050c; border-color: var(--ca); font-weight: 500; }
+.mtitle { font-family: var(--f-display); font-weight: 600; font-size: clamp(22px, 3.4vw, 32px); letter-spacing: -.025em; line-height: 1.1; }
+.mdesc { color: #cdd3f2; margin: 16px 0 0; max-width: 62ch; }
+.mlinks { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.mlinks .btn { flex: 1 1 180px; background: var(--ca); color: #04050c; }
+.mlinks .btn.ghost { background: rgba(255,255,255,.07); color: var(--ink); border-color: rgba(255,255,255,.22); }
+.mlinks .btn.yt { flex-basis: 100%; background: var(--yt); color: #fff; }
+.mlinks .btn.yt:hover { background: #ff3b30; }
+
+/* ---------- invierno ---------- */
+html.winter .tube { background: #fff; }
+html.winter .card, html.winter .gate { border-color: rgba(200,235,255,.28); }
+html.winter .vignette::after { content: ""; position: absolute; inset: 0; box-shadow: inset 0 0 120px 10px rgba(190,235,255,.14); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
+  html { scroll-behavior: auto; }
+}
+</style>
+
+<div class="stage" aria-hidden="true">
+  <div class="planks"></div><div class="spill"></div><div class="grain"></div><span class="tube l"></span><span class="tube r"></span><span class="tube b"></span>
+  <canvas id="bg"></canvas>
+  <div class="vignette"></div>
+</div>
+
+<div class="app">
+  <header class="nav">
+    <div class="wrap">
+      <a class="logo" href="#inicio" aria-label="Scene Backup, inicio"><i></i>SCENE BACKUP</a>
+      <nav class="navlinks" id="navlinks" aria-label="Sistemas"></nav>
+      <button class="snowbtn" id="snow" type="button" aria-pressed="false" aria-label="Modo invierno" title="Modo invierno">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 2v20M4.2 7l15.6 10M19.8 7L4.2 17M9.5 3.5L12 6l2.5-2.5M9.5 20.5L12 18l2.5 2.5"/></svg>
+      </button>
     </div>
   </header>
 
-  <main>
-    <div class="filters">
-      <div class="filter-group">
-        <span class="filter-group__label">Tipo</span>
-        <nav class="filterbar" id="category-filterbar" aria-label="Filtrar por tipo">
-          <!-- Botones de categoría (Ports, Emuladores, Apps…) generados por JS -->
-        </nav>
-      </div>
-      <div class="filter-group">
-        <span class="filter-group__label">Sistema</span>
-        <nav class="filterbar" id="platform-filterbar" aria-label="Filtrar por sistema">
-          <!-- Botones de plataforma generados por JS, según el tipo seleccionado -->
-        </nav>
-      </div>
-    </div>
+  <main id="view" aria-live="polite"></main>
 
-    <section class="search-row">
-      <input type="search" id="search" class="search-input" placeholder="Buscar por nombre…" aria-label="Buscar">
-      <div class="sort-row">
-        <label for="sort" class="sort-label">Ordenar</label>
-        <select id="sort" class="sort-select">
-          <option value="date-desc">Más reciente primero</option>
-          <option value="date-asc">Más antiguo primero</option>
-          <option value="title-asc">Nombre A–Z</option>
+  <footer class="foot"><div class="wrap">
+    <span>Scene Backup · archivo personal</span>
+    <span>Los datos viven en data/games.json</span>
+  </div></footer>
+</div>
+
+<div class="ov" id="ov" hidden>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="m-title" tabindex="-1"></div>
+</div>
+
+<script type="application/json" id="seed">null</script>
+<script>
+(() => {
+'use strict';
+const PAGE_SIZE = 25;
+const WINTER_KEY = 'sb_winter_mode';
+const THEMES = {
+  pc:     ['#4cc9ff', '#7b61ff'], vita:   ['#2f7bff', '#35e0ff'], switch: ['#ff3b4e', '#ff9a3d'],
+  '3ds':  ['#ffb020', '#ff5d8f'], ps3:    ['#9b6bff', '#ff4fd8'], ps4:    ['#3b82ff', '#7bd3ff'],
+  ps5:    ['#7aa2ff', '#e0e8ff'], xbox:   ['#34d96a', '#b8ff4a'], def:    ['#7f8cff', '#4cc9ff']
+};
+const WINTER = ['#a8e6ff', '#eaf7ff'];
+const HOME = ['#4cc9ff', '#7b61ff'];
+const PNAMES = { pc: 'PC', vita: 'PS Vita', switch: 'Switch', '3ds': '3DS', ps3: 'PS3', ps4: 'PS4', ps5: 'PS5', xbox: 'Xbox' };
+const PDESC = {
+  pc: 'Recompilaciones, ports nativos y fangames para Windows y Linux.',
+  vita: 'Ports y homebrew para PS Vita y PS TV.',
+  switch: 'Ports y emuladores para Switch con firmware modificado.',
+  '3ds': 'Ports y homebrew para Nintendo 3DS con CFW.',
+  ps3: 'Adaptaciones para PlayStation 3 con firmware modificado.',
+  ps4: 'Ports y emuladores para PS4 con jailbreak.',
+  ps5: 'Ports y apps nativas para PS5 con jailbreak.',
+  xbox: 'Ports para Xbox One y Series en modo desarrollador.'
+};
+const CATS = { port: 'Ports', emulador: 'Emuladores', app: 'Apps', homebrew: 'Homebrew' };
+const CAT_ONE = { port: 'Port', emulador: 'Emulador', app: 'App', homebrew: 'Homebrew' };
+const CAT_DESC = { port: 'Juegos adaptados o recompilados para otro sistema.', emulador: 'Para jugar títulos de otras plataformas.', app: 'Utilidades y aplicaciones.', homebrew: 'Software creado por la comunidad.' };
+const ICONS = {
+  port: '<path d="M4 8h16v10H4zM8 8V5h8v3M9 13h6"/>',
+  emulador: '<rect x="3" y="6" width="18" height="12" rx="2"/><path d="M8 10v4M6 12h4M16 11h.01M18 13h.01"/>',
+  app: '<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>',
+  homebrew: '<path d="M9 3v6L4 19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2L15 9V3M8 3h8M7 15h10"/>'
+};
+const svg = (p, c) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" ${c ? 'class="' + c + '"' : ''} aria-hidden="true">${p}</svg>`;
+const I_DL = svg('<path d="M12 4v11M7 11l5 5 5-5M5 20h14"/>');
+const I_GO = svg('<path d="M5 12h14M13 6l6 6-6 6"/>');
+const I_X = svg('<path d="M6 6l12 12M18 6L6 18"/>');
+const I_SEARCH = svg('<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>');
+
+const $ = (s, r = document) => r.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const slug = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const hasLink = u => typeof u === 'string' && /^https?:\/\//i.test(u.trim());
+const fmtDate = d => { const t = Date.parse(d); return isNaN(t) ? '' : new Date(t).toLocaleDateString('es-ES', { day: 'numeric', month: 'short', year: 'numeric' }); };
+const catKey = c => { const s = slug(c); if (s.startsWith('emul')) return 'emulador'; if (s.startsWith('app')) return 'app'; if (s.startsWith('home')) return 'homebrew'; return 'port'; };
+const theme = p => THEMES[p] || THEMES.def;
+const pname = g => PNAMES[g.ps] || g.platform || 'Otros';
+
+let games = [], systems = [], winter = false;
+const state = { q: '', sort: 'date-desc', page: 1, cat: 'all' };
+let route = { name: 'home' };
+
+/* ---------- datos ---------- */
+function normalize(list) {
+  return list.filter(g => g && g.title).map((g, i) => {
+    const o = { category: 'Port', ...g, _id: i };
+    o.ps = slug(o.platform) || 'otros';
+    o.ck = catKey(o.category);
+    return o;
+  });
+}
+function buildSystems() {
+  const map = new Map();
+  games.forEach(g => { if (!map.has(g.ps)) map.set(g.ps, []); map.get(g.ps).push(g); });
+  const order = Object.keys(PNAMES);
+  systems = [...map.entries()].map(([ps, items]) => ({ ps, items, name: PNAMES[ps] || items[0].platform || ps }))
+    .sort((a, b) => {
+      const ia = order.indexOf(a.ps), ib = order.indexOf(b.ps);
+      return (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib) || a.name.localeCompare(b.name);
+    });
+}
+const byDate = (a, b) => (Date.parse(b.releaseDate) || 0) - (Date.parse(a.releaseDate) || 0);
+
+/* ---------- acento ---------- */
+function setAccent(t) {
+  const c = winter ? WINTER : t;
+  document.documentElement.style.setProperty('--a', c[0]);
+  document.documentElement.style.setProperty('--b', c[1]);
+}
+
+/* ---------- plantillas ---------- */
+function cover(g) {
+  const t = theme(g.ps);
+  const init = g.title.replace(/[^A-Za-z0-9 ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase() || '?';
+  return `<span class="cover" style="--ca:${t[0]};--cb:${t[1]}"><span class="fb">${esc(init)}</span>${g.cover ? `<img data-cv src="${esc(g.cover)}" alt="" loading="lazy">` : ''}</span>`;
+}
+function metaLine(g) {
+  return [g.version ? 'v' + esc(g.version) : '', fmtDate(g.releaseDate)].filter(Boolean).join(' · ');
+}
+function card(g) {
+  const t = theme(g.ps);
+  return `<article class="card" tabindex="0" role="button" data-id="${g._id}" aria-label="Abrir ${esc(g.title)}" style="--ca:${t[0]};--cb:${t[1]}">
+    <div class="card-cover">${cover(g)}<span class="tag">${esc(pname(g))}</span></div>
+    <div class="card-body"><h3>${esc(g.title)}</h3><p class="meta">${metaLine(g)}</p></div>
+    <div class="card-foot"><span class="cat">${esc(CAT_ONE[g.ck])}</span>${hasLink(g.downloadUrl) ? `<a class="dl" href="${esc(g.downloadUrl)}" target="_blank" rel="noopener" data-role="dl" aria-label="Descargar ${esc(g.title)}">${I_DL}Descargar</a>` : '<span class="hint">Ver ficha</span>'}</div>
+  </article>`;
+}
+
+/* ---------- vistas ---------- */
+function navHTML() {
+  const cur = route.name === 'home' ? 'inicio' : route.name === 'sys' ? 's-' + route.ps : route.name === 'cat' ? 't-' + route.ck : 'todo';
+  const link = (id, label, ps) => `<a href="#${id}" ${cur === id ? 'aria-current="page"' : ''} style="--pa:${theme(ps || '')[0]}">${esc(label)}</a>`;
+  return link('inicio', 'Inicio', 'def') + link('todo', 'Todo', 'def') + systems.map(s => link('s-' + s.ps, s.name, s.ps)).join('');
+}
+function renderHome() {
+  setAccent(HOME);
+  const latest = [...games].sort(byDate);
+  const word = (t) => `<span class="row" aria-hidden="true">${[...t].map((c, i) => `<span class="ch" style="--i:${i}">${c}</span>`).join('')}</span>`;
+  const gates = systems.map(s => {
+    const t = theme(s.ps), top = [...s.items].sort(byDate), last = top[0];
+    return `<a class="gate" href="#s-${s.ps}" style="--ca:${t[0]};--cb:${t[1]}">
+      <div class="stack" aria-hidden="true">${top.slice(0, 3).map(cover).join('')}</div>
+      <div><h3>${esc(s.name)}</h3>
+      <div class="gmeta"><span><span class="n">${s.items.length}</span> ${s.items.length === 1 ? 'elemento' : 'elementos'}</span>${last ? `<span>Último: ${esc(last.title.length > 26 ? last.title.slice(0, 25) + '…' : last.title)}</span>` : ''}</div></div>
+      <span class="go">${I_GO}</span></a>`;
+  }).join('');
+  const counts = k => games.filter(g => g.ck === k).length;
+  const types = Object.keys(CATS).filter(k => counts(k) > 0).map(k => `<a class="type" href="#t-${k}">${svg(ICONS[k])}<div><b>${CATS[k]}</b><span>${counts(k)} · ${esc(CAT_DESC[k].split(' ').slice(0, 5).join(' '))}…</span></div></a>`).join('');
+  return `
+  <section class="hero"><div class="wrap">
+    <p class="line">Archivo de la scene · en línea</p>
+    <h1 class="wordmark" aria-label="Scene Backup">${word('SCENE')}${word('BACKUP')}</h1>
+    <p class="lead">Ports, emuladores, apps y homebrew para consolas y PC. Ordenados por sistema, con su descarga, su código fuente y la última versión.</p>
+    <form class="hero-search" id="hs" role="search">
+      <label class="field" for="hq">${I_SEARCH}<input id="hq" type="search" placeholder="Buscar entre ${games.length} elementos" autocomplete="off"></label>
+      <button class="btn main" type="submit">Buscar</button>
+    </form>
+    <div class="stats"><span><b>${games.length}</b>elementos</span><span><b>${systems.length}</b>sistemas</span>${latest[0] ? `<span><b>${esc(fmtDate(latest[0].releaseDate) || '—')}</b>última subida</span>` : ''}</div>
+  </div></section>
+  <section class="block"><div class="wrap"><h2>Elige sistema</h2><p class="sub">Cada consola tiene su sección con sus propios colores.</p><div class="gates">${gates}</div></div></section>
+  <section class="block"><div class="wrap"><h2>Últimas subidas</h2></div><div class="rail">${latest.slice(0, 10).map(card).join('')}</div></section>
+  <section class="block"><div class="wrap"><h2>Por tipo</h2><p class="sub">También puedes recorrer todo el archivo por tipo de contenido.</p><div class="types">${types}</div></div></section>`;
+}
+function listBase() {
+  if (route.name === 'sys') return games.filter(g => g.ps === route.ps);
+  if (route.name === 'cat') return games.filter(g => g.ck === route.ck);
+  return games;
+}
+function renderSection() {
+  let title, desc, accent = HOME;
+  if (route.name === 'sys') {
+    const s = systems.find(x => x.ps === route.ps);
+    title = s ? s.name : 'Sistema'; desc = PDESC[route.ps] || ''; accent = theme(route.ps);
+  } else if (route.name === 'cat') { title = CATS[route.ck]; desc = CAT_DESC[route.ck]; }
+  else { title = 'Todo'; desc = 'Todo el archivo, de todos los sistemas.'; }
+  setAccent(accent);
+  const base = listBase();
+  const last = [...base].sort(byDate)[0];
+  const cats = Object.keys(CATS).filter(k => base.some(g => g.ck === k));
+  const tabs = route.name === 'cat' ? '' : `<div class="tabs" role="group" aria-label="Tipo">
+    <button class="tab" type="button" data-cat="all" aria-pressed="${state.cat === 'all'}">Todo<small>${base.length}</small></button>
+    ${cats.map(k => `<button class="tab" type="button" data-cat="${k}" aria-pressed="${state.cat === k}">${CATS[k]}<small>${base.filter(g => g.ck === k).length}</small></button>`).join('')}</div>`;
+  const sysTabs = route.name === 'cat' ? `<div class="tabs" role="group" aria-label="Sistema"><button class="tab" type="button" data-sys="all" aria-pressed="${!state.sys}">Todos</button>${systems.filter(s => base.some(g => g.ps === s.ps)).map(s => `<button class="tab" type="button" data-sys="${s.ps}" aria-pressed="${state.sys === s.ps}">${esc(s.name)}</button>`).join('')}</div>` : '';
+  return `
+  <section class="shead"><div class="wrap">
+    <a class="crumb" href="#inicio">← Inicio</a>
+    <h1 class="stitle">${esc(title)}</h1>
+    <p class="sdesc">${esc(desc)}</p>
+    <p class="sinfo">${base.length} ${base.length === 1 ? 'elemento' : 'elementos'}${last ? ' · última subida ' + esc(fmtDate(last.releaseDate)) : ''}</p>
+  </div></section>
+  <div class="wrap">
+    <div class="toolbar">${tabs}${sysTabs}
+      <div class="tools">
+        <label class="field" for="q">${I_SEARCH}<input id="q" type="search" placeholder="Buscar por nombre" autocomplete="off" value="${esc(state.q)}"></label>
+        <select class="sel" id="sort" aria-label="Ordenar">
+          <option value="date-desc">Más reciente</option><option value="date-asc">Más antiguo</option><option value="title-asc">Nombre A–Z</option>
         </select>
       </div>
-    </section>
-
-    <section class="grid" id="grid" aria-live="polite">
-      <!-- Las cards se generan por JS -->
-    </section>
-
-    <p class="empty-state" id="empty-state" hidden>
-      No hay nada aquí todavía. Añade una entrada en <code>data/games.json</code> y aparecerá en esta sección.
-    </p>
-
-    <nav class="pagination" id="pagination" aria-label="Paginación" hidden>
-      <!-- Controles de página generados por JS -->
-    </nav>
-  </main>
-
-  <footer class="footer">
-    <p>Scene Backup — archivo personal, sin conexión a servidores externos. Los datos viven en <code>data/games.json</code>.</p>
-  </footer>
-
-  <div class="modal-overlay" id="modal-overlay" hidden>
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
-      <button class="modal__close" id="modal-close" type="button" aria-label="Cerrar">✕</button>
-      <div class="modal__cover">
-        <img id="modal-cover" src="" alt="">
-        <span class="card__category-tag" id="modal-category-tag"></span>
-        <span class="card__platform-tag" id="modal-platform-tag"></span>
-      </div>
-      <div class="modal__body">
-        <h2 class="modal__title" id="modal-title"></h2>
-        <div class="card__meta" id="modal-meta"></div>
-        <p class="modal__desc" id="modal-desc"></p>
-        <div class="modal__links" id="modal-links"></div>
-      </div>
     </div>
-  </div>
+    <div id="results"></div>
+  </div>`;
+}
+function filtered() {
+  let l = listBase();
+  if (route.name !== 'cat' && state.cat !== 'all') l = l.filter(g => g.ck === state.cat);
+  if (route.name === 'cat' && state.sys) l = l.filter(g => g.ps === state.sys);
+  const q = state.q.trim().toLowerCase();
+  if (q) l = l.filter(g => [g.title, g.description, g.platform, g.category].join(' ').toLowerCase().includes(q));
+  const s = state.sort;
+  return [...l].sort(s === 'title-asc' ? (a, b) => a.title.localeCompare(b.title) : s === 'date-asc' ? (a, b) => -byDate(a, b) : byDate);
+}
+function pages(cur, total) {
+  const out = new Set([1, total, cur - 1, cur, cur + 1]);
+  return [...out].filter(n => n >= 1 && n <= total).sort((a, b) => a - b);
+}
+function renderResults() {
+  const l = filtered(), total = Math.max(1, Math.ceil(l.length / PAGE_SIZE));
+  if (state.page > total) state.page = total;
+  const slice = l.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE);
+  let html = slice.length ? `<div class="grid">${slice.map(card).join('')}</div>` : `<p class="empty">No hay resultados. Cambia el filtro o añade una entrada en data/games.json.</p>`;
+  if (total > 1) {
+    let prev = 0, btns = '';
+    pages(state.page, total).forEach(n => {
+      if (prev && n - prev > 1) btns += '<span aria-hidden="true" style="align-self:center;color:var(--mut)">…</span>';
+      btns += `<button type="button" data-page="${n}" ${n === state.page ? 'aria-current="page"' : ''} aria-label="Página ${n}">${n}</button>`; prev = n;
+    });
+    html += `<nav class="pager" aria-label="Paginación"><button type="button" data-page="${state.page - 1}" ${state.page === 1 ? 'disabled' : ''} aria-label="Anterior">←</button>${btns}<button type="button" data-page="${state.page + 1}" ${state.page === total ? 'disabled' : ''} aria-label="Siguiente">→</button></nav>`;
+  }
+  $('#results').innerHTML = html;
+}
 
-  <script src="js/script.js"></script>
-</body>
-</html>
+/* ---------- router ---------- */
+function parseRoute() {
+  const h = decodeURIComponent(location.hash.replace(/^#/, ''));
+  if (h.startsWith('s-') && systems.some(s => s.ps === h.slice(2))) return { name: 'sys', ps: h.slice(2) };
+  if (h.startsWith('t-') && CATS[h.slice(2)]) return { name: 'cat', ck: h.slice(2) };
+  if (h === 'todo') return { name: 'all' };
+  return { name: 'home' };
+}
+let keepQ = false;
+function render() {
+  route = parseRoute();
+  if (!keepQ) state.q = '';
+  keepQ = false;
+  state.page = 1; state.cat = 'all'; state.sys = null;
+  const v = $('#view');
+  v.innerHTML = route.name === 'home' ? renderHome() : renderSection();
+  $('#navlinks').innerHTML = navHTML();
+  const cur = $('#navlinks [aria-current="page"]'); if (cur) cur.scrollIntoView({ inline: 'center', block: 'nearest' });
+  if (route.name !== 'home') { $('#sort').value = state.sort; renderResults(); }
+  window.scrollTo(0, 0);
+  document.title = route.name === 'sys' ? `${systems.find(s => s.ps === route.ps).name} · Scene Backup` : 'Scene Backup';
+}
+
+/* ---------- eventos ---------- */
+const view = $('#view');
+view.addEventListener('submit', e => {
+  if (e.target.id !== 'hs') return;
+  e.preventDefault();
+  state.q = $('#hq').value; keepQ = true;
+  if (location.hash === '#todo') render(); else location.hash = 'todo';
+});
+view.addEventListener('input', e => { if (e.target.id === 'q') { state.q = e.target.value; state.page = 1; renderResults(); } });
+view.addEventListener('change', e => { if (e.target.id === 'sort') { state.sort = e.target.value; state.page = 1; renderResults(); } });
+view.addEventListener('click', e => {
+  const tab = e.target.closest('[data-cat]'), st = e.target.closest('[data-sys]'), pg = e.target.closest('[data-page]');
+  if (tab) { state.cat = tab.dataset.cat; state.page = 1; document.querySelectorAll('[data-cat]').forEach(b => b.setAttribute('aria-pressed', b === tab)); renderResults(); return; }
+  if (st) { state.sys = st.dataset.sys === 'all' ? null : st.dataset.sys; state.page = 1; document.querySelectorAll('[data-sys]').forEach(b => b.setAttribute('aria-pressed', b === st)); renderResults(); return; }
+  if (pg && !pg.disabled) { state.page = +pg.dataset.page; renderResults(); $('#results').scrollIntoView({ block: 'start' }); return; }
+  if (e.target.closest('[data-role="dl"]')) return;
+  const c = e.target.closest('.card'); if (c) openModal(+c.dataset.id, c);
+});
+view.addEventListener('keydown', e => {
+  const c = e.target.closest && e.target.closest('.card');
+  if (c && e.target === c && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); openModal(+c.dataset.id, c); }
+});
+view.addEventListener('pointermove', e => {
+  if (e.pointerType !== 'mouse') return;
+  const c = e.target.closest('.card'); if (!c) return;
+  const r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+  c.style.setProperty('--ty', ((x - .5) * 7).toFixed(2) + 'deg');
+  c.style.setProperty('--tx', ((.5 - y) * 7).toFixed(2) + 'deg');
+  c.style.setProperty('--mx', (x * 100).toFixed(1) + '%');
+  c.style.setProperty('--my', (y * 100).toFixed(1) + '%');
+});
+view.addEventListener('pointerout', e => {
+  const c = e.target.closest && e.target.closest('.card');
+  if (c && !c.contains(e.relatedTarget)) { c.style.setProperty('--tx', '0deg'); c.style.setProperty('--ty', '0deg'); }
+});
+document.addEventListener('error', e => { if (e.target.tagName === 'IMG' && e.target.hasAttribute('data-cv')) e.target.remove(); }, true);
+window.addEventListener('hashchange', render);
+
+/* ---------- ficha ---------- */
+const ov = $('#ov'), modal = $('#modal');
+let lastFocus = null;
+function openModal(id, from) {
+  const g = games.find(x => x._id === id); if (!g) return;
+  const t = theme(g.ps);
+  lastFocus = from || document.activeElement;
+  modal.style.setProperty('--ca', winter ? WINTER[0] : t[0]); modal.style.setProperty('--cb', winter ? WINTER[1] : t[1]);
+  const links = [
+    hasLink(g.downloadUrl) ? `<a class="btn" href="${esc(g.downloadUrl)}" target="_blank" rel="noopener">${I_DL}Descargar</a>` : '',
+    hasLink(g.sourceUrl) ? `<a class="btn ghost" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener">Código fuente</a>` : '',
+    hasLink(g.youtubeUrl) ? `<a class="btn yt" href="${esc(g.youtubeUrl)}" target="_blank" rel="noopener">▶ Ver vídeo en YouTube</a>` : ''
+  ].join('') || '<p class="hint">No hay enlaces disponibles todavía.</p>';
+  modal.innerHTML = `<button class="mx" id="mx" type="button" aria-label="Cerrar">${I_X}</button>
+    ${cover(g).replace('class="cover"', 'class="cover" style="--ca:' + t[0] + ';--cb:' + t[1] + '"')}
+    <div class="mbody">
+      <div class="mtags"><span>${esc(pname(g))}</span><span>${esc(CAT_ONE[g.ck])}</span>${g.version ? `<span>v${esc(g.version)}</span>` : ''}${fmtDate(g.releaseDate) ? `<span>${esc(fmtDate(g.releaseDate))}</span>` : ''}</div>
+      <h2 class="mtitle" id="m-title">${esc(g.title)}</h2>
+      <p class="mdesc">${esc(g.description || 'Sin descripción todavía.')}</p>
+      <div class="mlinks">${links}</div>
+    </div>`;
+  ov.hidden = false; document.body.style.overflow = 'hidden'; $('#mx').focus();
+}
+function closeModal() {
+  if (ov.hidden) return;
+  ov.hidden = true; document.body.style.overflow = '';
+  if (lastFocus && lastFocus.focus) lastFocus.focus();
+}
+ov.addEventListener('click', e => { if (e.target === ov || e.target.closest('#mx')) closeModal(); });
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Tab' && !ov.hidden) {
+    const f = [...modal.querySelectorAll('a,button')]; if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  }
+});
+
+/* ---------- invierno ---------- */
+const snowBtn = $('#snow');
+function setWinter(on, save) {
+  winter = on;
+  document.documentElement.classList.toggle('winter', on);
+  snowBtn.setAttribute('aria-pressed', on);
+  if (save) { try { localStorage.setItem(WINTER_KEY, on ? '1' : '0'); } catch (_) {} }
+  if (systems.length) { const r = parseRoute(); setAccent(r.name === 'sys' ? theme(r.ps) : HOME); }
+  initFlakes();
+}
+snowBtn.addEventListener('click', () => setWinter(!winter, true));
+
+/* ---------- fondo: malla de nodos + nieve ---------- */
+const cv = $('#bg'), cx = cv.getContext('2d');
+const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+let W = 0, H = 0, DPR = 1, flakes = [], motes = [], tick = 0, running = false, col = '76,201,255';
+function resize() {
+  DPR = Math.min(window.devicePixelRatio || 1, 2);
+  W = innerWidth; H = innerHeight;
+  cv.width = W * DPR; cv.height = H * DPR; cx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  const n = Math.round(Math.min(55, Math.max(18, W / 26)));
+  motes = Array.from({ length: n }, () => {
+    const left = Math.random() < .5;
+    return { x: (left ? Math.random() * .3 : 1 - Math.random() * .3) * W, y: Math.random() * H, r: Math.random() * 1.5 + .4, vy: -(Math.random() * .22 + .05), vx: (Math.random() - .5) * .12, ph: Math.random() * 6.28 };
+  });
+  initFlakes();
+}
+function initFlakes() {
+  flakes = (winter && !reduce) ? Array.from({ length: Math.round(Math.min(90, W / 14)) }, () => ({ x: Math.random() * W, y: Math.random() * H, r: Math.random() * 2 + .6, s: Math.random() * .8 + .4, d: Math.random() * 6 })) : [];
+  startLoop();
+}
+function frame() {
+  tick++;
+  if (tick % 20 === 1) {
+    const m = getComputedStyle(document.documentElement).getPropertyValue('--a').match(/[\d.]+/g);
+    if (m) col = m.slice(0, 3).map(Math.round).join(',');
+  }
+  cx.clearRect(0, 0, W, H);
+  for (const p of motes) {
+    if (!reduce) { p.x += p.vx; p.y += p.vy; if (p.y < -6) { p.y = H + 6; } }
+    const tw = .35 + .65 * Math.abs(Math.sin(tick / 90 + p.ph));
+    cx.fillStyle = `rgba(${col},${(tw * .8).toFixed(2)})`; cx.shadowColor = `rgba(${col},1)`; cx.shadowBlur = 8;
+    cx.beginPath(); cx.arc(p.x, p.y, p.r, 0, 6.283); cx.fill();
+  }
+  cx.shadowBlur = 0;
+  if (flakes.length) {
+    cx.fillStyle = 'rgba(235,247,255,.8)';
+    for (const f of flakes) {
+      f.y += f.s; f.x += Math.sin((tick / 60) + f.d) * .35;
+      if (f.y > H + 4) { f.y = -4; f.x = Math.random() * W; }
+      cx.beginPath(); cx.arc(f.x, f.y, f.r, 0, 6.283); cx.fill();
+    }
+  }
+  if (!reduce) requestAnimationFrame(frame); else running = false;
+}
+function startLoop() { if (!running) { running = true; requestAnimationFrame(frame); } }
+window.addEventListener('resize', resize);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) startLoop(); });
+
+/* ---------- arranque ---------- */
+async function boot() {
+  let data = null;
+  try { const r = await fetch('data/games.json', { cache: 'no-store' }); if (!r.ok) throw 0; data = await r.json(); } catch (_) {
+    try { data = JSON.parse($('#seed').textContent); } catch (_) {}
+  }
+  if (!Array.isArray(data)) {
+    $('#view').innerHTML = '<div class="wrap"><p class="empty" style="padding-top:140px">No se pudo cargar data/games.json. Si abres el archivo directamente, sírvelo con un servidor local o súbelo a GitHub Pages.</p></div>';
+    return;
+  }
+  games = normalize(data); buildSystems();
+  let w = false; try { w = localStorage.getItem(WINTER_KEY) === '1'; } catch (_) {}
+  resize(); setWinter(w, false);
+  render();
+}
+boot();
+})();
+</script>
