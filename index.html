@@ -208,7 +208,7 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 .modal { --ca: var(--a); --cb: var(--b); position: relative; width: min(600px, 100%); max-height: calc(100vh - 32px); overflow-y: auto; scrollbar-width: none; border-radius: 22px; background: var(--panel-solid); border: 1px solid color-mix(in srgb, var(--ca) 50%, transparent); box-shadow: 0 30px 100px color-mix(in srgb, var(--ca) 30%, transparent); animation: pop .3s cubic-bezier(.2,.9,.3,1.2); }
 .modal::-webkit-scrollbar { display: none; }
 @keyframes pop { from { transform: scale(.95) translateY(10px); opacity: 0; } }
-.modal .cover { aspect-ratio: auto; height: clamp(150px, 30vh, 280px); }
+.modal .cover { aspect-ratio: auto; height: clamp(140px, 26vh, 250px); }
 .mx { position: absolute; z-index: 5; right: 12px; top: 12px; width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(255,255,255,.25); background: rgba(4,5,12,.65); display: grid; place-items: center; backdrop-filter: blur(6px); }
 .mx:hover { background: var(--ca); color: #04050c; border-color: var(--ca); }
 .mx svg { width: 15px; height: 15px; }
@@ -227,6 +227,72 @@ h1, h2, h3 { margin: 0; text-wrap: balance; }
 .mbtn.yt { margin-left: auto; background: var(--yt); border-color: var(--yt); color: #fff; }
 .mbtn.yt:hover { background: #ff3b30; border-color: #ff3b30; box-shadow: 0 0 18px rgba(255,59,48,.45); }
 @media (max-width: 480px) { .mbtn.yt { margin-left: 0; } }
+
+
+/* ---------- novedades, etiquetas, galería y pestañas ---------- */
+.badge { position: absolute; z-index: 2; right: 12px; top: 12px; display: inline-flex; align-items: center; gap: 6px; font-family: var(--f-mono); font-size: 11px; font-weight: 500; padding: 4px 10px; border-radius: 12px; backdrop-filter: blur(6px); }
+.badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; }
+.badge.new { background: var(--ca); color: #04050c; border: 1px solid var(--ca); }
+.badge.new::before { background: #04050c; }
+.badge.upd { background: rgba(4,5,12,.74); color: #fff; border: 1px solid color-mix(in srgb, var(--ca) 75%, transparent); }
+.badge.upd::before { background: var(--ca); box-shadow: 0 0 8px var(--ca); }
+.navlinks a .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--a); box-shadow: 0 0 8px var(--a); margin-left: 8px; }
+.hrow { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 20px; }
+.block .hrow h2 { font-family: var(--f-display); font-weight: 600; font-size: clamp(20px, 2.6vw, 28px); letter-spacing: -.01em; margin-bottom: 8px; }
+.hrow a { font-family: var(--f-mono); font-size: 13px; color: var(--a); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; }
+.hrow a:hover { text-decoration: underline; }
+
+.news { display: flex; flex-direction: column; gap: 8px; padding-bottom: 40px; }
+.nday { font-family: var(--f-mono); font-size: 12px; font-weight: 400; color: var(--mut); padding: 22px 4px 4px; }
+.nrow { display: flex; align-items: center; gap: 16px; width: 100%; text-align: left; padding: 12px 16px 12px 12px; border-radius: 16px; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(10px); transition: border-color .2s, box-shadow .25s, transform .2s; }
+.nrow:hover { border-color: var(--ca); box-shadow: 0 10px 34px color-mix(in srgb, var(--ca) 25%, transparent); transform: translateX(3px); }
+.nth { flex: none; width: 104px; border-radius: 9px; overflow: hidden; }
+.nth .cover .fb { font-size: 20px; }
+.nmain { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.nmain b { font-weight: 600; font-size: 16px; line-height: 1.25; }
+.nmain span { font-family: var(--f-mono); font-size: 12px; color: var(--mut); }
+.nver { font-family: var(--f-mono); font-size: 13px; display: inline-flex; align-items: center; gap: 8px; white-space: nowrap; }
+.nver i { font-style: normal; color: var(--ca); }
+.npill { font-family: var(--f-mono); font-size: 11.5px; padding: 4px 11px; border-radius: 12px; background: var(--ca); color: #04050c; font-weight: 500; white-space: nowrap; }
+.nrel { font-family: var(--f-mono); font-size: 12px; color: var(--mut); white-space: nowrap; min-width: 84px; text-align: right; }
+@media (max-width: 620px) { .nth { display: none; } .nrow { flex-wrap: wrap; gap: 6px 12px; } .nmain { flex-basis: 100%; } .nrel { margin-left: auto; } }
+
+.gstage { position: relative; }
+.gnav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 3; width: 36px; height: 36px; border-radius: 50%; border: 1px solid rgba(255,255,255,.25); background: rgba(4,5,12,.65); display: grid; place-items: center; backdrop-filter: blur(6px); }
+.gnav:hover { background: var(--ca); color: #04050c; border-color: var(--ca); }
+.gnav svg { width: 16px; height: 16px; }
+.gnav.prev { left: 10px; } .gnav.next { right: 10px; }
+.gcount { position: absolute; z-index: 3; right: 12px; bottom: 10px; font-family: var(--f-mono); font-size: 11px; padding: 3px 9px; border-radius: 10px; background: rgba(4,5,12,.7); }
+.thumbs { display: flex; gap: 8px; padding: 10px 20px 0; overflow-x: auto; scrollbar-width: none; }
+.thumbs::-webkit-scrollbar { display: none; }
+.thumb { flex: none; width: 76px; height: 43px; padding: 0; border-radius: 8px; overflow: hidden; border: 2px solid transparent; background: none; opacity: .55; transition: opacity .2s, border-color .2s; }
+.thumb:hover { opacity: .9; }
+.thumb[aria-current="true"] { border-color: var(--ca); opacity: 1; }
+.modal .thumb .cover, .modal .facade .cover { width: 100%; height: 100%; aspect-ratio: auto; border-radius: 0; }
+.thumb .fb { font-size: 12px; }
+.modal[data-tab="video"] .gal { display: none; }
+.modal[data-tab="video"] .mbody { padding-top: 56px; }
+.mtabs { display: flex; gap: 4px; padding: 3px; border-radius: 14px; background: rgba(255,255,255,.05); align-self: flex-start; max-width: 100%; overflow-x: auto; scrollbar-width: none; margin-top: 4px; }
+.mtabs::-webkit-scrollbar { display: none; }
+.mtab { min-height: 36px; padding: 0 14px; border-radius: 11px; border: 0; background: transparent; color: #b8c0e8; font-size: 13px; font-weight: 500; white-space: nowrap; transition: background .2s, color .2s; }
+.mtab:hover { color: #fff; }
+.mtab[aria-selected="true"] { background: color-mix(in srgb, var(--ca) 26%, transparent); color: #fff; }
+.mpanel { min-height: 96px; display: flex; flex-direction: column; gap: 12px; }
+.mlist, .msteps { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 14.5px; color: #cdd3f2; line-height: 1.45; }
+.mlist li { display: flex; gap: 11px; }
+.mlist li::before { content: ""; flex: none; width: 6px; height: 6px; margin-top: 8px; border-radius: 2px; background: var(--ca); }
+.msteps { counter-reset: s; }
+.msteps li { display: flex; gap: 12px; counter-increment: s; }
+.msteps li::before { content: counter(s); flex: none; width: 22px; height: 22px; border-radius: 50%; border: 1px solid color-mix(in srgb, var(--ca) 70%, transparent); display: grid; place-items: center; font-family: var(--f-mono); font-size: 11px; color: var(--ca); }
+.callout { display: flex; gap: 10px; align-items: flex-start; padding: 10px 14px; border-radius: 12px; background: rgba(255,184,64,.1); border: 1px solid rgba(255,184,64,.35); color: #ffd9a0; font-size: 13.5px; line-height: 1.45; }
+.callout svg { flex: none; width: 16px; height: 16px; margin-top: 2px; }
+.facade { position: relative; display: block; width: 100%; aspect-ratio: 16/9; max-height: 320px; border-radius: 14px; overflow: hidden; border: 0; padding: 0; background: #000; }
+.facade .cover { position: absolute; inset: 0; }
+.facade .play { position: absolute; inset: 0; display: grid; place-items: center; }
+.facade .play span { width: 64px; height: 64px; border-radius: 50%; background: var(--yt); display: grid; place-items: center; box-shadow: 0 8px 30px rgba(230,33,23,.5); transition: transform .2s; }
+.facade:hover .play span { transform: scale(1.08); }
+.facade .play svg { width: 24px; height: 24px; margin-left: 3px; }
+.facade iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 
 /* ---------- invierno ---------- */
 html.winter .tube { background: #fff; }
@@ -259,8 +325,8 @@ html.winter .vignette::after { content: ""; position: absolute; inset: 0; box-sh
   <main id="view" aria-live="polite"></main>
 
   <footer class="foot"><div class="wrap">
-    <span>Hecho con café y homebrew</span>
-    <span>«© 2026 Scene Backup · Insert coin to continue»</span>
+    <span>Scene Backup · archivo personal</span>
+    <span>Los datos viven en data/games.json</span>
   </div></footer>
 </div>
 
@@ -321,12 +387,48 @@ const state = { q: '', sort: 'date-desc', page: 1, cat: 'all' };
 let route = { name: 'home' };
 
 /* ---------- datos ---------- */
+const toList = v => Array.isArray(v) ? v.filter(x => typeof x === 'string' && x.trim()) : (typeof v === 'string' && v.trim() ? [v] : []);
 function normalize(list) {
   return list.filter(g => g && g.title).map((g, i) => {
     const o = { category: 'Port', ...g, _id: i };
     o.ps = slug(o.platform) || 'otros';
     o.ck = catKey(o.category);
+    o.shots = toList(o.screenshots);
+    o.reqs = toList(o.requirements);
+    o.inst = toList(o.install);
+    o.warn = toList(o.warning)[0] || '';
     return o;
+  });
+}
+/* ---------- novedades ---------- */
+const RECENT_DAYS = 7;
+let events = [], badges = new Map();
+const daysAgo = d => { const t = Date.parse(String(d) + 'T00:00:00'); return isNaN(t) ? null : (Date.now() - t) / 864e5; };
+const isRecent = d => { const n = daysAgo(d); return n !== null && n <= RECENT_DAYS && n > -1; };
+function relTime(d) {
+  const n = Math.floor(daysAgo(d));
+  if (!(n >= 0)) return 'hoy';
+  if (n === 0) return 'hoy';
+  if (n === 1) return 'ayer';
+  if (n < 30) return `hace ${n} días`;
+  const m = Math.round(n / 30);
+  return m < 12 ? `hace ${m} ${m === 1 ? 'mes' : 'meses'}` : 'hace más de un año';
+}
+function buildEvents(log) {
+  const find = e => games.find(g => g.title === e.title && (!e.platform || slug(e.platform) === g.ps));
+  const list = [];
+  (Array.isArray(log) ? log : []).forEach(e => {
+    const g = e && e.title && find(e); if (!g || !e.date) return;
+    list.push({ type: 'update', date: String(e.date).slice(0, 10), from: e.from, to: e.to, game: g });
+  });
+  games.forEach(g => { if (g.added && daysAgo(g.added) !== null) list.push({ type: 'new', date: String(g.added).slice(0, 10), game: g }); });
+  list.sort((a, b) => b.date.localeCompare(a.date));
+  events = list.slice(0, 80);
+  badges = new Map();
+  list.forEach(e => {
+    if (!isRecent(e.date)) return;
+    if (e.type === 'new') badges.set(e.game._id, 'new');
+    else if (!badges.has(e.game._id)) badges.set(e.game._id, 'upd');
   });
 }
 function buildSystems() {
@@ -349,10 +451,11 @@ function setAccent(t) {
 }
 
 /* ---------- plantillas ---------- */
-function cover(g) {
+function cover(g, src) {
+  src = typeof src === 'string' ? src : g.cover;
   const t = theme(g.ps);
   const init = g.title.replace(/[^A-Za-z0-9 ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase() || '?';
-  return `<span class="cover" style="--ca:${t[0]};--cb:${t[1]}"><span class="fb">${esc(init)}</span>${g.cover ? `<img data-cv src="${esc(g.cover)}" alt="" loading="lazy">` : ''}</span>`;
+  return `<span class="cover" style="--ca:${t[0]};--cb:${t[1]}"><span class="fb">${esc(init)}</span>${src ? `<img data-cv src="${esc(src)}" alt="" loading="lazy">` : ''}</span>`;
 }
 function metaLine(g) {
   return [g.version ? 'v' + esc(g.version) : '', fmtDate(g.releaseDate)].filter(Boolean).join(' · ');
@@ -360,7 +463,7 @@ function metaLine(g) {
 function card(g) {
   const t = theme(g.ps);
   return `<article class="card" tabindex="0" role="button" data-id="${g._id}" aria-label="Abrir ${esc(g.title)}" style="--ca:${t[0]};--cb:${t[1]}">
-    <div class="card-cover">${cover(g)}<span class="tag">${esc(pname(g))}</span></div>
+    <div class="card-cover">${cover(g)}<span class="tag">${esc(pname(g))}</span>${badges.get(g._id) === 'new' ? '<span class="badge new">Nuevo</span>' : badges.get(g._id) === 'upd' ? '<span class="badge upd">Actualizado</span>' : ''}</div>
     <div class="card-body"><h3>${esc(g.title)}</h3><p class="meta">${metaLine(g)}</p></div>
     <div class="card-foot"><span class="cat">${esc(CAT_ONE[g.ck])}</span>${hasLink(g.downloadUrl) ? `<a class="dl" href="${esc(g.downloadUrl)}" target="_blank" rel="noopener" data-role="dl" aria-label="Descargar ${esc(g.title)}">${I_DL}Descargar</a>` : '<span class="hint">Ver ficha</span>'}</div>
   </article>`;
@@ -368,9 +471,10 @@ function card(g) {
 
 /* ---------- vistas ---------- */
 function navHTML() {
-  const cur = route.name === 'home' ? 'inicio' : route.name === 'sys' ? 's-' + route.ps : route.name === 'cat' ? 't-' + route.ck : 'todo';
-  const link = (id, label, ps) => `<a href="#${id}" ${cur === id ? 'aria-current="page"' : ''} style="--pa:${theme(ps || '')[0]}">${esc(label)}</a>`;
-  return link('inicio', 'Inicio', 'def') + link('todo', 'Todo', 'def') + systems.map(s => link('s-' + s.ps, s.name, s.ps)).join('');
+  const cur = route.name === 'home' ? 'inicio' : route.name === 'news' ? 'novedades' : route.name === 'sys' ? 's-' + route.ps : route.name === 'cat' ? 't-' + route.ck : 'todo';
+  const link = (id, label, ps, extra) => `<a href="#${id}" ${cur === id ? 'aria-current="page"' : ''} style="--pa:${theme(ps || '')[0]}">${esc(label)}${extra || ''}</a>`;
+  const hot = events.some(e => isRecent(e.date));
+  return link('inicio', 'Inicio', 'def') + link('todo', 'Todo', 'def') + link('novedades', 'Novedades', 'def', hot ? '<span class="dot" aria-label="con novedades recientes"></span>' : '') + systems.map(s => link('s-' + s.ps, s.name, s.ps)).join('');
 }
 function renderHome() {
   setAccent(HOME);
@@ -398,7 +502,7 @@ function renderHome() {
     <div class="stats"><span><b>${games.length}</b>elementos</span><span><b>${systems.length}</b>sistemas</span>${latest[0] ? `<span><b>${esc(fmtDate(latest[0].releaseDate) || '—')}</b>última subida</span>` : ''}</div>
   </div></section>
   <section class="block"><div class="wrap"><h2>Elige sistema</h2><p class="sub">Cada consola tiene su sección con sus propios colores.</p><div class="gates">${gates}</div></div></section>
-  <section class="block"><div class="wrap"><h2>Últimas subidas</h2></div><div class="rail">${latest.slice(0, 10).map(card).join('')}</div></section>
+  <section class="block"><div class="wrap hrow"><h2>Últimas subidas</h2><a href="#novedades">Ver historial de novedades →</a></div><div class="rail">${latest.slice(0, 10).map(card).join('')}</div></section>
   <section class="block"><div class="wrap"><h2>Por tipo</h2><p class="sub">También puedes recorrer todo el archivo por tipo de contenido.</p><div class="types">${types}</div></div></section>`;
 }
 function listBase() {
@@ -469,12 +573,34 @@ function renderResults() {
   $('#results').innerHTML = html;
 }
 
+function renderNews() {
+  setAccent(HOME);
+  let last = '', rows = '';
+  events.forEach(e => {
+    const g = e.game, t = theme(g.ps);
+    if (e.date !== last) { rows += `<h2 class="nday">${esc(fmtDate(e.date))}</h2>`; last = e.date; }
+    const right = e.type === 'update'
+      ? `<span class="nver">${e.from ? 'v' + esc(e.from) : '—'}<i>→</i>v${esc(e.to)}</span>`
+      : '<span class="npill">Nuevo en el archivo</span>';
+    rows += `<button class="nrow" type="button" data-id="${g._id}" style="--ca:${t[0]};--cb:${t[1]}"><span class="nth">${cover(g)}</span><span class="nmain"><b>${esc(g.title)}</b><span>${esc(pname(g))} · ${esc(CAT_ONE[g.ck])}</span></span>${right}<span class="nrel">${relTime(e.date)}</span></button>`;
+  });
+  return `
+  <section class="shead"><div class="wrap">
+    <a class="crumb" href="#inicio">← Inicio</a>
+    <h1 class="stitle">Novedades</h1>
+    <p class="sdesc">Altas y actualizaciones, de la más reciente a la más antigua.</p>
+    <p class="sinfo">${events.length} ${events.length === 1 ? 'movimiento' : 'movimientos'} registrados</p>
+  </div></section>
+  <div class="wrap"><div class="news">${rows || '<p class="empty">Todavía no hay novedades. Aparecerán aquí cuando se actualice una versión o añadas la fecha "added" a una entrada.</p>'}</div></div>`;
+}
+
 /* ---------- router ---------- */
 function parseRoute() {
   const h = decodeURIComponent(location.hash.replace(/^#/, ''));
   if (h.startsWith('s-') && systems.some(s => s.ps === h.slice(2))) return { name: 'sys', ps: h.slice(2) };
   if (h.startsWith('t-') && CATS[h.slice(2)]) return { name: 'cat', ck: h.slice(2) };
   if (h === 'todo') return { name: 'all' };
+  if (h === 'novedades') return { name: 'news' };
   return { name: 'home' };
 }
 let keepQ = false;
@@ -484,10 +610,10 @@ function render() {
   keepQ = false;
   state.page = 1; state.cat = 'all'; state.sys = null;
   const v = $('#view');
-  v.innerHTML = route.name === 'home' ? renderHome() : renderSection();
+  v.innerHTML = route.name === 'home' ? renderHome() : route.name === 'news' ? renderNews() : renderSection();
   $('#navlinks').innerHTML = navHTML();
   const cur = $('#navlinks [aria-current="page"]'); if (cur) cur.scrollIntoView({ inline: 'center', block: 'nearest' });
-  if (route.name !== 'home') { $('#sort').value = state.sort; renderResults(); }
+  if (route.name !== 'home' && route.name !== 'news') { $('#sort').value = state.sort; renderResults(); }
   window.scrollTo(0, 0);
   document.title = route.name === 'sys' ? `${systems.find(s => s.ps === route.ps).name} · Scene Backup` : 'Scene Backup';
 }
@@ -508,7 +634,8 @@ view.addEventListener('click', e => {
   if (st) { state.sys = st.dataset.sys === 'all' ? null : st.dataset.sys; state.page = 1; document.querySelectorAll('[data-sys]').forEach(b => b.setAttribute('aria-pressed', b === st)); renderResults(); return; }
   if (pg && !pg.disabled) { state.page = +pg.dataset.page; renderResults(); $('#results').scrollIntoView({ block: 'start' }); return; }
   if (e.target.closest('[data-role="dl"]')) return;
-  const c = e.target.closest('.card'); if (c) openModal(+c.dataset.id, c);
+  const c = e.target.closest('.card'); if (c) { openModal(+c.dataset.id, c); return; }
+  const n = e.target.closest('.nrow'); if (n) openModal(+n.dataset.id, n);
 });
 view.addEventListener('keydown', e => {
   const c = e.target.closest && e.target.closest('.card');
@@ -533,31 +660,75 @@ window.addEventListener('hashchange', render);
 /* ---------- ficha ---------- */
 const ov = $('#ov'), modal = $('#modal');
 let lastFocus = null;
+const I_WARN = svg('<path d="M12 3l10 18H2zM12 10v5M12 18h.01"/>');
+const ytId = u => { const m = String(u).match(/(?:youtu\.be\/|[?&]v=|embed\/|shorts\/)([\w-]{11})/); return m ? m[1] : ''; };
+let cur = null;
+function renderModal() {
+  const g = cur.g, t = theme(g.ps);
+  const list = [g.cover, ...g.shots].filter(Boolean);
+  if (!list.length) list.push('');
+  cur.n = list.length;
+  if (cur.shot >= list.length) cur.shot = 0;
+  cur.vid = hasLink(g.youtubeUrl) ? ytId(g.youtubeUrl) : '';
+  const tabs = [['info', 'Info'], g.reqs.length ? ['req', 'Requisitos'] : null, g.inst.length ? ['ins', 'Instalación'] : null, cur.vid ? ['video', 'Vídeo'] : null].filter(Boolean);
+  cur.tabKeys = tabs.map(x => x[0]);
+  if (!cur.tabKeys.includes(cur.tab)) cur.tab = 'info';
+  let panel = '';
+  if (cur.tab === 'info') panel = `<p class="mdesc">${esc(g.description || 'Sin descripción todavía.')}</p>${g.warn ? `<div class="callout">${I_WARN}<span>${esc(g.warn)}</span></div>` : ''}`;
+  if (cur.tab === 'req') panel = `<ul class="mlist">${g.reqs.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  if (cur.tab === 'ins') panel = `<ol class="msteps">${g.inst.map(x => `<li><span>${esc(x)}</span></li>`).join('')}</ol>`;
+  if (cur.tab === 'video') panel = `<button class="facade" type="button" data-play aria-label="Reproducir vídeo">${cover(g, list[0])}<span class="play"><span>${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}</span></span></button>`;
+  const multi = list.length > 1, i = cur.shot, n = list.length;
+  const gal = `<div class="gal"><div class="gstage">${cover(g, list[i])}${multi ? `<button class="gnav prev" type="button" data-shot="${(i - 1 + n) % n}" aria-label="Imagen anterior">${svg('<path d="M15 6l-6 6 6 6"/>')}</button><button class="gnav next" type="button" data-shot="${(i + 1) % n}" aria-label="Imagen siguiente">${svg('<path d="M9 6l6 6-6 6"/>')}</button><span class="gcount">${i + 1} / ${n}</span>` : ''}</div>${multi ? `<div class="thumbs">${list.map((s, k) => `<button class="thumb" type="button" data-shot="${k}" aria-label="Imagen ${k + 1}" ${k === i ? 'aria-current="true"' : ''}>${cover(g, s)}</button>`).join('')}</div>` : ''}</div>`;
+  const links = [
+    hasLink(g.downloadUrl) ? `<a class="mbtn pri" href="${esc(g.downloadUrl)}" target="_blank" rel="noopener">${I_DL}Descargar</a>` : '',
+    hasLink(g.sourceUrl) ? `<a class="mbtn" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener">Código fuente</a>` : '',
+    hasLink(g.youtubeUrl) ? `<a class="mbtn yt" href="${esc(g.youtubeUrl)}" target="_blank" rel="noopener">${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}YouTube</a>` : ''
+  ].join('') || '<p class="hint">No hay enlaces disponibles todavía.</p>';
+  modal.dataset.tab = cur.tab;
+  modal.innerHTML = `<button class="mx" id="mx" type="button" aria-label="Cerrar">${I_X}</button>${gal}
+    <div class="mbody">
+      <div class="mtags"><span>${esc(pname(g))}</span><span>${esc(CAT_ONE[g.ck])}</span>${g.version ? `<span>v${esc(g.version)}</span>` : ''}${fmtDate(g.releaseDate) ? `<span>${esc(fmtDate(g.releaseDate))}</span>` : ''}</div>
+      <h2 class="mtitle" id="m-title">${esc(g.title)}</h2>
+      ${tabs.length > 1 ? `<div class="mtabs" role="tablist">${tabs.map(([k, l]) => `<button class="mtab" role="tab" type="button" data-tab="${k}" aria-selected="${k === cur.tab}">${l}</button>`).join('')}</div>` : ''}
+      <div class="mpanel" ${tabs.length > 1 ? 'role="tabpanel"' : ''}>${panel}</div>
+      <div class="mlinks">${links}</div>
+    </div>`;
+}
 function openModal(id, from) {
   const g = games.find(x => x._id === id); if (!g) return;
   const t = theme(g.ps);
   lastFocus = from || document.activeElement;
   modal.style.setProperty('--ca', winter ? WINTER[0] : t[0]); modal.style.setProperty('--cb', winter ? WINTER[1] : t[1]);
-  const links = [
-    hasLink(g.downloadUrl) ? `<a class="mbtn pri" href="${esc(g.downloadUrl)}" target="_blank" rel="noopener">${I_DL}Descargar</a>` : '',
-    hasLink(g.sourceUrl) ? `<a class="mbtn" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener">Código fuente</a>` : '',
-    hasLink(g.youtubeUrl) ? `<a class="mbtn yt" href="${esc(g.youtubeUrl)}" target="_blank" rel="noopener">${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}Vídeo</a>` : ''
-  ].join('') || '<p class="hint">No hay enlaces disponibles todavía.</p>';
-  modal.innerHTML = `<button class="mx" id="mx" type="button" aria-label="Cerrar">${I_X}</button>
-    ${cover(g).replace('class="cover"', 'class="cover" style="--ca:' + t[0] + ';--cb:' + t[1] + '"')}
-    <div class="mbody">
-      <div class="mtags"><span>${esc(pname(g))}</span><span>${esc(CAT_ONE[g.ck])}</span>${g.version ? `<span>v${esc(g.version)}</span>` : ''}${fmtDate(g.releaseDate) ? `<span>${esc(fmtDate(g.releaseDate))}</span>` : ''}</div>
-      <h2 class="mtitle" id="m-title">${esc(g.title)}</h2>
-      <p class="mdesc">${esc(g.description || 'Sin descripción todavía.')}</p>
-      <div class="mlinks">${links}</div>
-    </div>`;
+  cur = { g, tab: 'info', shot: 0 };
+  renderModal();
   ov.hidden = false; document.body.style.overflow = 'hidden'; $('#mx').focus();
 }
 function closeModal() {
   if (ov.hidden) return;
-  ov.hidden = true; document.body.style.overflow = '';
+  ov.hidden = true; document.body.style.overflow = ''; cur = null;
   if (lastFocus && lastFocus.focus) lastFocus.focus();
 }
+modal.addEventListener('click', e => {
+  if (!cur) return;
+  const tb = e.target.closest('[data-tab]');
+  if (tb) { cur.tab = tb.dataset.tab; renderModal(); const el = modal.querySelector(`[data-tab="${cur.tab}"]`); if (el) el.focus(); return; }
+  const sh = e.target.closest('[data-shot]');
+  if (sh) {
+    const sel = sh.classList.contains('next') ? '.gnav.next' : sh.classList.contains('prev') ? '.gnav.prev' : '.thumb[aria-current="true"]';
+    cur.shot = +sh.dataset.shot; renderModal(); const el = modal.querySelector(sel); if (el) el.focus(); return;
+  }
+  const pl = e.target.closest('[data-play]');
+  if (pl && cur.vid) pl.outerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${cur.vid}?autoplay=1&rel=0" title="Vídeo" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+});
+document.addEventListener('keydown', e => {
+  if (ov.hidden || !cur || (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight')) return;
+  const dir = e.key === 'ArrowRight' ? 1 : -1;
+  if (e.target.closest && e.target.closest('[role="tab"]')) {
+    const ks = cur.tabKeys; cur.tab = ks[(ks.indexOf(cur.tab) + dir + ks.length) % ks.length]; renderModal();
+    const el = modal.querySelector(`[data-tab="${cur.tab}"]`); if (el) el.focus();
+  } else if (cur.n > 1) { cur.shot = (cur.shot + dir + cur.n) % cur.n; renderModal(); }
+});
 ov.addEventListener('click', e => { if (e.target === ov || e.target.closest('#mx')) closeModal(); });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') closeModal();
@@ -639,6 +810,8 @@ async function boot() {
     return;
   }
   games = normalize(data); buildSystems();
+  let log = []; try { const r = await fetch('data/changelog.json', { cache: 'no-store' }); if (r.ok) log = await r.json(); } catch (_) {}
+  buildEvents(log);
   let w = false; try { w = localStorage.getItem(WINTER_KEY) === '1'; } catch (_) {}
   resize(); setWinter(w, false);
   render();
