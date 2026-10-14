@@ -35,6 +35,18 @@
     "repo": "ZiZc3/VLC"
   },
   {
+    "title": "ProsperoStore",
+    "category": "App",
+    "platform": "PS5",
+    "cover": "assets/covers/ProsperoStore.jpg",
+    "version": "1.000.070",
+    "releaseDate": "2026-10-14",
+    "description": "Tienda nativa de homebrew para PS5 con soporte de mando y teclado.",
+    "downloadUrl": "https://github.com/blackbearreloaded/ProsperoStore/releases",
+    "sourceUrl": "https://github.com/blackbearreloaded/ProsperoStore",
+    "repo": "blackbearreloaded/ProsperoStore"
+  },
+  {
     "title": "SoulCalibur IV (ReXGlue)",
     "category": "Port",
     "platform": "PC",
