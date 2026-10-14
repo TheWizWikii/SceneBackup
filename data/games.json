@@ -23,6 +23,18 @@
     "sourceUrl": "https://jayjay-1992.itch.io/resident-evil-0-n64-e3tgs-2000-demo-remake"
   },
   {
+    "title": "Salsa64",
+    "category": "Emulador",
+    "platform": "PS3",
+    "cover": "assets/covers/salsa64.png",
+    "version": "0.2.5",
+    "releaseDate": "2026-10-14",
+    "description": "Emulador de Nintendo 64 para PS3 (homebrew, HEN/CFW).",
+    "downloadUrl": "https://github.com/ricowp81/Salsa64/releases",
+    "sourceUrl": "https://github.com/ricowp81/Salsa64",
+    "repo": "ricowp81/Salsa64"
+  },
+  {
     "title": "VLC media player",
     "category": "App",
     "platform": "PS5",
