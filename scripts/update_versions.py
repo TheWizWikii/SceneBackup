@@ -11,6 +11,8 @@ import urllib.error
 import urllib.request
 
 PATH = "data/games.json"
+LOG = "data/changelog.json"
+LOG_MAX = 200
 
 
 def api(url):
@@ -48,6 +50,12 @@ def main():
     with open(PATH, encoding="utf-8") as f:
         games = json.load(f)
 
+    try:
+        with open(LOG, encoding="utf-8") as f:
+            log = json.load(f)
+    except (FileNotFoundError, ValueError):
+        log = []
+
     changed = 0
     for g in games:
         repo = g.get("repo")
@@ -76,6 +84,11 @@ def main():
 
         new_version = tag[1:] if tag[:1] in "vV" and tag[1:2].isdigit() else tag
         print(f"[actualizado] {g['title']}: {g.get('version')} -> {new_version} ({date})")
+        entry = {"title": g["title"], "platform": g.get("platform", ""),
+                 "from": str(g.get("version", "")), "to": new_version,
+                 "date": date or ""}
+        if entry not in log:
+            log.insert(0, entry)
         g["version"] = new_version
         if date:
             g["releaseDate"] = date
@@ -84,6 +97,9 @@ def main():
     if changed:
         with open(PATH, "w", encoding="utf-8") as f:
             json.dump(games, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        with open(LOG, "w", encoding="utf-8") as f:
+            json.dump(log[:LOG_MAX], f, indent=2, ensure_ascii=False)
             f.write("\n")
     print(f"Entradas actualizadas: {changed}")
     return 0
