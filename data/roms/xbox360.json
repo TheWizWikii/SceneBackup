@@ -1,345 +1,18 @@
 [
   {
-    "title": "Halo 3",
+    "title": "Ace Combat 6: Fires of Liberation",
     "year": 2007,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
-    "genre": "Shooter",
-    "developer": "Bungie",
-    "synopsis": "El Jefe Maestro termina la guerra contra el Covenant.",
-    "cover": "Halo 3 (World) (v3).jpg",
-    "boxart": "Halo 3 (World) (v3)",
-    "size": "952 KB"
-  },
-  {
-    "title": "Halo: Reach",
-    "year": 2010,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Bungie",
-    "synopsis": "El equipo Noble defiende el planeta Reach.",
-    "cover": "Halo - Reach (World) (v1).jpg",
-    "boxart": "Halo - Reach (World) (v1)",
-    "size": "1.4 MB"
-  },
-  {
-    "title": "Gears of War",
-    "year": 2006,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Epic Games",
-    "synopsis": "Marcus Fenix se enfrenta a la horda Locust.",
-    "cover": "Gears of War (USA) (v1).jpg",
-    "boxart": "Gears of War (USA) (v1)",
-    "size": "2.0 MB"
-  },
-  {
-    "title": "Gears of War 2",
-    "year": 2008,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Epic Games",
-    "synopsis": "El escuadrón Delta combate bajo tierra contra los Locust.",
-    "cover": "Gears of War 2 (USA) (v3).jpg",
-    "boxart": "Gears of War 2 (USA) (v3)",
-    "size": "2.3 MB"
-  },
-  {
-    "title": "Gears of War 3",
-    "year": 2011,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Epic Games",
-    "synopsis": "Marcus y Delta ponen fin a la guerra.",
-    "cover": "Gears of War 3 (World) (v1).jpg",
-    "boxart": "Gears of War 3 (World) (v1)",
-    "size": "2.0 MB"
-  },
-  {
-    "title": "Mass Effect",
-    "year": 2007,
-    "region": "Europa",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "BioWare",
-    "synopsis": "Shepard se une al Concilio para frenar a Saren.",
-    "cover": "Mass Effect (Europe) (v1a).jpg",
-    "boxart": "Mass Effect (Europe) (v1a)",
-    "size": "2.8 MB"
-  },
-  {
-    "title": "Mass Effect 2",
-    "year": 2010,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "BioWare",
-    "synopsis": "Shepard monta un equipo para detener a los Recolectores.",
-    "cover": "Mass Effect 2 (World) (v2).jpg",
-    "boxart": "Mass Effect 2 (World) (v2)",
-    "size": "3.7 MB"
-  },
-  {
-    "title": "Mass Effect 3",
-    "year": 2012,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "BioWare",
-    "synopsis": "Shepard une a la galaxia contra los Segadores.",
-    "cover": "Mass Effect 3 (World) (4541095D) (Addon).jpg",
-    "boxart": "Mass Effect 3 (World) (4541095D) (Addon)",
-    "size": "164 KB"
-  },
-  {
-    "title": "Fallout 3",
-    "year": 2008,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "Bethesda",
-    "synopsis": "Un morador del Refugio 101 busca a su padre.",
-    "cover": "Fallout 3 (World) (425307D5) (Addon).jpg",
-    "boxart": "Fallout 3 (World) (425307D5) (Addon)",
-    "size": "100 KB"
-  },
-  {
-    "title": "Fallout: New Vegas",
-    "year": 2010,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "Obsidian",
-    "synopsis": "Un mensajero sobrevive en el Yermo de Mojave.",
-    "cover": "Fallout - New Vegas (USA, Europe) (v1).jpg",
-    "boxart": "Fallout - New Vegas (USA, Europe) (v1)",
-    "size": "2.4 MB"
-  },
-  {
-    "title": "The Elder Scrolls IV: Oblivion",
-    "year": 2006,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "Bethesda",
-    "synopsis": "Un prisionero libera Cyrodiil de las puertas.",
-    "cover": "The Elder Scrolls IV - Oblivion (USA) (v1).jpg",
-    "boxart": "The Elder Scrolls IV - Oblivion (USA) (v1)",
-    "size": "2.6 MB"
-  },
-  {
-    "title": "The Elder Scrolls V: Skyrim",
-    "year": 2011,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "Bethesda",
-    "synopsis": "El Último Sangre de Dragón en Skyrim.",
-    "cover": "Elder Scrolls V - Skyrim, The (USA, Europe) (v10) (34F5B6C3) (Title Update).jpg",
-    "boxart": "Elder Scrolls V - Skyrim, The (USA, Europe) (v10) (34F5B6C3) (Title Update)",
-    "size": "25.5 MB"
-  },
-  {
-    "title": "Red Dead Redemption",
-    "year": 2010,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Acción",
-    "developer": "Rockstar San Diego",
-    "synopsis": "John Marston y el final del Salvaje Oeste.",
-    "cover": "Red Dead Redemption (World) (v1).jpg",
-    "boxart": "Red Dead Redemption (World) (v1)",
-    "size": "1.5 MB"
-  },
-  {
-    "title": "Grand Theft Auto IV",
-    "year": 2008,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Acción",
-    "developer": "Rockstar North",
-    "synopsis": "Niko Bellic busca su sueño americano en Liberty City.",
-    "cover": "Grand Theft Auto IV (USA) (v4).jpg",
-    "boxart": "Grand Theft Auto IV (USA) (v4)",
-    "size": "3.4 MB"
-  },
-  {
-    "title": "Grand Theft Auto V",
-    "year": 2013,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Acción",
-    "developer": "Rockstar North",
-    "synopsis": "Tres criminales en Los Santos.",
-    "cover": "Grand Theft Auto V (World) (v27).jpg",
-    "boxart": "Grand Theft Auto V (World) (v27)",
-    "size": "125.4 MB"
-  },
-  {
-    "title": "BioShock",
-    "year": 2007,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "2K Boston",
-    "synopsis": "Jack descubre la ciudad submarina de Rapture.",
-    "cover": "BioShock (World) (v3).jpg",
-    "boxart": "BioShock (World) (v3)",
-    "size": "992 KB"
-  },
-  {
-    "title": "BioShock Infinite",
-    "year": 2013,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Irrational Games",
-    "synopsis": "Booker DeWitt rescata a Elizabeth en Columbia.",
-    "cover": "BioShock Infinite (World) (5454085D) (Addon).jpg",
-    "boxart": "BioShock Infinite (World) (5454085D) (Addon)",
-    "size": "240 KB"
-  },
-  {
-    "title": "Portal 2",
-    "year": 2011,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Puzle",
-    "developer": "Valve",
-    "synopsis": "Chell resuelve puzles con GLaDOS.",
-    "cover": "Portal 2 (World) (v1).jpg",
-    "boxart": "Portal 2 (World) (v1)",
-    "size": "2.4 MB"
-  },
-  {
-    "title": "Left 4 Dead 2",
-    "year": 2009,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Valve",
-    "synopsis": "Cuatro supervivientes frente a infectados.",
-    "cover": "Left 4 Dead 2 (World) (v1).jpg",
-    "boxart": "Left 4 Dead 2 (World) (v1)",
-    "size": "2.1 MB"
-  },
-  {
-    "title": "Call of Duty 4: Modern Warfare",
-    "year": 2007,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Infinity Ward",
-    "synopsis": "Soldados persiguen a un terrorista.",
-    "cover": "Call of Duty 4 - Modern Warfare (World) (v1).jpg",
-    "boxart": "Call of Duty 4 - Modern Warfare (World) (v1)",
-    "size": "1.2 MB"
-  },
-  {
-    "title": "Borderlands 2",
-    "year": 2012,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Shooter",
-    "developer": "Gearbox",
-    "synopsis": "Cuatro cazadores de la cámara se enfrentan a Handsome Jack.",
-    "cover": "Borderlands 2 (World) (5454087C) (Addon).jpg",
-    "boxart": "Borderlands 2 (World) (5454087C) (Addon)",
-    "size": "240 KB"
-  },
-  {
-    "title": "Dead Rising",
-    "year": 2006,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Acción",
-    "developer": "Capcom",
-    "synopsis": "Frank West sobrevive a una horda en un centro comercial."
-  },
-  {
-    "title": "Resident Evil 5",
-    "year": 2009,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Terror",
-    "developer": "Capcom",
-    "synopsis": "Chris Redfield y Sheva en África.",
-    "cover": "Resident Evil 5 (World) (434307D4) (Addon).jpg",
-    "boxart": "Resident Evil 5 (World) (434307D4) (Addon)",
-    "size": "164 KB"
+    "genre": "Simulación de vuelo",
+    "developer": "Namco Bandai",
+    "synopsis": "Vuela en combates aéreos intensos con gráficos impresionantes y una historia épica de guerra.",
+    "cover": "ace_combat_6.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
     "title": "Alan Wake",
@@ -349,12 +22,102 @@
       "Español",
       "Inglés"
     ],
+    "genre": "Survival Horror",
+    "developer": "Remedy Entertainment",
+    "synopsis": "Un escritor de novelas de terror busca a su esposa desaparecida en un pueblo oscuro y misterioso.",
+    "cover": "alan_wake.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Alice: Madness Returns",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Spicy Horse",
+    "synopsis": "Alicia regresa al País de las Maravillas para enfrentar sus traumas y luchar contra criaturas retorcidas.",
+    "cover": "alice_madness_returns.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Alien vs Predator",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
     "genre": "Acción",
-    "developer": "Remedy",
-    "synopsis": "Un escritor se enfrenta a la oscuridad.",
-    "cover": "Alan Wake (World) (4D530805) (Addon).jpg",
-    "boxart": "Alan Wake (World) (4D530805) (Addon)",
-    "size": "224 KB"
+    "developer": "Rebellion Developments",
+    "synopsis": "Vive tres campañas diferentes como Alien, Predator o Marine en este brutal juego de lucha.",
+    "cover": "alien_vs_predator.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Alone in the Dark",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Survival Horror",
+    "developer": "Eden Games",
+    "synopsis": "Un detective investiga un extraño fenómeno en el Central Park de Nueva York.",
+    "cover": "alone_in_the_dark.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Army of Two",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "EA Montreal",
+    "synopsis": "Dos mercenarios trabajan juntos en misiones de alto riesgo con un sistema de cooperación único.",
+    "cover": "army_of_two.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Army of Two: The 40th Day",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "EA Montreal",
+    "synopsis": "La secuela del exitoso Army of Two con más acción y un sistema de moralidad.",
+    "cover": "army_of_two_40th_day.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Assassin's Creed",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "El primer juego de la saga Assassin's Creed. Viaja a Tierra Santa durante la Tercera Cruzada.",
+    "cover": "assassins_creed.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
     "title": "Assassin's Creed II",
@@ -364,12 +127,102 @@
       "Español",
       "Inglés"
     ],
-    "genre": "Acción",
+    "genre": "Acción-Aventura",
     "developer": "Ubisoft Montreal",
-    "synopsis": "Ezio Auditore en la Italia renacentista.",
-    "cover": "Assassin's Creed II (World) (5553083B) (Addon).jpg",
-    "boxart": "Assassin's Creed II (World) (5553083B) (Addon)",
-    "size": "196 KB"
+    "synopsis": "Ezio Auditore inicia su viaje como asesino en el Renacimiento italiano.",
+    "cover": "assassins_creed_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Assassin's Creed: Brotherhood",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "Ezio lidera la hermandad de asesinos en Roma contra los Borgia.",
+    "cover": "assassins_creed_brotherhood.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Assassin's Creed: Revelations",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "Ezio viaja a Constantinopla en busca de los secretos de Altaïr.",
+    "cover": "assassins_creed_revelations.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Assassin's Creed III",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "La Revolución Americana vista a través de los ojos del asesino Connor.",
+    "cover": "assassins_creed_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Assassin's Creed IV: Black Flag",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "Edward Kenway, un pirata, se convierte en asesino en el Caribe del siglo XVIII.",
+    "cover": "assassins_creed_black_flag.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Assassin's Creed Rogue",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Ubisoft Sofia",
+    "synopsis": "Un cazador de asesinos que se convierte en templario durante la guerra de los Siete Años.",
+    "cover": "assassins_creed_rogue.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Batman: Arkham Asylum",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Rocksteady Studios",
+    "synopsis": "Batman se enfrenta a sus peores enemigos encerrados en el Asilo Arkham.",
+    "cover": "batman_arkham_asylum.png",
+    "trailer": "",
+    "size": ""
   },
   {
     "title": "Batman: Arkham City",
@@ -379,45 +232,90 @@
       "Español",
       "Inglés"
     ],
-    "genre": "Acción",
-    "developer": "Rocksteady",
-    "synopsis": "Batman se enfrenta al Joker en la ciudad prisión.",
-    "cover": "Batman - Arkham City (World) (v1).jpg",
-    "boxart": "Batman - Arkham City (World) (v1)",
-    "size": "5.6 MB"
+    "genre": "Acción-Aventura",
+    "developer": "Rocksteady Studios",
+    "synopsis": "Batman es encarcelado en Arkham City, una prisión gigante donde todos sus enemigos se han unido.",
+    "cover": "batman_arkham_city.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Forza Motorsport 4",
-    "year": 2011,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Carreras",
-    "developer": "Turn 10 Studios",
-    "synopsis": "Simulación con Kinect y miles de coches.",
-    "cover": "Forza Motorsport 4 (USA) (v1).jpg",
-    "boxart": "Forza Motorsport 4 (USA) (v1)",
-    "size": "6.8 MB"
-  },
-  {
-    "title": "Forza Horizon",
-    "year": 2012,
+    "title": "Batman: Arkham Origins",
+    "year": 2013,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
-    "genre": "Carreras",
-    "developer": "Playground Games",
-    "synopsis": "Un festival de coches en Colorado.",
-    "cover": "Forza Horizon (World) (v4) (Title Update).jpg",
-    "boxart": "Forza Horizon (World) (v4) (Title Update)",
-    "size": "15.0 MB"
+    "genre": "Acción-Aventura",
+    "developer": "WB Games Montreal",
+    "synopsis": "Un joven Batman en su segundo año de lucha contra el crimen en Gotham.",
+    "cover": "batman_arkham_origins.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Street Fighter IV",
+    "title": "Bayonetta",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Una bruja despierta después de 500 años para luchar contra ángeles y demonios.",
+    "cover": "bayonetta.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "BioShock",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Irrational Games",
+    "synopsis": "Un hombre llega a la ciudad submarina de Rapture, una utopía que se ha convertido en pesadilla.",
+    "cover": "bioshock.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "BioShock 2",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "2K Marin",
+    "synopsis": "Una década después del primer juego, una Big Sister amenaza Rapture.",
+    "cover": "bioshock_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "BioShock Infinite",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Irrational Games",
+    "synopsis": "La ciudad flotante de Columbia en 1912. Un detective debe rescatar a una misteriosa mujer.",
+    "cover": "bioshock_infinite.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "BlazBlue: Calamity Trigger",
     "year": 2009,
     "region": "Mundial",
     "languages": [
@@ -425,80 +323,311 @@
       "Inglés"
     ],
     "genre": "Lucha",
-    "developer": "Capcom",
-    "synopsis": "La lucha 2D con gráficos 3D.",
-    "cover": "Street Fighter IV (World) (v1).jpg",
-    "boxart": "Street Fighter IV (World) (v1)",
-    "size": "408 KB"
+    "developer": "Arc System Works",
+    "synopsis": "Un juego de lucha 2D con personajes anime y un sistema de combate profundo.",
+    "cover": "blazblue_calamity_trigger.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Dead or Alive 4",
+    "title": "Borderlands",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS RPG",
+    "developer": "Gearbox Software",
+    "synopsis": "Un juego de disparos con elementos RPG en el planeta Pandora, lleno de armas y saqueo.",
+    "cover": "borderlands.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Borderlands 2",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS RPG",
+    "developer": "Gearbox Software",
+    "synopsis": "La secuela con más armas, más humor y más acción en el planeta Pandora.",
+    "cover": "borderlands_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Borderlands: The Pre-Sequel",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS RPG",
+    "developer": "2K Australia",
+    "synopsis": "Los eventos entre Borderlands y Borderlands 2, en la luna de Pandora.",
+    "cover": "borderlands_pre_sequel.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Brutal Legend",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Double Fine Productions",
+    "synopsis": "Un mánager de heavy metal viaja a un mundo de fantasía inspirado en el rock.",
+    "cover": "brutal_legend.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Bulletstorm",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "People Can Fly",
+    "synopsis": "Un shooter con mecánicas de habilidad y un sistema de puntos por muertes creativas.",
+    "cover": "bulletstorm.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Burnout Paradise",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Criterion Games",
+    "synopsis": "Un juego de carreras en mundo abierto con destrucción espectacular.",
+    "cover": "burnout_paradise.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty 2",
     "year": 2005,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Lucha",
-    "developer": "Team Ninja",
-    "synopsis": "Combates con contraataques.",
-    "cover": "Dead Or Alive 4 (USA, Europe) (v1).jpg",
-    "boxart": "Dead Or Alive 4 (USA, Europe) (v1)",
-    "size": "1.0 MB"
-  },
-  {
-    "title": "Ninja Gaiden II",
-    "year": 2008,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
-    "genre": "Acción",
-    "developer": "Team Ninja",
-    "synopsis": "Ryu Hayabusa contra el Clan del Dragón."
+    "genre": "FPS",
+    "developer": "Infinity Ward",
+    "synopsis": "El primer Call of Duty de la generación Xbox 360, basado en la Segunda Guerra Mundial.",
+    "cover": "call_of_duty_2.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Lost Odyssey",
+    "title": "Call of Duty 3",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Treyarch",
+    "synopsis": "Sigue la campaña aliada durante la Segunda Guerra Mundial.",
+    "cover": "call_of_duty_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty 4: Modern Warfare",
     "year": 2007,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
-    "genre": "RPG",
-    "developer": "Mistwalker",
-    "synopsis": "Kaim, un inmortal, recupera su memoria."
+    "genre": "FPS",
+    "developer": "Infinity Ward",
+    "synopsis": "El juego que revolucionó los shooters con su ambientación moderna.",
+    "cover": "call_of_duty_4.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Blue Dragon",
-    "year": 2007,
-    "region": "Japón",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "RPG",
-    "developer": "Mistwalker",
-    "synopsis": "Shu y sus amigos se enfrentan a Nene.",
-    "cover": "Blue Dragon (Japan) (v2).jpg",
-    "boxart": "Blue Dragon (Japan) (v2)",
-    "size": "1.8 MB"
-  },
-  {
-    "title": "Fable II",
+    "title": "Call of Duty: World at War",
     "year": 2008,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
-    "genre": "RPG",
-    "developer": "Lionhead Studios",
-    "synopsis": "Un héroe en un mundo de decisiones.",
-    "cover": "Fable II (World) (v2).jpg",
-    "boxart": "Fable II (World) (v2)",
-    "size": "3.8 MB"
+    "genre": "FPS",
+    "developer": "Treyarch",
+    "synopsis": "Vuelta a la Segunda Guerra Mundial con el modo Zombies incluido.",
+    "cover": "call_of_duty_world_at_war.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty: Modern Warfare 2",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Infinity Ward",
+    "synopsis": "La secuela del Modern Warfare original, con una campaña espectacular.",
+    "cover": "call_of_duty_mw2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty: Black Ops",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Treyarch",
+    "synopsis": "La Guerra Fría y operaciones encubiertas en este juego de Treyarch.",
+    "cover": "call_of_duty_black_ops.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty: Modern Warfare 3",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Infinity Ward",
+    "synopsis": "El final de la trilogía Modern Warfare, con la Tercera Guerra Mundial.",
+    "cover": "call_of_duty_mw3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty: Black Ops II",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Treyarch",
+    "synopsis": "Viaja al futuro con misiones en el año 2025.",
+    "cover": "call_of_duty_black_ops_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty: Ghosts",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Infinity Ward",
+    "synopsis": "Una nueva historia en un mundo post-apocalíptico.",
+    "cover": "call_of_duty_ghosts.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Call of Duty: Advanced Warfare",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Sledgehammer Games",
+    "synopsis": "Exoesqueletos y armas futuristas en este reinicio de la saga.",
+    "cover": "call_of_duty_advanced_warfare.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Castlevania: Lords of Shadow",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "MercurySteam",
+    "synopsis": "Un reinicio de la saga Castlevania con un enfoque más oscuro y épico.",
+    "cover": "castlevania_lords_of_shadow.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Castlevania: Lords of Shadow 2",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "MercurySteam",
+    "synopsis": "Dracula despierta en la era moderna para enfrentar a Satanás.",
+    "cover": "castlevania_lords_of_shadow_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Catherine",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzzle / Aventura",
+    "developer": "Atlus",
+    "synopsis": "Un juego de puzzles y romance con una historia adulta y surrealista.",
+    "cover": "catherine.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Condemned: Criminal Origins",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Survival Horror",
+    "developer": "Monolith Productions",
+    "synopsis": "Un juego de terror en primera persona donde investigas asesinatos en la ciudad.",
+    "cover": "condemned_criminal_origins.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
     "title": "Crackdown",
@@ -510,96 +639,1194 @@
     ],
     "genre": "Acción",
     "developer": "Realtime Worlds",
-    "synopsis": "Un agente con poderes en Pacific City.",
-    "cover": "Crackdown (World) (v5).jpg",
-    "boxart": "Crackdown (World) (v5)",
-    "size": "2.3 MB"
+    "synopsis": "Un agente superpoderoso limpia las calles de Pacific City.",
+    "cover": "crackdown.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Viva Piñata",
-    "year": 2006,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Simulación",
-    "developer": "Rare",
-    "synopsis": "Crea un jardín para los animales piñata."
-  },
-  {
-    "title": "Banjo-Kazooie: Nuts & Bolts",
-    "year": 2008,
-    "region": "USA",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Plataformas",
-    "developer": "Rare",
-    "synopsis": "Banjo y Kazooie construyen vehículos.",
-    "cover": "Banjo-Kazooie - Nuts & Bolts (USA) (v3).jpg",
-    "boxart": "Banjo-Kazooie - Nuts & Bolts (USA) (v3)",
-    "size": "3.9 MB"
-  },
-  {
-    "title": "Castle Crashers",
-    "year": 2008,
-    "region": "Mundial",
-    "languages": [
-      "Español",
-      "Inglés"
-    ],
-    "genre": "Beat 'em up",
-    "developer": "The Behemoth",
-    "synopsis": "Cuatro caballeros recuperan unos cristales.",
-    "cover": "Castle Crashers (World) (v1).jpg",
-    "boxart": "Castle Crashers (World) (v1)",
-    "size": "1.7 MB"
-  },
-  {
-    "title": "Limbo",
+    "title": "Crackdown 2",
     "year": 2010,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
-    "genre": "Plataformas",
-    "developer": "Playdead",
-    "synopsis": "Un niño recorre un bosque de sombras.",
-    "cover": "Limbo (World) (XBLA).jpg",
-    "boxart": "Limbo (World) (XBLA)",
-    "size": "117.3 MB"
+    "genre": "Acción",
+    "developer": "Ruffian Games",
+    "synopsis": "La secuela del original con más poder y más destrucción.",
+    "cover": "crackdown_2.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Braid",
+    "title": "Dante's Inferno",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Visceral Games",
+    "synopsis": "Basado en la Divina Comedia, un caballero cruzado viaja por el Infierno.",
+    "cover": "dantes_inferno.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dark Souls",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FromSoftware",
+    "synopsis": "El juego que definió el género Soulsborne. Dificultad extrema y mundo interconectado.",
+    "cover": "dark_souls.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead Island",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Techland",
+    "synopsis": "Un resort paradisíaco se convierte en un infierno de zombies.",
+    "cover": "dead_island.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead Rising",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Un fotógrafo atrapado en un centro comercial infestado de zombies.",
+    "cover": "dead_rising.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead Rising 2",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Blue Castle Games",
+    "synopsis": "Un motociclista debe sobrevivir en una ciudad llena de zombies.",
+    "cover": "dead_rising_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead Rising 2: Off the Record",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Blue Castle Games",
+    "synopsis": "Una versión alternativa de Dead Rising 2 con Frank West como protagonista.",
+    "cover": "dead_rising_off_the_record.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead Space",
     "year": 2008,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
-    "genre": "Plataformas",
-    "developer": "Number None",
-    "synopsis": "Tim manipula el tiempo para salvar a la princesa.",
-    "cover": "Braid (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (XBLA).jpg",
-    "boxart": "Braid (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (XBLA)",
-    "size": "144.4 MB"
+    "genre": "Survival Horror",
+    "developer": "Visceral Games",
+    "synopsis": "Un ingeniero lucha contra criaturas alienígenas en una nave espacial.",
+    "cover": "dead_space.jpg",
+    "trailer": "",
+    "size": ""
   },
   {
-    "title": "Shadow Complex",
-    "year": 2009,
+    "title": "Dead Space 2",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Survival Horror",
+    "developer": "Visceral Games",
+    "synopsis": "Isaac Clarke regresa con más acción y terror en una estación espacial.",
+    "cover": "dead_space_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead Space 3",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Survival Horror",
+    "developer": "Visceral Games",
+    "synopsis": "Isaac y un nuevo compañero luchan contra los Necromorphs en un planeta helado.",
+    "cover": "dead_space_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead or Alive 4",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Team Ninja",
+    "synopsis": "Un juego de lucha con personajes carismáticos y combates rápidos.",
+    "cover": "dead_or_alive_4.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead or Alive 5",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Team Ninja",
+    "synopsis": "La quinta entrega de la saga con gráficos mejorados y nuevos personajes.",
+    "cover": "dead_or_alive_5.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dead or Alive 5 Ultimate",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Team Ninja",
+    "synopsis": "La versión definitiva de Dead or Alive 5 con todo el contenido adicional.",
+    "cover": "dead_or_alive_5_ultimate.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Destroy All Humans! Path of the Furon",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sandblast Games",
+    "synopsis": "Un alienígena llega a la Tierra para conquistarla con tecnología avanzada.",
+    "cover": "destroy_all_humans_path_of_the_furon.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Devil May Cry 4",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Nero, un nuevo protagonista, se une a Dante en esta entrega de acción.",
+    "cover": "devil_may_cry_4.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dishonored",
+    "year": 2012,
     "region": "Mundial",
     "languages": [
       "Español",
       "Inglés"
     ],
     "genre": "Acción-Aventura",
-    "developer": "Chair Entertainment",
-    "synopsis": "Metroidvania con estética de acción de los ochenta.",
-    "cover": "Shadow Complex (World) (v1).jpg",
-    "boxart": "Shadow Complex (World) (v1)",
-    "size": "1.0 MB"
+    "developer": "Arkane Studios",
+    "synopsis": "Un asesino sobrenatural busca venganza en una ciudad steampunk.",
+    "cover": "dishonored.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "DJ Hero",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "FreeStyleGames",
+    "synopsis": "Un juego de ritmo con un controlador de DJ y mezclas de canciones.",
+    "cover": "dj_hero.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dragon Age: Origins",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "Un RPG épico con una historia profunda y decisiones que afectan el mundo.",
+    "cover": "dragon_age_origins.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dragon Age II",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "La historia de Hawke, un refugiado que se convierte en la leyenda de Kirkwall.",
+    "cover": "dragon_age_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dragon Ball: Raging Blast",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Spike",
+    "synopsis": "Un juego de lucha de Dragon Ball con gráficos en 3D y combates espectaculares.",
+    "cover": "dragon_ball_raging_blast.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dragon Ball: Raging Blast 2",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Spike",
+    "synopsis": "La secuela del Raging Blast con más personajes y más acción.",
+    "cover": "dragon_ball_raging_blast_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dragon's Dogma",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Capcom",
+    "synopsis": "Un RPG de acción con combates épicos contra criaturas gigantes.",
+    "cover": "dragons_dogma.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Duke Nukem Forever",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Gearbox Software",
+    "synopsis": "El regreso del legendario Duke Nukem después de 14 años de desarrollo.",
+    "cover": "duke_nukem_forever.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Dynasty Warriors 7",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Koei Tecmo",
+    "synopsis": "Un juego de acción con miles de enemigos en el campo de batalla.",
+    "cover": "dynasty_warriors_7.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Elder Scrolls IV: Oblivion",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bethesda Game Studios",
+    "synopsis": "Un RPG de mundo abierto en Cyrodiil, con una historia épica.",
+    "cover": "elder_scrolls_oblivion.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Elder Scrolls V: Skyrim",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bethesda Game Studios",
+    "synopsis": "El aclamado RPG de mundo abierto en la provincia de Skyrim.",
+    "cover": "elder_scrolls_skyrim.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Enslaved: Odyssey to the West",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Ninja Theory",
+    "synopsis": "Un viaje post-apocalíptico basado en la novela Viaje al Oeste.",
+    "cover": "enslaved_odyssey_to_the_west.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Fable II",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Lionhead Studios",
+    "synopsis": "Un RPG con decisiones morales y un mundo abierto en la tierra de Albion.",
+    "cover": "fable_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Fable III",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Lionhead Studios",
+    "synopsis": "La tercera entrega de la saga Fable, donde te conviertes en rey.",
+    "cover": "fable_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Fight Night Champion",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "EA Sports",
+    "synopsis": "Un juego de boxeo con una historia dramática y mecánicas realistas.",
+    "cover": "fight_night_champion.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Final Fantasy XIII",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "El primer Final Fantasy de la generación HD, con una historia épica.",
+    "cover": "final_fantasy_13.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Final Fantasy XIII-2",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "La secuela directa de Final Fantasy XIII con viajes en el tiempo.",
+    "cover": "final_fantasy_13-2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Forza Motorsport 2",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Turn 10 Studios",
+    "synopsis": "Un simulador de carreras con más de 300 coches y pistas realistas.",
+    "cover": "forza_motorsport_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Forza Motorsport 3",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Turn 10 Studios",
+    "synopsis": "Un simulador de carreras con gráficos mejorados y más contenido.",
+    "cover": "forza_motorsport_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Forza Motorsport 4",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Turn 10 Studios",
+    "synopsis": "El mejor simulador de carreras de Xbox 360 con gráficos impresionantes.",
+    "cover": "forza_motorsport_4.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Forza Horizon",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Playground Games",
+    "synopsis": "Un juego de carreras en mundo abierto con un festival de velocidad.",
+    "cover": "forza_horizon.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Gears of War",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "TPS",
+    "developer": "Epic Games",
+    "synopsis": "El juego que definió la generación Xbox 360. Una guerra contra los Locust.",
+    "cover": "gears_of_war.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Gears of War 2",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "TPS",
+    "developer": "Epic Games",
+    "synopsis": "La secuela con más acción, más armas y una historia más épica.",
+    "cover": "gears_of_war_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Gears of War 3",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "TPS",
+    "developer": "Epic Games",
+    "synopsis": "El final de la trilogía original de Gears of War.",
+    "cover": "gears_of_war_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Gears of War: Judgment",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "TPS",
+    "developer": "People Can Fly",
+    "synopsis": "Una precuela que sigue a Kilo Squad en los días posteriores al E-Day.",
+    "cover": "gears_of_war_judgment.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Grand Theft Auto IV",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Rockstar North",
+    "synopsis": "Niko Bellic llega a Liberty City en busca del sueño americano.",
+    "cover": "gta_4.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Rockstar North",
+    "synopsis": "Tres criminales en la ciudad de Los Santos. El juego más vendido de la historia.",
+    "cover": "gta_5.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Guitar Hero III: Legends of Rock",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Neversoft",
+    "synopsis": "Un juego de ritmo con guitarra y canciones legendarias.",
+    "cover": "guitar_hero_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Guitar Hero World Tour",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Neversoft",
+    "synopsis": "La banda completa con guitarra, bajo, batería y voz.",
+    "cover": "guitar_hero_world_tour.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Halo 3",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Bungie",
+    "synopsis": "El épico final de la trilogía original de Halo.",
+    "cover": "halo_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Halo 3: ODST",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Bungie",
+    "synopsis": "La historia de un ODST en la ciudad de Nueva Mombasa.",
+    "cover": "halo_3_odst.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Halo Wars",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Ensemble Studios",
+    "synopsis": "Un juego de estrategia en tiempo real ambientado en el universo Halo.",
+    "cover": "halo_wars.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Halo: Reach",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Bungie",
+    "synopsis": "La caída del planeta Reach, una historia de sacrificio y heroísmo.",
+    "cover": "halo_reach.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Halo 4",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "343 Industries",
+    "synopsis": "El Jefe Maestro despierta en una nueva saga de Halo.",
+    "cover": "halo_4.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Hitman: Absolution",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Sigilo",
+    "developer": "IO Interactive",
+    "synopsis": "El Agente 47 en su misión más personal, con mecánicas de sigilo mejoradas.",
+    "cover": "hitman_absolution.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Kameo: Elements of Power",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Rare",
+    "synopsis": "Un juego de Rare con transformaciones en criaturas elementales.",
+    "cover": "kameo.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Kinect Adventures!",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Good Science Studio",
+    "synopsis": "Un juego de Kinect con minijuegos de aventura y acción.",
+    "cover": "kinect_adventures.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Kinect Sports",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Rare",
+    "synopsis": "Una colección de deportes para jugar con Kinect.",
+    "cover": "kinect_sports.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Left 4 Dead",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Turtle Rock Studios",
+    "synopsis": "Un juego cooperativo de supervivencia contra hordas de zombies.",
+    "cover": "left_4_dead.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Left 4 Dead 2",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Turtle Rock Studios",
+    "synopsis": "La secuela con más armas, más zombies y más acción.",
+    "cover": "left_4_dead_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "LEGO Marvel Super Heroes",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Traveller's Tales",
+    "synopsis": "Un juego de LEGO con todos los héroes de Marvel.",
+    "cover": "lego_marvel_super_heroes.png",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "LEGO Star Wars: The Complete Saga",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Traveller's Tales",
+    "synopsis": "Todas las seis películas de Star Wars en un juego de LEGO.",
+    "cover": "lego_star_wars_complete_saga.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Lost Odyssey",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Mistwalker",
+    "synopsis": "Un RPG de Hironobu Sakaguchi con una historia inolvidable.",
+    "cover": "lost_odyssey.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Marvel vs Capcom 3: Fate of Two Worlds",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Un juego de lucha con personajes de Marvel y Capcom.",
+    "cover": "marvel_vs_capcom_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Mass Effect",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "Un RPG espacial con decisiones que afectan toda la trilogía.",
+    "cover": "mass_effect.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Mass Effect 2",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "La segunda entrega de la trilogía Mass Effect.",
+    "cover": "mass_effect_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Mass Effect 3",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "El final de la trilogía Mass Effect.",
+    "cover": "mass_effect_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Max Payne 3",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "TPS",
+    "developer": "Rockstar Studios",
+    "synopsis": "Max Payne en una historia oscura ambientada en Brasil.",
+    "cover": "max_payne_3.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Metal Gear Rising: Revengeance",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Raiden en un juego de acción rápida con un sistema de combate brutal.",
+    "cover": "metal_gear_rising_revengeance.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Mortal Kombat",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "NetherRealm Studios",
+    "synopsis": "El reinicio de Mortal Kombat con gráficos HD y fatalities brutales.",
+    "cover": "mortal_kombat_2011.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Naruto Shippuden: Ultimate Ninja Storm 2",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "CyberConnect2",
+    "synopsis": "Un juego de lucha de Naruto con gráficos anime y combates épicos.",
+    "cover": "naruto_ultimate_ninja_storm_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Ninety-Nine Nights",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Q Entertainment",
+    "synopsis": "Un juego de acción con batallas masivas contra cientos de enemigos.",
+    "cover": "ninety_nine_nights.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Ninety-Nine Nights 2",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Q Entertainment",
+    "synopsis": "La secuela del juego de acción con más personajes y más batallas.",
+    "cover": "ninety_nine_nights_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Perfect Dark Zero",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "Rare",
+    "synopsis": "El juego de lanzamiento de Xbox 360, una precuela de Perfect Dark.",
+    "cover": "perfect_dark_zero.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Portal 2",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzzle",
+    "developer": "Valve",
+    "synopsis": "Un juego de puzzles con portales, humor y una historia genial.",
+    "cover": "portal_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Project Gotham Racing 4",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Bizarre Creations",
+    "synopsis": "Un juego de carreras con coches de lujo y un sistema de habilidad único.",
+    "cover": "project_gotham_racing_4.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Prototype",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Radical Entertainment",
+    "synopsis": "Un hombre con poderes mutantes lucha contra una epidemia en Nueva York.",
+    "cover": "prototype.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Prototype 2",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Radical Entertainment",
+    "synopsis": "La secuela del Prototype original con un nuevo protagonista.",
+    "cover": "prototype_2.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Rage",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "FPS",
+    "developer": "id Software",
+    "synopsis": "Un shooter post-apocalíptico con gráficos impresionantes y vehículos.",
+    "cover": "rage.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Rayman Origins",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ubisoft Montpellier",
+    "synopsis": "Un juego de plataformas con gráficos dibujados a mano y música increíble.",
+    "cover": "rayman_origins.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Red Dead Redemption",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Rockstar San Diego",
+    "synopsis": "Un juego de mundo abierto en el Oeste americano.",
+    "cover": "red_dead_redemption.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Resident Evil 5",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Survival Horror",
+    "developer": "Capcom",
+    "synopsis": "Chris Redfield y Sheva Alomar luchan contra el virus en África.",
+    "cover": "resident_evil_5.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "Street Fighter X Tekken",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "El crossover definitivo entre dos de las sagas de lucha más importantes. Street Fighter y Tekken se enfrentan en este épico juego de combate con personajes de ambos universos. Incluye mecánicas de lucha por parejas y combos espectaculares.",
+    "cover": "street_fighter_x_tekken.jpg",
+    "trailer": "",
+    "size": ""
+  },
+  {
+    "title": "The Evil Within",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Survival Horror",
+    "developer": "Tango Gameworks / Bethesda",
+    "synopsis": "Del creador de Resident Evil, Shinji Mikami. Un terrorífico viaje a través de mentes retorcidas y realidades distorsionadas. El detective Sebastian Castellanos investiga una masacre y se encuentra atrapado en un mundo de pesadilla donde la muerte acecha en cada esquina.",
+    "cover": "the_evil_within.jpg",
+    "trailer": "",
+    "size": ""
   }
 ]
