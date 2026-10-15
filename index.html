@@ -300,7 +300,8 @@ html.winter .card, html.winter .gate { border-color: rgba(200,235,255,.28); }
 html.winter .vignette::after { content: ""; position: absolute; inset: 0; box-shadow: inset 0 0 120px 10px rgba(190,235,255,.14); }
 
 /* ---------- archivo de preservación ---------- */
-a.tab { display: inline-flex; align-items: center; text-decoration: none; }
+a.tab { display: inline-flex; align-items: center; text-decoration: none; white-space: nowrap; }
+.tabs.sysrow { flex-wrap: nowrap; overflow-x: auto; flex: 1 1 100%; padding-bottom: 6px; scrollbar-width: thin; }
 .rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 156px), 1fr)); gap: 22px 16px; }
 .rcard { all: unset; box-sizing: border-box; cursor: pointer; display: flex; flex-direction: column; gap: 10px; min-width: 0; --ca: var(--a); --cb: var(--b); }
 .rcard:focus-visible { outline: 2px solid var(--ca); outline-offset: 5px; border-radius: 14px; }
@@ -424,7 +425,7 @@ function normSystems(list) {
   return (Array.isArray(list) ? list : []).filter(x => x && x.id && x.name).map((x, i) => {
     const id = slug(x.id), ac = Array.isArray(x.accent) && x.accent.length > 1 ? x.accent : ARC_COLORS[i % ARC_COLORS.length];
     THEMES['r:' + id] = ac;
-    return { id, name: String(x.name), desc: String(x.desc || ''), accent: ac, file: x.file || `data/roms/${id}.json`, hashdb: x.hashdb || '', guide: x.guide || '' };
+    return { id, name: String(x.name), desc: String(x.desc || ''), accent: ac, file: x.file || `data/roms/${id}.json`, hashdb: x.hashdb || '', guide: x.guide || '', libretro: x.libretro || '' };
   });
 }
 function normRoms(sys, list) {
@@ -435,8 +436,9 @@ function normRoms(sys, list) {
       _i: i, _rom: true, sys, title: String(r.title), ps: 'r:' + sys.id, free,
       year: r.year || '', region: r.region || '', langs: langs(r.languages), size: r.size || '',
       description: r.synopsis || r.description || '',
-      cover: asset('covers', sys.id, r.cover || slug(r.title) + '.jpg'),
+      cover: (hasLink(r.cover) ? [r.cover] : [asset('covers', sys.id, r.cover || slug(r.title) + '.jpg'), ...libUrls(sys, 'Named_Boxarts', r)]).join('|'),
       shots: toList(r.screenshots).map(x => asset('screenshots', sys.id, x)),
+      _auto: toList(r.screenshots).length || !sys.libretro ? null : [libUrls(sys, 'Named_Snaps', r), libUrls(sys, 'Named_Titles', r)],
       youtubeUrl: r.trailer || '', license: r.license || '', magnet: r.magnet || '', torrent: r.torrent || '',
       mirror: r.mirror || '', mirrorLabel: r.mirrorLabel || 'Alternativo', hashes: r.hashes || {},
       reqs: [], inst: [], warn: ''
@@ -448,6 +450,23 @@ function loadRoms(sys) {
   return arc.cache.get(sys.id);
 }
 const arcSys = id => arc.systems.find(s => s.id === id);
+/* Imágenes automáticas desde thumbnails.libretro.com (nombres No-Intro / Redump) */
+const LIB = 'https://thumbnails.libretro.com/';
+const LIB_REG = { mundial: 'World', world: 'World', usa: 'USA', eeuu: 'USA', europa: 'Europe', europe: 'Europe', japon: 'Japan', japan: 'Japan', asia: 'Asia', korea: 'Korea', corea: 'Korea' };
+const libFile = n => n.replace(/[&*\/:`<>?\\|]/g, '_').replace(/\s+/g, ' ').trim();
+function libNames(base, region) {
+  base = String(base || '').trim(); if (!base) return [];
+  const out = [base];
+  if (!base.includes('(')) {
+    const r = LIB_REG[slug(region)], tags = [...new Set([r, 'USA', 'Europe', 'World', 'Japan'].filter(Boolean))];
+    const the = /^the\s+/i.test(base) ? base.replace(/^the\s+/i, '') + ', The' : '';
+    tags.forEach(t => { out.push(`${base} (${t})`); if (the) out.push(`${the} (${t})`); });
+    if (the) out.push(the);
+  }
+  return [...new Set(out.map(libFile))];
+}
+const libUrls = (sys, kind, r) => !sys.libretro ? [] : libNames(r.boxart || r.title, r.region).map(n => `${LIB}${encodeURIComponent(sys.libretro)}/${kind}/${encodeURIComponent(n)}.png`);
+const probe = urls => new Promise(res => { let i = 0; const next = () => { if (i >= urls.length) return res(''); const im = new Image(); im.referrerPolicy = 'no-referrer'; im.onload = () => res(urls[i]); im.onerror = () => { i++; next(); }; im.src = urls[i]; }; next(); });
 
 let games = [], systems = [], winter = false;
 const state = { q: '', sort: 'date-desc', page: 1, cat: 'all', rf: 'all', rsort: 'title-asc' };
@@ -522,7 +541,8 @@ function cover(g, src) {
   src = typeof src === 'string' ? src : g.cover;
   const t = theme(g.ps);
   const init = g.title.replace(/[^A-Za-z0-9 ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase() || '?';
-  return `<span class="cover" style="--ca:${t[0]};--cb:${t[1]}"><span class="fb">${esc(init)}</span>${src ? `<img data-cv src="${esc(src)}" alt="" loading="lazy">` : ''}</span>`;
+  const parts = String(src || '').split('|').filter(Boolean);
+  return `<span class="cover" style="--ca:${t[0]};--cb:${t[1]}"><span class="fb">${esc(init)}</span>${parts.length ? `<img data-cv src="${esc(parts[0])}" ${parts.length > 1 ? `data-alt="${esc(parts.slice(1).join('|'))}"` : ''} alt="" loading="lazy" referrerpolicy="no-referrer">` : ''}</span>`;
 }
 function metaLine(g) {
   return [g.version ? 'v' + esc(g.version) : '', fmtDate(g.releaseDate)].filter(Boolean).join(' · ');
@@ -565,7 +585,7 @@ function renderArcSys() {
   </div></section>
   <div class="wrap">
     <div class="toolbar">
-      <div class="tabs" role="group" aria-label="Sistema">${arc.systems.map(x => `<a class="tab" href="#a-${x.id}" aria-pressed="${x.id === sy.id}">${esc(x.name)}</a>`).join('')}</div>
+      <div class="tabs sysrow" role="group" aria-label="Sistema">${arc.systems.map(x => `<a class="tab" href="#a-${x.id}" aria-pressed="${x.id === sy.id}">${esc(x.name)}</a>`).join('')}</div>
       <div class="tabs" role="group" aria-label="Filtro">${f('all', 'Todos')}${f('free', 'Descargables')}${f('cat', 'Solo catálogo')}</div>
       <div class="tools">
         <label class="field" for="q">${I_SEARCH}<input id="q" type="search" placeholder="Buscar en ${esc(sy.name)}" autocomplete="off" value="${esc(state.q)}"></label>
@@ -756,7 +776,7 @@ function render() {
   v.innerHTML = route.name === 'home' ? renderHome() : route.name === 'news' ? renderNews() : route.name === 'arc' ? renderArc() : route.name === 'asys' ? renderArcSys() : renderSection();
   $('#navlinks').innerHTML = navHTML();
   const cur = $('#navlinks [aria-current="page"]'); if (cur) cur.scrollIntoView({ inline: 'center', block: 'nearest' });
-  if (route.name === 'arc' || route.name === 'asys') { if (route.name === 'asys') $('#rsort').value = state.rsort; loadArcView(); }
+  if (route.name === 'arc' || route.name === 'asys') { if (route.name === 'asys') { $('#rsort').value = state.rsort; const c = $('.sysrow [aria-pressed="true"]'); if (c) c.scrollIntoView({ inline: 'center', block: 'nearest' }); } loadArcView(); }
   else if (route.name !== 'home' && route.name !== 'news') { $('#sort').value = state.sort; renderResults(); }
   window.scrollTo(0, 0);
   document.title = route.name === 'asys' ? `${arcSys(route.id).name} · Archivo · Scene Backup` : route.name === 'arc' ? 'Archivo · Scene Backup' : route.name === 'sys' ? `${systems.find(s => s.ps === route.ps).name} · Scene Backup` : 'Scene Backup';
@@ -802,7 +822,11 @@ view.addEventListener('pointerout', e => {
   const c = e.target.closest && e.target.closest('.card');
   if (c && !c.contains(e.relatedTarget)) { c.style.setProperty('--tx', '0deg'); c.style.setProperty('--ty', '0deg'); }
 });
-document.addEventListener('error', e => { if (e.target.tagName === 'IMG' && e.target.hasAttribute('data-cv')) e.target.remove(); }, true);
+document.addEventListener('error', e => {
+  const t = e.target; if (t.tagName !== 'IMG' || !t.hasAttribute('data-cv')) return;
+  const alt = (t.dataset.alt || '').split('|').filter(Boolean);
+  if (alt.length) { t.dataset.alt = alt.slice(1).join('|'); t.src = alt[0]; } else t.remove();
+}, true);
 window.addEventListener('hashchange', render);
 
 /* ---------- ficha ---------- */
@@ -874,6 +898,13 @@ function openRom(i, from) {
   cur = { g, tab: 'info', shot: 0 };
   renderModal();
   ov.hidden = false; document.body.style.overflow = 'hidden'; $('#mx').focus();
+  if (g._auto && !g._probed) {
+    g._probed = true;
+    Promise.all(g._auto.map(probe)).then(r => {
+      g.shots = r.filter(Boolean);
+      if (cur && cur.g === g && g.shots.length) { renderModal(); if (!modal.contains(document.activeElement)) $('#mx').focus(); }
+    });
+  }
 }
 function closeModal() {
   if (ov.hidden) return;
