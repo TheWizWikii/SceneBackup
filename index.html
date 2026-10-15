@@ -434,7 +434,7 @@ function normRoms(sys, list) {
     const free = !!(r.license && (isMagnet(r.magnet) || isFile(r.torrent) || hasLink(r.mirror)));
     return {
       _i: i, _rom: true, sys, title: String(r.title), ps: 'r:' + sys.id, free,
-      year: r.year || '', region: r.region || '', langs: langs(r.languages), size: r.size || '',
+      year: r.year || '', region: r.region || '', genre: r.genre || '', developer: r.developer || '', langs: langs(r.languages), size: r.size || '',
       description: r.synopsis || r.description || '',
       cover: (hasLink(r.cover) ? [r.cover] : [asset('covers', sys.id, r.cover || slug(r.title) + '.jpg'), ...libUrls(sys, 'Named_Boxarts', r)]).join('|'),
       shots: toList(r.screenshots).map(x => asset('screenshots', sys.id, x)),
@@ -848,7 +848,7 @@ function renderModal() {
   if (!cur.tabKeys.includes(cur.tab)) cur.tab = 'info';
   let panel = '';
   if (cur.tab === 'info' && R) {
-    const meta = [['Plataforma', g.sys.name], ['Año', g.year], ['Región', g.region], ['Idiomas', g.langs.join(', ')], ['Tamaño', g.size]].filter(v => v[1]);
+    const meta = [['Plataforma', g.sys.name], ['Año', g.year], ['Región', g.region], ['Género', g.genre], ['Desarrolladora', g.developer], ['Idiomas', g.langs.join(', ')], ['Tamaño', g.size]].filter(v => v[1]);
     const h = g.hashes || {}, hl = [['CRC32', h.crc32], ['MD5', h.md5], ['SHA-1', h.sha1]].filter(v => v[1]);
     panel = `<dl class="rmeta">${meta.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl><p class="mdesc">${esc(g.description || 'Sin sinopsis todavía.')}</p>`
       + (g.free ? `<p class="rlic">✔ ${esc(g.license)}: distribución permitida</p>` : '')
