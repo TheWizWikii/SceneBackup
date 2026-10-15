@@ -88,6 +88,21 @@
     "warning": "Necesitas una PS5 con Jailbreak para poder usarlo."
   },
   {
+    "title": "Porpoise",
+    "category": "Emulador",
+    "platform": "PS5",
+    "cover": "assets/covers/Porpoise.jpg",
+    "version": "3.0",
+    "releaseDate": "2026-10-10",
+    "description": "Emulador de GameCube y Wii para PS5 con jailbreak, basado en Dolphin.",
+    "downloadUrl": "https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5/releases",
+    "sourceUrl": "https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5",
+    "repo": "elripalda/Porpoise-Dolphin-Emulator-for-PS5",
+    "requirements": ["Tener una PS5 con Jailbreak, etaHEN, kstuff y ShadowMountPlus 1.7 beta 4 o superior","Disponer de FTP o PS5 Upload para transferir archivos"],
+    "install": ["Descarga Porpoise desde GitHub y extrae el archivo ZIP","Copia la carpeta PPSA99764 en /data/homebrew/ mediante FTP","Registra la aplicación utilizando ShadowMountPlus","Copia tus juegos de GameCube y Wii (.iso, .rvz, .gcm, .wbfs y otros) en /data/porpoise/games/ o en un USB exFAT","Inicia Porpoise desde el menú de PS5"],
+    "warning": "Necesitas una PS5 con Jailbreak. La emulación de Wii es experimental y algunos juegos pueden presentar problemas de rendimiento o compatibilidad."
+  },
+  {
     "title": "ProsperoStore",
     "category": "App",
     "platform": "PS5",
