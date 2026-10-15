@@ -12,6 +12,7 @@
 	"trailer": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
     "size": "40 KB",
 	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
     "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
     "mirror": "https://github.com/TheWizWikii/Retro/releases/download/r0ws/SMB.zip",
     "mirrorLabel": "Internet Archive"
@@ -25,7 +26,11 @@
     "synopsis": "La secuela americana de Super Mario Bros. Mario, Luigi, Toad y Peach viajan al mundo de los sueños Subcon para derrotar a Wart.",
     "cover": "Super Mario Bros. 2 (USA) (Rev 1).jpg",
     "boxart": "Super Mario Bros. 2 (USA) (Rev 1)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Super Mario Bros 3",
@@ -36,7 +41,12 @@
     "synopsis": "Uno de los mejores juegos de plataformas de la historia. Mario viaja por el Reino Champiñón con nuevos poderes como el traje de mapache.",
     "cover": "Super Mario Bros. 3 (USA) (Rev 1).jpg",
     "boxart": "Super Mario Bros. 3 (USA) (Rev 1)",
-    "size": "384 KB"
+    "size": "384 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "The Legend of Zelda",
@@ -47,7 +57,12 @@
     "synopsis": "El primer juego de la legendaria saga. Link debe derrotar a Ganon y salvar a la princesa Zelda.",
     "cover": "Legend of Zelda, The (USA) (Rev 1).jpg",
     "boxart": "Legend of Zelda, The (USA) (Rev 1)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Zelda II: The Adventure of Link",
@@ -58,7 +73,12 @@
     "synopsis": "La secuela de The Legend of Zelda con un enfoque más RPG y combates laterales. Link busca despertar a la princesa Zelda.",
     "cover": "Zelda II - The Adventure of Link (USA).jpg",
     "boxart": "Zelda II - The Adventure of Link (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Metroid",
@@ -69,7 +89,11 @@
     "synopsis": "Samus Aran explora el planeta Zebes en busca del Metroid. Un clásico de exploración y acción.",
     "cover": "Metroid (USA).jpg",
     "boxart": "Metroid (USA)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Mega Man",
@@ -80,7 +104,12 @@
     "synopsis": "El primer juego de la saga Mega Man. El robot Mega Man lucha contra los robots del Dr. Wily en seis etapas.",
     "cover": "Mega Man (USA).jpg",
     "boxart": "Mega Man (USA)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Mega Man 2",
@@ -91,7 +120,12 @@
     "synopsis": "La secuela más aclamada de la saga. Mega Man se enfrenta a ocho nuevos robots y al Dr. Wily.",
     "cover": "Mega Man 2 (USA).jpg",
     "boxart": "Mega Man 2 (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Mega Man 3",
@@ -102,7 +136,12 @@
     "synopsis": "La tercera entrega con nuevos robots y la introducción de Rush, el perro robot de Mega Man.",
     "cover": "Mega Man 3 (USA).jpg",
     "boxart": "Mega Man 3 (USA)",
-    "size": "384 KB"
+    "size": "384 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Castlevania",
@@ -113,7 +152,12 @@
     "synopsis": "Simon Belmont entra al castillo de Drácula para derrotarlo. Un clásico de acción y plataformas.",
     "cover": "Castlevania (USA) (Rev 1).jpg",
     "boxart": "Castlevania (USA) (Rev 1)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Castlevania II: Simon's Quest",
@@ -124,7 +168,12 @@
     "synopsis": "Simon Belmont viaja por Transilvania para destruir las partes del cuerpo de Drácula.",
     "cover": "Castlevania II - Simon's Quest (USA).jpg",
     "boxart": "Castlevania II - Simon's Quest (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Castlevania III: Dracula's Curse",
@@ -135,7 +184,12 @@
     "synopsis": "La tercera entrega con múltiples personajes jugables y rutas alternativas en el castillo de Drácula.",
     "cover": "Castlevania III - Dracula's Curse (USA).jpg",
     "boxart": "Castlevania III - Dracula's Curse (USA)",
-    "size": "384 KB"
+    "size": "384 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Contra",
@@ -146,7 +200,12 @@
     "synopsis": "El clásico juego de acción con el código Konami. Dos soldados luchan contra una amenaza alienígena.",
     "cover": "Contra (USA).jpg",
     "boxart": "Contra (USA)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Super C",
@@ -157,7 +216,12 @@
     "synopsis": "La secuela de Contra con más acción, nuevas armas y enemigos más desafiantes.",
     "cover": "Super C (USA).jpg",
     "boxart": "Super C (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "DuckTales",
@@ -168,7 +232,12 @@
     "synopsis": "Basado en la serie animada. Rico McPato viaja por el mundo en busca de tesoros.",
     "cover": "DuckTales (USA).jpg",
     "boxart": "DuckTales (USA)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Chip 'n Dale Rescue Rangers",
@@ -179,7 +248,12 @@
     "synopsis": "Chip y Dale trabajan como equipo en este juego de plataformas basado en la serie animada.",
     "cover": "Chip 'n Dale - Rescue Rangers (USA).jpg",
     "boxart": "Chip 'n Dale - Rescue Rangers (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ninja Gaiden",
@@ -190,7 +264,12 @@
     "synopsis": "Ryu Hayabusa busca venganza contra el asesino de su padre en este clásico de acción.",
     "cover": "Ninja Gaiden (USA).jpg",
     "boxart": "Ninja Gaiden (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ninja Gaiden II: The Dark Sword of Chaos",
@@ -201,7 +280,12 @@
     "synopsis": "La secuela del Ninja Gaiden original con más acción y una historia más profunda.",
     "cover": "Ninja Gaiden II - The Dark Sword of Chaos (USA).jpg",
     "boxart": "Ninja Gaiden II - The Dark Sword of Chaos (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ninja Gaiden III: The Ancient Ship of Doom",
@@ -212,7 +296,12 @@
     "synopsis": "La tercera entrega de la saga Ninja Gaiden, con nuevas mecánicas y una historia que cierra la trilogía.",
     "cover": "Ninja Gaiden III - The Ancient Ship of Doom (USA).jpg",
     "boxart": "Ninja Gaiden III - The Ancient Ship of Doom (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Kirby's Adventure",
@@ -223,7 +312,12 @@
     "synopsis": "El primer juego de Kirby en NES. Kirby debe restaurar los sueños de Dream Land.",
     "cover": "Kirby's Adventure (USA) (Rev 1).jpg",
     "boxart": "Kirby's Adventure (USA) (Rev 1)",
-    "size": "768 KB"
+    "size": "768 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Punch-Out!!",
@@ -234,7 +328,12 @@
     "synopsis": "Little Mac sube al ring para enfrentar a los boxeadores más duros del mundo.",
     "cover": "Punch-Out!! (USA).jpg",
     "boxart": "Punch-Out!! (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Excitebike",
@@ -245,7 +344,12 @@
     "synopsis": "Un juego de carreras de motocross con un editor de pistas. Uno de los primeros juegos de NES.",
     "cover": "Excitebike (Japan, USA) (En).jpg",
     "boxart": "Excitebike (Japan, USA) (En)",
-    "size": "24 KB"
+    "size": "24 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ice Hockey",
@@ -256,7 +360,12 @@
     "synopsis": "Un juego de hockey sobre hielo con equipos de diferentes países. Un clásico deportivo.",
     "cover": "Ice Hockey (USA).jpg",
     "boxart": "Ice Hockey (USA)",
-    "size": "40 KB"
+    "size": "40 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Pro Wrestling",
@@ -267,7 +376,12 @@
     "synopsis": "Un juego de lucha libre con personajes icónicos como el luchador con máscara.",
     "cover": "Pro Wrestling (USA) (Rev 1).jpg",
     "boxart": "Pro Wrestling (USA) (Rev 1)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Double Dragon",
@@ -278,7 +392,12 @@
     "synopsis": "Los hermanos Lee se enfrentan a una pandilla para rescatar a la novia de Billy. Un clásico de los beat 'em up.",
     "cover": "Double Dragon (USA).jpg",
     "boxart": "Double Dragon (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Double Dragon II: The Revenge",
@@ -289,7 +408,12 @@
     "synopsis": "La secuela del Double Dragon original con más acción y combates.",
     "cover": "Double Dragon II - The Revenge (USA) (Rev 1).jpg",
     "boxart": "Double Dragon II - The Revenge (USA) (Rev 1)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Battletoads",
@@ -300,7 +424,12 @@
     "synopsis": "Los Battletoads, tres sapos mutantes, luchan contra la Dark Queen. Conocido por su dificultad extrema.",
     "cover": "Battletoads (USA).jpg",
     "boxart": "Battletoads (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ghosts 'n Goblins",
@@ -311,7 +440,12 @@
     "synopsis": "Sir Arthur debe rescatar a la princesa del reino demoníaco. Un juego de dificultad legendaria.",
     "cover": "Ghosts'n Goblins (USA).jpg",
     "boxart": "Ghosts'n Goblins (USA)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Bionic Commando",
@@ -322,7 +456,12 @@
     "synopsis": "Un soldado con un brazo biónico debe infiltrarse en una base enemiga.",
     "cover": "Bionic Commando (USA).jpg",
     "boxart": "Bionic Commando (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Blaster Master",
@@ -333,7 +472,12 @@
     "synopsis": "Un joven pilota un tanque para rescatar a su rana. Un juego con mecánicas de plataformas y metroidvania.",
     "cover": "Blaster Master (USA).jpg",
     "boxart": "Blaster Master (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Gradius",
@@ -344,7 +488,12 @@
     "synopsis": "Un clásico de los shoot 'em up con un sistema de power-ups que se puede seleccionar.",
     "cover": "Gradius (USA).jpg",
     "boxart": "Gradius (USA)",
-    "size": "64 KB"
+    "size": "64 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Life Force",
@@ -355,7 +504,12 @@
     "synopsis": "Un shooter vertical y horizontal con naves espaciales. Conocido por su modo cooperativo.",
     "cover": "Life Force (USA).jpg",
     "boxart": "Life Force (USA)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Kid Icarus",
@@ -366,7 +520,12 @@
     "synopsis": "Pit, el ángel, debe escapar del inframundo y derrotar a Medusa en este clásico de Nintendo.",
     "cover": "Kid Icarus (USA, Europe) (Rev 1).jpg",
     "boxart": "Kid Icarus (USA, Europe) (Rev 1)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ice Climber",
@@ -377,7 +536,12 @@
     "synopsis": "Dos escaladores deben subir una montaña de hielo mientras evitan enemigos.",
     "cover": "Ice Climber (1985-10)(Nintendo)(US).jpg",
     "boxart": "Ice Climber (1985-10)(Nintendo)(US)",
-    "size": "24 KB"
+    "size": "24 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Balloon Fight",
@@ -388,7 +552,12 @@
     "synopsis": "Controla a un personaje con globos y lucha contra enemigos en el aire.",
     "cover": "Balloon Fight (USA).jpg",
     "boxart": "Balloon Fight (USA)",
-    "size": "24 KB"
+    "size": "24 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Dr. Mario",
@@ -398,7 +567,12 @@
     "developer": "Nintendo",
     "synopsis": "Un juego de puzzle donde debes eliminar virus con pastillas de colores. Un clásico adictivo.",
     "boxart": "Dr. Mario (Japan, USA) (En) (Rev 1)",
-    "size": "64 KB"
+    "size": "64 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Tetris",
@@ -409,7 +583,12 @@
     "synopsis": "El clásico juego de puzzle donde debes encajar bloques que caen. Adictivo y eterno.",
     "cover": "Tetris (USA).jpg",
     "boxart": "Tetris (USA)",
-    "size": "48 KB"
+    "size": "48 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Final Fantasy",
@@ -420,7 +599,12 @@
     "synopsis": "El primer juego de la saga Final Fantasy. Cuatro guerreros de la luz deben salvar el mundo.",
     "cover": "Final Fantasy (USA).jpg",
     "boxart": "Final Fantasy (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Dragon Warrior",
@@ -431,7 +615,12 @@
     "synopsis": "El primer juego de la saga Dragon Quest en occidente. El héroe debe rescatar a la princesa y derrotar al Dragonlord.",
     "cover": "Dragon Warrior (USA) (Rev 1).jpg",
     "boxart": "Dragon Warrior (USA) (Rev 1)",
-    "size": "80 KB"
+    "size": "80 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Dragon Warrior II",
@@ -442,7 +631,12 @@
     "synopsis": "La secuela de Dragon Warrior con un mundo más grande y un grupo de héroes.",
     "cover": "Dragon Warrior II (USA).jpg",
     "boxart": "Dragon Warrior II (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Dragon Warrior III",
@@ -453,7 +647,12 @@
     "synopsis": "La tercera entrega de la saga Dragon Quest, considerada una de las mejores de NES.",
     "cover": "Dragon Warrior III (USA).jpg",
     "boxart": "Dragon Warrior III (USA)",
-    "size": "512 KB"
+    "size": "512 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Dragon Warrior IV",
@@ -464,7 +663,12 @@
     "synopsis": "La cuarta entrega con una historia dividida en capítulos y personajes únicos.",
     "cover": "Dragon Warrior IV (USA).jpg",
     "boxart": "Dragon Warrior IV (USA)",
-    "size": "512 KB"
+    "size": "512 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Home Alone",
@@ -475,7 +679,12 @@
     "synopsis": "Basado en la película. Kevin McCallister debe proteger su casa de los ladrones con trampas y objetos.",
     "cover": "Home Alone (USA) (Rev 1).jpg",
     "boxart": "Home Alone (USA) (Rev 1)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Home Alone 2: Lost in New York",
@@ -486,7 +695,12 @@
     "synopsis": "La secuela del juego de Home Alone. Kevin está perdido en Nueva York y debe evadir a los ladrones.",
     "cover": "Home Alone 2 - Lost in New York (USA).jpg",
     "boxart": "Home Alone 2 - Lost in New York (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "The Goonies",
@@ -497,7 +711,12 @@
     "synopsis": "Basado en la película. Los Goonies buscan el tesoro de One-Eyed Willy en una cueva subterránea.",
     "cover": "Goonies (Japan).jpg",
     "boxart": "Goonies (Japan) (En)",
-    "size": "48 KB"
+    "size": "48 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "The Goonies II",
@@ -508,7 +727,12 @@
     "synopsis": "La secuela del juego de The Goonies con más exploración y acción.",
     "cover": "Goonies II, The (USA).jpg",
     "boxart": "Goonies II, The (USA)",
-    "size": "128 KB"
+    "size": "128 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Back to the Future",
@@ -519,7 +743,12 @@
     "synopsis": "Basado en la película. Marty McFly viaja en el tiempo para asegurarse de que sus padres se conozcan.",
     "cover": "Back to the Future (USA).jpg",
     "boxart": "Back to the Future (USA)",
-    "size": "64 KB"
+    "size": "64 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Back to the Future II & III",
@@ -530,7 +759,12 @@
     "synopsis": "Un juego que combina las dos últimas películas de Back to the Future en una sola aventura.",
     "cover": "Back to the Future Part II & III (USA).jpg",
     "boxart": "Back to the Future Part II & III (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ghostbusters",
@@ -541,7 +775,12 @@
     "synopsis": "Basado en la película. Los Cazafantasmas deben atrapar fantasmas en la ciudad de Nueva York.",
     "cover": "Ghostbusters (USA).jpg",
     "boxart": "Ghostbusters (USA)",
-    "size": "64 KB"
+    "size": "64 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   },
   {
     "title": "Ghostbusters II",
@@ -552,6 +791,11 @@
     "synopsis": "La secuela del juego de Ghostbusters, basada en la segunda película.",
     "cover": "Ghostbusters II (USA).jpg",
     "boxart": "Ghostbusters II (USA)",
-    "size": "256 KB"
+    "size": "256 KB",
+	"license": "Homebrew del autor (con permiso)",
+	"magnet": "",
+    "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headerless).torrent",
+    "mirror": "",
+    "mirrorLabel": "Internet Archive"
   }
 ]
