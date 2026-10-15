@@ -1,0 +1,142 @@
+[
+  {
+    "id": "nes",
+    "name": "NES",
+    "desc": "Nintendo Entertainment System · 8 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#ff4d6d",
+      "#ffb347"
+    ]
+  },
+  {
+    "id": "snes",
+    "name": "SNES",
+    "desc": "Super Nintendo · 16 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#a78bfa",
+      "#4cc9ff"
+    ]
+  },
+  {
+    "id": "n64",
+    "name": "Nintendo 64",
+    "desc": "Cartuchos 3D de los 90",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#35e0ff",
+      "#ff4d6d"
+    ]
+  },
+  {
+    "id": "gb",
+    "name": "Game Boy",
+    "desc": "Portátil monocromo",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#9bd36a",
+      "#2f7a4a"
+    ]
+  },
+  {
+    "id": "gba",
+    "name": "Game Boy Advance",
+    "desc": "Portátil de 32 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#7b61ff",
+      "#ff6ad5"
+    ]
+  },
+  {
+    "id": "nds",
+    "name": "Nintendo DS",
+    "desc": "Doble pantalla",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#9aa7ff",
+      "#4cc9ff"
+    ]
+  },
+  {
+    "id": "megadrive",
+    "name": "Mega Drive / Genesis",
+    "desc": "SEGA 16 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#4cc9ff",
+      "#2b59ff"
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "SEGA Saturn",
+    "desc": "Discos de SEGA",
+    "hashdb": "http://redump.org/",
+    "accent": [
+      "#ff9a3d",
+      "#7b61ff"
+    ]
+  },
+  {
+    "id": "dreamcast",
+    "name": "Dreamcast",
+    "desc": "Última consola de SEGA",
+    "hashdb": "http://redump.org/",
+    "accent": [
+      "#ff7a2e",
+      "#ffd23e"
+    ]
+  },
+  {
+    "id": "ps1",
+    "name": "PlayStation",
+    "desc": "PS1",
+    "hashdb": "http://redump.org/",
+    "accent": [
+      "#9aa7ff",
+      "#4a5bd8"
+    ]
+  },
+  {
+    "id": "ps2",
+    "name": "PlayStation 2",
+    "desc": "PS2",
+    "hashdb": "http://redump.org/",
+    "accent": [
+      "#4cc9ff",
+      "#7b61ff"
+    ]
+  },
+  {
+    "id": "psp",
+    "name": "PSP",
+    "desc": "PlayStation Portable",
+    "hashdb": "http://redump.org/",
+    "accent": [
+      "#35e0ff",
+      "#2f7bff"
+    ]
+  },
+  {
+    "id": "gamecube",
+    "name": "GameCube",
+    "desc": "Discos miniDVD",
+    "hashdb": "http://redump.org/",
+    "accent": [
+      "#a78bfa",
+      "#ff6ad5"
+    ]
+  },
+  {
+    "id": "switch",
+    "name": "Switch",
+    "desc": "Actual",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "accent": [
+      "#ff3b4e",
+      "#ff9a3d"
+    ]
+  }
+]

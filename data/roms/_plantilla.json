@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Juego libre de ejemplo",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": ["Español", "Inglés"],
+    "synopsis": "Breve sinopsis del juego.",
+    "cover": "juego-libre.jpg",
+    "screenshots": ["juego-libre-1.jpg", "juego-libre-2.jpg"],
+    "trailer": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
+    "size": "512 KB",
+    "license": "Homebrew del autor (con permiso)",
+    "magnet": "magnet:?xt=urn:btih:HASH&dn=nombre",
+    "torrent": "https://ejemplo.org/archivo.torrent",
+    "mirror": "https://archive.org/details/ejemplo",
+    "mirrorLabel": "Internet Archive"
+  },
+  {
+    "title": "Juego de catálogo de ejemplo",
+    "year": 1991,
+    "region": "USA",
+    "languages": ["Inglés"],
+    "synopsis": "Solo ficha: sin enlaces de descarga.",
+    "hashes": { "crc32": "00000000", "md5": "00000000000000000000000000000000", "sha1": "0000000000000000000000000000000000000000" }
+  }
+]
