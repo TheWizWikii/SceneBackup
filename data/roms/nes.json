@@ -1,21 +1,26 @@
 [
   {
     "title": "Super Mario Bros",
-    "license": "Homebrew del autor (con permiso)",
+	"license": "Homebrew del autor (con permiso)",
     "year": 1985,
     "region": "Mundial",
-    "languages": ["Español", "Inglés"],
     "genre": "Plataformas",
+	"languages": ["Español", "Inglés"],
     "developer": "Nintendo",
+	"trailer": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
     "synopsis": "El clásico juego que revolucionó los plataformas. Mario debe rescatar a la princesa Peach del malvado Bowser.",
     "cover": "Super Mario Bros. (World).jpg",
     "boxart": "Super Mario Bros. (World)",
-    "trailer": "https://www.youtube.com/watch?v=XXXXXXXXXXX",
-    "size": "512 KB",
-    "magnet": "magnet:?xt=urn:btih:6864d0c06b48365d208c7c5f2b1570087f4712de&dn=Minerva_Myrient&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2F95.107.48.115%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=http%3A%2F%2Ftracker.files.fm%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fvps02.net.orel.ru%3A80%2Fannounce&tr=https%3A%2F%2F1337.abcvg.info%3A443%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.nanoha.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.sloppyta.co%3A443%2Fannounce&tr=udp%3A%2F%2F208.83.20.20%3A6969%2Fannounce&tr=udp%3A%2F%2F37.235.174.46%3A2710%2Fannounce&tr=udp%3A%2F%2F75.127.14.224%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ffe.dealclub.de%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.tracker.vraphim.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.lanta-net.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.0x.tf%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=https%3A%2F%2Ftracker1.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.loligirl.cn%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.therarbg.to%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.therarbg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fepider.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.ktrackers.com%3A6666%2Fannounce&so=5940",
+    "size": "40 KB",
+	"magnet": "magnet:?xt=urn:btih:6864d0c06b48365d208c7c5f2b1570087f4712de&dn=Minerva_Myrient&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2810%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2F95.107.48.115%3A80%2Fannounce&tr=http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=http%3A%2F%2Ft.acg.rip%3A6699%2Fannounce&tr=http%3A%2F%2Ft.nyaatracker.com%3A80%2Fannounce&tr=http%3A%2F%2Ftracker.bt4g.com%3A2095%2Fannounce&tr=http%3A%2F%2Ftracker.files.fm%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Fvps02.net.orel.ru%3A80%2Fannounce&tr=https%3A%2F%2F1337.abcvg.info%3A443%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.nanoha.org%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.sloppyta.co%3A443%2Fannounce&tr=udp%3A%2F%2F208.83.20.20%3A6969%2Fannounce&tr=udp%3A%2F%2F37.235.174.46%3A2710%2Fannounce&tr=udp%3A%2F%2F75.127.14.224%3A2710%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ffe.dealclub.de%3A6969%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=udp%3A%2F%2Fmovies.zsw.ca%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fpublic.tracker.vraphim.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker.lanta-net.ru%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.0x.tf%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filemail.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.moeking.me%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.pomf.se%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.swateam.org.uk%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=https%3A%2F%2Ftracker1.ctix.cn%3A443%2Fannounce&tr=https%3A%2F%2Ftracker.loligirl.cn%3A443%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=https%3A%2F%2Ftracker.gbitt.info%3A443%2Fannounce&tr=http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.therarbg.to%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.therarbg.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fepider.me%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fbt.ktrackers.com%3A6666%2Fannounce&so=5940",
     "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20No-Intro%20-%20Nintendo%20-%20Nintendo%20Entertainment%20System%20(Headered).torrent",
     "mirror": "https://github.com/TheWizWikii/Retro/releases/download/r0ws/SMB.zip",
-    "mirrorLabel": "Internet Archive"
+    "mirrorLabel": "Internet Archive",
+    "hashes": {
+      "crc32": "393a432f",
+      "md5": "f94bb9bb55f325d9af8a0fff80b9376d",
+      "sha1": "33d23c2f2cfa4c9efec87f7bc1321ce3ce6c89bd"
+    }
   },
   {
     "title": "Super Mario Bros 2",
@@ -25,7 +30,13 @@
     "developer": "Nintendo",
     "synopsis": "La secuela americana de Super Mario Bros. Mario, Luigi, Toad y Peach viajan al mundo de los sueños Subcon para derrotar a Wart.",
     "cover": "Super Mario Bros. 2 (USA) (Rev 1).jpg",
-    "boxart": "Super Mario Bros. 2 (USA) (Rev 1)"
+    "boxart": "Super Mario Bros. 2 (USA) (Rev 1)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "dea55f53",
+      "md5": "89102aa7cc7b5927cd7f2d6711333224",
+      "sha1": "0dde824764daba70217e6167d01f202fb1666cb0"
+    }
   },
   {
     "title": "Super Mario Bros 3",
@@ -35,7 +46,13 @@
     "developer": "Nintendo",
     "synopsis": "Uno de los mejores juegos de plataformas de la historia. Mario viaja por el Reino Champiñón con nuevos poderes como el traje de mapache.",
     "cover": "Super Mario Bros. 3 (USA) (Rev 1).jpg",
-    "boxart": "Super Mario Bros. 3 (USA) (Rev 1)"
+    "boxart": "Super Mario Bros. 3 (USA) (Rev 1)",
+    "size": "384 KB",
+    "hashes": {
+      "crc32": "e8c3af69",
+      "md5": "e883e0d43448d9fdd8ce626f75fe4e5d",
+      "sha1": "a25d2dcbf6ec3634a84318bfe2cfe28d5331d815"
+    }
   },
   {
     "title": "The Legend of Zelda",
@@ -45,7 +62,13 @@
     "developer": "Nintendo",
     "synopsis": "El primer juego de la legendaria saga. Link debe derrotar a Ganon y salvar a la princesa Zelda.",
     "cover": "Legend of Zelda, The (USA) (Rev 1).jpg",
-    "boxart": "Legend of Zelda, The (USA) (Rev 1)"
+    "boxart": "Legend of Zelda, The (USA) (Rev 1)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "e47960e0",
+      "md5": "614fb3085826e62f3be3a3fe0b931689",
+      "sha1": "4671517d72d09799403f6c672cd2b395933e926e"
+    }
   },
   {
     "title": "Zelda II: The Adventure of Link",
@@ -55,7 +78,13 @@
     "developer": "Nintendo",
     "synopsis": "La secuela de The Legend of Zelda con un enfoque más RPG y combates laterales. Link busca despertar a la princesa Zelda.",
     "cover": "Zelda II - The Adventure of Link (USA).jpg",
-    "boxart": "Zelda II - The Adventure of Link (USA)"
+    "boxart": "Zelda II - The Adventure of Link (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "861c3fe6",
+      "md5": "e6dd4104fa46eb4bef2cb52dc341dd38",
+      "sha1": "08fa60f23e477752fdd850b1fd4171c6ca025127"
+    }
   },
   {
     "title": "Metroid",
@@ -65,7 +94,13 @@
     "developer": "Nintendo",
     "synopsis": "Samus Aran explora el planeta Zebes en busca del Metroid. Un clásico de exploración y acción.",
     "cover": "Metroid (USA).jpg",
-    "boxart": "Metroid (USA)"
+    "boxart": "Metroid (USA)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "d1a02cab",
+      "md5": "397d10e475266ad28144a5fa6ec3c466",
+      "sha1": "2080059bea4563ffff7535e6c0a0f3bc2f34b194"
+    }
   },
   {
     "title": "Mega Man",
@@ -75,7 +110,13 @@
     "developer": "Capcom",
     "synopsis": "El primer juego de la saga Mega Man. El robot Mega Man lucha contra los robots del Dr. Wily en seis etapas.",
     "cover": "Mega Man (USA).jpg",
-    "boxart": "Mega Man (USA)"
+    "boxart": "Mega Man (USA)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "ca2ab7e2",
+      "md5": "8cfaa33b1ec522ce89ab82af2dd17da7",
+      "sha1": "51a9fe7b5cb82833fc416e0f29b965495d9ce49a"
+    }
   },
   {
     "title": "Mega Man 2",
@@ -85,7 +126,13 @@
     "developer": "Capcom",
     "synopsis": "La secuela más aclamada de la saga. Mega Man se enfrenta a ocho nuevos robots y al Dr. Wily.",
     "cover": "Mega Man 2 (USA).jpg",
-    "boxart": "Mega Man 2 (USA)"
+    "boxart": "Mega Man 2 (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "80e08660",
+      "md5": "302761a666ac89c21f185052d02127d3",
+      "sha1": "54d53b46b961ba8b80ef57309bb0d78995d740a2"
+    }
   },
   {
     "title": "Mega Man 3",
@@ -95,7 +142,13 @@
     "developer": "Capcom",
     "synopsis": "La tercera entrega con nuevos robots y la introducción de Rush, el perro robot de Mega Man.",
     "cover": "Mega Man 3 (USA).jpg",
-    "boxart": "Mega Man 3 (USA)"
+    "boxart": "Mega Man 3 (USA)",
+    "size": "384 KB",
+    "hashes": {
+      "crc32": "45134a3e",
+      "md5": "6c591b7228fd31cbe0bf49243c012095",
+      "sha1": "89bef00ad1c7beb94c072be644d715a233cb3a30"
+    }
   },
   {
     "title": "Castlevania",
@@ -105,7 +158,13 @@
     "developer": "Konami",
     "synopsis": "Simon Belmont entra al castillo de Drácula para derrotarlo. Un clásico de acción y plataformas.",
     "cover": "Castlevania (USA) (Rev 1).jpg",
-    "boxart": "Castlevania (USA) (Rev 1)"
+    "boxart": "Castlevania (USA) (Rev 1)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "12a6cb14",
+      "md5": "a1b849f232781d0e929435df447822b5",
+      "sha1": "4e3ef47de86a941c37359bb3acfa5542a0fa7876"
+    }
   },
   {
     "title": "Castlevania II: Simon's Quest",
@@ -115,7 +174,13 @@
     "developer": "Konami",
     "synopsis": "Simon Belmont viaja por Transilvania para destruir las partes del cuerpo de Drácula.",
     "cover": "Castlevania II - Simon's Quest (USA).jpg",
-    "boxart": "Castlevania II - Simon's Quest (USA)"
+    "boxart": "Castlevania II - Simon's Quest (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "38e82fab",
+      "md5": "87dae73b0c4c8fdeba8cf4209df87e2c",
+      "sha1": "5cff70f8313a5ea9058e53ce933c02175e1275cb"
+    }
   },
   {
     "title": "Castlevania III: Dracula's Curse",
@@ -125,7 +190,13 @@
     "developer": "Konami",
     "synopsis": "La tercera entrega con múltiples personajes jugables y rutas alternativas en el castillo de Drácula.",
     "cover": "Castlevania III - Dracula's Curse (USA).jpg",
-    "boxart": "Castlevania III - Dracula's Curse (USA)"
+    "boxart": "Castlevania III - Dracula's Curse (USA)",
+    "size": "384 KB",
+    "hashes": {
+      "crc32": "7cf70cde",
+      "md5": "561999daa97a1c30c81cab5142a1d672",
+      "sha1": "0bb28dd9c2f8dfabb3349d1f65407b941ee78435"
+    }
   },
   {
     "title": "Contra",
@@ -135,7 +206,13 @@
     "developer": "Konami",
     "synopsis": "El clásico juego de acción con el código Konami. Dos soldados luchan contra una amenaza alienígena.",
     "cover": "Contra (USA).jpg",
-    "boxart": "Contra (USA)"
+    "boxart": "Contra (USA)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "52cd5cd8",
+      "md5": "cdf73714ff3ef47f4eeb2b71707be2a0",
+      "sha1": "4b9fad65727042595c5820ca03bc32bfd72de5e7"
+    }
   },
   {
     "title": "Super C",
@@ -145,7 +222,13 @@
     "developer": "Konami",
     "synopsis": "La secuela de Contra con más acción, nuevas armas y enemigos más desafiantes.",
     "cover": "Super C (USA).jpg",
-    "boxart": "Super C (USA)"
+    "boxart": "Super C (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "8be2ac58",
+      "md5": "6cc6e1799a44f836b8183f7bb9143545",
+      "sha1": "032708cc9eb6e25d7ab43f50a3e572222f755239"
+    }
   },
   {
     "title": "DuckTales",
@@ -155,7 +238,13 @@
     "developer": "Capcom",
     "synopsis": "Basado en la serie animada. Rico McPato viaja por el mundo en busca de tesoros.",
     "cover": "DuckTales (USA).jpg",
-    "boxart": "DuckTales (USA)"
+    "boxart": "DuckTales (USA)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "4b7e9c9d",
+      "md5": "2672343a1f33a2766050f8dfd405906f",
+      "sha1": "e2004d265e44e851f3c6053314af62a05fc4a595"
+    }
   },
   {
     "title": "Chip 'n Dale Rescue Rangers",
@@ -165,7 +254,13 @@
     "developer": "Capcom",
     "synopsis": "Chip y Dale trabajan como equipo en este juego de plataformas basado en la serie animada.",
     "cover": "Chip 'n Dale - Rescue Rangers (USA).jpg",
-    "boxart": "Chip 'n Dale - Rescue Rangers (USA)"
+    "boxart": "Chip 'n Dale - Rescue Rangers (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "776b5730",
+      "md5": "5b36cb8f2ebaac205b9b72e5c8a80dec",
+      "sha1": "8f99e72354ed75469290d3f997cff6c9e393a781"
+    }
   },
   {
     "title": "Ninja Gaiden",
@@ -175,7 +270,13 @@
     "developer": "Tecmo",
     "synopsis": "Ryu Hayabusa busca venganza contra el asesino de su padre en este clásico de acción.",
     "cover": "Ninja Gaiden (USA).jpg",
-    "boxart": "Ninja Gaiden (USA)"
+    "boxart": "Ninja Gaiden (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "80d3b95e",
+      "md5": "15c46b30c216086d1f215977a1019691",
+      "sha1": "282c846ddbe968cc5e4d1adc56dc9b8e3bef4753"
+    }
   },
   {
     "title": "Ninja Gaiden II: The Dark Sword of Chaos",
@@ -185,7 +286,13 @@
     "developer": "Tecmo",
     "synopsis": "La secuela del Ninja Gaiden original con más acción y una historia más profunda.",
     "cover": "Ninja Gaiden II - The Dark Sword of Chaos (USA).jpg",
-    "boxart": "Ninja Gaiden II - The Dark Sword of Chaos (USA)"
+    "boxart": "Ninja Gaiden II - The Dark Sword of Chaos (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "0c39b026",
+      "md5": "ed8de08e511d6f6a95e1cf58a57daab2",
+      "sha1": "269478947a5bc518551ab5d7b4687653006e243c"
+    }
   },
   {
     "title": "Ninja Gaiden III: The Ancient Ship of Doom",
@@ -195,7 +302,13 @@
     "developer": "Tecmo",
     "synopsis": "La tercera entrega de la saga Ninja Gaiden, con nuevas mecánicas y una historia que cierra la trilogía.",
     "cover": "Ninja Gaiden III - The Ancient Ship of Doom (USA).jpg",
-    "boxart": "Ninja Gaiden III - The Ancient Ship of Doom (USA)"
+    "boxart": "Ninja Gaiden III - The Ancient Ship of Doom (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "2b97d352",
+      "md5": "2a2cd39d331c85ac26f35334e6721971",
+      "sha1": "13641795d5cecaf433dbcd614a77ebbda1028525"
+    }
   },
   {
     "title": "Kirby's Adventure",
@@ -205,7 +318,13 @@
     "developer": "Nintendo",
     "synopsis": "El primer juego de Kirby en NES. Kirby debe restaurar los sueños de Dream Land.",
     "cover": "Kirby's Adventure (USA) (Rev 1).jpg",
-    "boxart": "Kirby's Adventure (USA) (Rev 1)"
+    "boxart": "Kirby's Adventure (USA) (Rev 1)",
+    "size": "768 KB",
+    "hashes": {
+      "crc32": "c68f0885",
+      "md5": "a3dde61df4bc4ebce2a60c2cf869081e",
+      "sha1": "5c2810bca7659f3aeb4a993b1c38f228b0fc1c0e"
+    }
   },
   {
     "title": "Punch-Out!!",
@@ -215,7 +334,13 @@
     "developer": "Nintendo",
     "synopsis": "Little Mac sube al ring para enfrentar a los boxeadores más duros del mundo.",
     "cover": "Punch-Out!! (USA).jpg",
-    "boxart": "Punch-Out!! (USA)"
+    "boxart": "Punch-Out!! (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "390d15b3",
+      "md5": "207d7d37d0af3525f3bb2d90e280b339",
+      "sha1": "0dbc137e7ba18dea3006d028c09227cd636e349b"
+    }
   },
   {
     "title": "Excitebike",
@@ -225,7 +350,13 @@
     "developer": "Nintendo",
     "synopsis": "Un juego de carreras de motocross con un editor de pistas. Uno de los primeros juegos de NES.",
     "cover": "Excitebike (Japan, USA) (En).jpg",
-    "boxart": "Excitebike (Japan, USA) (En)"
+    "boxart": "Excitebike (Japan, USA) (En)",
+    "size": "24 KB",
+    "hashes": {
+      "crc32": "625bf658",
+      "md5": "96a88c559d638ae2f552a028acb1b3fe",
+      "sha1": "8e807f8aa465891affc51939687009b36943aade"
+    }
   },
   {
     "title": "Ice Hockey",
@@ -235,7 +366,13 @@
     "developer": "Nintendo",
     "synopsis": "Un juego de hockey sobre hielo con equipos de diferentes países. Un clásico deportivo.",
     "cover": "Ice Hockey (USA).jpg",
-    "boxart": "Ice Hockey (USA)"
+    "boxart": "Ice Hockey (USA)",
+    "size": "40 KB",
+    "hashes": {
+      "crc32": "d40e1e37",
+      "md5": "f8673e834286bc4c4d08fa6a8517896e",
+      "sha1": "3f732edbabdcc06dbb15e246c4438e6e53e90ac4"
+    }
   },
   {
     "title": "Pro Wrestling",
@@ -245,7 +382,13 @@
     "developer": "Nintendo",
     "synopsis": "Un juego de lucha libre con personajes icónicos como el luchador con máscara.",
     "cover": "Pro Wrestling (USA) (Rev 1).jpg",
-    "boxart": "Pro Wrestling (USA) (Rev 1)"
+    "boxart": "Pro Wrestling (USA) (Rev 1)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "c0791c3a",
+      "md5": "c9cf57063fef0b890e5182231d9cc6c6",
+      "sha1": "e1437af504130adc53672f8b17f4d866e36c4c54"
+    }
   },
   {
     "title": "Double Dragon",
@@ -255,7 +398,13 @@
     "developer": "Technos Japan",
     "synopsis": "Los hermanos Lee se enfrentan a una pandilla para rescatar a la novia de Billy. Un clásico de los beat 'em up.",
     "cover": "Double Dragon (USA).jpg",
-    "boxart": "Double Dragon (USA)"
+    "boxart": "Double Dragon (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "f3850bce",
+      "md5": "3d04d732c9f6940e43de656cb75e2786",
+      "sha1": "4315f8c3338367efca0adf695f1003e67cadb5dc"
+    }
   },
   {
     "title": "Double Dragon II: The Revenge",
@@ -265,7 +414,13 @@
     "developer": "Technos Japan",
     "synopsis": "La secuela del Double Dragon original con más acción y combates.",
     "cover": "Double Dragon II - The Revenge (USA) (Rev 1).jpg",
-    "boxart": "Double Dragon II - The Revenge (USA) (Rev 1)"
+    "boxart": "Double Dragon II - The Revenge (USA) (Rev 1)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "31dde8d5",
+      "md5": "552aaa7f18694bb1406890a82ac05ec0",
+      "sha1": "457bf2438e11aa86947e5911c24f7075a9eceaeb"
+    }
   },
   {
     "title": "Battletoads",
@@ -275,7 +430,13 @@
     "developer": "Rare",
     "synopsis": "Los Battletoads, tres sapos mutantes, luchan contra la Dark Queen. Conocido por su dificultad extrema.",
     "cover": "Battletoads (USA).jpg",
-    "boxart": "Battletoads (USA)"
+    "boxart": "Battletoads (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "cfff05a1",
+      "md5": "1008f948966f7acc626bb5bf70c5089a",
+      "sha1": "b5e4af9df63361498ed54a4e71bfe01e8d1a1481"
+    }
   },
   {
     "title": "Ghosts 'n Goblins",
@@ -285,7 +446,13 @@
     "developer": "Capcom",
     "synopsis": "Sir Arthur debe rescatar a la princesa del reino demoníaco. Un juego de dificultad legendaria.",
     "cover": "Ghosts'n Goblins (USA).jpg",
-    "boxart": "Ghosts'n Goblins (USA)"
+    "boxart": "Ghosts'n Goblins (USA)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "102a8b76",
+      "md5": "80dcd911aaa221fd3de883d5128eb97c",
+      "sha1": "3430811ecc007fa469f5b74db277f872679266dd"
+    }
   },
   {
     "title": "Bionic Commando",
@@ -295,7 +462,13 @@
     "developer": "Capcom",
     "synopsis": "Un soldado con un brazo biónico debe infiltrarse en una base enemiga.",
     "cover": "Bionic Commando (USA).jpg",
-    "boxart": "Bionic Commando (USA)"
+    "boxart": "Bionic Commando (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "5d78010d",
+      "md5": "2d5d6b062716385da2ab59c2a005c29d",
+      "sha1": "d3a4bfd995d18c4a386971631759aeca3a7cff8d"
+    }
   },
   {
     "title": "Blaster Master",
@@ -305,7 +478,13 @@
     "developer": "Sunsoft",
     "synopsis": "Un joven pilota un tanque para rescatar a su rana. Un juego con mecánicas de plataformas y metroidvania.",
     "cover": "Blaster Master (USA).jpg",
-    "boxart": "Blaster Master (USA)"
+    "boxart": "Blaster Master (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "c3961ce2",
+      "md5": "defdc476e96dd44b4863e360456b8cd3",
+      "sha1": "0b4599955d7eb11c4f67b778637b58bf879510b4"
+    }
   },
   {
     "title": "Gradius",
@@ -315,7 +494,13 @@
     "developer": "Konami",
     "synopsis": "Un clásico de los shoot 'em up con un sistema de power-ups que se puede seleccionar.",
     "cover": "Gradius (USA).jpg",
-    "boxart": "Gradius (USA)"
+    "boxart": "Gradius (USA)",
+    "size": "64 KB",
+    "hashes": {
+      "crc32": "54f1af1f",
+      "md5": "7daa3b0ae39f19ebabcc129072c1ca72",
+      "sha1": "92645fe142861c3d3fda209bb906ad2b0e353988"
+    }
   },
   {
     "title": "Life Force",
@@ -325,7 +510,13 @@
     "developer": "Konami",
     "synopsis": "Un shooter vertical y horizontal con naves espaciales. Conocido por su modo cooperativo.",
     "cover": "Life Force (USA).jpg",
-    "boxart": "Life Force (USA)"
+    "boxart": "Life Force (USA)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "6072894a",
+      "md5": "3e138b2c1b0b71a17611edaf78c46095",
+      "sha1": "4fea1807ab79a4b69edca5a571cdf4318e14df62"
+    }
   },
   {
     "title": "Kid Icarus",
@@ -335,7 +526,13 @@
     "developer": "Nintendo",
     "synopsis": "Pit, el ángel, debe escapar del inframundo y derrotar a Medusa en este clásico de Nintendo.",
     "cover": "Kid Icarus (USA, Europe) (Rev 1).jpg",
-    "boxart": "Kid Icarus (USA, Europe) (Rev 1)"
+    "boxart": "Kid Icarus (USA, Europe) (Rev 1)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "f6d1eca3",
+      "md5": "77982c27f0589225d94f2b48b11915e3",
+      "sha1": "80403d335eee9636959b9ae2efa3e27014c7a779"
+    }
   },
   {
     "title": "Ice Climber",
@@ -345,7 +542,13 @@
     "developer": "Nintendo",
     "synopsis": "Dos escaladores deben subir una montaña de hielo mientras evitan enemigos.",
     "cover": "Ice Climber (USA, Europe, Korea) (En).jpg",
-    "boxart": "Ice Climber (USA, Europe, Korea) (En)"
+    "boxart": "Ice Climber (USA, Europe, Asia) (En)",
+    "size": "24 KB",
+    "hashes": {
+      "crc32": "913f07b0",
+      "md5": "4a140974854a221e1d3a93d9e871e79a",
+      "sha1": "7309ba29c5bdfe088302e107eb4f7c9e67c8cd32"
+    }
   },
   {
     "title": "Balloon Fight",
@@ -355,7 +558,13 @@
     "developer": "Nintendo",
     "synopsis": "Controla a un personaje con globos y lucha contra enemigos en el aire.",
     "cover": "Balloon Fight (USA).jpg",
-    "boxart": "Balloon Fight (USA)"
+    "boxart": "Balloon Fight (USA)",
+    "size": "24 KB",
+    "hashes": {
+      "crc32": "87d538e4",
+      "md5": "c58e5f600884aa7daadc1ea498f1df24",
+      "sha1": "49dd51d3dcdc7624b69798f472d4edc3874f3502"
+    }
   },
   {
     "title": "Dr. Mario",
@@ -364,8 +573,13 @@
     "genre": "Puzzle",
     "developer": "Nintendo",
     "synopsis": "Un juego de puzzle donde debes eliminar virus con pastillas de colores. Un clásico adictivo.",
-    "cover": "Dr. Chaos (USA).jpg",
-    "boxart": "Dr. Chaos (USA)"
+    "boxart": "Dr. Mario (Japan, USA) (En) (Rev 1)",
+    "size": "64 KB",
+    "hashes": {
+      "crc32": "92bed9d7",
+      "md5": "a4e02baf4284348c045655b91cb84bde",
+      "sha1": "0f18c2a5760be0647339b0e3cab9183af86fdd8c"
+    }
   },
   {
     "title": "Tetris",
@@ -375,7 +589,13 @@
     "developer": "Nintendo",
     "synopsis": "El clásico juego de puzzle donde debes encajar bloques que caen. Adictivo y eterno.",
     "cover": "Tetris (USA) (Tengen) (Unl).jpg",
-    "boxart": "Tetris (USA) (Tengen) (Unl)"
+    "boxart": "Tetris (USA) (Tengen)",
+    "size": "48 KB",
+    "hashes": {
+      "crc32": "ae473687",
+      "md5": "2aa73cc1b57a42a61e5cb3e84908064d",
+      "sha1": "ae18422396bad1619153f1b156688399a2022a61"
+    }
   },
   {
     "title": "Final Fantasy",
@@ -385,7 +605,13 @@
     "developer": "Square",
     "synopsis": "El primer juego de la saga Final Fantasy. Cuatro guerreros de la luz deben salvar el mundo.",
     "cover": "Final Fantasy (USA).jpg",
-    "boxart": "Final Fantasy (USA)"
+    "boxart": "Final Fantasy (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "8125b019",
+      "md5": "a475798cbd5787b3b9736f238b8032c1",
+      "sha1": "e8f34d93576048528be4cb736f292edb431083e0"
+    }
   },
   {
     "title": "Dragon Warrior",
@@ -395,7 +621,13 @@
     "developer": "Chunsoft",
     "synopsis": "El primer juego de la saga Dragon Quest en occidente. El héroe debe rescatar a la princesa y derrotar al Dragonlord.",
     "cover": "Dragon Warrior (USA) (Rev 1).jpg",
-    "boxart": "Dragon Warrior (USA) (Rev 1)"
+    "boxart": "Dragon Warrior (USA) (Rev 1)",
+    "size": "80 KB",
+    "hashes": {
+      "crc32": "abf3c899",
+      "md5": "161f31d9d8995838dee57a679dade537",
+      "sha1": "66809063b828197d1fe12232ebd08ec0a498aa04"
+    }
   },
   {
     "title": "Dragon Warrior II",
@@ -405,7 +637,13 @@
     "developer": "Chunsoft",
     "synopsis": "La secuela de Dragon Warrior con un mundo más grande y un grupo de héroes.",
     "cover": "Dragon Warrior II (USA).jpg",
-    "boxart": "Dragon Warrior II (USA)"
+    "boxart": "Dragon Warrior II (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "c3c2e266",
+      "md5": "3188792f0e6baee937a9859542c8c155",
+      "sha1": "c05b550694a8c0276b60736a61955d5bbf0c1f3d"
+    }
   },
   {
     "title": "Dragon Warrior III",
@@ -415,7 +653,13 @@
     "developer": "Chunsoft",
     "synopsis": "La tercera entrega de la saga Dragon Quest, considerada una de las mejores de NES.",
     "cover": "Dragon Warrior III (USA).jpg",
-    "boxart": "Dragon Warrior III (USA)"
+    "boxart": "Dragon Warrior III (USA)",
+    "size": "512 KB",
+    "hashes": {
+      "crc32": "5716bd04",
+      "md5": "5f585a1c9d855a585e7fc92309f844dd",
+      "sha1": "19ab26df82c3f92af545c93008022cab9c16f542"
+    }
   },
   {
     "title": "Dragon Warrior IV",
@@ -425,7 +669,13 @@
     "developer": "Chunsoft",
     "synopsis": "La cuarta entrega con una historia dividida en capítulos y personajes únicos.",
     "cover": "Dragon Warrior IV (USA).jpg",
-    "boxart": "Dragon Warrior IV (USA)"
+    "boxart": "Dragon Warrior IV (USA)",
+    "size": "512 KB",
+    "hashes": {
+      "crc32": "af12cb81",
+      "md5": "33690b361265c840fda965418adf3143",
+      "sha1": "993a171a99d29805d6634cf40190de138b4a99b9"
+    }
   },
   {
     "title": "Home Alone",
@@ -435,7 +685,13 @@
     "developer": "THQ",
     "synopsis": "Basado en la película. Kevin McCallister debe proteger su casa de los ladrones con trampas y objetos.",
     "cover": "Home Alone (USA) (Rev 1).jpg",
-    "boxart": "Home Alone (USA) (Rev 1)"
+    "boxart": "Home Alone (USA) (Rev 1)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "e7e1233e",
+      "md5": "1fc8d23d088e7922f25732f175d7c7c6",
+      "sha1": "c06b41334f4068888b24eefda0b5a2099277f0a6"
+    }
   },
   {
     "title": "Home Alone 2: Lost in New York",
@@ -445,7 +701,13 @@
     "developer": "THQ",
     "synopsis": "La secuela del juego de Home Alone. Kevin está perdido en Nueva York y debe evadir a los ladrones.",
     "cover": "Home Alone 2 - Lost in New York (USA).jpg",
-    "boxart": "Home Alone 2 - Lost in New York (USA)"
+    "boxart": "Home Alone 2 - Lost in New York (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "95bea38c",
+      "md5": "9b322f84556ee52233d5b9ca83f1efdd",
+      "sha1": "62668e95b3bf97571ee7067874bf525cc752462f"
+    }
   },
   {
     "title": "The Goonies",
@@ -455,7 +717,13 @@
     "developer": "Konami",
     "synopsis": "Basado en la película. Los Goonies buscan el tesoro de One-Eyed Willy en una cueva subterránea.",
     "cover": "Goonies (Japan).jpg",
-    "boxart": "Goonies (Japan)"
+    "boxart": "Goonies (Japan) (En)",
+    "size": "48 KB",
+    "hashes": {
+      "crc32": "7b12e8e6",
+      "md5": "1d49ed7fe21a6b42e07e58d710356509",
+      "sha1": "e0c48b7bdb174467561a74ac69fea55af7b2ca28"
+    }
   },
   {
     "title": "The Goonies II",
@@ -465,7 +733,13 @@
     "developer": "Konami",
     "synopsis": "La secuela del juego de The Goonies con más exploración y acción.",
     "cover": "Goonies II, The (USA).jpg",
-    "boxart": "Goonies II, The (USA)"
+    "boxart": "Goonies II, The (USA)",
+    "size": "128 KB",
+    "hashes": {
+      "crc32": "3d5b7b5e",
+      "md5": "b416c2da2f7bfb9ca1d788d7b9412552",
+      "sha1": "d43c1caf8cf7cdf1b878e2a2a3ed7a14f5841dae"
+    }
   },
   {
     "title": "Back to the Future",
@@ -475,7 +749,13 @@
     "developer": "LJN",
     "synopsis": "Basado en la película. Marty McFly viaja en el tiempo para asegurarse de que sus padres se conozcan.",
     "cover": "Back to the Future (USA).jpg",
-    "boxart": "Back to the Future (USA)"
+    "boxart": "Back to the Future (USA)",
+    "size": "64 KB",
+    "hashes": {
+      "crc32": "5297e09b",
+      "md5": "0dfd79c5a2794bdf3919e12b59e0ec52",
+      "sha1": "c61322730446eaabe8abfcbe655c4c6e2cf53d30"
+    }
   },
   {
     "title": "Back to the Future II & III",
@@ -485,7 +765,13 @@
     "developer": "LJN",
     "synopsis": "Un juego que combina las dos últimas películas de Back to the Future en una sola aventura.",
     "cover": "Back to the Future Part II & III (USA).jpg",
-    "boxart": "Back to the Future Part II & III (USA)"
+    "boxart": "Back to the Future Part II & III (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "cb23f9e7",
+      "md5": "7d8a7865abe7780889e1982791f5413a",
+      "sha1": "ef76978ba4dd86a4b9bc930d625cbcf39d77a026"
+    }
   },
   {
     "title": "Ghostbusters",
@@ -495,7 +781,13 @@
     "developer": "Activision",
     "synopsis": "Basado en la película. Los Cazafantasmas deben atrapar fantasmas en la ciudad de Nueva York.",
     "cover": "Ghostbusters (USA).jpg",
-    "boxart": "Ghostbusters (USA)"
+    "boxart": "Ghostbusters (USA)",
+    "size": "64 KB",
+    "hashes": {
+      "crc32": "9ddd0864",
+      "md5": "c81254a0119efce108e38cac31eeb0d1",
+      "sha1": "d6668d9470e1e6951b97c444379869aa3df21d42"
+    }
   },
   {
     "title": "Ghostbusters II",
@@ -505,6 +797,12 @@
     "developer": "Activision",
     "synopsis": "La secuela del juego de Ghostbusters, basada en la segunda película.",
     "cover": "Ghostbusters II (USA).jpg",
-    "boxart": "Ghostbusters II (USA)"
+    "boxart": "Ghostbusters II (USA)",
+    "size": "256 KB",
+    "hashes": {
+      "crc32": "d670bde6",
+      "md5": "a5817052d39575204661ff19595494fc",
+      "sha1": "3921d412d5ab7e9f03db6d0279b0d1c7f3334de2"
+    }
   }
 ]
