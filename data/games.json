@@ -56,6 +56,22 @@
     "repo": "ZiZc3/VLC"
   },
   {
+    "title": "XPSemu",
+    "category": "Emulador",
+    "platform": "PS5",
+    "cover": "assets/covers/xpsemu.jpg",
+    "version": "2.1",
+    "releaseDate": "2026-10-10",
+    "description": "Port nativo de xemu para PS5. La Xbox original emulada en PS5, con su propio dashboard estilo Xbox.",
+    "downloadUrl": "https://github.com/ZiZc3/XPSemu/releases",
+    "sourceUrl": "https://github.com/ZiZc3/XPSemu",
+    "repo": "ZiZc3/XPSemu",
+    "requirements": ["Tener una PS5 con Jailbreak, kstuff y ShadowMountPlus","Disponer de la BIOS y ROM MCPX de Xbox original"],
+    "install": ["Descarga PPSA97358.zip, extráelo y copia la carpeta PPSA97358 en /data/homebrew/","Carga helper.elf mediante kstuff","Copia mcpx_1.0.bin y Complex_4627.bin en /data/xemu/","Copia tus juegos .iso o .xiso en /data/xemu/games/ o en xemu/games/ de un USB",
+    "Inicia XPSemu desde el menú de PS5"],
+    "warning": "Versión Alpha 2 experimental. Requiere PS5 liberada y archivos originales de Xbox. Algunos juegos presentan errores y problemas de rendimiento."
+  },
+  {
     "title": "ProsperoStore",
     "category": "App",
     "platform": "PS5",
