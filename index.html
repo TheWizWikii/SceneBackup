@@ -330,6 +330,33 @@ a.tab { display: inline-flex; align-items: center; text-decoration: none; white-
 .hashbox p { margin: 8px 0 0; font-size: 12.5px; color: #ffcf8a; }
 @media (max-width: 480px) { .rmeta { grid-template-columns: 1fr 1fr; } }
 
+/* ficha de juego del archivo: portada completa + capturas ampliables */
+.modal.rom { width: min(940px, 100%); }
+.rmodal { display: grid; grid-template-columns: minmax(220px, 320px) minmax(0, 1fr); }
+.rcol { padding: 24px 0 24px 24px; display: flex; justify-content: center; align-items: flex-start; }
+.rcover { position: relative; width: 100%; border-radius: 12px; overflow: hidden; aspect-ratio: 3/4; background: linear-gradient(135deg, var(--ca), var(--cb)); box-shadow: 0 0 0 1px rgba(255,255,255,.14), 0 24px 60px -14px color-mix(in srgb, var(--ca) 60%, #000); }
+.rcover:has(img) { aspect-ratio: auto; }
+.rcover img { display: block; width: 100%; height: auto; min-height: 200px; max-height: min(68vh, 560px); object-fit: contain; }
+.rcover .fb { position: absolute; inset: 0; display: grid; place-items: center; font-family: var(--f-display); font-weight: 800; font-size: 56px; letter-spacing: -.04em; color: rgba(255,255,255,.55); }
+.rcover:has(img) .fb { display: none; }
+.rshots-h { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--mut); margin: 4px 0 -2px; }
+.rshots { display: flex; flex-wrap: wrap; gap: 8px; }
+.rshot { all: unset; box-sizing: border-box; cursor: zoom-in; position: relative; width: 112px; aspect-ratio: 16/9; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); transition: border-color .2s, transform .2s, box-shadow .2s; }
+.rshot:hover, .rshot:focus-visible { border-color: var(--ca); transform: translateY(-2px); box-shadow: 0 8px 22px color-mix(in srgb, var(--ca) 40%, transparent); outline: none; }
+.modal .rshot .cover { height: 100%; aspect-ratio: auto; width: 100%; }
+.lbox { position: fixed; inset: 0; z-index: 30; background: rgba(3,4,10,.95); display: grid; place-items: center; padding: 64px 64px 28px; }
+.lbox img { height: min(74vh, 680px); width: auto; max-width: 100%; max-height: calc(100vh - 110px); object-fit: contain; border-radius: 8px; image-rendering: pixelated; box-shadow: 0 20px 80px rgba(0,0,0,.6); }
+.lbox .gnav { width: 44px; height: 44px; }
+.lbox .lbx { position: absolute; top: 14px; right: 14px; width: 40px; height: 40px; border-radius: 50%; border: 1px solid rgba(255,255,255,.25); background: rgba(255,255,255,.08); display: grid; place-items: center; }
+.lbox .lbx svg { width: 16px; height: 16px; }
+.lbox .gcount { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); right: auto; }
+@media (max-width: 720px) {
+  .rmodal { grid-template-columns: 1fr; }
+  .rcol { padding: 56px 24px 0; }
+  .rcover { max-width: 260px; }
+  .lbox { padding: 64px 12px 28px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
   html { scroll-behavior: auto; }
@@ -835,7 +862,52 @@ let lastFocus = null;
 const I_WARN = svg('<path d="M12 3l10 18H2zM12 10v5M12 18h.01"/>');
 const ytId = u => { const m = String(u).match(/(?:youtu\.be\/|[?&]v=|embed\/|shorts\/)([\w-]{11})/); return m ? m[1] : ''; };
 let cur = null;
+function renderRomModal() {
+  const g = cur.g, shots = g.shots;
+  cur.vid = hasLink(g.youtubeUrl) ? ytId(g.youtubeUrl) : '';
+  const tabs = [['info', 'Ficha'], cur.vid ? ['video', 'Tráiler'] : null].filter(Boolean);
+  cur.tabKeys = tabs.map(x => x[0]);
+  if (!cur.tabKeys.includes(cur.tab)) cur.tab = 'info';
+  cur.n = cur.lb ? shots.length : 0;
+  if (cur.shot >= shots.length) cur.shot = 0;
+  const init = g.title.replace(/[^A-Za-z0-9 ]/g, '').split(/\s+/).filter(Boolean).slice(0, 2).map(w => w[0]).join('').toUpperCase() || '?';
+  const cp = String(g.cover || '').split('|').filter(Boolean);
+  const coverHTML = `<div class="rcover"><span class="fb">${esc(init)}</span>${cp.length ? `<img data-cv src="${esc(cp[0])}" ${cp.length > 1 ? `data-alt="${esc(cp.slice(1).join('|'))}"` : ''} alt="Portada de ${esc(g.title)}" referrerpolicy="no-referrer">` : ''}</div>`;
+  const meta = [['Plataforma', g.sys.name], ['Año', g.year], ['Región', g.region], ['Género', g.genre], ['Desarrolladora', g.developer], ['Idiomas', g.langs.join(', ')], ['Tamaño', g.size]].filter(v => v[1]);
+  const h = g.hashes || {}, hl = [['CRC32', h.crc32], ['MD5', h.md5], ['SHA-1', h.sha1]].filter(v => v[1]);
+  let panel;
+  if (cur.tab === 'video') panel = `<button class="facade" type="button" data-play aria-label="Reproducir tráiler">${cover(g, shots[0] || g.cover)}<span class="play"><span>${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}</span></span></button>`;
+  else panel = `<dl class="rmeta">${meta.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl><p class="mdesc">${esc(g.description || 'Sin sinopsis todavía.')}</p>`
+    + (shots.length ? `<div class="rshots-h">Capturas</div><div class="rshots">${shots.map((x, k) => `<button class="rshot" type="button" data-lb="${k}" aria-label="Ampliar captura ${k + 1}">${cover(g, x)}</button>`).join('')}</div>` : '')
+    + (g.free ? `<p class="rlic">✔ ${esc(g.license)}: distribución permitida</p>` : '')
+    + (hl.length ? `<div class="hashbox"><h4>Hashes de verificación</h4><code>${hl.map(([k, v]) => `<em>${k}</em>${esc(v)}`).join('<br>')}</code>${g.free ? '' : '<p>Este título no se distribuye aquí. Compara tu propio volcado con estos valores.</p>'}</div>` : (g.free ? '' : '<div class="hashbox"><p>Este título no se distribuye aquí.</p></div>'));
+  const links = [
+    g.free && isMagnet(g.magnet) ? `<a class="mbtn pri" href="${esc(g.magnet)}">${I_DL}Magnet</a>` : '',
+    g.free && isFile(g.torrent) ? `<a class="mbtn" href="${esc(g.torrent)}" ${hasLink(g.torrent) ? 'target="_blank" rel="noopener"' : 'download'}>Torrent</a>` : '',
+    g.free && hasLink(g.mirror) ? `<a class="mbtn" href="${esc(g.mirror)}" target="_blank" rel="noopener">${esc(g.mirrorLabel)}</a>` : '',
+    !g.free && hasLink(g.sys.hashdb) ? `<a class="mbtn pri" href="${esc(g.sys.hashdb)}" target="_blank" rel="noopener">Base de hashes</a>` : '',
+    !g.free && hasLink(g.sys.guide) ? `<a class="mbtn" href="${esc(g.sys.guide)}" target="_blank" rel="noopener">Guía de volcado</a>` : '',
+    hasLink(g.youtubeUrl) ? `<a class="mbtn yt" href="${esc(g.youtubeUrl)}" target="_blank" rel="noopener">${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}Tráiler</a>` : ''
+  ].join('');
+  const n = shots.length, i = cur.shot;
+  const lb = cur.lb && n ? `<div class="lbox" role="dialog" aria-label="Captura ${i + 1} de ${n}" data-lbback><button class="lbx" type="button" data-lbx aria-label="Cerrar captura">${I_X}</button>
+      <img data-cv src="${esc(shots[i])}" alt="Captura ${i + 1} de ${esc(g.title)}" referrerpolicy="no-referrer">
+      ${n > 1 ? `<button class="gnav prev" type="button" data-shot="${(i - 1 + n) % n}" aria-label="Anterior">${svg('<path d="M15 6l-6 6 6 6"/>')}</button><button class="gnav next" type="button" data-shot="${(i + 1) % n}" aria-label="Siguiente">${svg('<path d="M9 6l6 6-6 6"/>')}</button>` : ''}
+      <span class="gcount">${i + 1} / ${n}</span></div>` : '';
+  modal.className = 'modal rom'; modal.dataset.tab = cur.tab;
+  modal.innerHTML = `<button class="mx" id="mx" type="button" aria-label="Cerrar">${I_X}</button>
+    <div class="rmodal"><div class="rcol">${coverHTML}</div>
+    <div class="mbody">
+      <div class="mtags"><span>${esc(g.sys.name)}</span>${g.region ? `<span>${esc(g.region)}</span>` : ''}${g.year ? `<span>${esc(g.year)}</span>` : ''}</div>
+      <h2 class="mtitle" id="m-title">${esc(g.title)}</h2>
+      ${tabs.length > 1 ? `<div class="mtabs" role="tablist">${tabs.map(([k, l]) => `<button class="mtab" role="tab" type="button" data-tab="${k}" aria-selected="${k === cur.tab}">${l}</button>`).join('')}</div>` : ''}
+      <div class="mpanel">${panel}</div>
+      ${links ? `<div class="mlinks">${links}</div>` : ''}
+    </div></div>${lb}`;
+}
 function renderModal() {
+  if (cur.g._rom) return renderRomModal();
+  modal.className = 'modal';
   const g = cur.g, t = theme(g.ps);
   const list = [g.cover, ...g.shots].filter(Boolean);
   if (!list.length) list.push('');
@@ -913,6 +985,9 @@ function closeModal() {
 }
 modal.addEventListener('click', e => {
   if (!cur) return;
+  const lbo = e.target.closest('[data-lb]');
+  if (lbo) { cur.lb = true; cur.shot = +lbo.dataset.lb; renderModal(); const el = modal.querySelector('.lbox .gnav.next') || modal.querySelector('.lbx'); if (el) el.focus(); return; }
+  if (e.target.closest('[data-lbx]') || (e.target.hasAttribute && e.target.hasAttribute('data-lbback'))) { const k = cur.shot; cur.lb = false; renderModal(); const el = modal.querySelector(`[data-lb="${k}"]`); if (el) el.focus(); return; }
   const tb = e.target.closest('[data-tab]');
   if (tb) { cur.tab = tb.dataset.tab; renderModal(); const el = modal.querySelector(`[data-tab="${cur.tab}"]`); if (el) el.focus(); return; }
   const sh = e.target.closest('[data-shot]');
@@ -933,7 +1008,7 @@ document.addEventListener('keydown', e => {
 });
 ov.addEventListener('click', e => { if (e.target === ov || e.target.closest('#mx')) closeModal(); });
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape') { if (cur && cur.lb) { const k = cur.shot; cur.lb = false; renderModal(); const el = modal.querySelector(`[data-lb="${k}"]`); if (el) el.focus(); return; } closeModal(); }
   if (e.key === 'Tab' && !ov.hidden) {
     const f = [...modal.querySelectorAll('a,button')]; if (!f.length) return;
     const first = f[0], last = f[f.length - 1];
