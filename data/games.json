@@ -35,13 +35,23 @@
     "sourceUrl": "https://github.com/ricowp81/Salsa64",
     "repo": "ricowp81/Salsa64",
     "added": "2026-10-14",
-    "requirements": [
-      "Tener una PS3 con HEN o CFW"
-    ],
-    "install": [
-      "Descarga y instala salsa64.pkg",
-      "Copia tus roms .z64, .v64 o .n64 en /dev_hdd0/salsa64 o en una carpeta llamada salsa64 en tu USB FAT32"
-    ],
+    "requirements": ["Tener una PS3 con HEN o CFW"],
+    "install": ["Descarga y instala salsa64.pkg","Copia tus roms .z64, .v64 o .n64 en /dev_hdd0/salsa64 o en una carpeta llamada salsa64 en tu USB FAT32"],
+    "warning": "Necesitas una PS3 con Jailbreak."
+  },
+  {
+    "title": "Cell64",
+    "category": "Emulador",
+    "platform": "PS3",
+    "cover": "assets/covers/cell64.png",
+    "version": "1.52",
+    "releaseDate": "2026-09-27",
+    "description": "Emulador de Nintendo 64 para PS3 (homebrew, HEN/CFW).",
+    "downloadUrl": "https://store.brewology.com/ahomebrew.php?brewid=344",
+    "sourceUrl": "https://store.brewology.com/ahomebrew.php?brewid=344",
+    "added": "2026-10-14",
+    "requirements": ["Tener una PS3 con HEN o CFW"],
+    "install": ["Descarga y instala Cell64.pkg","Copia tus roms .z64, .v64 o .n64 en /dev_hdd0/cell64/roms"],
     "warning": "Necesitas una PS3 con Jailbreak."
   },
   {
