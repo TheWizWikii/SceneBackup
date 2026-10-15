@@ -43,7 +43,7 @@
     "title": "Cell64",
     "category": "Emulador",
     "platform": "PS3",
-    "cover": "assets/covers/cell64.png",
+    "cover": "assets/covers/cell64.jpg",
     "version": "1.52",
     "releaseDate": "2026-09-27",
     "description": "Emulador de Nintendo 64 para PS3 (homebrew, HEN/CFW).",
