@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rellena `size` y `hashes` (crc32, md5, sha1) de data/roms/<sistema>.json
+"""Rellena `size` (tamaño aproximado) de data/roms/<sistema>.json
 usando los DAT de No-Intro / Redump que publica el proyecto libretro-database.
 
 Uso:   python3 scripts/fill_rom_info.py nes
@@ -56,9 +56,6 @@ def main():
             print("  sin datos:", g["title"], f"(boxart: {g.get('boxart', '-')})")
             continue
         g.setdefault("size", human(hit["size"]))
-        h = g.setdefault("hashes", {})
-        for k in ("crc32", "md5", "sha1"):
-            h.setdefault(k, hit[k])
         done += 1
     json.dump(items, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print(f"{done} completados, {miss} sin datos.")
