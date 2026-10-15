@@ -49,6 +49,7 @@
     "description": "Emulador de Nintendo 64 para PS3 (homebrew, HEN/CFW).",
     "downloadUrl": "https://store.brewology.com/ahomebrew.php?brewid=344",
     "sourceUrl": "https://store.brewology.com/ahomebrew.php?brewid=344",
+    "youtubeUrl": "https://youtu.be/b-KwbTyfPws",
     "added": "2026-10-14",
     "requirements": ["Tener una PS3 con HEN o CFW"],
     "install": ["Descarga y instala Cell64.pkg","Copia tus roms .z64, .v64 o .n64 en /dev_hdd0/cell64/roms"],
