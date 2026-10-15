@@ -1,142 +1,417 @@
 [
   {
+    "id": "atari2600",
+    "name": "Atari 2600",
+    "desc": "Atari · 1977",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Atari - 2600"
+  },
+  {
+    "id": "atari5200",
+    "name": "Atari 5200",
+    "desc": "Atari · 1982",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Atari - 5200"
+  },
+  {
+    "id": "atari7800",
+    "name": "Atari 7800",
+    "desc": "Atari · 1986",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Atari - 7800"
+  },
+  {
+    "id": "lynx",
+    "name": "Atari Lynx",
+    "desc": "Portátil en color de Atari",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Atari - Lynx"
+  },
+  {
+    "id": "jaguar",
+    "name": "Atari Jaguar",
+    "desc": "Atari · 64 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Atari - Jaguar"
+  },
+  {
+    "id": "atarist",
+    "name": "Atari ST",
+    "desc": "Ordenador de 16 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Atari - ST"
+  },
+  {
+    "id": "colecovision",
+    "name": "ColecoVision",
+    "desc": "Coleco · 1982",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Coleco - ColecoVision"
+  },
+  {
+    "id": "intellivision",
+    "name": "Intellivision",
+    "desc": "Mattel · 1979",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Mattel - Intellivision"
+  },
+  {
+    "id": "vectrex",
+    "name": "Vectrex",
+    "desc": "Gráficos vectoriales",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "GCE - Vectrex"
+  },
+  {
     "id": "nes",
     "name": "NES",
     "desc": "Nintendo Entertainment System · 8 bits",
     "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#ff4d6d",
-      "#ffb347"
-    ]
+    "libretro": "Nintendo - Nintendo Entertainment System"
   },
   {
-    "id": "snes",
-    "name": "SNES",
-    "desc": "Super Nintendo · 16 bits",
+    "id": "fds",
+    "name": "Famicom Disk System",
+    "desc": "Disquetes para Famicom",
     "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#a78bfa",
-      "#4cc9ff"
-    ]
-  },
-  {
-    "id": "n64",
-    "name": "Nintendo 64",
-    "desc": "Cartuchos 3D de los 90",
-    "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#35e0ff",
-      "#ff4d6d"
-    ]
+    "libretro": "Nintendo - Family Computer Disk System"
   },
   {
     "id": "gb",
     "name": "Game Boy",
     "desc": "Portátil monocromo",
     "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#9bd36a",
-      "#2f7a4a"
-    ]
+    "libretro": "Nintendo - Game Boy"
+  },
+  {
+    "id": "gbc",
+    "name": "Game Boy Color",
+    "desc": "Portátil en color",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Nintendo - Game Boy Color"
+  },
+  {
+    "id": "snes",
+    "name": "SNES",
+    "desc": "Super Nintendo · 16 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Nintendo - Super Nintendo Entertainment System"
+  },
+  {
+    "id": "virtualboy",
+    "name": "Virtual Boy",
+    "desc": "Nintendo · 1995",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Nintendo - Virtual Boy"
+  },
+  {
+    "id": "n64",
+    "name": "Nintendo 64",
+    "desc": "Cartuchos 3D de los 90",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Nintendo - Nintendo 64"
   },
   {
     "id": "gba",
     "name": "Game Boy Advance",
     "desc": "Portátil de 32 bits",
     "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#7b61ff",
-      "#ff6ad5"
-    ]
+    "libretro": "Nintendo - Game Boy Advance"
   },
   {
-    "id": "nds",
-    "name": "Nintendo DS",
-    "desc": "Doble pantalla",
+    "id": "pokemini",
+    "name": "Pokémon Mini",
+    "desc": "Portátil minúscula",
     "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#9aa7ff",
-      "#4cc9ff"
-    ]
-  },
-  {
-    "id": "megadrive",
-    "name": "Mega Drive / Genesis",
-    "desc": "SEGA 16 bits",
-    "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#4cc9ff",
-      "#2b59ff"
-    ]
-  },
-  {
-    "id": "saturn",
-    "name": "SEGA Saturn",
-    "desc": "Discos de SEGA",
-    "hashdb": "http://redump.org/",
-    "accent": [
-      "#ff9a3d",
-      "#7b61ff"
-    ]
-  },
-  {
-    "id": "dreamcast",
-    "name": "Dreamcast",
-    "desc": "Última consola de SEGA",
-    "hashdb": "http://redump.org/",
-    "accent": [
-      "#ff7a2e",
-      "#ffd23e"
-    ]
-  },
-  {
-    "id": "ps1",
-    "name": "PlayStation",
-    "desc": "PS1",
-    "hashdb": "http://redump.org/",
-    "accent": [
-      "#9aa7ff",
-      "#4a5bd8"
-    ]
-  },
-  {
-    "id": "ps2",
-    "name": "PlayStation 2",
-    "desc": "PS2",
-    "hashdb": "http://redump.org/",
-    "accent": [
-      "#4cc9ff",
-      "#7b61ff"
-    ]
-  },
-  {
-    "id": "psp",
-    "name": "PSP",
-    "desc": "PlayStation Portable",
-    "hashdb": "http://redump.org/",
-    "accent": [
-      "#35e0ff",
-      "#2f7bff"
-    ]
+    "libretro": "Nintendo - Pokemon Mini"
   },
   {
     "id": "gamecube",
     "name": "GameCube",
     "desc": "Discos miniDVD",
     "hashdb": "http://redump.org/",
-    "accent": [
-      "#a78bfa",
-      "#ff6ad5"
-    ]
+    "libretro": "Nintendo - GameCube"
+  },
+  {
+    "id": "nds",
+    "name": "Nintendo DS",
+    "desc": "Doble pantalla",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Nintendo - Nintendo DS"
+  },
+  {
+    "id": "wii",
+    "name": "Wii",
+    "desc": "Nintendo · 2006",
+    "hashdb": "http://redump.org/",
+    "libretro": "Nintendo - Wii"
+  },
+  {
+    "id": "3ds",
+    "name": "Nintendo 3DS",
+    "desc": "3D sin gafas",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Nintendo - Nintendo 3DS"
+  },
+  {
+    "id": "wiiu",
+    "name": "Wii U",
+    "desc": "Nintendo · 2012",
+    "hashdb": "http://redump.org/",
+    "libretro": "Nintendo - Wii U"
   },
   {
     "id": "switch",
     "name": "Switch",
     "desc": "Actual",
+    "hashdb": "https://datomatic.no-intro.org/"
+  },
+  {
+    "id": "sg1000",
+    "name": "SG-1000",
+    "desc": "SEGA · 1983",
     "hashdb": "https://datomatic.no-intro.org/",
-    "accent": [
-      "#ff3b4e",
-      "#ff9a3d"
-    ]
+    "libretro": "Sega - SG-1000"
+  },
+  {
+    "id": "mastersystem",
+    "name": "Master System",
+    "desc": "SEGA · 8 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Sega - Master System - Mark III"
+  },
+  {
+    "id": "gamegear",
+    "name": "Game Gear",
+    "desc": "Portátil de SEGA",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Sega - Game Gear"
+  },
+  {
+    "id": "megadrive",
+    "name": "Mega Drive / Genesis",
+    "desc": "SEGA 16 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Sega - Mega Drive - Genesis"
+  },
+  {
+    "id": "megacd",
+    "name": "Mega CD / Sega CD",
+    "desc": "Ampliación en CD",
+    "hashdb": "http://redump.org/",
+    "libretro": "Sega - Mega-CD - Sega CD"
+  },
+  {
+    "id": "32x",
+    "name": "Sega 32X",
+    "desc": "Ampliación de 32 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Sega - 32X"
+  },
+  {
+    "id": "saturn",
+    "name": "SEGA Saturn",
+    "desc": "Discos de SEGA",
+    "hashdb": "http://redump.org/",
+    "libretro": "Sega - Saturn"
+  },
+  {
+    "id": "dreamcast",
+    "name": "Dreamcast",
+    "desc": "Última consola de SEGA",
+    "hashdb": "http://redump.org/",
+    "libretro": "Sega - Dreamcast"
+  },
+  {
+    "id": "pcengine",
+    "name": "PC Engine / TurboGrafx-16",
+    "desc": "NEC · 8/16 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "NEC - PC Engine - TurboGrafx 16"
+  },
+  {
+    "id": "supergrafx",
+    "name": "PC Engine SuperGrafx",
+    "desc": "NEC · 1989",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "NEC - PC Engine SuperGrafx"
+  },
+  {
+    "id": "pcenginecd",
+    "name": "PC Engine CD",
+    "desc": "NEC · discos",
+    "hashdb": "http://redump.org/",
+    "libretro": "NEC - PC Engine CD - TurboGrafx-CD"
+  },
+  {
+    "id": "pcfx",
+    "name": "PC-FX",
+    "desc": "NEC · 1994",
+    "hashdb": "http://redump.org/",
+    "libretro": "NEC - PC-FX"
+  },
+  {
+    "id": "neogeo",
+    "name": "Neo Geo",
+    "desc": "SNK · AES / MVS",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "SNK - Neo Geo"
+  },
+  {
+    "id": "neogeocd",
+    "name": "Neo Geo CD",
+    "desc": "SNK · discos",
+    "hashdb": "http://redump.org/",
+    "libretro": "SNK - Neo Geo CD"
+  },
+  {
+    "id": "ngp",
+    "name": "Neo Geo Pocket",
+    "desc": "SNK · portátil",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "SNK - Neo Geo Pocket"
+  },
+  {
+    "id": "ngpc",
+    "name": "Neo Geo Pocket Color",
+    "desc": "SNK · portátil en color",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "SNK - Neo Geo Pocket Color"
+  },
+  {
+    "id": "wonderswan",
+    "name": "WonderSwan",
+    "desc": "Bandai · portátil",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Bandai - WonderSwan"
+  },
+  {
+    "id": "wonderswancolor",
+    "name": "WonderSwan Color",
+    "desc": "Bandai · portátil en color",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Bandai - WonderSwan Color"
+  },
+  {
+    "id": "3do",
+    "name": "3DO",
+    "desc": "Panasonic · 1993",
+    "hashdb": "http://redump.org/",
+    "libretro": "The 3DO Company - 3DO"
+  },
+  {
+    "id": "amiga",
+    "name": "Amiga",
+    "desc": "Commodore",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Commodore - Amiga"
+  },
+  {
+    "id": "c64",
+    "name": "Commodore 64",
+    "desc": "Ordenador de 8 bits",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Commodore - 64"
+  },
+  {
+    "id": "msx",
+    "name": "MSX",
+    "desc": "Ordenador estándar japonés",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Microsoft - MSX"
+  },
+  {
+    "id": "msx2",
+    "name": "MSX2",
+    "desc": "Segunda generación",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Microsoft - MSX2"
+  },
+  {
+    "id": "zxspectrum",
+    "name": "ZX Spectrum",
+    "desc": "Sinclair · 1982",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Sinclair - ZX Spectrum"
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "desc": "Recreativas",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "MAME"
+  },
+  {
+    "id": "ps1",
+    "name": "PlayStation",
+    "desc": "PS1",
+    "hashdb": "http://redump.org/",
+    "libretro": "Sony - PlayStation"
+  },
+  {
+    "id": "ps2",
+    "name": "PlayStation 2",
+    "desc": "PS2",
+    "hashdb": "http://redump.org/",
+    "libretro": "Sony - PlayStation 2"
+  },
+  {
+    "id": "psp",
+    "name": "PSP",
+    "desc": "PlayStation Portable",
+    "hashdb": "http://redump.org/",
+    "libretro": "Sony - PlayStation Portable"
+  },
+  {
+    "id": "ps3",
+    "name": "PlayStation 3",
+    "desc": "PS3",
+    "hashdb": "http://redump.org/",
+    "libretro": "Sony - PlayStation 3"
+  },
+  {
+    "id": "vita",
+    "name": "PS Vita",
+    "desc": "PlayStation Vita",
+    "hashdb": "https://datomatic.no-intro.org/",
+    "libretro": "Sony - PlayStation Vita"
+  },
+  {
+    "id": "ps4",
+    "name": "PlayStation 4",
+    "desc": "PS4",
+    "hashdb": "https://datomatic.no-intro.org/"
+  },
+  {
+    "id": "ps5",
+    "name": "PlayStation 5",
+    "desc": "PS5",
+    "hashdb": "https://datomatic.no-intro.org/"
+  },
+  {
+    "id": "xbox",
+    "name": "Xbox",
+    "desc": "Microsoft · 2001",
+    "hashdb": "http://redump.org/",
+    "libretro": "Microsoft - Xbox"
+  },
+  {
+    "id": "xbox360",
+    "name": "Xbox 360",
+    "desc": "Microsoft · 2005",
+    "hashdb": "http://redump.org/",
+    "libretro": "Microsoft - Xbox 360"
+  },
+  {
+    "id": "xboxone",
+    "name": "Xbox One",
+    "desc": "Microsoft · 2013",
+    "hashdb": "https://datomatic.no-intro.org/"
+  },
+  {
+    "id": "xboxseries",
+    "name": "Xbox Series X|S",
+    "desc": "Microsoft · 2020",
+    "hashdb": "https://datomatic.no-intro.org/"
   }
 ]
