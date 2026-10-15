@@ -27,7 +27,8 @@
     "trailer": "",
     "size": "",
     "license": "Homebrew del autor (con permiso)",
-    "download": "https://secure.ue.internxt.com/sh/file/rl7Orm1RTzWl-TCncaj4TA/7jLH_pnU",
+    "mirror": "https://secure.ue.internxt.com/sh/file/rl7Orm1RTzWl-TCncaj4TA/7jLH_pnU",
+    "mirrorLabel": "Internet Archive",
     "torrent": "https://minerva-archive.org/assets/Minerva_Myrient_v0.3/Minerva_Myrient%20-%20Redump%20-%20Microsoft%20-%20Xbox%20360.torrent",
     "magnet": ""
   },
