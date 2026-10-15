@@ -1,1 +1,276 @@
-[]
+[
+  {
+    "title": "Bonk's Adventure",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Red Company",
+    "synopsis": "Un cavernícola de cabeza gigante cabecea dinosaurios en esta mascota de PC Engine.",
+    "cover": "Bonk's Adventure (USA).jpg",
+    "boxart": "Bonk's Adventure (USA)",
+    "size": "384 KB"
+  },
+  {
+    "title": "R-Type",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Irem",
+    "synopsis": "Adaptación del matamarcianos de scroll horizontal contra el imperio Bydo.",
+    "cover": "R-Type (USA).jpg",
+    "boxart": "R-Type (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Bomberman '93",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Hudson Soft",
+    "synopsis": "Colocar bombas y atrapar rivales en un multijugador de hasta cinco jugadores.",
+    "cover": "Bomberman '93 (USA).jpg",
+    "boxart": "Bomberman '93 (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Dungeon Explorer",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG de acción",
+    "developer": "Atlus",
+    "synopsis": "Mazmorras cooperativas con hasta cinco jugadores simultáneos.",
+    "cover": "Dungeon Explorer (USA).jpg",
+    "boxart": "Dungeon Explorer (USA)",
+    "size": "384 KB"
+  },
+  {
+    "title": "Gunhed",
+    "year": 1989,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hudson Soft",
+    "synopsis": "Matamarcianos vertical con potenciadores y mucha acción.",
+    "cover": "Gunhed (Japan) (En).jpg",
+    "boxart": "Gunhed (Japan) (En)",
+    "size": "384 KB"
+  },
+  {
+    "title": "Soldier Blade",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hudson Soft",
+    "synopsis": "Nave espacial con armas intercambiables y enorme intensidad.",
+    "cover": "Soldier Blade (USA).jpg",
+    "boxart": "Soldier Blade (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Blazing Lazers",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Compile",
+    "synopsis": "Shoot'em up vertical rápido y espectacular de Compile.",
+    "cover": "Blazing Lazers (USA).jpg",
+    "boxart": "Blazing Lazers (USA)",
+    "size": "384 KB"
+  },
+  {
+    "title": "Devil's Crush",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "Compile",
+    "synopsis": "Pinball de temática demoníaca con múltiples mesas y bonus.",
+    "cover": "Devil's Crush (USA).jpg",
+    "boxart": "Devil's Crush (USA)",
+    "size": "384 KB"
+  },
+  {
+    "title": "Alien Crush",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "Naxat Soft",
+    "synopsis": "Pinball con estética biomecánica y mesas con jefes.",
+    "cover": "Alien Crush (USA).jpg",
+    "boxart": "Alien Crush (USA)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Neutopia",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Hudson Soft",
+    "synopsis": "Aventura de acción con mazmorras al estilo Zelda.",
+    "cover": "Neutopia (USA).jpg",
+    "boxart": "Neutopia (USA)",
+    "size": "384 KB"
+  },
+  {
+    "title": "Ninja Spirit",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Irem",
+    "synopsis": "Un ninja con espadas y sombras supera niveles con armas especiales.",
+    "cover": "Ninja Spirit (USA).jpg",
+    "boxart": "Ninja Spirit (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Splatterhouse",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Namco",
+    "synopsis": "Rick lucha contra monstruos con la máscara del terror en esta versión PC Engine.",
+    "cover": "Splatterhouse (USA).jpg",
+    "boxart": "Splatterhouse (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Parasol Stars",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Taito",
+    "synopsis": "Continuación de Bubble Bobble con paraguas como arma."
+  },
+  {
+    "title": "Bloody Wolf",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Data East",
+    "synopsis": "Un comando abre fuego a través de campos enemigos.",
+    "cover": "Bloody Wolf (USA).jpg",
+    "boxart": "Bloody Wolf (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Cadash",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG de acción",
+    "developer": "Taito",
+    "synopsis": "Un RPG de acción de mazmorras y plataformas con cooperativo.",
+    "cover": "Cadash (USA).jpg",
+    "boxart": "Cadash (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Chew Man Fu",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Hudson Soft",
+    "synopsis": "Un puzle de laberintos con una estética arcade de Hudson.",
+    "cover": "Chew-Man-Fu (USA).jpg",
+    "boxart": "Chew-Man-Fu (USA)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Military Madness",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Hudson Soft",
+    "synopsis": "Estrategia por turnos sobre hexágonos en la Luna.",
+    "cover": "Military Madness (USA).jpg",
+    "boxart": "Military Madness (USA)",
+    "size": "384 KB"
+  },
+  {
+    "title": "Legendary Axe",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Victor",
+    "synopsis": "Un guerrero abate a Draegonia con hachas legendarias.",
+    "cover": "Legendary Axe, The (USA).jpg",
+    "boxart": "Legendary Axe, The (USA)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Order of the Griffon",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Turbo Technologies",
+    "synopsis": "Un RPG táctico de fantasía con exploración y combates por turnos."
+  },
+  {
+    "title": "Aero Blasters",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Kaneko",
+    "synopsis": "Un shoot'em up horizontal de aviones de combate.",
+    "cover": "Aero Blasters (USA).jpg",
+    "boxart": "Aero Blasters (USA)",
+    "size": "512 KB"
+  }
+]

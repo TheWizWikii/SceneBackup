@@ -1,1 +1,541 @@
-[]
+[
+  {
+    "title": "Pac-Man",
+    "year": 1980,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Namco",
+    "synopsis": "Come puntos y huye de fantasmas."
+  },
+  {
+    "title": "Donkey Kong",
+    "year": 1981,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Mario sube para rescatar a Pauline."
+  },
+  {
+    "title": "Galaga",
+    "year": 1981,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Namco",
+    "synopsis": "Defiende la Tierra de insectos."
+  },
+  {
+    "title": "Space Invaders",
+    "year": 1978,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Taito",
+    "synopsis": "Invasión alienígena clásica."
+  },
+  {
+    "title": "Street Fighter II: The World Warrior",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Torneo de lucha que definió el género."
+  },
+  {
+    "title": "Metal Slug",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Nazca",
+    "synopsis": "Run and gun cooperativo."
+  },
+  {
+    "title": "Ms. Pac-Man",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Midway",
+    "synopsis": "Secuela de Pac-Man."
+  },
+  {
+    "title": "Asteroids",
+    "year": 1979,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Destruye asteroides."
+  },
+  {
+    "title": "Defender",
+    "year": 1981,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Williams",
+    "synopsis": "Defiende humanos."
+  },
+  {
+    "title": "Joust",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Williams",
+    "synopsis": "Jinetes de avestruz."
+  },
+  {
+    "title": "Frogger",
+    "year": 1981,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Konami",
+    "synopsis": "Cruza río y carretera."
+  },
+  {
+    "title": "Dig Dug",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Namco",
+    "synopsis": "Cava y derrota monstruos."
+  },
+  {
+    "title": "1942",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Capcom",
+    "synopsis": "Aviones en la Segunda Guerra Mundial."
+  },
+  {
+    "title": "Bubble Bobble",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Taito",
+    "synopsis": "Burbujas en cooperativo."
+  },
+  {
+    "title": "Out Run",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Conducción en Ferrari."
+  },
+  {
+    "title": "After Burner",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Sega",
+    "synopsis": "Combate aéreo."
+  },
+  {
+    "title": "Gauntlet",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari Games",
+    "synopsis": "Mazmorras."
+  },
+  {
+    "title": "Ghosts'n Goblins",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Plataformas."
+  },
+  {
+    "title": "Final Fight",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Capcom",
+    "synopsis": "Beat'em up callejero."
+  },
+  {
+    "title": "Mortal Kombat",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Midway",
+    "synopsis": "Lucha violenta."
+  },
+  {
+    "title": "Golden Axe",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Sega",
+    "synopsis": "Beat'em up fantástico."
+  },
+  {
+    "title": "Teenage Mutant Ninja Turtles",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Konami",
+    "synopsis": "Beat'em up de tortugas."
+  },
+  {
+    "title": "The Simpsons",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Konami",
+    "synopsis": "Beat'em up de los Simpson."
+  },
+  {
+    "title": "X-Men",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Konami",
+    "synopsis": "Beat'em up de mutantes."
+  },
+  {
+    "title": "Contra",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Run and gun."
+  },
+  {
+    "title": "Double Dragon",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Technos",
+    "synopsis": "Beat'em up de hermanos."
+  },
+  {
+    "title": "R-Type",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Irem",
+    "synopsis": "Shoot'em up horizontal."
+  },
+  {
+    "title": "Gradius",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Rampage",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Midway",
+    "synopsis": "Monstruos destruyen ciudades."
+  },
+  {
+    "title": "Time Crisis",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "Namco",
+    "synopsis": "Disparos con pistola."
+  },
+  {
+    "title": "Virtua Fighter",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Sega",
+    "synopsis": "Lucha 3D."
+  },
+  {
+    "title": "Daytona USA",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carreras."
+  },
+  {
+    "title": "Ridge Racer",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Namco",
+    "synopsis": "Carreras."
+  },
+  {
+    "title": "Tekken 3",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Lucha 3D."
+  },
+  {
+    "title": "Marvel vs. Capcom",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha de superhéroes."
+  },
+  {
+    "title": "Dance Dance Revolution",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Konami",
+    "synopsis": "Baile."
+  },
+  {
+    "title": "Dragon's Lair",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Cinematronics",
+    "synopsis": "Animación interactiva."
+  },
+  {
+    "title": "Tempest",
+    "year": 1981,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Centipede",
+    "year": 1981,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Ciempiés."
+  },
+  {
+    "title": "Q*bert",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Gottlieb",
+    "synopsis": "Saltos."
+  },
+  {
+    "title": "Mr. Do!",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Universal",
+    "synopsis": "Excava."
+  },
+  {
+    "title": "Zaxxon",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Sega",
+    "synopsis": "Shoot'em up isométrico."
+  },
+  {
+    "title": "Pole Position",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Namco",
+    "synopsis": "Carreras."
+  },
+  {
+    "title": "Marble Madness",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari Games",
+    "synopsis": "Canicas."
+  },
+  {
+    "title": "Paperboy",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari Games",
+    "synopsis": "Repartidor."
+  },
+  {
+    "title": "Rolling Thunder",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Namco",
+    "synopsis": "Agente secreto."
+  },
+  {
+    "title": "Bomb Jack",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Tehkan",
+    "synopsis": "Arcade."
+  },
+  {
+    "title": "Elevator Action",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Taito",
+    "synopsis": "Espía."
+  },
+  {
+    "title": "Operation Wolf",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "Taito",
+    "synopsis": "Disparos."
+  }
+]

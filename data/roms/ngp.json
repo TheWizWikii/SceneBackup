@@ -1,1 +1,137 @@
-[]
+[
+  {
+    "title": "Sonic the Hedgehog Pocket Adventure",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "SNK",
+    "synopsis": "Sonic corre por zonas clásicas en una versión portátil."
+  },
+  {
+    "title": "King of Fighters R-1",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Versión portátil de KOF con personajes simplificados."
+  },
+  {
+    "title": "Samurai Shodown!",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Adaptación portátil de la lucha con espadas de SNK."
+  },
+  {
+    "title": "Metal Slug: 1st Mission",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Metal Slug en versión portátil con misiones completas."
+  },
+  {
+    "title": "Fatal Fury: First Contact",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Fatal Fury en miniatura para la portátil."
+  },
+  {
+    "title": "Pac-Man",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Namco",
+    "synopsis": "Versión portátil de Pac-Man."
+  },
+  {
+    "title": "Neo Geo Cup '98",
+    "year": 1998,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "SNK",
+    "synopsis": "Fútbol arcade en la portátil de SNK.",
+    "cover": "NeoGeo Cup '98 (Japan, Europe) (En,Ja).jpg",
+    "boxart": "NeoGeo Cup '98 (Japan, Europe) (En,Ja)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Baseball Stars",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "SNK",
+    "synopsis": "Béisbol arcade portátil."
+  },
+  {
+    "title": "Pocket Tennis",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Yumekobo",
+    "synopsis": "Tenis portátil muy simple y divertido."
+  },
+  {
+    "title": "Neo Turf Masters",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nazca",
+    "synopsis": "Golf arcade en versión portátil."
+  },
+  {
+    "title": "Dokodemo Mahjong",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Mesa",
+    "developer": "SNK",
+    "synopsis": "Mahjong para jugar en cualquier parte."
+  },
+  {
+    "title": "Puzzle Link",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Yumekobo",
+    "synopsis": "Puzle de enlaces muy popular."
+  }
+]

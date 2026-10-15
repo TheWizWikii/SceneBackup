@@ -1,1 +1,667 @@
-[]
+[
+  {
+    "title": "Lemmings",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "DMA Design",
+    "synopsis": "Guía lemmings a la salida.",
+    "cover": "Lemmings (USA).jpg",
+    "boxart": "Lemmings (USA)",
+    "size": "974 KB"
+  },
+  {
+    "title": "Speedball 2: Brutal Deluxe",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Bitmap Brothers",
+    "synopsis": "Deporte futurista.",
+    "cover": "Speedball 2 - Brutal Deluxe (USA).jpg",
+    "boxart": "Speedball 2 - Brutal Deluxe (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Cannon Fodder",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sensible Software",
+    "synopsis": "Estrategia militar.",
+    "cover": "Cannon Fodder (Europe).jpg",
+    "boxart": "Cannon Fodder (Europe)",
+    "size": "986 KB"
+  },
+  {
+    "title": "Sensible Soccer",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Sensible Software",
+    "synopsis": "Fútbol arcade.",
+    "cover": "Sensible Soccer (Europe) (En,Fr,De,It) (v1.0).jpg",
+    "boxart": "Sensible Soccer (Europe) (En,Fr,De,It) (v1.0)",
+    "size": "986 KB"
+  },
+  {
+    "title": "The Secret of Monkey Island",
+    "year": 1990,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "Lucasfilm Games",
+    "synopsis": "Aventura pirata.",
+    "cover": "Secret of Monkey Island, The (Europe) (v1.2).jpg",
+    "boxart": "Secret of Monkey Island, The (Europe) (v1.2)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Monkey Island 2: LeChuck's Revenge",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "LucasArts",
+    "synopsis": "Aventura pirata.",
+    "cover": "Monkey Island 2 - LeChuck's Revenge (Europe).jpg",
+    "boxart": "Monkey Island 2 - LeChuck's Revenge (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Another World",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Delphine Software",
+    "synopsis": "Aventura cinematográfica.",
+    "cover": "Another World (Europe).jpg",
+    "boxart": "Another World (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Shadow of the Beast",
+    "year": 1989,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Reflections",
+    "synopsis": "Plataformas con gráficos.",
+    "cover": "Shadow of the Beast (Europe).jpg",
+    "boxart": "Shadow of the Beast (Europe)",
+    "size": "994 KB"
+  },
+  {
+    "title": "Turrican II",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Factor 5",
+    "synopsis": "Run and gun."
+  },
+  {
+    "title": "Populous",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Bullfrog",
+    "synopsis": "Juego de dioses.",
+    "cover": "Populous (USA).jpg",
+    "boxart": "Populous (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Worms",
+    "year": 1995,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Team17",
+    "synopsis": "Gusanos con armas.",
+    "cover": "Worms (Europe) (En,Fr,De).jpg",
+    "boxart": "Worms (Europe) (En,Fr,De)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Flashback",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Delphine",
+    "synopsis": "Aventura cinematográfica.",
+    "cover": "Flashback (Europe).jpg",
+    "boxart": "Flashback (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Superfrog",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Team17",
+    "synopsis": "Rana con poderes.",
+    "cover": "Superfrog (Europe).jpg",
+    "boxart": "Superfrog (Europe)",
+    "size": "1.1 MB"
+  },
+  {
+    "title": "Zool",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Gremlin",
+    "synopsis": "Ninja del Nth dimension."
+  },
+  {
+    "title": "Elite",
+    "year": 1989,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Firebird",
+    "synopsis": "Comercio y combate.",
+    "cover": "Elite (Europe).jpg",
+    "boxart": "Elite (Europe)",
+    "size": "659 KB"
+  },
+  {
+    "title": "Pinball Dreams",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "DICE",
+    "synopsis": "Mesas de pinball.",
+    "cover": "Pinball Dreams (Europe).jpg",
+    "boxart": "Pinball Dreams (Europe)",
+    "size": "891 KB"
+  },
+  {
+    "title": "Pinball Fantasies",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "DICE",
+    "synopsis": "Mesas de pinball.",
+    "cover": "Pinball Fantasies (USA) (AGA).jpg",
+    "boxart": "Pinball Fantasies (USA) (AGA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Beneath a Steel Sky",
+    "year": 1994,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "Revolution",
+    "synopsis": "Aventura cyberpunk.",
+    "cover": "Beneath a Steel Sky (Europe).jpg",
+    "boxart": "Beneath a Steel Sky (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Settlers",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Blue Byte",
+    "synopsis": "Construcción de colonias.",
+    "cover": "Settlers, The (Europe).jpg",
+    "boxart": "Settlers, The (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Alien Breed",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Team17",
+    "synopsis": "Disparos en una nave.",
+    "cover": "Alien Breed (Europe).jpg",
+    "boxart": "Alien Breed (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Syndicate",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Bullfrog",
+    "synopsis": "Táctica cyberpunk.",
+    "cover": "Syndicate (Europe) (En,Fr,It).jpg",
+    "boxart": "Syndicate (Europe) (En,Fr,It)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Wings",
+    "year": 1990,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Cinemaware",
+    "synopsis": "Combate aéreo.",
+    "cover": "Wings (Europe).jpg",
+    "boxart": "Wings (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "It Came from the Desert",
+    "year": 1989,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Cinemaware",
+    "synopsis": "Aventura de ciencia ficción.",
+    "cover": "It Came from the Desert (Europe).jpg",
+    "boxart": "It Came from the Desert (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Defender of the Crown",
+    "year": 1986,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Cinemaware",
+    "synopsis": "Estrategia medieval.",
+    "cover": "Defender of the Crown (USA).jpg",
+    "boxart": "Defender of the Crown (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Dungeon Master",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FTL",
+    "synopsis": "RPG en primera persona.",
+    "cover": "Dungeon Master (Europe) (En,Fr,De) (v3.6).jpg",
+    "boxart": "Dungeon Master (Europe) (En,Fr,De) (v3.6)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Prince of Persia",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Broderbund",
+    "synopsis": "Plataformas.",
+    "cover": "Prince of Persia (USA).jpg",
+    "boxart": "Prince of Persia (USA)",
+    "size": "956 KB"
+  },
+  {
+    "title": "Xenon 2: Megablast",
+    "year": 1989,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Bitmap Brothers",
+    "synopsis": "Shoot'em up.",
+    "cover": "Xenon 2 - Megablast (Europe).jpg",
+    "boxart": "Xenon 2 - Megablast (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "The Chaos Engine",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Bitmap Brothers",
+    "synopsis": "Acción steampunk.",
+    "cover": "Chaos Engine, The (Europe).jpg",
+    "boxart": "Chaos Engine, The (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Project-X",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Team17",
+    "synopsis": "Shoot'em up.",
+    "cover": "Project-X (Europe).jpg",
+    "boxart": "Project-X (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Stunt Car Racer",
+    "year": 1989,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "MicroStyle",
+    "synopsis": "Carreras de acrobacias.",
+    "cover": "Stunt Car Racer (Europe).jpg",
+    "boxart": "Stunt Car Racer (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Pirates!",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "MicroProse",
+    "synopsis": "Piratas.",
+    "cover": "Pirates! (Europe) (v832.02).jpg",
+    "boxart": "Pirates! (Europe) (v832.02)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Civilization",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "MicroProse",
+    "synopsis": "Construcción de imperios.",
+    "cover": "Civilization (Europe) (v855.01).jpg",
+    "boxart": "Civilization (Europe) (v855.01)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Frontier: Elite II",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Frontier Developments",
+    "synopsis": "Espacio.",
+    "cover": "Frontier - Elite II (Europe) (v1.05r4).jpg",
+    "boxart": "Frontier - Elite II (Europe) (v1.05r4)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Lotus Turbo Challenge 2",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Gremlin",
+    "synopsis": "Carreras.",
+    "cover": "Lotus Turbo Challenge 2 (Europe).jpg",
+    "boxart": "Lotus Turbo Challenge 2 (Europe)",
+    "size": "974 KB"
+  },
+  {
+    "title": "Sim City",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Maxis",
+    "synopsis": "Ciudad.",
+    "cover": "SimCity (USA) (v1.0).jpg",
+    "boxart": "SimCity (USA) (v1.0)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Great Giana Sisters",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Rainbow Arts",
+    "synopsis": "Plataformas.",
+    "cover": "Great Giana Sisters, The (Europe).jpg",
+    "boxart": "Great Giana Sisters, The (Europe)",
+    "size": "949 KB"
+  },
+  {
+    "title": "Lionheart",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Thalion",
+    "synopsis": "Plataformas.",
+    "cover": "Lionheart (Europe).jpg",
+    "boxart": "Lionheart (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Gods",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Bitmap Brothers",
+    "synopsis": "Plataformas.",
+    "cover": "Gods (Europe).jpg",
+    "boxart": "Gods (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Flight of the Amazon Queen",
+    "year": 1995,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "Interactive Binary Illusions",
+    "synopsis": "Aventura.",
+    "cover": "Flight of the Amazon Queen (Europe).jpg",
+    "boxart": "Flight of the Amazon Queen (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Wing Commander",
+    "year": 1990,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Origin",
+    "synopsis": "Combate espacial.",
+    "cover": "Wing Commander (Europe).jpg",
+    "boxart": "Wing Commander (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Indiana Jones and the Fate of Atlantis",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "LucasArts",
+    "synopsis": "Aventura."
+  },
+  {
+    "title": "Day of the Tentacle",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "LucasArts",
+    "synopsis": "Aventura."
+  },
+  {
+    "title": "Eye of the Beholder",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Westwood",
+    "synopsis": "RPG."
+  },
+  {
+    "title": "Alien Breed 2",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Team17",
+    "synopsis": "Disparos."
+  },
+  {
+    "title": "Dune II",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Westwood",
+    "synopsis": "Estrategia en tiempo real."
+  },
+  {
+    "title": "Hired Guns",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Psygnosis",
+    "synopsis": "Disparos.",
+    "cover": "Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS).jpg",
+    "boxart": "Hired Guns (Europe) (En,Fr,De,Es,It) (v1.08.39.25) (OCS, ECS)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Ruff 'n' Tumble",
+    "year": 1994,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Renegade",
+    "synopsis": "Run and gun.",
+    "cover": "Ruff 'n' Tumble (Europe).jpg",
+    "boxart": "Ruff 'n' Tumble (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Premier Manager",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Gremlin",
+    "synopsis": "Gestión.",
+    "cover": "Premier Manager (Europe).jpg",
+    "boxart": "Premier Manager (Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Nebulus",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Hewson",
+    "synopsis": "Escala torres.",
+    "cover": "Nebulus (Europe).jpg",
+    "boxart": "Nebulus (Europe)",
+    "size": "1.0 MB"
+  }
+]

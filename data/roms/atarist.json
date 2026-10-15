@@ -1,1 +1,231 @@
-[]
+[
+  {
+    "title": "Dungeon Master",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FTL Games",
+    "synopsis": "RPG en primera persona en tiempo real."
+  },
+  {
+    "title": "Lemmings",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "DMA Design",
+    "synopsis": "Guía a lemmings a la salida."
+  },
+  {
+    "title": "Xenon 2: Megablast",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Bitmap Brothers",
+    "synopsis": "Shoot'em up vertical con música de Bomb the Bass."
+  },
+  {
+    "title": "Speedball 2",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Bitmap Brothers",
+    "synopsis": "Deporte futurista violento."
+  },
+  {
+    "title": "Populous",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Bullfrog",
+    "synopsis": "Juego de dioses con terreno."
+  },
+  {
+    "title": "Sentinel",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Geoff Crammond",
+    "synopsis": "Puzle estratégico en paisajes 3D."
+  },
+  {
+    "title": "Gauntlet II",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari Games",
+    "synopsis": "Mazmorras en cooperativo."
+  },
+  {
+    "title": "Rainbow Islands",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Taito",
+    "synopsis": "Plataformas con arcoíris."
+  },
+  {
+    "title": "Chaos Engine",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Bitmap Brothers",
+    "synopsis": "Acción en un mundo steampunk."
+  },
+  {
+    "title": "Elite",
+    "year": 1986,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Firebird",
+    "synopsis": "Comercio y combate espacial.",
+    "cover": "Elite (Europe).jpg",
+    "boxart": "Elite (Europe)",
+    "size": "457 KB"
+  },
+  {
+    "title": "Bubble Bobble",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Firebird",
+    "synopsis": "Atrapa enemigos con burbujas."
+  },
+  {
+    "title": "R-Type",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Electric Dreams",
+    "synopsis": "Shoot'em up horizontal."
+  },
+  {
+    "title": "Operation Wolf",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "Ocean",
+    "synopsis": "Disparos en pantalla."
+  },
+  {
+    "title": "Wings of Death",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Thalion",
+    "synopsis": "Shoot'em up de fantasía."
+  },
+  {
+    "title": "Lotus Esprit Turbo Challenge",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Gremlin",
+    "synopsis": "Carreras de coches."
+  },
+  {
+    "title": "Interphase",
+    "year": 1989,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Image Works",
+    "synopsis": "Aventura en un mundo virtual.",
+    "cover": "Interphase (Europe).jpg",
+    "boxart": "Interphase (Europe)",
+    "size": "508 KB"
+  },
+  {
+    "title": "Sim City",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Maxis",
+    "synopsis": "Construye una ciudad."
+  },
+  {
+    "title": "Prince of Persia",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Broderbund",
+    "synopsis": "Plataformas de cinemática."
+  },
+  {
+    "title": "Defender of the Crown",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Cinemaware",
+    "synopsis": "Estrategia medieval."
+  },
+  {
+    "title": "Operation Stealth",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Delphine",
+    "synopsis": "Aventura de espías.",
+    "cover": "Operation Stealth (France).jpg",
+    "boxart": "Operation Stealth (France)",
+    "size": "896 KB"
+  }
+]

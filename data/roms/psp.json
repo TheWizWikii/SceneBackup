@@ -1,1 +1,473 @@
-[]
+[
+  {
+    "title": "God of War: Chains of Olympus",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ready at Dawn",
+    "synopsis": "Kratos busca a Pandora y vuelve a perder a su familia.",
+    "cover": "God of War - Chains of Olympus (USA).jpg",
+    "boxart": "God of War - Chains of Olympus (USA)",
+    "size": "1531.3 MB"
+  },
+  {
+    "title": "God of War: Ghost of Sparta",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ready at Dawn",
+    "synopsis": "Kratos busca a su hermano Deimos.",
+    "cover": "God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00).jpg",
+    "boxart": "God of War - Ghost of Sparta (USA) (En,Fr,Es) (v2.00)",
+    "size": "1666.8 MB"
+  },
+  {
+    "title": "Monster Hunter Freedom Unite",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Capcom",
+    "synopsis": "Caza monstruos con armas y aliados.",
+    "cover": "Monster Hunter Freedom Unite (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Monster Hunter Freedom Unite (USA) (En,Fr,De,Es,It)",
+    "size": "845.6 MB"
+  },
+  {
+    "title": "Monster Hunter Portable 3rd",
+    "year": 2010,
+    "region": "Japón",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Capcom",
+    "synopsis": "Gran aventura de caza en la aldea de Yukumo.",
+    "cover": "Monster Hunter Portable 3rd (Japan) (v1.02).jpg",
+    "boxart": "Monster Hunter Portable 3rd (Japan) (v1.02)",
+    "size": "1151.2 MB"
+  },
+  {
+    "title": "Metal Gear Solid: Peace Walker",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Kojima Productions",
+    "synopsis": "Big Boss fundó Outer Heaven en una aventura con cooperativo.",
+    "cover": "Metal Gear Solid - Peace Walker (USA) (En,Fr,Es) (v1.01).jpg",
+    "boxart": "Metal Gear Solid - Peace Walker (USA) (En,Fr,Es) (v1.01)",
+    "size": "1569.8 MB"
+  },
+  {
+    "title": "Metal Gear Solid: Portable Ops",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Kojima Productions",
+    "synopsis": "Naked Snake lidera un equipo en una misión.",
+    "cover": "Metal Gear Solid - Portable Ops (USA) (v1.02).jpg",
+    "boxart": "Metal Gear Solid - Portable Ops (USA) (v1.02)",
+    "size": "1328.9 MB"
+  },
+  {
+    "title": "Final Fantasy VII: Crisis Core",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square Enix",
+    "synopsis": "Zack Fair vive los hechos antes de Final Fantasy VII."
+  },
+  {
+    "title": "Final Fantasy Tactics: The War of the Lions",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Square Enix",
+    "synopsis": "Ramza lucha en una guerra de intrigas políticas.",
+    "cover": "Final Fantasy Tactics - The War of the Lions (USA).jpg",
+    "boxart": "Final Fantasy Tactics - The War of the Lions (USA)",
+    "size": "399.5 MB"
+  },
+  {
+    "title": "Final Fantasy IV: The Complete Collection",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Cecil y Kain en una colección con sus secuelas.",
+    "cover": "Final Fantasy IV - The Complete Collection (USA) (En,Ja,Fr).jpg",
+    "boxart": "Final Fantasy IV - The Complete Collection (USA) (En,Ja,Fr)",
+    "size": "840.0 MB"
+  },
+  {
+    "title": "Kingdom Hearts: Birth by Sleep",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square Enix",
+    "synopsis": "Tres aprendices de Keyblade y su destino.",
+    "cover": "Kingdom Hearts - Birth by Sleep (USA) (En,Fr,Es).jpg",
+    "boxart": "Kingdom Hearts - Birth by Sleep (USA) (En,Fr,Es)",
+    "size": "1685.6 MB"
+  },
+  {
+    "title": "Persona 3 Portable",
+    "year": 2009,
+    "region": "Japón",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Un estudiante caza Sombras en la Hora Oscura.",
+    "cover": "Persona 3 Portable (Japan) (v1.02).jpg",
+    "boxart": "Persona 3 Portable (Japan) (v1.02)",
+    "size": "1324.4 MB"
+  },
+  {
+    "title": "Patapon",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Pyramid",
+    "synopsis": "Dirige a tu tribu con tambores.",
+    "cover": "Patapon (USA).jpg",
+    "boxart": "Patapon (USA)",
+    "size": "325.2 MB"
+  },
+  {
+    "title": "Patapon 2",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Pyramid",
+    "synopsis": "Los patapon se enfrentan a nuevos peligros.",
+    "cover": "Patapon 2 (USA) (En,Fr,Es).jpg",
+    "boxart": "Patapon 2 (USA) (En,Fr,Es)",
+    "size": "559.5 MB"
+  },
+  {
+    "title": "Lumines",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Q Entertainment",
+    "synopsis": "Puzle de bloques al ritmo de la música.",
+    "cover": "Lumines (USA) (v1.01).jpg",
+    "boxart": "Lumines (USA) (v1.01)",
+    "size": "200.2 MB"
+  },
+  {
+    "title": "Daxter",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ready at Dawn",
+    "synopsis": "Daxter vive una aventura en solitario antes de Jak II.",
+    "cover": "Daxter (USA).jpg",
+    "boxart": "Daxter (USA)",
+    "size": "1340.7 MB"
+  },
+  {
+    "title": "Jeanne d'Arc",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Level-5",
+    "synopsis": "Jeanne lidera ejércitos en una versión fantástica de la historia.",
+    "cover": "Jeanne d'Arc (USA).jpg",
+    "boxart": "Jeanne d'Arc (USA)",
+    "size": "1189.6 MB"
+  },
+  {
+    "title": "Burnout Legends",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Criterion Games",
+    "synopsis": "Carreras con choques espectaculares.",
+    "cover": "Burnout Legends (USA) (En,Fr,De,Es,It,Nl).jpg",
+    "boxart": "Burnout Legends (USA) (En,Fr,De,Es,It,Nl)",
+    "size": "477.1 MB"
+  },
+  {
+    "title": "Wipeout Pure",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Studio Liverpool",
+    "synopsis": "Carreras futuristas con naves a toda velocidad.",
+    "cover": "WipEout Pure (USA) (En,Fr,Es) (v1.04).jpg",
+    "boxart": "WipEout Pure (USA) (En,Fr,Es) (v1.04)",
+    "size": "241.2 MB"
+  },
+  {
+    "title": "Tekken: Dark Resurrection",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Combates 3D de Tekken en una portátil.",
+    "cover": "Tekken - Dark Resurrection (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Tekken - Dark Resurrection (USA) (En,Fr,De,Es,It)",
+    "size": "1669.2 MB"
+  },
+  {
+    "title": "Dissidia Final Fantasy",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Square Enix",
+    "synopsis": "Héroes y villanos de Final Fantasy se enfrentan.",
+    "cover": "Dissidia - Final Fantasy (USA).jpg",
+    "boxart": "Dissidia - Final Fantasy (USA)",
+    "size": "1570.4 MB"
+  },
+  {
+    "title": "Dissidia 012 Final Fantasy",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Square Enix",
+    "synopsis": "Más personajes y modo historia."
+  },
+  {
+    "title": "Valkyria Chronicles II",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sega",
+    "synopsis": "Un nuevo grupo de cadetes en la guerra de Gallia.",
+    "cover": "Valkyria Chronicles II (USA).jpg",
+    "boxart": "Valkyria Chronicles II (USA)",
+    "size": "1031.6 MB"
+  },
+  {
+    "title": "Tactics Ogre: Let Us Cling Together",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Square Enix",
+    "synopsis": "Denam busca justicia en una guerra civil.",
+    "cover": "Tactics Ogre - Let Us Cling Together (USA).jpg",
+    "boxart": "Tactics Ogre - Let Us Cling Together (USA)",
+    "size": "1539.8 MB"
+  },
+  {
+    "title": "Ys: The Oath in Felghana",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Falcom",
+    "synopsis": "Adol regresa a Felghana.",
+    "cover": "Ys - The Oath in Felghana (USA).jpg",
+    "boxart": "Ys - The Oath in Felghana (USA)",
+    "size": "1054.8 MB"
+  },
+  {
+    "title": "The Legend of Heroes: Trails in the Sky",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Falcom",
+    "synopsis": "Estella y Joshua recorren el reino de Liberl."
+  },
+  {
+    "title": "Disgaea: Afternoon of Darkness",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nippon Ichi",
+    "synopsis": "Laharl intenta recuperar el trono del Inframundo.",
+    "cover": "Disgaea - Afternoon of Darkness (USA).jpg",
+    "boxart": "Disgaea - Afternoon of Darkness (USA)",
+    "size": "924.9 MB"
+  },
+  {
+    "title": "Silent Hill: Origins",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Climax Studios",
+    "synopsis": "Travis Grady investiga a Silent Hill.",
+    "cover": "Silent Hill - Origins (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Silent Hill - Origins (USA) (En,Fr,De,Es,It)",
+    "size": "767.4 MB"
+  },
+  {
+    "title": "Castlevania: The Dracula X Chronicles",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Richter Belmont persigue a Drácula en un remake.",
+    "cover": "Castlevania - The Dracula X Chronicles (USA) (v1.02).jpg",
+    "boxart": "Castlevania - The Dracula X Chronicles (USA) (v1.02)",
+    "size": "1059.9 MB"
+  },
+  {
+    "title": "Street Fighter Alpha 3 Max",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Los luchadores de Alpha en una portátil.",
+    "cover": "Street Fighter Alpha 3 Max (USA).jpg",
+    "boxart": "Street Fighter Alpha 3 Max (USA)",
+    "size": "235.4 MB"
+  },
+  {
+    "title": "Everybody's Golf",
+    "year": 2004,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Clap Hanz",
+    "synopsis": "Golf arcade con personajes carismáticos.",
+    "cover": "Everybody's Golf (Europe) (En,Fr,De,Es,It).jpg",
+    "boxart": "Everybody's Golf (Europe) (En,Fr,De,Es,It)",
+    "size": "537.5 MB"
+  },
+  {
+    "title": "LocoRoco",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Japan Studio",
+    "synopsis": "Inclina el mundo para rodar bolas alegres.",
+    "cover": "LocoRoco (USA).jpg",
+    "boxart": "LocoRoco (USA)",
+    "size": "562.4 MB"
+  },
+  {
+    "title": "Echochrome",
+    "year": 2008,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Japan Studio",
+    "synopsis": "Puzle de perspectiva de ilusiones ópticas.",
+    "cover": "Echochrome (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru).jpg",
+    "boxart": "Echochrome (Europe) (En,Fr,De,Es,It,Nl,Pt,Ru)",
+    "size": "186.8 MB"
+  }
+]

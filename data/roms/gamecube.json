@@ -1,1 +1,668 @@
-[]
+[
+  {
+    "title": "Super Smash Bros. Melee",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "HAL Laboratory",
+    "synopsis": "El crossover de Nintendo que se convirtió en un clásico competitivo.",
+    "cover": "Super Smash Bros. Melee (USA) (En,Ja).jpg",
+    "boxart": "Super Smash Bros. Melee (USA) (En,Ja)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Metroid Prime",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Retro Studios",
+    "synopsis": "Samus explora Tallon IV en primera persona.",
+    "cover": "Metroid Prime (USA).jpg",
+    "boxart": "Metroid Prime (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Metroid Prime 2: Echoes",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Retro Studios",
+    "synopsis": "Samus se enfrenta a los Ing en el planeta Aether.",
+    "cover": "Metroid Prime 2 - Echoes (USA).jpg",
+    "boxart": "Metroid Prime 2 - Echoes (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "The Legend of Zelda: The Wind Waker",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link navega por el Gran Mar con el estilo de dibujos animados."
+  },
+  {
+    "title": "The Legend of Zelda: Twilight Princess",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link se transforma en lobo en el Hyrule sumido en el crepúsculo."
+  },
+  {
+    "title": "Super Mario Sunshine",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Mario limpia la Isla Delfino con la mochila FLUDD.",
+    "cover": "Super Mario Sunshine (USA, Canada).jpg",
+    "boxart": "Super Mario Sunshine (USA, Canada)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Mario Kart: Double Dash!!",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Dos pilotos por kart y un modo para ocho jugadores en red.",
+    "cover": "Mario Kart - Double Dash!! (USA).jpg",
+    "boxart": "Mario Kart - Double Dash!! (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Luigi's Mansion",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Luigi recorre una mansión encantada con una aspiradora para rescatar a Mario.",
+    "cover": "Luigi's Mansion (USA, Canada).jpg",
+    "boxart": "Luigi's Mansion (USA, Canada)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Paper Mario: The Thousand-Year Door",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Intelligent Systems",
+    "synopsis": "Mario busca las estrellas cristalinas en Villa Cumbre en un RPG de papel.",
+    "cover": "Paper Mario - The Thousand-Year Door (USA).jpg",
+    "boxart": "Paper Mario - The Thousand-Year Door (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Pikmin",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nintendo",
+    "synopsis": "El capitán Olimar comanda a los Pikmin para reunir las piezas de su nave.",
+    "cover": "Pikmin (USA).jpg",
+    "boxart": "Pikmin (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Pikmin 2",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nintendo",
+    "synopsis": "Olimar y Louie exploran cuevas para pagar la deuda de la empresa.",
+    "cover": "Pikmin 2 (USA).jpg",
+    "boxart": "Pikmin 2 (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "F-Zero GX",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Amusement Vision",
+    "synopsis": "Carreras supersónicas con circuitos imposibles.",
+    "cover": "F-Zero GX (USA).jpg",
+    "boxart": "F-Zero GX (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Animal Crossing",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Nintendo",
+    "synopsis": "Vive en un pueblo con animales mientras pagas la hipoteca.",
+    "cover": "Animal Crossing (USA, Canada).jpg",
+    "boxart": "Animal Crossing (USA, Canada)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Fire Emblem: Path of Radiance",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Ike lidera a los mercenarios de Greil en Tellius.",
+    "cover": "Fire Emblem - Path of Radiance (USA).jpg",
+    "boxart": "Fire Emblem - Path of Radiance (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Mario Party 4",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Hudson Soft",
+    "synopsis": "La fiesta de Mario llega a GameCube con nuevos tableros.",
+    "cover": "Mario Party 4 (USA).jpg",
+    "boxart": "Mario Party 4 (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Mario Superstar Baseball",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Namco",
+    "synopsis": "Béisbol arcade con el reparto de Mario y golpes especiales.",
+    "cover": "Mario Superstar Baseball (USA).jpg",
+    "boxart": "Mario Superstar Baseball (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Mario Strikers",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Next Level Games",
+    "synopsis": "Fútbol arcade con los personajes de Mario y entradas salvajes."
+  },
+  {
+    "title": "Donkey Konga",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Namco",
+    "synopsis": "Toca los bongos al ritmo de canciones conocidas.",
+    "cover": "Donkey Konga (USA).jpg",
+    "boxart": "Donkey Konga (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Resident Evil 4",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Leon rescata a la hija del presidente en una España rural.",
+    "cover": "Resident Evil 4 (USA) (Disc 1).jpg",
+    "boxart": "Resident Evil 4 (USA) (Disc 1)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Resident Evil",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Remake del clásico de terror de la mansión Spencer.",
+    "cover": "Resident Evil (USA) (Disc 1).jpg",
+    "boxart": "Resident Evil (USA) (Disc 1)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Resident Evil Zero",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Precuela con dos protagonistas controlables a la vez.",
+    "cover": "Resident Evil Zero (USA) (Disc 1).jpg",
+    "boxart": "Resident Evil Zero (USA) (Disc 1)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Eternal Darkness: Sanity's Requiem",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Silicon Knights",
+    "synopsis": "Terror psicológico con un sistema de cordura que altera la realidad.",
+    "cover": "Eternal Darkness - Sanity's Requiem (USA).jpg",
+    "boxart": "Eternal Darkness - Sanity's Requiem (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Metal Gear Solid: The Twin Snakes",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Remake del clásico de espionaje con la dirección de Silicon Knights.",
+    "cover": "Metal Gear Solid - The Twin Snakes (USA) (Disc 1).jpg",
+    "boxart": "Metal Gear Solid - The Twin Snakes (USA) (Disc 1)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Soulcalibur II",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Lucha con armas, en el que Link aparece como personaje exclusivo.",
+    "cover": "Soulcalibur II (USA).jpg",
+    "boxart": "Soulcalibur II (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Viewtiful Joe",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Beat 'em up con poderes de cámara lenta y estilo cómic.",
+    "cover": "Viewtiful Joe (USA).jpg",
+    "boxart": "Viewtiful Joe (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Killer7",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Grasshopper Manufacture",
+    "synopsis": "Aventura de acción con un asesino de siete personalidades.",
+    "cover": "Killer7 (USA) (Disc 1) (Rev 1).jpg",
+    "boxart": "Killer7 (USA) (Disc 1) (Rev 1)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Beyond Good & Evil",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ubisoft",
+    "synopsis": "Jade investiga una conspiración alienígena con su cámara.",
+    "cover": "Beyond Good & Evil (USA) (En,Es).jpg",
+    "boxart": "Beyond Good & Evil (USA) (En,Es)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Tales of Symphonia",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Namco",
+    "synopsis": "Lloyd y Colette viajan por dos mundos en un RPG de acción.",
+    "cover": "Tales of Symphonia (USA) (Disc 1).jpg",
+    "boxart": "Tales of Symphonia (USA) (Disc 1)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Skies of Arcadia Legends",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Overworks",
+    "synopsis": "Piratas aéreos exploran un mundo de islas flotantes.",
+    "cover": "Skies of Arcadia - Legends (USA).jpg",
+    "boxart": "Skies of Arcadia - Legends (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Star Fox Adventures",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Rare",
+    "synopsis": "Fox explora Dinosaur Planet en una aventura de acción.",
+    "cover": "Star Fox Adventures (USA).jpg",
+    "boxart": "Star Fox Adventures (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Sonic Adventure 2: Battle",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Sonic y Shadow se enfrentan en un duelo entre héroes y villanos.",
+    "cover": "Sonic Adventure 2 - Battle (USA) (En,Ja,Fr,De,Es).jpg",
+    "boxart": "Sonic Adventure 2 - Battle (USA) (En,Ja,Fr,De,Es)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Sonic Adventure DX: Director's Cut",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Remake en alta definición del clásico de Dreamcast.",
+    "cover": "Sonic Adventure DX - Director's Cut (USA) (En,Ja,Fr,De,Es).jpg",
+    "boxart": "Sonic Adventure DX - Director's Cut (USA) (En,Ja,Fr,De,Es)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Super Monkey Ball",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Amusement Vision",
+    "synopsis": "Guía a un mono dentro de una bola por laberintos suspendidos.",
+    "cover": "Super Monkey Ball (USA).jpg",
+    "boxart": "Super Monkey Ball (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Super Monkey Ball 2",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Amusement Vision",
+    "synopsis": "Más laberintos y minijuegos en la secuela.",
+    "cover": "Super Monkey Ball 2 (USA).jpg",
+    "boxart": "Super Monkey Ball 2 (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Pokémon Colosseum",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Genius Sonority",
+    "synopsis": "Wes recupera Pokémon oscuros en la región de Orre.",
+    "cover": "Pokemon Colosseum (USA).jpg",
+    "boxart": "Pokemon Colosseum (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Pokémon XD: Gale of Darkness",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Genius Sonority",
+    "synopsis": "Michael trata de detener a Cipher y a sus Pokémon oscuros.",
+    "cover": "Pokemon XD - Gale of Darkness (USA).jpg",
+    "boxart": "Pokemon XD - Gale of Darkness (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Kirby Air Ride",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "HAL Laboratory",
+    "synopsis": "Carreras y modos extras con pilotos a bordo de máquinas.",
+    "cover": "Kirby Air Ride (USA).jpg",
+    "boxart": "Kirby Air Ride (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Mario Golf: Toadstool Tour",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Golf con el reparto de Mario en campos mágicos.",
+    "cover": "Mario Golf - Toadstool Tour (USA).jpg",
+    "boxart": "Mario Golf - Toadstool Tour (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Mario Power Tennis",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Tenis arcade con golpes especiales y personajes de Mario.",
+    "cover": "Mario Power Tennis (USA).jpg",
+    "boxart": "Mario Power Tennis (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "WarioWare, Inc.: Mega Party Game$!",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Nintendo",
+    "synopsis": "Microjuegos para varios jugadores con humor absurdo.",
+    "cover": "WarioWare, Inc. - Mega Party Game$! (USA).jpg",
+    "boxart": "WarioWare, Inc. - Mega Party Game$! (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Wario World",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Treasure",
+    "synopsis": "Wario recupera su tesoro con ataques de Treasure.",
+    "cover": "Wario World (USA).jpg",
+    "boxart": "Wario World (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Chibi-Robo!",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Skip Ltd.",
+    "synopsis": "Un pequeño robot ayuda a una familia en una casa gigante.",
+    "cover": "Chibi-Robo! (USA).jpg",
+    "boxart": "Chibi-Robo! (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Billy Hatcher and the Giant Egg",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Billy rueda huevos gigantes para hacer eclosionar sus poderes.",
+    "cover": "Billy Hatcher and the Giant Egg (USA).jpg",
+    "boxart": "Billy Hatcher and the Giant Egg (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Need for Speed: Hot Pursuit 2",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "EA",
+    "synopsis": "Carreras de coches deportivos con persecuciones policiales.",
+    "cover": "Need for Speed - Hot Pursuit 2 (USA).jpg",
+    "boxart": "Need for Speed - Hot Pursuit 2 (USA)",
+    "size": "1392.3 MB"
+  },
+  {
+    "title": "Burnout 2: Point of Impact",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Criterion Games",
+    "synopsis": "Carreras con choques espectaculares y conducción temeraria.",
+    "cover": "Burnout 2 - Point of Impact (USA).jpg",
+    "boxart": "Burnout 2 - Point of Impact (USA)",
+    "size": "1392.3 MB"
+  }
+]

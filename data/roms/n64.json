@@ -1,1 +1,690 @@
-[]
+[
+  {
+    "title": "Super Mario 64",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Mario explora el castillo de Peach y sus cuadros en el plataformas 3D que definió el género.",
+    "cover": "Super Mario 64 (USA).jpg",
+    "boxart": "Super Mario 64 (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "The Legend of Zelda: Ocarina of Time",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link viaja entre dos épocas con la ocarina para frenar a Ganondorf."
+  },
+  {
+    "title": "The Legend of Zelda: Majora's Mask",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link tiene tres días para evitar que la luna caiga sobre Términa."
+  },
+  {
+    "title": "GoldenEye 007",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Rare",
+    "synopsis": "El shooter en primera persona de James Bond con un modo multijugador mítico.",
+    "cover": "GoldenEye 007 (USA).jpg",
+    "boxart": "GoldenEye 007 (USA)",
+    "size": "12.0 MB"
+  },
+  {
+    "title": "Perfect Dark",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Rare",
+    "synopsis": "Joanna Dark combate en una conspiración de ciencia ficción con multijugador a gran escala.",
+    "cover": "Perfect Dark (USA).jpg",
+    "boxart": "Perfect Dark (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Super Smash Bros.",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "HAL Laboratory",
+    "synopsis": "Los héroes de Nintendo se enfrentan en combates frenéticos para hasta cuatro.",
+    "cover": "Super Smash Bros. (USA).jpg",
+    "boxart": "Super Smash Bros. (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Mario Kart 64",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Kart con circuitos 3D, objetos y batallas a cuatro jugadores.",
+    "cover": "Mario Kart 64 (USA).jpg",
+    "boxart": "Mario Kart 64 (USA)",
+    "size": "12.0 MB"
+  },
+  {
+    "title": "Banjo-Kazooie",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Rare",
+    "synopsis": "Un oso y un pájaro desafían a la bruja Gruntilda en un mundo repleto de coleccionables.",
+    "cover": "Banjo-Kazooie (USA).jpg",
+    "boxart": "Banjo-Kazooie (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Banjo-Tooie",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Rare",
+    "synopsis": "Secuela con mundos enormes y un multijugador de minijuegos.",
+    "cover": "Banjo-Tooie (USA).jpg",
+    "boxart": "Banjo-Tooie (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Donkey Kong 64",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Rare",
+    "synopsis": "Cinco Kong recorren islas para recuperar las banana golds del K. Rool.",
+    "cover": "Donkey Kong 64 (USA).jpg",
+    "boxart": "Donkey Kong 64 (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Conker's Bad Fur Day",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Rare",
+    "synopsis": "Aventura de humor negro de una ardilla borracha con un modo multijugador.",
+    "cover": "Conker's Bad Fur Day (USA).jpg",
+    "boxart": "Conker's Bad Fur Day (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Diddy Kong Racing",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Rare",
+    "synopsis": "Carreras con coches, aviones y aerodeslizadores con aventura central.",
+    "cover": "Diddy Kong Racing (USA) (En,Fr).jpg",
+    "boxart": "Diddy Kong Racing (USA) (En,Fr)",
+    "size": "12.0 MB"
+  },
+  {
+    "title": "Star Fox 64",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Nintendo",
+    "synopsis": "Fox y su equipo defienden Lylat con rutas y compañeros que ayudan.",
+    "cover": "Star Fox 64 (USA).jpg",
+    "boxart": "Star Fox 64 (USA)",
+    "size": "12.0 MB"
+  },
+  {
+    "title": "F-Zero X",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Carreras de hasta treinta naves a gran velocidad con el motor más rápido de Nintendo.",
+    "cover": "F-Zero X (USA).jpg",
+    "boxart": "F-Zero X (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Paper Mario",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Intelligent Systems",
+    "synopsis": "Mario recorre el Reino Champiñón en un RPG por turnos con estética de papel.",
+    "cover": "Paper Mario (USA).jpg",
+    "boxart": "Paper Mario (USA)",
+    "size": "40.0 MB"
+  },
+  {
+    "title": "Mario Party",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Hudson Soft",
+    "synopsis": "Tableros y minijuegos para cuatro jugadores con estrellas por recoger.",
+    "cover": "Mario Party (USA).jpg",
+    "boxart": "Mario Party (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Mario Party 2",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Hudson Soft",
+    "synopsis": "Nuevos tableros, minijuegos de equipos y objetos.",
+    "cover": "Mario Party 2 (USA).jpg",
+    "boxart": "Mario Party 2 (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Mario Party 3",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Hudson Soft",
+    "synopsis": "La última del N64 con duelos y estrellas ocultas.",
+    "cover": "Mario Party 3 (USA).jpg",
+    "boxart": "Mario Party 3 (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Pokémon Stadium",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nintendo",
+    "synopsis": "Combates 3D con tus Pokémon de Game Boy y minijuegos.",
+    "cover": "Pokemon Stadium (USA).jpg",
+    "boxart": "Pokemon Stadium (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Pokémon Snap",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "HAL Laboratory",
+    "synopsis": "Fotografía Pokémon en su hábitat en un paseo sobre raíles.",
+    "cover": "Pokemon Snap (USA).jpg",
+    "boxart": "Pokemon Snap (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Kirby 64: The Crystal Shards",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby combina habilidades para recuperar los cristales de Ripple Star.",
+    "cover": "Kirby 64 - The Crystal Shards (USA).jpg",
+    "boxart": "Kirby 64 - The Crystal Shards (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Mario Tennis",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Tenis arcade con los personajes de Mario y modos de torneo.",
+    "cover": "Mario Tennis (USA).jpg",
+    "boxart": "Mario Tennis (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Mario Golf",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Golf con los personajes de Mario y modo de torneos.",
+    "cover": "Mario Golf (USA).jpg",
+    "boxart": "Mario Golf (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Wave Race 64",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Carreras de motos acuáticas con agua realista."
+  },
+  {
+    "title": "1080° Snowboarding",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Snowboard arcade con trucos y un modelo de agua y nieve único.",
+    "cover": "1080 Snowboarding (USA) (En,Ja,Fr,De) (LodgeNet).jpg",
+    "boxart": "1080 Snowboarding (USA) (En,Ja,Fr,De) (LodgeNet)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Excitebike 64",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Left Field",
+    "synopsis": "Motocross arcade con saltos, acrobacias y pistas variadas.",
+    "cover": "Excitebike 64 (USA).jpg",
+    "boxart": "Excitebike 64 (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Wetrix",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Zed Two",
+    "synopsis": "Puzzle de agua y bloques para impedir inundaciones.",
+    "cover": "Wetrix (USA) (En,Fr,De,Es,It,Nl).jpg",
+    "boxart": "Wetrix (USA) (En,Fr,De,Es,It,Nl)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Turok: Dinosaur Hunter",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Iguana",
+    "synopsis": "Turok caza dinosaurios en un shooter de aventura.",
+    "cover": "Turok - Dinosaur Hunter (USA).jpg",
+    "boxart": "Turok - Dinosaur Hunter (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Turok 2: Seeds of Evil",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Iguana",
+    "synopsis": "Secuela con niveles más grandes y armas más contundentes.",
+    "cover": "Turok 2 - Seeds of Evil (USA).jpg",
+    "boxart": "Turok 2 - Seeds of Evil (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Resident Evil 2",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Leon y Claire escapan de Raccoon City en la versión más ambiciosa del N64.",
+    "cover": "Resident Evil 2 (USA).jpg",
+    "boxart": "Resident Evil 2 (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Rogue Squadron",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Factor 5",
+    "synopsis": "Pilota los cazas de la Rebelión en misiones de Star Wars."
+  },
+  {
+    "title": "Star Wars: Shadows of the Empire",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "LucasArts",
+    "synopsis": "Dash Rendar vive los hechos paralelos a El Imperio contraataca.",
+    "cover": "Star Wars - Shadows of the Empire (USA).jpg",
+    "boxart": "Star Wars - Shadows of the Empire (USA)",
+    "size": "12.0 MB"
+  },
+  {
+    "title": "Star Wars Episode I: Racer",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "LucasArts",
+    "synopsis": "Carreras de vainas a toda velocidad basadas en La amenaza fantasma.",
+    "cover": "Star Wars Episode I - Racer (USA).jpg",
+    "boxart": "Star Wars Episode I - Racer (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Mystical Ninja Starring Goemon",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Konami",
+    "synopsis": "Goemon y Ebisumaru recorren Japón feudal en una aventura excéntrica.",
+    "cover": "Mystical Ninja Starring Goemon (USA).jpg",
+    "boxart": "Mystical Ninja Starring Goemon (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Castlevania",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Drácula regresa en el primer Castlevania en 3D.",
+    "cover": "Castlevania (USA).jpg",
+    "boxart": "Castlevania (USA)",
+    "size": "12.0 MB"
+  },
+  {
+    "title": "Castlevania: Legacy of Darkness",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Precuela con Cornell en una aventura de acción 3D.",
+    "cover": "Castlevania - Legacy of Darkness (USA).jpg",
+    "boxart": "Castlevania - Legacy of Darkness (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Mega Man 64",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Mega Man Volnutt, explora ruinas en una aventura 3D.",
+    "cover": "Mega Man 64 (USA).jpg",
+    "boxart": "Mega Man 64 (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Harvest Moon 64",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Victor Interactive",
+    "synopsis": "Granja heredada con estaciones y habitantes del pueblo.",
+    "cover": "Harvest Moon 64 (USA).jpg",
+    "boxart": "Harvest Moon 64 (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Space Station Silicon Valley",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "DMA Design",
+    "synopsis": "Un microchip tiene que habitar animales en una estación espacial.",
+    "cover": "SpaceStation Silicon Valley (USA).jpg",
+    "boxart": "SpaceStation Silicon Valley (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Jet Force Gemini",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rare",
+    "synopsis": "Aventura de ciencia ficción con tres personajes y un enorme arsenal.",
+    "cover": "Jet Force Gemini (USA).jpg",
+    "boxart": "Jet Force Gemini (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Blast Corps",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Rare",
+    "synopsis": "Destruye edificios con vehículos para despejar el camino a un misil.",
+    "cover": "Blast Corps (USA).jpg",
+    "boxart": "Blast Corps (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Body Harvest",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "DMA Design",
+    "synopsis": "Un soldado recorre la historia para detener a unos alienígenas.",
+    "cover": "Body Harvest (USA).jpg",
+    "boxart": "Body Harvest (USA)",
+    "size": "12.0 MB"
+  },
+  {
+    "title": "Bomberman 64",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Hudson Soft",
+    "synopsis": "El Bomberman clásico con una aventura 3D y modo multijugador.",
+    "cover": "Bomberman 64 (USA).jpg",
+    "boxart": "Bomberman 64 (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Yoshi's Story",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Seis Yoshis recorren un libro de cuentos en busca de frutas.",
+    "cover": "Yoshi's Story (USA) (En,Ja).jpg",
+    "boxart": "Yoshi's Story (USA) (En,Ja)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "WWF No Mercy",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "AKI Corporation",
+    "synopsis": "Combates de lucha libre con una amplia plantilla y editor.",
+    "cover": "WWF No Mercy (USA).jpg",
+    "boxart": "WWF No Mercy (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "WWF WrestleMania 2000",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "AKI Corporation",
+    "synopsis": "Lucha libre con luchadores clásicos de la compañía.",
+    "cover": "WWF WrestleMania 2000 (USA).jpg",
+    "boxart": "WWF WrestleMania 2000 (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Ogre Battle 64: Person of Lordly Caliber",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Quest",
+    "synopsis": "Estrategia táctica en tiempo real con una historia profunda.",
+    "cover": "Ogre Battle 64 - Person of Lordly Caliber (USA).jpg",
+    "boxart": "Ogre Battle 64 - Person of Lordly Caliber (USA)",
+    "size": "40.0 MB"
+  },
+  {
+    "title": "Pilotwings 64",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Paradigm",
+    "synopsis": "Vuelos de ala delta, jetpack y autogiro por islas abiertas.",
+    "cover": "Pilotwings 64 (USA).jpg",
+    "boxart": "Pilotwings 64 (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Hybrid Heaven",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Mezcla de acción y rol con combates por turnos.",
+    "cover": "Hybrid Heaven (USA).jpg",
+    "boxart": "Hybrid Heaven (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Quest 64",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Imagineer",
+    "synopsis": "Un aprendiz de mago emprende un viaje para encontrar a su maestro.",
+    "cover": "Quest 64 (USA).jpg",
+    "boxart": "Quest 64 (USA)",
+    "size": "16.0 MB"
+  }
+]

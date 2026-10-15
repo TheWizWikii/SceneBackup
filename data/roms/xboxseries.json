@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "title": "Halo Infinite",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "343 Industries",
+    "synopsis": "El Jefe Maestro se enfrenta a los Desterrados en el anillo Zeta con un mundo abierto y multijugador gratuito."
+  },
+  {
+    "title": "Forza Horizon 5",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Playground Games",
+    "synopsis": "Festival de carreras de mundo abierto ambientado en un vibrante México."
+  },
+  {
+    "title": "Gears 5",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "The Coalition",
+    "synopsis": "Kait Diaz descubre su vínculo con el enemigo en una campaña cooperativa de Gears."
+  },
+  {
+    "title": "Hellblade II: Senua's Saga",
+    "year": 2024,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ninja Theory",
+    "synopsis": "Senua viaja por Islandia en una experiencia cinematográfica y psicológica."
+  },
+  {
+    "title": "Starfield",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bethesda Game Studios",
+    "synopsis": "RPG espacial de mundo abierto con cientos de planetas por explorar."
+  },
+  {
+    "title": "Microsoft Flight Simulator",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Asobo Studio",
+    "synopsis": "Simulador de vuelo que recrea todo el planeta con datos reales."
+  },
+  {
+    "title": "Ori and the Will of the Wisps",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Moon Studios",
+    "synopsis": "Ori busca restaurar el bosque de Niwen en una aventura de plataformas muy cuidada."
+  },
+  {
+    "title": "Forza Motorsport",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Turn 10 Studios",
+    "synopsis": "Simulador de conducción con física renovada y circuitos reales."
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "CD Projekt Red",
+    "synopsis": "V busca un implante único en Night City, una megalópolis de acción y decisiones."
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Larian Studios",
+    "synopsis": "Aventura de Dungeons & Dragons con decisiones profundas y cooperativo."
+  },
+  {
+    "title": "Hi-Fi Rush",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Tango Gameplay Studios",
+    "synopsis": "Hack and slash con el ritmo de la música como núcleo del combate."
+  },
+  {
+    "title": "Grounded",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Supervivencia",
+    "developer": "Obsidian Entertainment",
+    "synopsis": "Sobrevive miniaturizado en un jardín lleno de insectos gigantes."
+  },
+  {
+    "title": "Sea of Thieves",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Rare",
+    "synopsis": "Aventura pirata multijugador con navegación, tesoros y combates."
+  },
+  {
+    "title": "Psychonauts 2",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Double Fine",
+    "synopsis": "Raz entra en las mentes de otros en una aventura de plataformas llena de humor."
+  },
+  {
+    "title": "A Plague Tale: Requiem",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Asobo Studio",
+    "synopsis": "Amicia y Hugo huyen de plagas y soldados en una dramática aventura medieval."
+  },
+  {
+    "title": "Resident Evil 4",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Remake de la clásica aventura de Leon S. Kennedy rescatando a la hija del presidente."
+  },
+  {
+    "title": "Elden Ring",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FromSoftware",
+    "synopsis": "Mundo abierto de fantasía oscura creado junto a George R. R. Martin."
+  },
+  {
+    "title": "Alan Wake II",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Remedy Entertainment",
+    "synopsis": "Terror psicológico con dos protagonistas atrapados en una pesadilla narrativa."
+  },
+  {
+    "title": "Diablo IV",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Blizzard Entertainment",
+    "synopsis": "Acción RPG en el mundo oscuro de Santuario con enemigos y botín sin fin."
+  },
+  {
+    "title": "It Takes Two",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Hazelight Studios",
+    "synopsis": "Aventura cooperativa obligatoria para dos jugadores sobre una pareja convertida en muñecos."
+  }
+]

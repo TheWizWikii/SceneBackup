@@ -1,1 +1,276 @@
-[]
+[
+  {
+    "title": "Astrosmash",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Mattel",
+    "synopsis": "Dispara a asteroides cayendo.",
+    "cover": "Astrosmash (USA, Europe).jpg",
+    "boxart": "Astrosmash (USA, Europe)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Utopia",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Mattel",
+    "synopsis": "Gestiona una isla.",
+    "cover": "Utopia (USA, Europe).jpg",
+    "boxart": "Utopia (USA, Europe)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Lock 'N' Chase",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Mattel",
+    "synopsis": "Persigue ladrones.",
+    "cover": "Lock 'N' Chase (USA, Europe).jpg",
+    "boxart": "Lock 'N' Chase (USA, Europe)",
+    "size": "12 KB"
+  },
+  {
+    "title": "Burgertime",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Mattel",
+    "synopsis": "Monta hamburguesas.",
+    "cover": "BurgerTime (USA, Europe).jpg",
+    "boxart": "BurgerTime (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Advanced Dungeons & Dragons",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Mattel",
+    "synopsis": "Mazmorras de D&D.",
+    "cover": "Advanced Dungeons & Dragons (USA, Europe).jpg",
+    "boxart": "Advanced Dungeons & Dragons (USA, Europe)",
+    "size": "12 KB"
+  },
+  {
+    "title": "Space Armada",
+    "year": 1981,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Mattel",
+    "synopsis": "Shoot'em up de oleadas.",
+    "cover": "Space Armada (World).jpg",
+    "boxart": "Space Armada (World)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Night Stalker",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Mattel",
+    "synopsis": "Escapa de robots.",
+    "cover": "Night Stalker (World).jpg",
+    "boxart": "Night Stalker (World)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Sea Battle",
+    "year": 1980,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Mattel",
+    "synopsis": "Combate naval.",
+    "cover": "Sea Battle (World).jpg",
+    "boxart": "Sea Battle (World)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Space Battle",
+    "year": 1979,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Mattel",
+    "synopsis": "Combate espacial.",
+    "cover": "Space Battle (World).jpg",
+    "boxart": "Space Battle (World)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Tron: Deadly Discs",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Mattel",
+    "synopsis": "Lanza discos.",
+    "cover": "TRON Deadly Discs (USA, Europe).jpg",
+    "boxart": "TRON Deadly Discs (USA, Europe)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Beauty and the Beast",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Imagic",
+    "synopsis": "Rescate de la bella.",
+    "cover": "Beauty & the Beast (USA, Europe).jpg",
+    "boxart": "Beauty & the Beast (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Diner",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Imagic",
+    "synopsis": "Continuación de BurgerTime.",
+    "cover": "Diner (USA).jpg",
+    "boxart": "Diner (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Dig Dug",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atarisoft",
+    "synopsis": "Cava y derrota monstruos.",
+    "cover": "Dig Dug (USA).jpg",
+    "boxart": "Dig Dug (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Frogger",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Cruza la carretera.",
+    "cover": "Frogger (USA, Europe).jpg",
+    "boxart": "Frogger (USA, Europe)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Q*bert",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Saltos sobre cubos.",
+    "cover": "Q-bert (USA, Europe).jpg",
+    "boxart": "Q-bert (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "NFL Football",
+    "year": 1979,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Mattel",
+    "synopsis": "Fútbol americano.",
+    "cover": "NFL Football (World).jpg",
+    "boxart": "NFL Football (World)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Baseball",
+    "year": 1980,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Mattel",
+    "synopsis": "Béisbol clásico."
+  },
+  {
+    "title": "Hockey",
+    "year": 1979,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Mattel",
+    "synopsis": "Hockey sobre hielo."
+  },
+  {
+    "title": "Sub Hunt",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Mattel",
+    "synopsis": "Caza submarinos.",
+    "cover": "Sub Hunt (USA, Europe).jpg",
+    "boxart": "Sub Hunt (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Thin Ice",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Mattel",
+    "synopsis": "Patina sobre hielo.",
+    "cover": "Thin Ice (USA).jpg",
+    "boxart": "Thin Ice (USA)",
+    "size": "16 KB"
+  }
+]

@@ -1,1 +1,729 @@
-[]
+[
+  {
+    "title": "Pokémon Emerald Version",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Hoenn y la Zona de Combate en la edición definitiva de la tercera generación.",
+    "cover": "Pokemon - Emerald Version (USA, Europe).jpg",
+    "boxart": "Pokemon - Emerald Version (USA, Europe)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Pokémon Ruby Version",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Debut de la tercera generación con Hoenn, dobles combates y habilidades.",
+    "cover": "Pokemon - Ruby Version (USA, Europe).jpg",
+    "boxart": "Pokemon - Ruby Version (USA, Europe)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Pokémon Sapphire Version",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión zafiro del viaje de Hoenn con Pokémon exclusivos.",
+    "cover": "Pokemon - Sapphire Version (USA, Europe).jpg",
+    "boxart": "Pokemon - Sapphire Version (USA, Europe)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Pokémon FireRed Version",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Reedición del Kanto original con nuevos extras y gráficos de GBA.",
+    "cover": "Pokemon - FireRed Version (USA, Europe).jpg",
+    "boxart": "Pokemon - FireRed Version (USA, Europe)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Pokémon LeafGreen Version",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión verde de la remasterización de Kanto.",
+    "cover": "Pokemon - LeafGreen Version (USA, Europe).jpg",
+    "boxart": "Pokemon - LeafGreen Version (USA, Europe)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "The Legend of Zelda: The Minish Cap",
+    "year": 2004,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Capcom",
+    "synopsis": "Link se reduce al tamaño de un ratón con el gorro Ezlo para salvar Hyrule."
+  },
+  {
+    "title": "The Legend of Zelda: A Link to the Past & Four Swords",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "El clásico de SNES junto a una aventura cooperativa de cuatro jugadores."
+  },
+  {
+    "title": "Metroid Fusion",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Samus huye de un parásito X que ha infectado la estación espacial.",
+    "cover": "Metroid Fusion (USA).jpg",
+    "boxart": "Metroid Fusion (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Metroid: Zero Mission",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Remake del Metroid original con nuevas zonas y una historia ampliada.",
+    "cover": "Metroid - Zero Mission (USA, Australia).jpg",
+    "boxart": "Metroid - Zero Mission (USA, Australia)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Super Mario Advance 4: Super Mario Bros. 3",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Versión portátil del clásico de NES con nuevos niveles y mejoras visuales.",
+    "cover": "Super Mario Advance 4 - Super Mario Bros. 3 (USA).jpg",
+    "boxart": "Super Mario Advance 4 - Super Mario Bros. 3 (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Super Mario Advance 2: Super Mario World",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Super Mario World con Mario Bros. en versión portátil.",
+    "cover": "Super Mario Advance 2 - Super Mario World (USA, Australia).jpg",
+    "boxart": "Super Mario Advance 2 - Super Mario World (USA, Australia)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Super Mario Advance 3: Yoshi's Island",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Yoshi's Island remozado con más niveles extra para la portátil.",
+    "cover": "Super Mario Advance 3 - Yoshi's Island (USA).jpg",
+    "boxart": "Super Mario Advance 3 - Yoshi's Island (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Mario Kart: Super Circuit",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Intelligent Systems",
+    "synopsis": "Kart portátil con circuitos de Super Mario Kart desbloqueables.",
+    "cover": "Mario Kart - Super Circuit (USA).jpg",
+    "boxart": "Mario Kart - Super Circuit (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Mario & Luigi: Superstar Saga",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "AlphaDream",
+    "synopsis": "Mario y Luigi recuperan la voz de Peach en el reino Judía.",
+    "cover": "Mario & Luigi - Superstar Saga (USA).jpg",
+    "boxart": "Mario & Luigi - Superstar Saga (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Mario Golf: Advance Tour",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Golf con modo de aventura de rol en un campus.",
+    "cover": "Mario Golf - Advance Tour (USA).jpg",
+    "boxart": "Mario Golf - Advance Tour (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Golden Sun",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Camelot",
+    "synopsis": "Isaac y sus amigos buscan la Alquimia con un sistema de Djinn.",
+    "cover": "Golden Sun (USA, Europe).jpg",
+    "boxart": "Golden Sun (USA, Europe)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Golden Sun: The Lost Age",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Camelot",
+    "synopsis": "Isaac y Félix se reúnen para devolver el equilibrio al mundo.",
+    "cover": "Golden Sun - The Lost Age (USA, Europe).jpg",
+    "boxart": "Golden Sun - The Lost Age (USA, Europe)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Advance Wars",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Estrategia táctica por turnos con los ejércitos de Orange Star.",
+    "cover": "Advance Wars (USA).jpg",
+    "boxart": "Advance Wars (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Advance Wars 2: Black Hole Rising",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Nueva guerra contra el ejército Black Hole.",
+    "cover": "Advance Wars 2 - Black Hole Rising (USA).jpg",
+    "boxart": "Advance Wars 2 - Black Hole Rising (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Fire Emblem",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Lyn, Eliwood y Hector en un conflicto de Elibe, primer Fire Emblem fuera de Japón.",
+    "cover": "Fire Emblem (USA, Australia).jpg",
+    "boxart": "Fire Emblem (USA, Australia)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Fire Emblem: The Sacred Stones",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Eirika y Ephraim defienden Magvel de los ataques del Imperio Grado.",
+    "cover": "Fire Emblem - The Sacred Stones (USA, Australia).jpg",
+    "boxart": "Fire Emblem - The Sacred Stones (USA, Australia)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Castlevania: Aria of Sorrow",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Soma Cruz hereda el poder del conde en un castillo del año 2035.",
+    "cover": "Castlevania - Aria of Sorrow (USA).jpg",
+    "boxart": "Castlevania - Aria of Sorrow (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Castlevania: Harmony of Dissonance",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Juste Belmont recorre un castillo doble para rescatar a su amigo.",
+    "cover": "Castlevania - Harmony of Dissonance (USA).jpg",
+    "boxart": "Castlevania - Harmony of Dissonance (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Castlevania: Circle of the Moon",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Nathan Graves cruza el castillo de Drácula con un sistema de cartas.",
+    "cover": "Castlevania - Circle of the Moon (USA).jpg",
+    "boxart": "Castlevania - Circle of the Moon (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Kirby & The Amazing Mirror",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby explora un mundo abierto de espejos con cuatro jugadores.",
+    "cover": "Kirby & The Amazing Mirror (USA).jpg",
+    "boxart": "Kirby & The Amazing Mirror (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Kirby: Nightmare in Dream Land",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Remake mejorado de Kirby's Adventure para la portátil.",
+    "cover": "Kirby - Nightmare in Dream Land (USA).jpg",
+    "boxart": "Kirby - Nightmare in Dream Land (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Wario Land 4",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Wario se adentra en una pirámide para robar el tesoro de la Esmeralda Dorada.",
+    "cover": "Wario Land 4 (USA, Europe).jpg",
+    "boxart": "Wario Land 4 (USA, Europe)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "WarioWare, Inc.: Mega Microgame$!",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Cientos de microjuegos de cinco segundos con humor extravagante.",
+    "cover": "WarioWare, Inc. - Mega Microgame$! (USA).jpg",
+    "boxart": "WarioWare, Inc. - Mega Microgame$! (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "F-Zero: Maximum Velocity",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nd Cube",
+    "synopsis": "Carreras ultrarrápidas con las naves futuristas de la saga.",
+    "cover": "F-Zero - Maximum Velocity (USA, Europe).jpg",
+    "boxart": "F-Zero - Maximum Velocity (USA, Europe)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Sonic Advance",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Sonic se estrena en las portátiles de Nintendo con un plataformas clásico.",
+    "cover": "Sonic Advance (USA) (En,Ja).jpg",
+    "boxart": "Sonic Advance (USA) (En,Ja)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Sonic Advance 2",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Más velocidad y nuevos personajes en la secuela portátil.",
+    "cover": "Sonic Advance 2 (USA) (En,Ja,Fr,De,Es,It).jpg",
+    "boxart": "Sonic Advance 2 (USA) (En,Ja,Fr,De,Es,It)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Sonic Advance 3",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Parejas de personajes con habilidades combinadas.",
+    "cover": "Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It).jpg",
+    "boxart": "Sonic Advance 3 (USA) (En,Ja,Fr,De,Es,It)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Mega Man Zero",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Inti Creates",
+    "synopsis": "Zero despierta en un futuro devastado para luchar por la libertad.",
+    "cover": "Mega Man Zero (USA, Europe).jpg",
+    "boxart": "Mega Man Zero (USA, Europe)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Mega Man Zero 3",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Inti Creates",
+    "synopsis": "Zero se enfrenta al Dr. Weil y su ejército de Mechaniloids.",
+    "cover": "Mega Man Zero 3 (USA).jpg",
+    "boxart": "Mega Man Zero 3 (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Mega Man & Bass",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Remasterización portátil del clásico de SNES de Mega Man contra King.",
+    "cover": "Mega Man & Bass (USA).jpg",
+    "boxart": "Mega Man & Bass (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Mega Man Battle Network 3",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Capcom",
+    "synopsis": "Lan y MegaMan.EXE salvan el ciberespacio de las amenazas de Alpha."
+  },
+  {
+    "title": "Final Fantasy Tactics Advance",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Square Enix",
+    "synopsis": "Marche y sus compañeros aprenden en un mundo regido por leyes.",
+    "cover": "Final Fantasy Tactics Advance (USA).jpg",
+    "boxart": "Final Fantasy Tactics Advance (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Final Fantasy VI Advance",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "La épica de Terra, Locke y Kefka con extras para la portátil.",
+    "cover": "Final Fantasy VI Advance (USA).jpg",
+    "boxart": "Final Fantasy VI Advance (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Final Fantasy IV Advance",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Cecil se adentra en la historia clásica con extras y mazmorras nuevas.",
+    "cover": "Final Fantasy IV Advance (USA).jpg",
+    "boxart": "Final Fantasy IV Advance (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Dragon Ball Z: The Legacy of Goku II",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Webfoot",
+    "synopsis": "Goku y sus aliados reviven la saga de los androides.",
+    "cover": "Dragon Ball Z - The Legacy of Goku II (USA).jpg",
+    "boxart": "Dragon Ball Z - The Legacy of Goku II (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Harvest Moon: Friends of Mineral Town",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Victor Interactive",
+    "synopsis": "Una granja en un pueblo tranquilo con festivales, cultivos y animales.",
+    "cover": "Harvest Moon - Friends of Mineral Town (USA).jpg",
+    "boxart": "Harvest Moon - Friends of Mineral Town (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Drill Dozer",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Game Freak",
+    "synopsis": "Jill, con su taladro gigante, recupera los diamantes robados.",
+    "cover": "Drill Dozer (USA).jpg",
+    "boxart": "Drill Dozer (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Gunstar Super Heroes",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Treasure",
+    "synopsis": "Run and gun de Treasure con jefes espectaculares.",
+    "cover": "Gunstar Super Heroes (USA).jpg",
+    "boxart": "Gunstar Super Heroes (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Astro Boy: Omega Factor",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Treasure",
+    "synopsis": "Beat 'em up de Treasure con homenajes a la obra de Tezuka.",
+    "cover": "Astro Boy - Omega Factor (USA) (En,Ja,Fr,De,Es,It).jpg",
+    "boxart": "Astro Boy - Omega Factor (USA) (En,Ja,Fr,De,Es,It)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Mother 3",
+    "year": 2006,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "HAL Laboratory",
+    "synopsis": "Una aventura excéntrica de Lucas, Kumatora y Duster.",
+    "cover": "Mother 3 (Japan).jpg",
+    "boxart": "Mother 3 (Japan)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Yu-Gi-Oh! The Eternal Duelist Soul",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Konami",
+    "synopsis": "Enfrentamientos de cartas con duelistas de la serie.",
+    "cover": "Yu-Gi-Oh! - The Eternal Duelist Soul (USA).jpg",
+    "boxart": "Yu-Gi-Oh! - The Eternal Duelist Soul (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Contra Advance",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Run and gun a toda velocidad con jefes y armas clásicas."
+  },
+  {
+    "title": "Metal Slug Advance",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Run and gun portátil con soldados contra un ejército.",
+    "cover": "Metal Slug Advance (USA).jpg",
+    "boxart": "Metal Slug Advance (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Street Fighter Alpha 3 Upper",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha en la portátil con más personajes que en la versión original."
+  },
+  {
+    "title": "Super Street Fighter II Turbo Revival",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "El clásico en una versión a la medida de la portátil.",
+    "cover": "Super Street Fighter II Turbo - Revival (USA).jpg",
+    "boxart": "Super Street Fighter II Turbo - Revival (USA)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Rayman Advance",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ubi Soft",
+    "synopsis": "Rayman viaja por las islas del mundo en un plataformas de 2D.",
+    "cover": "Rayman Advance (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Rayman Advance (USA) (En,Fr,De,Es,It)",
+    "size": "8.0 MB"
+  },
+  {
+    "title": "Pac-Man Collection",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Namco",
+    "synopsis": "Pac-Man, Pac-Mania y más clásicos de la mascota amarilla.",
+    "cover": "Pac-Man Collection (USA).jpg",
+    "boxart": "Pac-Man Collection (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Mario vs. Donkey Kong",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Mario persigue a Donkey Kong para recuperar sus juguetes.",
+    "cover": "Mario vs. Donkey Kong (USA, Australia).jpg",
+    "boxart": "Mario vs. Donkey Kong (USA, Australia)",
+    "size": "16.0 MB"
+  }
+]

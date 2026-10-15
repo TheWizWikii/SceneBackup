@@ -1,1 +1,352 @@
-[]
+[
+  {
+    "title": "Alex Kidd in Miracle World",
+    "year": 1986,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Alex Kidd rescata a Radaxian en un mundo de piedra, papel o tijera.",
+    "cover": "Alex Kidd in Miracle World (USA, Europe).jpg",
+    "boxart": "Alex Kidd in Miracle World (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Sonic the Hedgehog",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Versión de 8 bits del erizo con niveles propios.",
+    "cover": "Sonic The Hedgehog (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Sonic The Hedgehog (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Phantasy Star",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Alis emprende una venganza por su hermano en un RPG de tres sistemas planetarios.",
+    "cover": "Phantasy Star (USA, Europe).jpg",
+    "boxart": "Phantasy Star (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Wonder Boy III: The Dragon's Trap",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Westone",
+    "synopsis": "Una maldición convierte al héroe en un dragón y otras bestias.",
+    "cover": "Wonder Boy III - The Dragon's Trap (USA, Europe).jpg",
+    "boxart": "Wonder Boy III - The Dragon's Trap (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Wonder Boy in Monster Land",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Westone",
+    "synopsis": "El héroe recorre un mundo repleto de monstruos.",
+    "cover": "Wonder Boy in Monster Land (USA, Europe).jpg",
+    "boxart": "Wonder Boy in Monster Land (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Golden Axe Warrior",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Sega",
+    "synopsis": "Aventura de fantasía con un estilo inspirado en Zelda.",
+    "cover": "Golden Axe Warrior (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Golden Axe Warrior (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Psycho Fox",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Un zorro con transformaciones atraviesa mundos locos.",
+    "cover": "Psycho Fox (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Psycho Fox (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Shinobi",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Joe Musashi rescata niños de un clan ninja.",
+    "cover": "Shinobi (USA, Europe, Brazil) (En) (Rev 1).jpg",
+    "boxart": "Shinobi (USA, Europe, Brazil) (En) (Rev 1)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Space Harrier",
+    "year": 1986,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Sega",
+    "synopsis": "Shooter sobre raíles con un héroe volador.",
+    "cover": "Space Harrier (Europe).jpg",
+    "boxart": "Space Harrier (Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Out Run",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carrera por carreteras con música a elegir.",
+    "cover": "OutRun (World).jpg",
+    "boxart": "OutRun (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "R-Type",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Compile",
+    "synopsis": "El shooter de scroll horizontal con un módulo de fuerza.",
+    "cover": "R-Type (World).jpg",
+    "boxart": "R-Type (World)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Ghouls 'n Ghosts",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Sir Arthur vuelve a rescatar a su princesa del Demonio.",
+    "cover": "Ghouls'n Ghosts (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Ghouls'n Ghosts (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Castle of Illusion Starring Mickey Mouse",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Mickey rescata a Minnie en un castillo mágico.",
+    "cover": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Fantasy Zone",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Sega",
+    "synopsis": "Opa-Opa se enfrenta a enemigos coloridos en un shooter de tiendas.",
+    "cover": "Fantasy Zone (World) (Rev 1).jpg",
+    "boxart": "Fantasy Zone (World) (Rev 1)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Double Dragon",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Los hermanos Lee salvan a Marian de los Shadow Warriors.",
+    "cover": "Double Dragon (World).jpg",
+    "boxart": "Double Dragon (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Rastan",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Taito",
+    "synopsis": "Rastan combate con su espada a través de un reino de fantasía.",
+    "cover": "Rastan (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Rastan (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Ys: The Vanished Omens",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Falcom",
+    "synopsis": "Adol Christin explora Esteria para descubrir los libros de Ys.",
+    "cover": "Ys - The Vanished Omens (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Ys - The Vanished Omens (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Ninja Gaiden",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Ryu Hayabusa se enfrenta a demonios en una aventura de acción.",
+    "cover": "Ninja Gaiden (Europe, Brazil) (En).jpg",
+    "boxart": "Ninja Gaiden (Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "California Games",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Epyx",
+    "synopsis": "Un conjunto de deportes al aire libre californianos.",
+    "cover": "California Games (USA, Europe, Brazil) (En).jpg",
+    "boxart": "California Games (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Mortal Kombat",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Probe",
+    "synopsis": "El brutal juego de lucha de Midway en la consola de 8 bits.",
+    "cover": "Mortal Kombat (Europe, Brazil) (En).jpg",
+    "boxart": "Mortal Kombat (Europe, Brazil) (En)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Asterix",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Astérix y Obélix luchan contra los romanos en un mundo de comic.",
+    "cover": "Asterix (Europe, Brazil) (En,Fr).jpg",
+    "boxart": "Asterix (Europe, Brazil) (En,Fr)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Lemmings",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sunsoft",
+    "synopsis": "Guía a los lemmings hasta la salida usando habilidades limitadas.",
+    "cover": "Lemmings (Europe, Brazil) (En).jpg",
+    "boxart": "Lemmings (Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Prince of Persia",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Domark",
+    "synopsis": "El príncipe escapa de la mazmorra con acrobacias.",
+    "cover": "Prince of Persia (Europe, Brazil) (En).jpg",
+    "boxart": "Prince of Persia (Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Penguin Land",
+    "year": 1985,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sega",
+    "synopsis": "Guía a un pingüino para rescatar a un huevo.",
+    "cover": "Penguin Land (USA, Europe).jpg",
+    "boxart": "Penguin Land (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Zillion",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Sega",
+    "synopsis": "JJ infiltra una base enemiga en una aventura de ciencia ficción.",
+    "cover": "Zillion (USA, Europe) (Rev 1).jpg",
+    "boxart": "Zillion (USA, Europe) (Rev 1)",
+    "size": "128 KB"
+  }
+]

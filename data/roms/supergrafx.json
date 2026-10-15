@@ -1,1 +1,77 @@
-[]
+[
+  {
+    "title": "1941: Counter Attack",
+    "year": 1991,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Capcom",
+    "synopsis": "Aviones de la Segunda Guerra Mundial enfrentados en un shoot'em up vertical.",
+    "cover": "1941 - Counter Attack (Japan).jpg",
+    "boxart": "1941 - Counter Attack (Japan)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Aldynes",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hudson Soft",
+    "synopsis": "Matamarcianos horizontal exclusivo SuperGrafx."
+  },
+  {
+    "title": "Battle Ace",
+    "year": 1989,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hudson Soft",
+    "synopsis": "Shoot'em up con vista cenital exclusivo de SuperGrafx.",
+    "cover": "Battle Ace (Japan) (En).jpg",
+    "boxart": "Battle Ace (Japan) (En)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Daimakaimura",
+    "year": 1989,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Versión SuperGrafx de Ghouls'n Ghosts.",
+    "cover": "Daimakaimura (Japan) (En).jpg",
+    "boxart": "Daimakaimura (Japan) (En)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Ghouls'n Ghosts",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Arthur vuelve a rescatar a su princesa de Lucifer."
+  },
+  {
+    "title": "Madouou Granzort",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Hudson Soft",
+    "synopsis": "Aventura de acción fantástica exclusiva SuperGrafx."
+  }
+]

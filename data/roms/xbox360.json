@@ -1,1 +1,605 @@
-[]
+[
+  {
+    "title": "Halo 3",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Bungie",
+    "synopsis": "El Jefe Maestro termina la guerra contra el Covenant.",
+    "cover": "Halo 3 (World) (v3).jpg",
+    "boxart": "Halo 3 (World) (v3)",
+    "size": "952 KB"
+  },
+  {
+    "title": "Halo: Reach",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Bungie",
+    "synopsis": "El equipo Noble defiende el planeta Reach.",
+    "cover": "Halo - Reach (World) (v1).jpg",
+    "boxart": "Halo - Reach (World) (v1)",
+    "size": "1.4 MB"
+  },
+  {
+    "title": "Gears of War",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Epic Games",
+    "synopsis": "Marcus Fenix se enfrenta a la horda Locust.",
+    "cover": "Gears of War (USA) (v1).jpg",
+    "boxart": "Gears of War (USA) (v1)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Gears of War 2",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Epic Games",
+    "synopsis": "El escuadrón Delta combate bajo tierra contra los Locust.",
+    "cover": "Gears of War 2 (USA) (v3).jpg",
+    "boxart": "Gears of War 2 (USA) (v3)",
+    "size": "2.3 MB"
+  },
+  {
+    "title": "Gears of War 3",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Epic Games",
+    "synopsis": "Marcus y Delta ponen fin a la guerra.",
+    "cover": "Gears of War 3 (World) (v1).jpg",
+    "boxart": "Gears of War 3 (World) (v1)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Mass Effect",
+    "year": 2007,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "Shepard se une al Concilio para frenar a Saren.",
+    "cover": "Mass Effect (Europe) (v1a).jpg",
+    "boxart": "Mass Effect (Europe) (v1a)",
+    "size": "2.8 MB"
+  },
+  {
+    "title": "Mass Effect 2",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "Shepard monta un equipo para detener a los Recolectores.",
+    "cover": "Mass Effect 2 (World) (v2).jpg",
+    "boxart": "Mass Effect 2 (World) (v2)",
+    "size": "3.7 MB"
+  },
+  {
+    "title": "Mass Effect 3",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "Shepard une a la galaxia contra los Segadores.",
+    "cover": "Mass Effect 3 (World) (4541095D) (Addon).jpg",
+    "boxart": "Mass Effect 3 (World) (4541095D) (Addon)",
+    "size": "164 KB"
+  },
+  {
+    "title": "Fallout 3",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bethesda",
+    "synopsis": "Un morador del Refugio 101 busca a su padre.",
+    "cover": "Fallout 3 (World) (425307D5) (Addon).jpg",
+    "boxart": "Fallout 3 (World) (425307D5) (Addon)",
+    "size": "100 KB"
+  },
+  {
+    "title": "Fallout: New Vegas",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Obsidian",
+    "synopsis": "Un mensajero sobrevive en el Yermo de Mojave.",
+    "cover": "Fallout - New Vegas (USA, Europe) (v1).jpg",
+    "boxart": "Fallout - New Vegas (USA, Europe) (v1)",
+    "size": "2.4 MB"
+  },
+  {
+    "title": "The Elder Scrolls IV: Oblivion",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bethesda",
+    "synopsis": "Un prisionero libera Cyrodiil de las puertas.",
+    "cover": "The Elder Scrolls IV - Oblivion (USA) (v1).jpg",
+    "boxart": "The Elder Scrolls IV - Oblivion (USA) (v1)",
+    "size": "2.6 MB"
+  },
+  {
+    "title": "The Elder Scrolls V: Skyrim",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bethesda",
+    "synopsis": "El Último Sangre de Dragón en Skyrim.",
+    "cover": "Elder Scrolls V - Skyrim, The (USA, Europe) (v10) (34F5B6C3) (Title Update).jpg",
+    "boxart": "Elder Scrolls V - Skyrim, The (USA, Europe) (v10) (34F5B6C3) (Title Update)",
+    "size": "25.5 MB"
+  },
+  {
+    "title": "Red Dead Redemption",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar San Diego",
+    "synopsis": "John Marston y el final del Salvaje Oeste.",
+    "cover": "Red Dead Redemption (World) (v1).jpg",
+    "boxart": "Red Dead Redemption (World) (v1)",
+    "size": "1.5 MB"
+  },
+  {
+    "title": "Grand Theft Auto IV",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar North",
+    "synopsis": "Niko Bellic busca su sueño americano en Liberty City.",
+    "cover": "Grand Theft Auto IV (USA) (v4).jpg",
+    "boxart": "Grand Theft Auto IV (USA) (v4)",
+    "size": "3.4 MB"
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar North",
+    "synopsis": "Tres criminales en Los Santos.",
+    "cover": "Grand Theft Auto V (World) (v27).jpg",
+    "boxart": "Grand Theft Auto V (World) (v27)",
+    "size": "125.4 MB"
+  },
+  {
+    "title": "BioShock",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "2K Boston",
+    "synopsis": "Jack descubre la ciudad submarina de Rapture.",
+    "cover": "BioShock (World) (v3).jpg",
+    "boxart": "BioShock (World) (v3)",
+    "size": "992 KB"
+  },
+  {
+    "title": "BioShock Infinite",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Irrational Games",
+    "synopsis": "Booker DeWitt rescata a Elizabeth en Columbia.",
+    "cover": "BioShock Infinite (World) (5454085D) (Addon).jpg",
+    "boxart": "BioShock Infinite (World) (5454085D) (Addon)",
+    "size": "240 KB"
+  },
+  {
+    "title": "Portal 2",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Valve",
+    "synopsis": "Chell resuelve puzles con GLaDOS.",
+    "cover": "Portal 2 (World) (v1).jpg",
+    "boxart": "Portal 2 (World) (v1)",
+    "size": "2.4 MB"
+  },
+  {
+    "title": "Left 4 Dead 2",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Valve",
+    "synopsis": "Cuatro supervivientes frente a infectados.",
+    "cover": "Left 4 Dead 2 (World) (v1).jpg",
+    "boxart": "Left 4 Dead 2 (World) (v1)",
+    "size": "2.1 MB"
+  },
+  {
+    "title": "Call of Duty 4: Modern Warfare",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Infinity Ward",
+    "synopsis": "Soldados persiguen a un terrorista.",
+    "cover": "Call of Duty 4 - Modern Warfare (World) (v1).jpg",
+    "boxart": "Call of Duty 4 - Modern Warfare (World) (v1)",
+    "size": "1.2 MB"
+  },
+  {
+    "title": "Borderlands 2",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Gearbox",
+    "synopsis": "Cuatro cazadores de la cámara se enfrentan a Handsome Jack.",
+    "cover": "Borderlands 2 (World) (5454087C) (Addon).jpg",
+    "boxart": "Borderlands 2 (World) (5454087C) (Addon)",
+    "size": "240 KB"
+  },
+  {
+    "title": "Dead Rising",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Frank West sobrevive a una horda en un centro comercial."
+  },
+  {
+    "title": "Resident Evil 5",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Chris Redfield y Sheva en África.",
+    "cover": "Resident Evil 5 (World) (434307D4) (Addon).jpg",
+    "boxart": "Resident Evil 5 (World) (434307D4) (Addon)",
+    "size": "164 KB"
+  },
+  {
+    "title": "Alan Wake",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Remedy",
+    "synopsis": "Un escritor se enfrenta a la oscuridad.",
+    "cover": "Alan Wake (World) (4D530805) (Addon).jpg",
+    "boxart": "Alan Wake (World) (4D530805) (Addon)",
+    "size": "224 KB"
+  },
+  {
+    "title": "Assassin's Creed II",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "Ezio Auditore en la Italia renacentista.",
+    "cover": "Assassin's Creed II (World) (5553083B) (Addon).jpg",
+    "boxart": "Assassin's Creed II (World) (5553083B) (Addon)",
+    "size": "196 KB"
+  },
+  {
+    "title": "Batman: Arkham City",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rocksteady",
+    "synopsis": "Batman se enfrenta al Joker en la ciudad prisión.",
+    "cover": "Batman - Arkham City (World) (v1).jpg",
+    "boxart": "Batman - Arkham City (World) (v1)",
+    "size": "5.6 MB"
+  },
+  {
+    "title": "Forza Motorsport 4",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Turn 10 Studios",
+    "synopsis": "Simulación con Kinect y miles de coches.",
+    "cover": "Forza Motorsport 4 (USA) (v1).jpg",
+    "boxart": "Forza Motorsport 4 (USA) (v1)",
+    "size": "6.8 MB"
+  },
+  {
+    "title": "Forza Horizon",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Playground Games",
+    "synopsis": "Un festival de coches en Colorado.",
+    "cover": "Forza Horizon (World) (v4) (Title Update).jpg",
+    "boxart": "Forza Horizon (World) (v4) (Title Update)",
+    "size": "15.0 MB"
+  },
+  {
+    "title": "Street Fighter IV",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "La lucha 2D con gráficos 3D.",
+    "cover": "Street Fighter IV (World) (v1).jpg",
+    "boxart": "Street Fighter IV (World) (v1)",
+    "size": "408 KB"
+  },
+  {
+    "title": "Dead or Alive 4",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Team Ninja",
+    "synopsis": "Combates con contraataques.",
+    "cover": "Dead Or Alive 4 (USA, Europe) (v1).jpg",
+    "boxart": "Dead Or Alive 4 (USA, Europe) (v1)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Ninja Gaiden II",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Team Ninja",
+    "synopsis": "Ryu Hayabusa contra el Clan del Dragón."
+  },
+  {
+    "title": "Lost Odyssey",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Mistwalker",
+    "synopsis": "Kaim, un inmortal, recupera su memoria."
+  },
+  {
+    "title": "Blue Dragon",
+    "year": 2007,
+    "region": "Japón",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Mistwalker",
+    "synopsis": "Shu y sus amigos se enfrentan a Nene.",
+    "cover": "Blue Dragon (Japan) (v2).jpg",
+    "boxart": "Blue Dragon (Japan) (v2)",
+    "size": "1.8 MB"
+  },
+  {
+    "title": "Fable II",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Lionhead Studios",
+    "synopsis": "Un héroe en un mundo de decisiones.",
+    "cover": "Fable II (World) (v2).jpg",
+    "boxart": "Fable II (World) (v2)",
+    "size": "3.8 MB"
+  },
+  {
+    "title": "Crackdown",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Realtime Worlds",
+    "synopsis": "Un agente con poderes en Pacific City.",
+    "cover": "Crackdown (World) (v5).jpg",
+    "boxart": "Crackdown (World) (v5)",
+    "size": "2.3 MB"
+  },
+  {
+    "title": "Viva Piñata",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Rare",
+    "synopsis": "Crea un jardín para los animales piñata."
+  },
+  {
+    "title": "Banjo-Kazooie: Nuts & Bolts",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Rare",
+    "synopsis": "Banjo y Kazooie construyen vehículos.",
+    "cover": "Banjo-Kazooie - Nuts & Bolts (USA) (v3).jpg",
+    "boxart": "Banjo-Kazooie - Nuts & Bolts (USA) (v3)",
+    "size": "3.9 MB"
+  },
+  {
+    "title": "Castle Crashers",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "The Behemoth",
+    "synopsis": "Cuatro caballeros recuperan unos cristales.",
+    "cover": "Castle Crashers (World) (v1).jpg",
+    "boxart": "Castle Crashers (World) (v1)",
+    "size": "1.7 MB"
+  },
+  {
+    "title": "Limbo",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Playdead",
+    "synopsis": "Un niño recorre un bosque de sombras.",
+    "cover": "Limbo (World) (XBLA).jpg",
+    "boxart": "Limbo (World) (XBLA)",
+    "size": "117.3 MB"
+  },
+  {
+    "title": "Braid",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Number None",
+    "synopsis": "Tim manipula el tiempo para salvar a la princesa.",
+    "cover": "Braid (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (XBLA).jpg",
+    "boxart": "Braid (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko) (XBLA)",
+    "size": "144.4 MB"
+  },
+  {
+    "title": "Shadow Complex",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Chair Entertainment",
+    "synopsis": "Metroidvania con estética de acción de los ochenta.",
+    "cover": "Shadow Complex (World) (v1).jpg",
+    "boxart": "Shadow Complex (World) (v1)",
+    "size": "1.0 MB"
+  }
+]

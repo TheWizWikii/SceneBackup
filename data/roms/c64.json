@@ -1,1 +1,650 @@
-[]
+[
+  {
+    "title": "Impossible Mission",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Epyx",
+    "synopsis": "Escapa de la fortaleza.",
+    "cover": "Impossible Mission (USA, Europe).jpg",
+    "boxart": "Impossible Mission (USA, Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Boulder Dash",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "First Star",
+    "synopsis": "Recoge diamantes.",
+    "cover": "Boulder Dash (USA, Europe) (Budget).jpg",
+    "boxart": "Boulder Dash (USA, Europe) (Budget)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Elite",
+    "year": 1985,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Firebird",
+    "synopsis": "Comercio y combate.",
+    "cover": "Elite (Europe).jpg",
+    "boxart": "Elite (Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Maniac Mansion",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "Lucasfilm",
+    "synopsis": "Aventura de terror.",
+    "cover": "Maniac Mansion (USA).jpg",
+    "boxart": "Maniac Mansion (USA)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Wizball",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Sensible Software",
+    "synopsis": "Shoot'em up.",
+    "cover": "Wizball (Europe).jpg",
+    "boxart": "Wizball (Europe)",
+    "size": "709 KB"
+  },
+  {
+    "title": "Last Ninja 2",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "System 3",
+    "synopsis": "Aventura de ninjas."
+  },
+  {
+    "title": "The Last Ninja",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "System 3",
+    "synopsis": "Aventura de ninjas.",
+    "cover": "Last Ninja, The (USA).jpg",
+    "boxart": "Last Ninja, The (USA)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Giana Sisters",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Time Warp",
+    "synopsis": "Plataformas."
+  },
+  {
+    "title": "Turrican",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rainbow Arts",
+    "synopsis": "Run and gun.",
+    "cover": "Turrican (USA).jpg",
+    "boxart": "Turrican (USA)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Mercenary",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Novagen",
+    "synopsis": "Aventura 3D."
+  },
+  {
+    "title": "Paradroid",
+    "year": 1985,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Hewson",
+    "synopsis": "Controla robots.",
+    "cover": "Paradroid (USA, Europe) (Budget).jpg",
+    "boxart": "Paradroid (USA, Europe) (Budget)",
+    "size": "328 KB"
+  },
+  {
+    "title": "International Karate",
+    "year": 1985,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "System 3",
+    "synopsis": "Karate.",
+    "cover": "International Karate (Europe).jpg",
+    "boxart": "International Karate (Europe)",
+    "size": "559 KB"
+  },
+  {
+    "title": "Bubble Bobble",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Firebird",
+    "synopsis": "Burbujas.",
+    "cover": "Bubble Bobble (USA).jpg",
+    "boxart": "Bubble Bobble (USA)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Pitstop II",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Epyx",
+    "synopsis": "Carreras.",
+    "cover": "Pitstop II (USA, Europe).jpg",
+    "boxart": "Pitstop II (USA, Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Summer Games",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Epyx",
+    "synopsis": "Deportes.",
+    "cover": "Summer Games (USA, Europe).jpg",
+    "boxart": "Summer Games (USA, Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Winter Games",
+    "year": 1985,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Epyx",
+    "synopsis": "Deportes de invierno.",
+    "cover": "Winter Games (USA, Europe).jpg",
+    "boxart": "Winter Games (USA, Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "California Games",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Epyx",
+    "synopsis": "Deportes playeros.",
+    "cover": "California Games (USA).jpg",
+    "boxart": "California Games (USA)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Defender of the Crown",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Cinemaware",
+    "synopsis": "Estrategia.",
+    "cover": "Defender of the Crown (USA, Europe).jpg",
+    "boxart": "Defender of the Crown (USA, Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Pirates!",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "MicroProse",
+    "synopsis": "Piratas.",
+    "cover": "Pirates! (USA, Europe).jpg",
+    "boxart": "Pirates! (USA, Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Ultima IV",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Origin",
+    "synopsis": "RPG."
+  },
+  {
+    "title": "Spy vs Spy",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "First Star",
+    "synopsis": "Trampas.",
+    "cover": "Spy vs Spy (USA).jpg",
+    "boxart": "Spy vs Spy (USA)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Archon",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Free Fall",
+    "synopsis": "Estrategia.",
+    "cover": "Archon (USA, Europe).jpg",
+    "boxart": "Archon (USA, Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "M.U.L.E.",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Ozark Softworks",
+    "synopsis": "Estrategia.",
+    "cover": "M.U.L.E. (USA, Europe).jpg",
+    "boxart": "M.U.L.E. (USA, Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Montezuma's Revenge",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Parker Brothers",
+    "synopsis": "Plataformas.",
+    "cover": "Montezuma's Revenge (USA, Europe).jpg",
+    "boxart": "Montezuma's Revenge (USA, Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Jumpman",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Epyx",
+    "synopsis": "Plataformas.",
+    "cover": "Jumpman (USA, Europe).jpg",
+    "boxart": "Jumpman (USA, Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Zak McKracken",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "Lucasfilm",
+    "synopsis": "Aventura."
+  },
+  {
+    "title": "Raid over Moscow",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Access",
+    "synopsis": "Acción.",
+    "cover": "Raid over Moscow (USA, Europe).jpg",
+    "boxart": "Raid over Moscow (USA, Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Commando",
+    "year": 1985,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Elite",
+    "synopsis": "Acción.",
+    "cover": "Commando (USA).jpg",
+    "boxart": "Commando (USA)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Ghosts 'n Goblins",
+    "year": 1986,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Elite",
+    "synopsis": "Plataformas.",
+    "cover": "Ghosts'n Goblins (USA, Europe).jpg",
+    "boxart": "Ghosts'n Goblins (USA, Europe)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Rambo",
+    "year": 1985,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ocean",
+    "synopsis": "Acción.",
+    "cover": "Rambo (Europe).jpg",
+    "boxart": "Rambo (Europe)",
+    "size": "726 KB"
+  },
+  {
+    "title": "Great Giana Sisters",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Rainbow Arts",
+    "synopsis": "Plataformas.",
+    "cover": "Great Giana Sisters, The (Europe).jpg",
+    "boxart": "Great Giana Sisters, The (Europe)",
+    "size": "755 KB"
+  },
+  {
+    "title": "Uridium",
+    "year": 1986,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hewson",
+    "synopsis": "Shoot'em up.",
+    "cover": "Uridium (USA).jpg",
+    "boxart": "Uridium (USA)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Delta",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Thalamus",
+    "synopsis": "Shoot'em up.",
+    "cover": "Delta (Europe).jpg",
+    "boxart": "Delta (Europe)",
+    "size": "493 KB"
+  },
+  {
+    "title": "Armalyte",
+    "year": 1988,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Thalamus",
+    "synopsis": "Shoot'em up.",
+    "cover": "Armalyte (Europe).jpg",
+    "boxart": "Armalyte (Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Katakis",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Rainbow Arts",
+    "synopsis": "Shoot'em up.",
+    "cover": "Katakis (USA, Europe).jpg",
+    "boxart": "Katakis (USA, Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Creatures",
+    "year": 1990,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Thalamus",
+    "synopsis": "Plataformas.",
+    "cover": "Creatures (Europe) (The Hits 2 Compilation).jpg",
+    "boxart": "Creatures (Europe) (The Hits 2 Compilation)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Rick Dangerous",
+    "year": 1989,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Core Design",
+    "synopsis": "Plataformas.",
+    "cover": "Rick Dangerous (Europe).jpg",
+    "boxart": "Rick Dangerous (Europe)",
+    "size": "518 KB"
+  },
+  {
+    "title": "Ikari Warriors",
+    "year": 1986,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Elite",
+    "synopsis": "Acción.",
+    "cover": "Ikari Warriors (USA).jpg",
+    "boxart": "Ikari Warriors (USA)",
+    "size": "320 KB"
+  },
+  {
+    "title": "Gyruss",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Parker Brothers",
+    "synopsis": "Shoot'em up.",
+    "cover": "Gyruss (USA, Europe).jpg",
+    "boxart": "Gyruss (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Cauldron",
+    "year": 1985,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Palace",
+    "synopsis": "Plataformas.",
+    "cover": "Cauldron (USA).jpg",
+    "boxart": "Cauldron (USA)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Booty",
+    "year": 1984,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Firebird",
+    "synopsis": "Plataformas.",
+    "cover": "Booty (Europe).jpg",
+    "boxart": "Booty (Europe)",
+    "size": "291 KB"
+  },
+  {
+    "title": "Lemmings",
+    "year": 1991,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "DMA Design",
+    "synopsis": "Puzle.",
+    "cover": "Lemmings (Europe).jpg",
+    "boxart": "Lemmings (Europe)",
+    "size": "3.6 MB"
+  },
+  {
+    "title": "Hawkeye",
+    "year": 1988,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Thalamus",
+    "synopsis": "Acción.",
+    "cover": "Hawkeye (Europe) (Thalamus Hits 1986-1988 Compilation).jpg",
+    "boxart": "Hawkeye (Europe) (Thalamus Hits 1986-1988 Compilation)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Mayhem in Monsterland",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Apex",
+    "synopsis": "Plataformas.",
+    "cover": "Mayhem in Monsterland (Europe).jpg",
+    "boxart": "Mayhem in Monsterland (Europe)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Monty Mole",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Gremlin",
+    "synopsis": "Plataformas."
+  },
+  {
+    "title": "Skate or Die",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Electronic Arts",
+    "synopsis": "Skate.",
+    "cover": "Skate or Die! (USA).jpg",
+    "boxart": "Skate or Die! (USA)",
+    "size": "328 KB"
+  },
+  {
+    "title": "Zork",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Infocom",
+    "synopsis": "Aventura."
+  },
+  {
+    "title": "Sid Meier's Pirates",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "MicroProse",
+    "synopsis": "Piratas."
+  }
+]

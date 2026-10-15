@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "title": "Donkey Kong",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Coleco",
+    "synopsis": "Versión de Donkey Kong incluida con la consola.",
+    "cover": "Donkey Kong (USA).jpg",
+    "boxart": "Donkey Kong (USA)",
+    "size": "24 KB"
+  },
+  {
+    "title": "Zaxxon",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Sega",
+    "synopsis": "Shoot'em up isométrico.",
+    "cover": "Zaxxon (USA, Europe).jpg",
+    "boxart": "Zaxxon (USA, Europe)",
+    "size": "24 KB"
+  },
+  {
+    "title": "Smurf: Rescue in Gargamel's Castle",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Coleco",
+    "synopsis": "Los pitufos rescatan a Pitufina.",
+    "cover": "Smurf - Rescue in Gargamel's Castle (USA, Europe).jpg",
+    "boxart": "Smurf - Rescue in Gargamel's Castle (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Mr. Do!",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Universal",
+    "synopsis": "Excava y evita monstruos.",
+    "cover": "Mr. Do! (USA, Europe).jpg",
+    "boxart": "Mr. Do! (USA, Europe)",
+    "size": "24 KB"
+  },
+  {
+    "title": "Pitfall!",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Activision",
+    "synopsis": "Explora la selva.",
+    "cover": "Pitfall! (USA).jpg",
+    "boxart": "Pitfall! (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Donkey Kong Junior",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Coleco",
+    "synopsis": "Rescata a Donkey Kong.",
+    "cover": "Donkey Kong Junior (USA, Europe).jpg",
+    "boxart": "Donkey Kong Junior (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Frogger",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Cruza la carretera y el río.",
+    "cover": "Frogger (USA).jpg",
+    "boxart": "Frogger (USA)",
+    "size": "12 KB"
+  },
+  {
+    "title": "Q*bert",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Salta sobre cubos.",
+    "cover": "Q-bert (USA).jpg",
+    "boxart": "Q-bert (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Galaxian",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atarisoft",
+    "synopsis": "Naves alienígenas atacan.",
+    "cover": "Galaxian (USA).jpg",
+    "boxart": "Galaxian (USA)",
+    "size": "20 KB"
+  },
+  {
+    "title": "Pac-Man",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atarisoft",
+    "synopsis": "Come puntos y evita fantasmas.",
+    "cover": "Pac-Man (USA) (Proto).jpg",
+    "boxart": "Pac-Man (USA) (Proto)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Dig Dug",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atarisoft",
+    "synopsis": "Cava y derrota monstruos.",
+    "cover": "Dig Dug (USA) (Proto).jpg",
+    "boxart": "Dig Dug (USA) (Proto)",
+    "size": "24 KB"
+  },
+  {
+    "title": "Venture",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Coleco",
+    "synopsis": "Explora mazmorras.",
+    "cover": "Venture (USA, Europe).jpg",
+    "boxart": "Venture (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Burgertime",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Data East",
+    "synopsis": "Monta hamburguesas.",
+    "cover": "BurgerTime (USA, Europe).jpg",
+    "boxart": "BurgerTime (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Lady Bug",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Coleco",
+    "synopsis": "Laberinto de una mariquita.",
+    "cover": "Lady Bug (USA, Europe).jpg",
+    "boxart": "Lady Bug (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Cosmic Avenger",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Coleco",
+    "synopsis": "Shoot'em up de naves.",
+    "cover": "Cosmic Avenger (USA, Europe).jpg",
+    "boxart": "Cosmic Avenger (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Turbo",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carrera arcade.",
+    "cover": "Turbo (USA, Europe).jpg",
+    "boxart": "Turbo (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Carnival",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Coleco",
+    "synopsis": "Disparos en una feria.",
+    "cover": "Carnival (USA, Europe).jpg",
+    "boxart": "Carnival (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Space Panic",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Universal",
+    "synopsis": "Cava y atrapa monstruos.",
+    "cover": "Space Panic (USA, Europe).jpg",
+    "boxart": "Space Panic (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Looping",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Coleco",
+    "synopsis": "Avioneta con loops.",
+    "cover": "Looping (USA, Europe).jpg",
+    "boxart": "Looping (USA, Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Gorf",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Coleco",
+    "synopsis": "Shoot'em up por fases.",
+    "cover": "Gorf (USA, Europe).jpg",
+    "boxart": "Gorf (USA, Europe)",
+    "size": "16 KB"
+  }
+]

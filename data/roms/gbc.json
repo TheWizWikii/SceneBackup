@@ -1,1 +1,547 @@
-[]
+[
+  {
+    "title": "Pokémon Crystal Version",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Johto y Kanto en la edición mejorada con trama de Suicune y animaciones.",
+    "cover": "Pokemon - Crystal Version (USA).jpg",
+    "boxart": "Pokemon - Crystal Version (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Pokémon Gold Version",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Segunda generación con Johto, reloj en tiempo real y cría de Pokémon.",
+    "cover": "Pokemon - Gold Version (USA, Europe) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Pokemon - Gold Version (USA, Europe) (SGB Enhanced) (GB Compatible)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Pokémon Silver Version",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La edición plateada de la segunda generación con criaturas exclusivas.",
+    "cover": "Pokemon - Silver Version (USA, Europe) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Pokemon - Silver Version (USA, Europe) (SGB Enhanced) (GB Compatible)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "The Legend of Zelda: Oracle of Ages",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Capcom",
+    "synopsis": "Link viaja por el tiempo en Labrynna para evitar la destrucción de la tierra."
+  },
+  {
+    "title": "The Legend of Zelda: Oracle of Seasons",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Capcom",
+    "synopsis": "Link domina las estaciones en Holodrum para derrotar a Onox."
+  },
+  {
+    "title": "The Legend of Zelda: Link's Awakening DX",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Versión en color con una mazmorra extra del clásico de Koholint."
+  },
+  {
+    "title": "Wario Land 3",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Wario cae en una caja de música y debe encontrar los tesoros.",
+    "cover": "Wario Land 3 (World) (En,Ja).jpg",
+    "boxart": "Wario Land 3 (World) (En,Ja)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Wario Land II",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Wario no puede morir y usa sus transformaciones para recuperar el tesoro.",
+    "cover": "Wario Land II (USA, Europe) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Wario Land II (USA, Europe) (SGB Enhanced) (GB Compatible)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Super Mario Bros. Deluxe",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "El clásico de Mario con extras y retos a todo color para la portátil.",
+    "cover": "Super Mario Bros. Deluxe (USA, Europe).jpg",
+    "boxart": "Super Mario Bros. Deluxe (USA, Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Dragon Warrior Monsters",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Tose",
+    "synopsis": "Cría y combina monstruos para ganar el torneo de Starry Night.",
+    "cover": "Dragon Warrior Monsters (USA, Europe) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Dragon Warrior Monsters (USA, Europe) (SGB Enhanced) (GB Compatible)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Dragon Warrior III",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Enix",
+    "synopsis": "Versión en color del clásico RPG de Enix con la saga de Erdrick.",
+    "cover": "Dragon Warrior III (USA).jpg",
+    "boxart": "Dragon Warrior III (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Shantae",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "WayForward",
+    "synopsis": "Una genio medio humana planta cara al pirata Risky Boots.",
+    "cover": "Shantae (USA).jpg",
+    "boxart": "Shantae (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Metal Gear Solid",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Snake se infiltra en la base Shadow Moses en esta versión en color.",
+    "cover": "Metal Gear Solid (USA).jpg",
+    "boxart": "Metal Gear Solid (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Metal Gear: Ghost Babel",
+    "year": 2000,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Solid Snake regresa a una aventura de sigilo en Game Boy Color.",
+    "cover": "Metal Gear - Ghost Babel (Japan).jpg",
+    "boxart": "Metal Gear - Ghost Babel (Japan)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Mega Man Xtreme",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "X se enfrenta a una nueva amenaza en su debut en Game Boy Color.",
+    "cover": "Mega Man Xtreme (USA, Europe) (GB Compatible).jpg",
+    "boxart": "Mega Man Xtreme (USA, Europe) (GB Compatible)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Mega Man Xtreme 2",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "X y Zero afrontan a una nueva versión de los Mavericks.",
+    "cover": "Mega Man Xtreme 2 (USA, Europe).jpg",
+    "boxart": "Mega Man Xtreme 2 (USA, Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Harvest Moon GB",
+    "year": 1997,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Victor Interactive",
+    "synopsis": "Una granja heredada, estaciones y un pueblo por conquistar.",
+    "cover": "Harvest Moon GB (Europe) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Harvest Moon GB (Europe) (SGB Enhanced) (GB Compatible)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Harvest Moon 2 GBC",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Victor Interactive",
+    "synopsis": "Segunda entrega portátil de la saga de granja y cultivo.",
+    "cover": "Harvest Moon 2 GBC (USA) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Harvest Moon 2 GBC (USA) (SGB Enhanced) (GB Compatible)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Pokémon Trading Card Game",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Hudson Soft",
+    "synopsis": "Reúne cartas y enfréntate a los maestros del juego.",
+    "cover": "Pokemon Trading Card Game (USA, Australia) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Pokemon Trading Card Game (USA, Australia) (SGB Enhanced) (GB Compatible)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Pokémon Pinball",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "Jupiter",
+    "synopsis": "Captura Pokémon golpeando la bola en mesas inspiradas en Kanto.",
+    "cover": "Pokemon Pinball (USA, Australia) (Rumble Version) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Pokemon Pinball (USA, Australia) (Rumble Version) (SGB Enhanced) (GB Compatible)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Pokémon Puzzle Challenge",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Intelligent Systems",
+    "synopsis": "Enfréntate a entrenadores en un puzle de combos.",
+    "cover": "Pokemon Puzzle Challenge (USA, Australia).jpg",
+    "boxart": "Pokemon Puzzle Challenge (USA, Australia)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Tetris DX",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "El clásico de bloques con colores y un modo a pantalla dividida.",
+    "cover": "Tetris DX (World) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Tetris DX (World) (SGB Enhanced) (GB Compatible)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Dragon Ball Z: Legendary Super Warriors",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Banpresto",
+    "synopsis": "Lucha por turnos con cartas basada en Dragon Ball Z.",
+    "cover": "Dragon Ball Z - Legendary Super Warriors (USA).jpg",
+    "boxart": "Dragon Ball Z - Legendary Super Warriors (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Final Fantasy Adventure",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square",
+    "synopsis": "Versión remasterizada de la aventura que sentó las bases de Secret of Mana."
+  },
+  {
+    "title": "Perfect Dark",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rare",
+    "synopsis": "Joanna Dark en una versión 2D del shooter de Rare para la portátil.",
+    "cover": "Perfect Dark (USA, Europe) (En,Fr,De,Es,It) (Rumble Version).jpg",
+    "boxart": "Perfect Dark (USA, Europe) (En,Fr,De,Es,It) (Rumble Version)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Kirby Tilt 'n' Tumble",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby rueda por pantallas inclinando físicamente el cartucho.",
+    "cover": "Kirby - Tilt 'n' Tumble (USA).jpg",
+    "boxart": "Kirby - Tilt 'n' Tumble (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Mario Golf",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Golf arcade con los personajes de Mario y modo de aventura de rol.",
+    "cover": "Mario Golf (USA).jpg",
+    "boxart": "Mario Golf (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Mario Tennis",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Tenis con el reparto de Mario y una historia con un RPG ligero.",
+    "cover": "Mario Tennis (USA).jpg",
+    "boxart": "Mario Tennis (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Hamtaro: Ham-Hams Unite!",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Jupiter",
+    "synopsis": "Los hámsters de la serie se reúnen para encontrar a sus amigos.",
+    "cover": "Hamtaro - Ham-Hams Unite! (USA).jpg",
+    "boxart": "Hamtaro - Ham-Hams Unite! (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Konami GB Collection Vol. 1",
+    "year": 1999,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Konami",
+    "synopsis": "Recopilatorio de clásicos de Konami en la portátil.",
+    "cover": "Konami GB Collection Vol.1 (Europe) (GB Compatible).jpg",
+    "boxart": "Konami GB Collection Vol.1 (Europe) (GB Compatible)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Rayman",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ubi Soft",
+    "synopsis": "Aventura clásica de plataformas con un protagonista sin brazos ni piernas.",
+    "cover": "Rayman (USA) (En,Fr,De,Es,It,Nl).jpg",
+    "boxart": "Rayman (USA) (En,Fr,De,Es,It,Nl)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Turok 3: Shadow of Oblivion",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Bit Managers",
+    "synopsis": "Turok en una versión 2D con jefes y niveles clásicos.",
+    "cover": "Turok 3 - Shadow of Oblivion (USA, Europe) (En,Fr,De,Es).jpg",
+    "boxart": "Turok 3 - Shadow of Oblivion (USA, Europe) (En,Fr,De,Es)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Quest RPG: Brian's Journey",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Natsume",
+    "synopsis": "Un aprendiz de mago se lanza a una aventura de rol."
+  },
+  {
+    "title": "Survival Kids",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Konami",
+    "synopsis": "Un chico náufrago debe sobrevivir en una isla.",
+    "cover": "Survival Kids (USA) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Survival Kids (USA) (SGB Enhanced) (GB Compatible)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Pocket Bomberman",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Hudson Soft",
+    "synopsis": "Aventura portátil de Bomberman con exploración y bombas.",
+    "cover": "Pocket Bomberman (USA, Europe) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Pocket Bomberman (USA, Europe) (SGB Enhanced) (GB Compatible)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Wacky Races",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Infogrames",
+    "synopsis": "Carreras alocadas con los personajes de la serie de dibujos.",
+    "cover": "Wacky Races (USA) (En,Fr,Es).jpg",
+    "boxart": "Wacky Races (USA) (En,Fr,Es)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Alone in the Dark: The New Nightmare",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Pocket Studios",
+    "synopsis": "Edward Carnby se adentra en la isla de Shadow en una versión portátil de terror.",
+    "cover": "Alone in the Dark - The New Nightmare (USA) (En,Fr,Es).jpg",
+    "boxart": "Alone in the Dark - The New Nightmare (USA) (En,Fr,Es)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Resident Evil Gaiden",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Aventura de terror con combate de timing en un crucero infestado.",
+    "cover": "Resident Evil Gaiden (USA).jpg",
+    "boxart": "Resident Evil Gaiden (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Conker's Pocket Tales",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Rare",
+    "synopsis": "La ardilla Conker explora una aventura desenfadada de lógica.",
+    "cover": "Conker's Pocket Tales (USA, Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible).jpg",
+    "boxart": "Conker's Pocket Tales (USA, Europe) (En,Fr,De) (SGB Enhanced) (GB Compatible)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Prince of Persia",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Red Orb",
+    "synopsis": "El clásico de plataformas y acrobacias cinematográficas.",
+    "cover": "Prince of Persia (USA, Europe) (En,Fr,De,Es,It) (GB Compatible).jpg",
+    "boxart": "Prince of Persia (USA, Europe) (En,Fr,De,Es,It) (GB Compatible)",
+    "size": "1.0 MB"
+  }
+]

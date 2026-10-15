@@ -1,1 +1,431 @@
-[]
+[
+  {
+    "title": "Halo: Combat Evolved",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Bungie",
+    "synopsis": "El Jefe Maestro se enfrenta al Covenant en el anillo Halo.",
+    "cover": "Halo - Combat Evolved (USA).jpg",
+    "boxart": "Halo - Combat Evolved (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Halo 2",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Bungie",
+    "synopsis": "El Jefe Maestro defiende la Tierra mientras el Arbiter busca redención.",
+    "cover": "Halo 2 (USA) (Multiplayer Beta).jpg",
+    "boxart": "Halo 2 (USA) (Multiplayer Beta)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Fable",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Lionhead Studios",
+    "synopsis": "Un héroe elige entre el bien y el mal.",
+    "cover": "Fable (USA, Europe).jpg",
+    "boxart": "Fable (USA, Europe)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Knights of the Old Republic",
+    "year": 2003,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "Un héroe en la era de la Antigua República."
+  },
+  {
+    "title": "Star Wars: Knights of the Old Republic II",
+    "year": 2004,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Obsidian",
+    "synopsis": "El Exiliado Jedi busca a los maestros Jedi."
+  },
+  {
+    "title": "Jade Empire",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "BioWare",
+    "synopsis": "Un discípulo de artes marciales recorre una tierra mítica.",
+    "cover": "Jade Empire (USA, Europe) (En,Es,It).jpg",
+    "boxart": "Jade Empire (USA, Europe) (En,Es,It)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "The Elder Scrolls III: Morrowind",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bethesda",
+    "synopsis": "Un prisionero llega a la isla de Vvardenfell."
+  },
+  {
+    "title": "Splinter Cell",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "Sam Fisher en operaciones de infiltración."
+  },
+  {
+    "title": "Splinter Cell: Chaos Theory",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "Sam Fisher se enfrenta a una crisis en Asia."
+  },
+  {
+    "title": "Ninja Gaiden Black",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Team Ninja",
+    "synopsis": "Ryu Hayabusa en una versión mejorada de un clásico del hack and slash.",
+    "cover": "Ninja Gaiden Black (USA) (En,Ja).jpg",
+    "boxart": "Ninja Gaiden Black (USA) (En,Ja)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Dead or Alive 3",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Team Ninja",
+    "synopsis": "Combates con un sistema de contraataques.",
+    "cover": "Dead or Alive 3 (USA) (En,Ja).jpg",
+    "boxart": "Dead or Alive 3 (USA) (En,Ja)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Jet Set Radio Future",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Smilebit",
+    "synopsis": "Patinadores graffiteros recorren Tokyo-to."
+  },
+  {
+    "title": "Project Gotham Racing 2",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Bizarre Creations",
+    "synopsis": "Carreras urbanas con kudos.",
+    "cover": "Project Gotham Racing 2 (USA, Asia) (En,Ja,Fr,De,Es,It,Zh,Ko).jpg",
+    "boxart": "Project Gotham Racing 2 (USA, Asia) (En,Ja,Fr,De,Es,It,Zh,Ko)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Forza Motorsport",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Turn 10 Studios",
+    "synopsis": "Simulación de coches con personalización.",
+    "cover": "Forza Motorsport (World) (En,Ja,Fr,De,Es,It,Zh,Ko).jpg",
+    "boxart": "Forza Motorsport (World) (En,Ja,Fr,De,Es,It,Zh,Ko)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Burnout 3: Takedown",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Criterion Games",
+    "synopsis": "Carreras con choques a gran velocidad.",
+    "cover": "Burnout 3 - Takedown (USA).jpg",
+    "boxart": "Burnout 3 - Takedown (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Grand Theft Auto: San Andreas",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar North",
+    "synopsis": "CJ en su regreso a Los Santos.",
+    "cover": "Grand Theft Auto - San Andreas (USA) (En,Es).jpg",
+    "boxart": "Grand Theft Auto - San Andreas (USA) (En,Es)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Grand Theft Auto III",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "DMA Design",
+    "synopsis": "Claude se venga en Liberty City.",
+    "cover": "Grand Theft Auto III (USA).jpg",
+    "boxart": "Grand Theft Auto III (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Max Payne 2: The Fall of Max Payne",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Remedy",
+    "synopsis": "Max Payne regresa en un thriller de acción.",
+    "cover": "Max Payne 2 - The Fall of Max Payne (USA).jpg",
+    "boxart": "Max Payne 2 - The Fall of Max Payne (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Psychonauts",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Double Fine",
+    "synopsis": "Raz explora las mentes de los demás.",
+    "cover": "Psychonauts (USA).jpg",
+    "boxart": "Psychonauts (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Panzer Dragoon Orta",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Smilebit",
+    "synopsis": "Shooter sobre raíles con un dragón.",
+    "cover": "Panzer Dragoon Orta (USA).jpg",
+    "boxart": "Panzer Dragoon Orta (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Crimson Skies: High Road to Revenge",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "FASA Studio",
+    "synopsis": "Combates aéreos entre piratas en un mundo alternativo.",
+    "cover": "Crimson Skies - High Road to Revenge (USA) (En,Fr,De,Zh,Ko).jpg",
+    "boxart": "Crimson Skies - High Road to Revenge (USA) (En,Fr,De,Zh,Ko)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "MechAssault",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Day 1 Studios",
+    "synopsis": "Combates de mechas con un modo en línea.",
+    "cover": "MechAssault (USA) (En,Fr,De) (Rev 1).jpg",
+    "boxart": "MechAssault (USA) (En,Fr,De) (Rev 1)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Conker: Live & Reloaded",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Rare",
+    "synopsis": "Conker y su humor negro en una versión HD.",
+    "cover": "Conker - Live & Reloaded (USA) (En,Ja,Fr,De,Es,It).jpg",
+    "boxart": "Conker - Live & Reloaded (USA) (En,Ja,Fr,De,Es,It)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Tom Clancy's Ghost Recon",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Red Storm",
+    "synopsis": "Un escuadrón de élite con tácticas.",
+    "cover": "Tom Clancy's Ghost Recon (USA).jpg",
+    "boxart": "Tom Clancy's Ghost Recon (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "The Chronicles of Riddick: Escape from Butcher Bay",
+    "year": 2004,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Starbreeze",
+    "synopsis": "Riddick escapa de una prisión."
+  },
+  {
+    "title": "Fable: The Lost Chapters",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Lionhead Studios",
+    "synopsis": "Edición ampliada del RPG de decisiones.",
+    "cover": "Fable - The Lost Chapters (USA) (En,Es).jpg",
+    "boxart": "Fable - The Lost Chapters (USA) (En,Es)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Shenmue II",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Sega AM2",
+    "synopsis": "Ryo Hazuki continúa su búsqueda en Hong Kong.",
+    "cover": "Shenmue II (USA).jpg",
+    "boxart": "Shenmue II (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Outrun 2",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sumo Digital",
+    "synopsis": "Carreras con derrapes y paisajes soleados.",
+    "cover": "OutRun 2 (USA).jpg",
+    "boxart": "OutRun 2 (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Tony Hawk's Pro Skater 4",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Neversoft",
+    "synopsis": "Skateboard con combos y misiones.",
+    "cover": "Tony Hawk's Pro Skater 4 (USA).jpg",
+    "boxart": "Tony Hawk's Pro Skater 4 (USA)",
+    "size": "7462.7 MB"
+  },
+  {
+    "title": "Rallisport Challenge 2",
+    "year": 2004,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "DICE",
+    "synopsis": "Carreras de rally en distintos tipos de terreno.",
+    "cover": "RalliSport Challenge 2 (World) (En,Ja,Fr,De,Es,It).jpg",
+    "boxart": "RalliSport Challenge 2 (World) (En,Ja,Fr,De,Es,It)",
+    "size": "7462.7 MB"
+  }
+]

@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "title": "Tempest 2000",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Llamasoft",
+    "synopsis": "Remake psicodélico del Tempest clásico con música tecno.",
+    "cover": "Tempest 2000 (World).jpg",
+    "boxart": "Tempest 2000 (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Alien vs Predator",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "Rebellion",
+    "synopsis": "FPS en el que juegas como marine, alien o depredador.",
+    "cover": "Alien vs Predator (World).jpg",
+    "boxart": "Alien vs Predator (World)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Doom",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "id Software",
+    "synopsis": "Conversión del FPS clásico para Jaguar.",
+    "cover": "Doom (World).jpg",
+    "boxart": "Doom (World)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Wolfenstein 3D",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "id Software",
+    "synopsis": "Conversión del FPS clásico.",
+    "cover": "Wolfenstein 3D (World).jpg",
+    "boxart": "Wolfenstein 3D (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Rayman",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ubisoft",
+    "synopsis": "Plataformas 2D con gráficos coloridos.",
+    "cover": "Rayman (World).jpg",
+    "boxart": "Rayman (World)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Iron Soldier",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Combate de robots gigantes en 3D.",
+    "cover": "Iron Soldier (World).jpg",
+    "boxart": "Iron Soldier (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Cannon Fodder",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sensible Software",
+    "synopsis": "Estrategia táctica con soldados.",
+    "cover": "Cannon Fodder (World).jpg",
+    "boxart": "Cannon Fodder (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Checkered Flag",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Atari",
+    "synopsis": "Carrera de coches.",
+    "cover": "Checkered Flag (World).jpg",
+    "boxart": "Checkered Flag (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Kasumi Ninja",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Atari",
+    "synopsis": "Juego de lucha con ninjas.",
+    "cover": "Kasumi Ninja (World).jpg",
+    "boxart": "Kasumi Ninja (World)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Super Burnout",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Atari",
+    "synopsis": "Carrera de motos arcade.",
+    "cover": "Super Burnout (World).jpg",
+    "boxart": "Super Burnout (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Trevor McFur in the Crescent Galaxy",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Shoot'em up horizontal.",
+    "cover": "Trevor McFur in the Crescent Galaxy (World).jpg",
+    "boxart": "Trevor McFur in the Crescent Galaxy (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Zool 2",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Gremlin",
+    "synopsis": "Plataformas rápido.",
+    "cover": "Zool 2 (World).jpg",
+    "boxart": "Zool 2 (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Hover Strike",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Combate de vehículos hover.",
+    "cover": "Hover Strike (World).jpg",
+    "boxart": "Hover Strike (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Defender 2000",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Llamasoft",
+    "synopsis": "Remake de Defender.",
+    "cover": "Defender 2000 (World).jpg",
+    "boxart": "Defender 2000 (World)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Missile Command 3D",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Virtuality",
+    "synopsis": "Missile Command en 3D.",
+    "cover": "Missile Command 3D (World).jpg",
+    "boxart": "Missile Command 3D (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Syndicate",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Bullfrog",
+    "synopsis": "Táctica en una ciudad cyberpunk.",
+    "cover": "Syndicate (World).jpg",
+    "boxart": "Syndicate (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Brutal Sports Football",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Millennium",
+    "synopsis": "Fútbol americano violento.",
+    "cover": "Brutal Sports Football (World).jpg",
+    "boxart": "Brutal Sports Football (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Skyhammer",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rebellion",
+    "synopsis": "Combate en una ciudad flotante.",
+    "cover": "Skyhammer (World).jpg",
+    "boxart": "Skyhammer (World)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Val d'Isère Skiing and Snowboarding",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Atari",
+    "synopsis": "Esquí y snowboard.",
+    "cover": "Val d'Isere Skiing and Snowboarding (World).jpg",
+    "boxart": "Val d'Isere Skiing and Snowboarding (World)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Attack of the Mutant Penguins",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Atari",
+    "synopsis": "Juego de lucha cómico.",
+    "cover": "Attack of the Mutant Penguins (World).jpg",
+    "boxart": "Attack of the Mutant Penguins (World)",
+    "size": "2.0 MB"
+  }
+]

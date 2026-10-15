@@ -1,1 +1,338 @@
-[]
+[
+  {
+    "title": "Persona 4 Golden",
+    "year": 2012,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Versión ampliada de Persona 4 con más escenas, mazmorras y extras.",
+    "cover": "Persona 4 Golden (Europe).jpg",
+    "boxart": "Persona 4 Golden (Europe)",
+    "size": "3073.1 MB"
+  },
+  {
+    "title": "Gravity Rush",
+    "year": 2012,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Japan Studio",
+    "synopsis": "Kat controla la gravedad para salvar la ciudad flotante de Hekseville.",
+    "cover": "Gravity Rush (Europe).jpg",
+    "boxart": "Gravity Rush (Europe)",
+    "size": "1451.4 MB"
+  },
+  {
+    "title": "Uncharted: Golden Abyss",
+    "year": 2011,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Bend Studio",
+    "synopsis": "Nathan Drake se estrena en Vita con una aventura en Centroamérica.",
+    "cover": "Uncharted - Golden Abyss (Europe) (En-GB,Es,Pt,Sv,No,Da,Fi,Pl,Ru).jpg",
+    "boxart": "Uncharted - Golden Abyss (Europe) (En-GB,Es,Pt,Sv,No,Da,Fi,Pl,Ru)",
+    "size": "3386.1 MB"
+  },
+  {
+    "title": "Tearaway",
+    "year": 2013,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Media Molecule",
+    "synopsis": "Iota viaja por un mundo de papel con la ayuda del jugador.",
+    "cover": "Tearaway (USA).jpg",
+    "boxart": "Tearaway (USA)",
+    "size": "907.6 MB"
+  },
+  {
+    "title": "Killzone: Mercenary",
+    "year": 2013,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Guerrilla Cambridge",
+    "synopsis": "Un mercenario en el conflicto entre los ISA y los helghast.",
+    "cover": "Killzone - Mercenary (Europe) (En,Fr,De,Es,It,Nl,Pt).jpg",
+    "boxart": "Killzone - Mercenary (Europe) (En,Fr,De,Es,It,Nl,Pt)",
+    "size": "3383.2 MB"
+  },
+  {
+    "title": "Rayman Legends",
+    "year": 2013,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ubisoft Montpellier",
+    "synopsis": "Rayman y sus amigos recorren mundos de cuentos con ritmo.",
+    "cover": "Rayman Legends (USA).jpg",
+    "boxart": "Rayman Legends (USA)",
+    "size": "1022.0 MB"
+  },
+  {
+    "title": "Hotline Miami",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Dennaton Games",
+    "synopsis": "Un enmascarado ejecuta misiones sangrientas con música electrónica."
+  },
+  {
+    "title": "Spelunky",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Mossmouth",
+    "synopsis": "Roguelike de exploración de cuevas en 2D."
+  },
+  {
+    "title": "Hohokum",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Honeyslug",
+    "synopsis": "Una serpiente recorre mundos de colores."
+  },
+  {
+    "title": "Dragon's Crown",
+    "year": 2013,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Vanillaware",
+    "synopsis": "Beat 'em up con arte pintado y una historia de fantasía.",
+    "cover": "Dragon's Crown (Europe).jpg",
+    "boxart": "Dragon's Crown (Europe)",
+    "size": "1049.5 MB"
+  },
+  {
+    "title": "Muramasa Rebirth",
+    "year": 2013,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Vanillaware",
+    "synopsis": "Dos héroes recorren un Japón feudal en un juego de pintura animada.",
+    "cover": "Muramasa Rebirth (USA) (En,Ja).jpg",
+    "boxart": "Muramasa Rebirth (USA) (En,Ja)",
+    "size": "455.4 MB"
+  },
+  {
+    "title": "Persona 4: Dancing All Night",
+    "year": 2015,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Atlus",
+    "synopsis": "Un juego de ritmo con los personajes de Persona 4.",
+    "cover": "Persona 4 - Dancing All Night (USA).jpg",
+    "boxart": "Persona 4 - Dancing All Night (USA)",
+    "size": "3225.3 MB"
+  },
+  {
+    "title": "Danganronpa: Trigger Happy Havoc",
+    "year": 2014,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Spike Chunsoft",
+    "synopsis": "Estudiantes atrapados en un juego mortal.",
+    "cover": "Danganronpa - Trigger Happy Havoc (USA).jpg",
+    "boxart": "Danganronpa - Trigger Happy Havoc (USA)",
+    "size": "1266.6 MB"
+  },
+  {
+    "title": "Danganronpa 2: Goodbye Despair",
+    "year": 2014,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Spike Chunsoft",
+    "synopsis": "Alumnos en una isla enfrentan nuevos crímenes.",
+    "cover": "Danganronpa 2 - Goodbye Despair (USA).jpg",
+    "boxart": "Danganronpa 2 - Goodbye Despair (USA)",
+    "size": "1503.2 MB"
+  },
+  {
+    "title": "Freedom Wars",
+    "year": 2014,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Japan Studio",
+    "synopsis": "Prisioneros luchan para conseguir su libertad.",
+    "cover": "Freedom Wars (USA).jpg",
+    "boxart": "Freedom Wars (USA)",
+    "size": "1365.6 MB"
+  },
+  {
+    "title": "Disgaea 4: A Promise Revisited",
+    "year": 2013,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nippon Ichi",
+    "synopsis": "Valvatorez, un vampiro, cumple una promesa.",
+    "cover": "Disgaea 4 - A Promise Revisited (USA) (En,Ja).jpg",
+    "boxart": "Disgaea 4 - A Promise Revisited (USA) (En,Ja)",
+    "size": "2937.9 MB"
+  },
+  {
+    "title": "Ys: Memories of Celceta",
+    "year": 2013,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Falcom",
+    "synopsis": "Adol recupera su memoria en un bosque misterioso.",
+    "cover": "Ys - Memories of Celceta (USA).jpg",
+    "boxart": "Ys - Memories of Celceta (USA)",
+    "size": "775.1 MB"
+  },
+  {
+    "title": "Final Fantasy X/X-2 HD Remaster",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Tidus y Yuna en una versión HD."
+  },
+  {
+    "title": "Hatsune Miku: Project Diva f",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Sega",
+    "synopsis": "Ritmo con canciones de Hatsune Miku."
+  },
+  {
+    "title": "Super Meat Boy",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Team Meat",
+    "synopsis": "Un cubo de carne rescata a su novia."
+  },
+  {
+    "title": "Guacamelee!",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "DrinkBox Studios",
+    "synopsis": "Un luchador mexicano lucha en dos mundos."
+  },
+  {
+    "title": "Fez",
+    "year": 2013,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Polytron",
+    "synopsis": "Un personaje 2D descubre la tercera dimensión.",
+    "cover": "Fez (USA).jpg",
+    "boxart": "Fez (USA)",
+    "size": "212.9 MB"
+  },
+  {
+    "title": "Thomas Was Alone",
+    "year": 2012,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Mike Bithell",
+    "synopsis": "Figuras geométricas que cooperan para llegar a la salida.",
+    "cover": "Thomas Was Alone (USA) (En,Fr,Es).jpg",
+    "boxart": "Thomas Was Alone (USA) (En,Fr,Es)",
+    "size": "124.5 MB"
+  },
+  {
+    "title": "Shovel Knight",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Yacht Club Games",
+    "synopsis": "Plataformas de ocho bits con pala."
+  }
+]

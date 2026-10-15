@@ -1,1 +1,651 @@
-[]
+[
+  {
+    "title": "New Super Mario Bros.",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "El regreso del Mario 2D con novedades como el mini y el mega champiñón.",
+    "cover": "New Super Mario Bros. (USA, Australia).jpg",
+    "boxart": "New Super Mario Bros. (USA, Australia)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Mario Kart DS",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Kart con juego en línea, misiones y circuitos clásicos.",
+    "cover": "Mario Kart DS (USA, Australia) (En,Fr,De,Es,It).jpg",
+    "boxart": "Mario Kart DS (USA, Australia) (En,Fr,De,Es,It)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Pokémon Diamond Version",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Sinnoh, intercambio mundial y combates en línea en la cuarta generación.",
+    "cover": "Pokemon - Diamond Version (USA) (Rev 5).jpg",
+    "boxart": "Pokemon - Diamond Version (USA) (Rev 5)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Pokémon Pearl Version",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión perla de la aventura en Sinnoh.",
+    "cover": "Pokemon - Pearl Version (USA) (Rev 5).jpg",
+    "boxart": "Pokemon - Pearl Version (USA) (Rev 5)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Pokémon Platinum Version",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Edición definitiva de la región de Sinnoh con el Mundo Distorsión.",
+    "cover": "Pokemon - Platinum Version (USA).jpg",
+    "boxart": "Pokemon - Platinum Version (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Pokémon HeartGold Version",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Remake de Johto con el Pokéwalker y el Pokémon que te sigue.",
+    "cover": "Pokemon - HeartGold Version (USA).jpg",
+    "boxart": "Pokemon - HeartGold Version (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Pokémon SoulSilver Version",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Remake de Pokémon Plata con el Pokéwalker.",
+    "cover": "Pokemon - SoulSilver Version (USA, Australia).jpg",
+    "boxart": "Pokemon - SoulSilver Version (USA, Australia)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Pokémon Black Version",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Unova y 156 nuevos Pokémon en la quinta generación.",
+    "cover": "Pokemon - Black Version (USA, Europe) (NDSi Enhanced).jpg",
+    "boxart": "Pokemon - Black Version (USA, Europe) (NDSi Enhanced)",
+    "size": "256.0 MB"
+  },
+  {
+    "title": "Pokémon White Version",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión blanca de la aventura en Unova.",
+    "cover": "Pokemon - White Version (USA, Europe) (NDSi Enhanced).jpg",
+    "boxart": "Pokemon - White Version (USA, Europe) (NDSi Enhanced)",
+    "size": "256.0 MB"
+  },
+  {
+    "title": "Pokémon Black Version 2",
+    "year": 2012,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Secuela directa ambientada dos años después en Unova.",
+    "cover": "Pokemon - Black Version 2 (USA, Europe) (NDSi Enhanced).jpg",
+    "boxart": "Pokemon - Black Version 2 (USA, Europe) (NDSi Enhanced)",
+    "size": "512.0 MB"
+  },
+  {
+    "title": "Pokémon White Version 2",
+    "year": 2012,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión blanca de la secuela de Unova.",
+    "cover": "Pokemon - White Version 2 (USA, Europe) (NDSi Enhanced).jpg",
+    "boxart": "Pokemon - White Version 2 (USA, Europe) (NDSi Enhanced)",
+    "size": "512.0 MB"
+  },
+  {
+    "title": "The Legend of Zelda: Phantom Hourglass",
+    "year": 2007,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link navega por el mar con el stylus para rescatar a Tetra."
+  },
+  {
+    "title": "The Legend of Zelda: Spirit Tracks",
+    "year": 2009,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link y Zelda espíritu recorren Hyrule en tren."
+  },
+  {
+    "title": "Animal Crossing: Wild World",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Nintendo",
+    "synopsis": "Vive en un pueblo con animales y juega en línea.",
+    "cover": "Animal Crossing - Wild World (USA).jpg",
+    "boxart": "Animal Crossing - Wild World (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Brain Age: Train Your Brain in Minutes a Day!",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Ejercicios cerebrales diarios para mantener la mente en forma.",
+    "cover": "Brain Age - Train Your Brain in Minutes a Day! (USA).jpg",
+    "boxart": "Brain Age - Train Your Brain in Minutes a Day! (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Nintendogs",
+    "year": 2005,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Nintendo",
+    "synopsis": "Cría y entrena a tu cachorro con la pantalla táctil."
+  },
+  {
+    "title": "Mario & Luigi: Bowser's Inside Story",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "AlphaDream",
+    "synopsis": "Mario y Luigi recorren el cuerpo de Bowser.",
+    "cover": "Mario & Luigi - Bowser's Inside Story (USA) (Video).jpg",
+    "boxart": "Mario & Luigi - Bowser's Inside Story (USA) (Video)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Mario & Luigi: Partners in Time",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "AlphaDream",
+    "synopsis": "Los Mario Bros viajan al pasado para salvar el Reino Champiñón.",
+    "cover": "Mario & Luigi - Partners in Time (USA).jpg",
+    "boxart": "Mario & Luigi - Partners in Time (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Super Mario 64 DS",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Remake con Yoshi, Luigi y Wario para recoger estrellas.",
+    "cover": "Super Mario 64 DS (USA).jpg",
+    "boxart": "Super Mario 64 DS (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Kirby: Canvas Curse",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby, convertido en bola, rueda guiado por un trazo de stylus.",
+    "cover": "Kirby - Canvas Curse (USA).jpg",
+    "boxart": "Kirby - Canvas Curse (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Kirby Super Star Ultra",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Remake de Kirby Super Star con extras.",
+    "cover": "Kirby Super Star Ultra (USA).jpg",
+    "boxart": "Kirby Super Star Ultra (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Metroid Prime Hunters",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Nintendo",
+    "synopsis": "Samus se enfrenta a otros cazarrecompensas en un shooter en primera persona.",
+    "cover": "Metroid Prime - Hunters (USA) (Rev 1).jpg",
+    "boxart": "Metroid Prime - Hunters (USA) (Rev 1)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Castlevania: Dawn of Sorrow",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Soma Cruz se enfrenta a un nuevo culto.",
+    "cover": "Castlevania - Dawn of Sorrow (USA).jpg",
+    "boxart": "Castlevania - Dawn of Sorrow (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Castlevania: Order of Ecclesia",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Shanoa recorre mapas abiertos con poderes de glifos.",
+    "cover": "Castlevania - Order Of Ecclesia (USA) (Video).jpg",
+    "boxart": "Castlevania - Order Of Ecclesia (USA) (Video)",
+    "size": "2.2 MB"
+  },
+  {
+    "title": "Castlevania: Portrait of Ruin",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Jonathan y Charlotte exploran cuadros mágicos.",
+    "cover": "Castlevania - Portrait of Ruin (USA).jpg",
+    "boxart": "Castlevania - Portrait of Ruin (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Professor Layton and the Curious Village",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Level-5",
+    "synopsis": "Un profesor y su aprendiz resuelven acertijos en el pueblo de St. Mystere.",
+    "cover": "Professor Layton and the Curious Village (USA, Australia).jpg",
+    "boxart": "Professor Layton and the Curious Village (USA, Australia)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Professor Layton and the Diabolical Box",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Level-5",
+    "synopsis": "Layton viaja en tren y descubre una caja maldita.",
+    "cover": "Professor Layton and the Diabolical Box (USA).jpg",
+    "boxart": "Professor Layton and the Diabolical Box (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Professor Layton and the Unwound Future",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Level-5",
+    "synopsis": "Layton viaja al futuro de Londres para resolver una conspiración.",
+    "cover": "Professor Layton and the Unwound Future (USA).jpg",
+    "boxart": "Professor Layton and the Unwound Future (USA)",
+    "size": "256.0 MB"
+  },
+  {
+    "title": "Phoenix Wright: Ace Attorney",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Capcom",
+    "synopsis": "Un abogado novato defiende a sus clientes con pruebas y lógica.",
+    "cover": "Phoenix Wright - Ace Attorney (USA).jpg",
+    "boxart": "Phoenix Wright - Ace Attorney (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Phoenix Wright: Ace Attorney - Justice for All",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Capcom",
+    "synopsis": "Phoenix vuelve a los tribunales con nuevos casos y rivales.",
+    "cover": "Phoenix Wright - Ace Attorney - Justice for All (USA).jpg",
+    "boxart": "Phoenix Wright - Ace Attorney - Justice for All (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Ghost Trick: Phantom Detective",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Capcom",
+    "synopsis": "Un fantasma manipula objetos para salvar a víctimas del destino.",
+    "cover": "Ghost Trick - Phantom Detective (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Ghost Trick - Phantom Detective (USA) (En,Fr,De,Es,It)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Dragon Quest IX: Sentinels of the Starry Skies",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Level-5",
+    "synopsis": "Un ángel caído viaja por el mundo humano con aliados.",
+    "cover": "Dragon Quest IX - Sentinels of the Starry Skies (USA) (En,Fr,Es).jpg",
+    "boxart": "Dragon Quest IX - Sentinels of the Starry Skies (USA) (En,Fr,Es)",
+    "size": "256.0 MB"
+  },
+  {
+    "title": "Final Fantasy III",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Remake 3D del clásico de los cuatro héroes de la luz.",
+    "cover": "Final Fantasy III (USA).jpg",
+    "boxart": "Final Fantasy III (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Final Fantasy IV",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Remake 3D de la historia de Cecil.",
+    "cover": "Final Fantasy IV (USA) (Video).jpg",
+    "boxart": "Final Fantasy IV (USA) (Video)",
+    "size": "2.2 MB"
+  },
+  {
+    "title": "Chrono Trigger",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "La clásica aventura en el tiempo con extras para DS.",
+    "cover": "Chrono Trigger (USA) (En,Fr).jpg",
+    "boxart": "Chrono Trigger (USA) (En,Fr)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "The World Ends with You",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Neku debe sobrevivir al Juego de los Segadores por Shibuya.",
+    "cover": "World Ends with You, The (USA).jpg",
+    "boxart": "World Ends with You, The (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Etrian Odyssey",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Exploración de mazmorras con mapas dibujados a mano.",
+    "cover": "Etrian Odyssey (USA).jpg",
+    "boxart": "Etrian Odyssey (USA)",
+    "size": "16.0 MB"
+  },
+  {
+    "title": "Shin Megami Tensei: Devil Survivor",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Estrategia por turnos con demonios y tiempo limitado.",
+    "cover": "Shin Megami Tensei - Devil Survivor (USA).jpg",
+    "boxart": "Shin Megami Tensei - Devil Survivor (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Radiant Historia",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Stocke viaja entre dos líneas temporales para cambiar la historia.",
+    "cover": "Radiant Historia (USA).jpg",
+    "boxart": "Radiant Historia (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Advance Wars: Dual Strike",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Estrategia táctica con dos pantallas y nuevos comandantes.",
+    "cover": "Advance Wars - Dual Strike (USA, Australia).jpg",
+    "boxart": "Advance Wars - Dual Strike (USA, Australia)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Fire Emblem: Shadow Dragon",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Remake del primer Fire Emblem con Marth.",
+    "cover": "Fire Emblem - Shadow Dragon (USA).jpg",
+    "boxart": "Fire Emblem - Shadow Dragon (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Jump Ultimate Stars",
+    "year": 2006,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Ganbarion",
+    "synopsis": "Lucha con personajes de manga de la revista Shonen Jump.",
+    "cover": "Jump Ultimate Stars (Japan).jpg",
+    "boxart": "Jump Ultimate Stars (Japan)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Meteos",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Q Entertainment",
+    "synopsis": "Puzle de bloques que flotan para ganar al enemigo.",
+    "cover": "Meteos (USA).jpg",
+    "boxart": "Meteos (USA)",
+    "size": "64.0 MB"
+  },
+  {
+    "title": "Elite Beat Agents",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "iNiS",
+    "synopsis": "Ritmo táctil en el que ayudas a personas con una banda de agentes.",
+    "cover": "Elite Beat Agents (USA).jpg",
+    "boxart": "Elite Beat Agents (USA)",
+    "size": "128.0 MB"
+  },
+  {
+    "title": "Contra 4",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "WayForward",
+    "synopsis": "El run and gun clásico vuelve con dos pantallas.",
+    "cover": "Contra 4 (USA).jpg",
+    "boxart": "Contra 4 (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "WarioWare: Touched!",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Microjuegos con stylus y micrófono.",
+    "cover": "WarioWare - Touched! (USA).jpg",
+    "boxart": "WarioWare - Touched! (USA)",
+    "size": "32.0 MB"
+  },
+  {
+    "title": "Yoshi's Island DS",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Artoon",
+    "synopsis": "Cinco bebés se turnan para rescatar a Baby Bowser.",
+    "cover": "Yoshi's Island DS (USA).jpg",
+    "boxart": "Yoshi's Island DS (USA)",
+    "size": "32.0 MB"
+  }
+]

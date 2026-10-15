@@ -1,1 +1,554 @@
-[]
+[
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link despierta en un Hyrule abierto para derrotar a Ganon."
+  },
+  {
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link explora cielos, tierra y profundidades con poderes de construcción."
+  },
+  {
+    "title": "The Legend of Zelda: Link's Awakening",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Grezzo",
+    "synopsis": "Remake de Koholint con estética de maqueta."
+  },
+  {
+    "title": "Super Mario Odyssey",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Mario recorre reinos con Cappy para rescatar a Peach."
+  },
+  {
+    "title": "Mario Kart 8 Deluxe",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "La versión definitiva del kart antigravedad con todos los DLC."
+  },
+  {
+    "title": "Super Smash Bros. Ultimate",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Bandai Namco",
+    "synopsis": "Todos los luchadores de la saga en un enorme crossover."
+  },
+  {
+    "title": "Animal Crossing: New Horizons",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Nintendo",
+    "synopsis": "Construye tu isla paradisíaca con amigos."
+  },
+  {
+    "title": "Splatoon 3",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Nintendo",
+    "synopsis": "Los Inklings luchan en Splatsville con nuevas armas."
+  },
+  {
+    "title": "Pokémon Sword",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La región de Galar y el Dynamax en una aventura de deporte."
+  },
+  {
+    "title": "Pokémon Shield",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión escudo con los Pokémon de Galar."
+  },
+  {
+    "title": "Pokémon Scarlet",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Mundo abierto en Paldea con una historia de academia."
+  },
+  {
+    "title": "Pokémon Violet",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión violeta de la aventura en Paldea."
+  },
+  {
+    "title": "Pokémon Legends: Arceus",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Exploración en Hisui con captura sin combate."
+  },
+  {
+    "title": "Metroid Dread",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "MercurySteam",
+    "synopsis": "Samus huye del robot EMMI en el planeta ZDR."
+  },
+  {
+    "title": "Metroid Prime Remastered",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Retro Studios",
+    "synopsis": "El clásico de Samus en alta definición."
+  },
+  {
+    "title": "Xenoblade Chronicles 3",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Monolith Soft",
+    "synopsis": "Dos naciones enfrentadas en un mundo que acaba cuando se desvanecen."
+  },
+  {
+    "title": "Xenoblade Chronicles 2",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Monolith Soft",
+    "synopsis": "Rex y la Pyra viajan por Alrest hacia Elíseo."
+  },
+  {
+    "title": "Fire Emblem: Three Houses",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Un profesor guía a una de las tres casas de Garreg Mach."
+  },
+  {
+    "title": "Luigi's Mansion 3",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Next Level Games",
+    "synopsis": "Luigi explora un hotel encantado con Gooigi."
+  },
+  {
+    "title": "Kirby and the Forgotten Land",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby explora un mundo en ruinas con el modo de aspirado."
+  },
+  {
+    "title": "Super Mario Bros. Wonder",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Mario se enfrenta a transformaciones extrañas con la flor Maravilla."
+  },
+  {
+    "title": "Super Mario 3D World + Bowser's Fury",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Mario y sus amigos en una aventura que incluye la furia de Bowser."
+  },
+  {
+    "title": "Mario + Rabbids Kingdom Battle",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Ubisoft",
+    "synopsis": "Mario y los Rabbids combaten por turnos en un tablero."
+  },
+  {
+    "title": "Paper Mario: The Origami King",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Intelligent Systems",
+    "synopsis": "Mario combate con un anillo contra el rey Olly."
+  },
+  {
+    "title": "Mario Kart Live: Home Circuit",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Velan Studios",
+    "synopsis": "Kart con coches reales y circuitos hechos en casa."
+  },
+  {
+    "title": "Ring Fit Adventure",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Salud",
+    "developer": "Nintendo",
+    "synopsis": "Ejercicios con anillo en una aventura RPG de fitness."
+  },
+  {
+    "title": "Pikmin 4",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nintendo",
+    "synopsis": "Un joven explorador y su perro rescatan a los náufragos."
+  },
+  {
+    "title": "Bayonetta 3",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Bayonetta se enfrenta a la amenaza de las criaturas homúnculas."
+  },
+  {
+    "title": "Astral Chain",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Policías con una legión controlan a las quimeras."
+  },
+  {
+    "title": "Hades",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Roguelike",
+    "developer": "Supergiant Games",
+    "synopsis": "Zagreus intenta escapar del inframundo en un roguelike lleno de personalidad."
+  },
+  {
+    "title": "Celeste",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Maddy Makes Games",
+    "synopsis": "Madeline escala una montaña en un plataformas de precisión."
+  },
+  {
+    "title": "Hollow Knight",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Team Cherry",
+    "synopsis": "Un caballero explora el reino subterráneo de Hallownest."
+  },
+  {
+    "title": "Stardew Valley",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "ConcernedApe",
+    "synopsis": "Hereda una granja y lleva una vida tranquila en el campo."
+  },
+  {
+    "title": "Cuphead",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Studio MDHR",
+    "synopsis": "Run and gun con jefes y estética de dibujos de los años treinta."
+  },
+  {
+    "title": "Dead Cells",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Roguelike",
+    "developer": "Motion Twin",
+    "synopsis": "Un prisionero recorre un castillo cambiante con combate frenético."
+  },
+  {
+    "title": "Disco Elysium",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "ZA/UM",
+    "synopsis": "Un detective sin memoria investiga un asesinato."
+  },
+  {
+    "title": "The Witcher 3: Wild Hunt",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "CD Projekt Red",
+    "synopsis": "Geralt busca a Ciri en un mundo abierto lleno de monstruos."
+  },
+  {
+    "title": "Doom Eternal",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "id Software",
+    "synopsis": "El Slayer lucha contra los ejércitos del infierno."
+  },
+  {
+    "title": "Octopath Traveler",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Ocho viajeros con historias propias en un mundo de estilo HD-2D."
+  },
+  {
+    "title": "Fire Emblem Engage",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Alear usa anillos de héroes pasados para frenar al dragón."
+  },
+  {
+    "title": "Persona 5 Royal",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Los Ladrones Fantasma cambian los corazones de los malvados."
+  },
+  {
+    "title": "Donkey Kong Country: Tropical Freeze",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Retro Studios",
+    "synopsis": "La aventura vikinga de Donkey Kong en alta definición."
+  },
+  {
+    "title": "Super Mario Party",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "NDcube",
+    "synopsis": "La fiesta de Mario con el Joy-Con y nuevos tableros."
+  },
+  {
+    "title": "Mario Strikers: Battle League",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Next Level Games",
+    "synopsis": "Fútbol arcade con habilidades y partidos en línea."
+  },
+  {
+    "title": "Mario Golf: Super Rush",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Golf con modos de velocidad y aventura."
+  },
+  {
+    "title": "Hyrule Warriors: Age of Calamity",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Omega Force",
+    "synopsis": "Los héroes de Zelda en una batalla cien años antes de Breath of the Wild."
+  }
+]

@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "title": "Battle Heat",
+    "year": 1995,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Hudson Soft",
+    "synopsis": "Juego de lucha con personajes animados con vídeo FMV.",
+    "cover": "Battle Heat (Japan).jpg",
+    "boxart": "Battle Heat (Japan)",
+    "size": "136.3 MB"
+  },
+  {
+    "title": "Der Langrisser FX",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG táctico",
+    "developer": "Masaya",
+    "synopsis": "Estrategia por turnos de la saga Langrisser."
+  },
+  {
+    "title": "Zenki FX",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Hudson Soft",
+    "synopsis": "Aventura de acción basada en el manga Zenki."
+  },
+  {
+    "title": "Tonari no Princess Rolfee",
+    "year": 1996,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Hudson Soft",
+    "synopsis": "Aventura de una princesa en un mundo de fantasía.",
+    "cover": "Tonari no Princess Rolfee! (Japan).jpg",
+    "boxart": "Tonari no Princess Rolfee! (Japan)",
+    "size": "737.8 MB"
+  },
+  {
+    "title": "Angelique Duet",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Koei",
+    "synopsis": "Simulación de aventura romántica en un mundo mágico."
+  },
+  {
+    "title": "Team Innocent",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "NEC Home Electronics",
+    "synopsis": "Aventura de ciencia ficción con vídeo y voz."
+  }
+]

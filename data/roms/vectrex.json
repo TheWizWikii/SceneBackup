@@ -1,1 +1,209 @@
-[]
+[
+  {
+    "title": "Mine Storm",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "GCE",
+    "synopsis": "Juego integrado en la consola, shoot'em up de minas.",
+    "cover": "Mine Storm (World).jpg",
+    "boxart": "Mine Storm (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Armor Attack",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Cinematronics",
+    "synopsis": "Tanque en una ciudad.",
+    "cover": "Armor Attack (World).jpg",
+    "boxart": "Armor Attack (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Star Castle",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Cinematronics",
+    "synopsis": "Destruye un castillo central.",
+    "cover": "Star Castle (USA).jpg",
+    "boxart": "Star Castle (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Scramble",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up de scroll.",
+    "cover": "Scramble (World).jpg",
+    "boxart": "Scramble (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Berzerk",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "GCE",
+    "synopsis": "Laberintos con robots.",
+    "cover": "Berzerk (USA).jpg",
+    "boxart": "Berzerk (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Web Wars",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "GCE",
+    "synopsis": "Telaraña de arañas.",
+    "cover": "WebWars (World).jpg",
+    "boxart": "WebWars (World)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Spike",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "GCE",
+    "synopsis": "Escalada con un héroe.",
+    "cover": "Spike (World).jpg",
+    "boxart": "Spike (World)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Rip Off",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Cinematronics",
+    "synopsis": "Defiende tu energía.",
+    "cover": "Rip Off (World).jpg",
+    "boxart": "Rip Off (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Fortress of Narzod",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "GCE",
+    "synopsis": "Entra en la fortaleza.",
+    "cover": "Fortress of Narzod (USA).jpg",
+    "boxart": "Fortress of Narzod (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Cosmic Chasm",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Cinematronics",
+    "synopsis": "Espacio y laberintos.",
+    "cover": "Cosmic Chasm (World).jpg",
+    "boxart": "Cosmic Chasm (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Solar Quest",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Cinematronics",
+    "synopsis": "Aventura espacial.",
+    "cover": "Solar Quest (World).jpg",
+    "boxart": "Solar Quest (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Clean Sweep",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "GCE",
+    "synopsis": "Limpia el suelo.",
+    "cover": "Clean Sweep (World).jpg",
+    "boxart": "Clean Sweep (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Polar Rescue",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "GCE",
+    "synopsis": "Rescate polar.",
+    "cover": "Polar Rescue (USA).jpg",
+    "boxart": "Polar Rescue (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Bedlam",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "GCE",
+    "synopsis": "Shoot'em up de enemigos.",
+    "cover": "Bedlam (World).jpg",
+    "boxart": "Bedlam (World)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Heads Up",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "GCE",
+    "synopsis": "Fútbol."
+  }
+]

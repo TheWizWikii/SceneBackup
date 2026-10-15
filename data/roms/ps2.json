@@ -1,1 +1,683 @@
-[]
+[
+  {
+    "title": "Grand Theft Auto: San Andreas",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar North",
+    "synopsis": "CJ regresa a Los Santos para proteger a su familia en un enorme mundo abierto.",
+    "cover": "Grand Theft Auto - San Andreas (USA) (v1.03).jpg",
+    "boxart": "Grand Theft Auto - San Andreas (USA) (v1.03)",
+    "size": "4291.3 MB"
+  },
+  {
+    "title": "Grand Theft Auto: Vice City",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar North",
+    "synopsis": "Tommy Vercetti asciende en el crimen de Vice City.",
+    "cover": "Grand Theft Auto - Vice City (USA) (v1.40).jpg",
+    "boxart": "Grand Theft Auto - Vice City (USA) (v1.40)",
+    "size": "4451.5 MB"
+  },
+  {
+    "title": "Grand Theft Auto III",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "DMA Design",
+    "synopsis": "Claude escapa de prisión en Liberty City.",
+    "cover": "Grand Theft Auto III (USA, Canada).jpg",
+    "boxart": "Grand Theft Auto III (USA, Canada)",
+    "size": "4426.0 MB"
+  },
+  {
+    "title": "Metal Gear Solid 2: Sons of Liberty",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Raiden y Snake se enfrentan a una conspiración en Big Shell.",
+    "cover": "Metal Gear Solid 2 - Sons of Liberty (USA).jpg",
+    "boxart": "Metal Gear Solid 2 - Sons of Liberty (USA)",
+    "size": "4406.8 MB"
+  },
+  {
+    "title": "Metal Gear Solid 3: Snake Eater",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Naked Snake se infiltra en la selva soviética.",
+    "cover": "Metal Gear Solid 3 - Snake Eater (USA).jpg",
+    "boxart": "Metal Gear Solid 3 - Snake Eater (USA)",
+    "size": "4347.7 MB"
+  },
+  {
+    "title": "Final Fantasy X",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Tidus y Yuna viajan para derrotar a Sin.",
+    "cover": "Final Fantasy X (USA, Canada).jpg",
+    "boxart": "Final Fantasy X (USA, Canada)",
+    "size": "4299.4 MB"
+  },
+  {
+    "title": "Final Fantasy XII",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Vaan y sus aliados se enfrentan al Imperio Archadiano.",
+    "cover": "Final Fantasy XII (USA).jpg",
+    "boxart": "Final Fantasy XII (USA)",
+    "size": "3878.1 MB"
+  },
+  {
+    "title": "Kingdom Hearts",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square",
+    "synopsis": "Sora se alía con Donald y Goofy para frenar a los Sincorazón.",
+    "cover": "Kingdom Hearts (USA).jpg",
+    "boxart": "Kingdom Hearts (USA)",
+    "size": "2900.2 MB"
+  },
+  {
+    "title": "Kingdom Hearts II",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square Enix",
+    "synopsis": "Sora regresa con nuevos mundos y habilidades.",
+    "cover": "Kingdom Hearts II (USA).jpg",
+    "boxart": "Kingdom Hearts II (USA)",
+    "size": "3782.8 MB"
+  },
+  {
+    "title": "Shadow of the Colossus",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Team Ico",
+    "synopsis": "Wander derriba a dieciséis colosos para revivir a Mono.",
+    "cover": "Shadow of the Colossus (USA).jpg",
+    "boxart": "Shadow of the Colossus (USA)",
+    "size": "2569.2 MB"
+  },
+  {
+    "title": "Ico",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Team Ico",
+    "synopsis": "Un chico cornudo escapa de un castillo con una chica de luz.",
+    "cover": "Ico (USA).jpg",
+    "boxart": "Ico (USA)",
+    "size": "609.1 MB"
+  },
+  {
+    "title": "God of War",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SCE Santa Monica",
+    "synopsis": "Kratos busca venganza contra Ares.",
+    "cover": "God of War (USA).jpg",
+    "boxart": "God of War (USA)",
+    "size": "8128.0 MB"
+  },
+  {
+    "title": "God of War II",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SCE Santa Monica",
+    "synopsis": "Kratos se enfrenta a los dioses del Olimpo.",
+    "cover": "God of War II (USA).jpg",
+    "boxart": "God of War II (USA)",
+    "size": "8138.3 MB"
+  },
+  {
+    "title": "Devil May Cry",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Dante combate a demonios en una isla.",
+    "cover": "Devil May Cry (USA).jpg",
+    "boxart": "Devil May Cry (USA)",
+    "size": "4481.1 MB"
+  },
+  {
+    "title": "Devil May Cry 3: Dante's Awakening",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Dante y Vergil en una precuela cargada de acción.",
+    "cover": "Devil May Cry 3 - Dante's Awakening (USA) (En,Ja,Ko).jpg",
+    "boxart": "Devil May Cry 3 - Dante's Awakening (USA) (En,Ja,Ko)",
+    "size": "3686.6 MB"
+  },
+  {
+    "title": "Resident Evil 4",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Leon rescata a la hija del presidente.",
+    "cover": "Resident Evil 4 (USA).jpg",
+    "boxart": "Resident Evil 4 (USA)",
+    "size": "4230.3 MB"
+  },
+  {
+    "title": "Silent Hill 2",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Team Silent",
+    "synopsis": "James Sunderland busca a su esposa fallecida.",
+    "cover": "Silent Hill 2 (USA) (En,Ja) (v1.20).jpg",
+    "boxart": "Silent Hill 2 (USA) (En,Ja) (v1.20)",
+    "size": "4426.2 MB"
+  },
+  {
+    "title": "Silent Hill 3",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Team Silent",
+    "synopsis": "Heather se enfrenta a un culto.",
+    "cover": "Silent Hill 3 (USA) (En,Ja,Fr,De,Es,It,Ko).jpg",
+    "boxart": "Silent Hill 3 (USA) (En,Ja,Fr,De,Es,It,Ko)",
+    "size": "3418.2 MB"
+  },
+  {
+    "title": "Okami",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Clover Studio",
+    "synopsis": "Amaterasu devuelve el color al mundo con el pincel celeste."
+  },
+  {
+    "title": "Persona 4",
+    "year": 2008,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Estudiantes investigan unos misterios al otro lado de las pantallas.",
+    "cover": "Persona 4 (Europe).jpg",
+    "boxart": "Persona 4 (Europe)",
+    "size": "4201.9 MB"
+  },
+  {
+    "title": "Persona 3 FES",
+    "year": 2007,
+    "region": "Europa",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Jóvenes combaten en la Hora Oscura con sus Personas.",
+    "cover": "Persona 3 FES (Europe).jpg",
+    "boxart": "Persona 3 FES (Europe)",
+    "size": "4383.3 MB"
+  },
+  {
+    "title": "Shin Megami Tensei: Nocturne",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "El Demi-fiend recorre un Tokio apocalíptico.",
+    "cover": "Shin Megami Tensei - Nocturne (USA).jpg",
+    "boxart": "Shin Megami Tensei - Nocturne (USA)",
+    "size": "4072.4 MB"
+  },
+  {
+    "title": "Dragon Quest VIII: Journey of the Cursed King",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Level-5",
+    "synopsis": "Un viaje para romper una maldición con el rey Trode.",
+    "cover": "Dragon Quest VIII - Journey of the Cursed King (USA).jpg",
+    "boxart": "Dragon Quest VIII - Journey of the Cursed King (USA)",
+    "size": "3986.5 MB"
+  },
+  {
+    "title": "Jak and Daxter: The Precursor Legacy",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Naughty Dog",
+    "synopsis": "Jak y Daxter exploran un mundo abierto.",
+    "cover": "Jak and Daxter - The Precursor Legacy (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Jak and Daxter - The Precursor Legacy (USA) (En,Fr,De,Es,It)",
+    "size": "1392.9 MB"
+  },
+  {
+    "title": "Jak II",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Naughty Dog",
+    "synopsis": "Jak combina plataformas con acción en Haven City.",
+    "cover": "Jak II (USA) (Video Demo).jpg",
+    "boxart": "Jak II (USA) (Video Demo)",
+    "size": "1188.4 MB"
+  },
+  {
+    "title": "Ratchet & Clank",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Insomniac Games",
+    "synopsis": "Un lombax y un robot salvan la galaxia con armas.",
+    "cover": "Ratchet & Clank (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Ratchet & Clank (USA) (En,Fr,De,Es,It)",
+    "size": "4018.9 MB"
+  },
+  {
+    "title": "Sly Cooper and the Thievius Raccoonus",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sucker Punch",
+    "synopsis": "Un mapache ladrón recupera el libro de su familia.",
+    "cover": "Sly Cooper and the Thievius Raccoonus (USA).jpg",
+    "boxart": "Sly Cooper and the Thievius Raccoonus (USA)",
+    "size": "2672.5 MB"
+  },
+  {
+    "title": "Tekken 5",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Jin Kazama en el torneo del King of Iron Fist.",
+    "cover": "Tekken 5 (USA).jpg",
+    "boxart": "Tekken 5 (USA)",
+    "size": "4275.8 MB"
+  },
+  {
+    "title": "Soulcalibur III",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Combates con armas con un modo de historia propio.",
+    "cover": "Soulcalibur III (USA).jpg",
+    "boxart": "Soulcalibur III (USA)",
+    "size": "4181.2 MB"
+  },
+  {
+    "title": "Virtua Fighter 4",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Sega",
+    "synopsis": "Lucha de precisión con un sistema profundo.",
+    "cover": "Virtua Fighter 4 (USA).jpg",
+    "boxart": "Virtua Fighter 4 (USA)",
+    "size": "543.4 MB"
+  },
+  {
+    "title": "Gran Turismo 4",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Polyphony Digital",
+    "synopsis": "Simulación con más de setecientos coches.",
+    "cover": "Gran Turismo 4 (USA) (v2.00).jpg",
+    "boxart": "Gran Turismo 4 (USA) (v2.00)",
+    "size": "5068.3 MB"
+  },
+  {
+    "title": "Burnout 3: Takedown",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Criterion Games",
+    "synopsis": "Carreras con choques espectaculares.",
+    "cover": "Burnout 3 - Takedown (USA, Canada).jpg",
+    "boxart": "Burnout 3 - Takedown (USA, Canada)",
+    "size": "2735.0 MB"
+  },
+  {
+    "title": "Need for Speed: Most Wanted",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "EA Black Box",
+    "synopsis": "Persecuciones y tuning en la ciudad.",
+    "cover": "Need for Speed - Most Wanted (USA) (v1.01).jpg",
+    "boxart": "Need for Speed - Most Wanted (USA) (v1.01)",
+    "size": "3531.5 MB"
+  },
+  {
+    "title": "Tony Hawk's Pro Skater 4",
+    "year": 2002,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Neversoft",
+    "synopsis": "Skateboard en niveles abiertos y misiones libres.",
+    "cover": "Tony Hawk's Pro Skater 4 (USA) (v1.02).jpg",
+    "boxart": "Tony Hawk's Pro Skater 4 (USA) (v1.02)",
+    "size": "3235.8 MB"
+  },
+  {
+    "title": "Pro Evolution Soccer 6",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Konami",
+    "synopsis": "Fútbol con control realista."
+  },
+  {
+    "title": "Guitar Hero II",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Harmonix",
+    "synopsis": "Tocar la guitarra al ritmo del rock.",
+    "cover": "Guitar Hero II (USA).jpg",
+    "boxart": "Guitar Hero II (USA)",
+    "size": "4431.1 MB"
+  },
+  {
+    "title": "Rez",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "United Game Artists",
+    "synopsis": "Shooter sobre raíles con música y visuales.",
+    "cover": "Rez (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "Rez (USA) (En,Fr,De,Es,It)",
+    "size": "220.1 MB"
+  },
+  {
+    "title": "Katamari Damacy",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Namco",
+    "synopsis": "Haz rodar una bola gigante que atrapa todo.",
+    "cover": "Katamari Damacy (USA).jpg",
+    "boxart": "Katamari Damacy (USA)",
+    "size": "3011.9 MB"
+  },
+  {
+    "title": "Psychonauts",
+    "year": 2005,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Double Fine",
+    "synopsis": "Raz entra en las mentes de los demás.",
+    "cover": "Psychonauts (USA).jpg",
+    "boxart": "Psychonauts (USA)",
+    "size": "3351.5 MB"
+  },
+  {
+    "title": "Ace Combat 5: The Unsung War",
+    "year": 2004,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Namco",
+    "synopsis": "Combates aéreos con una historia de guerra.",
+    "cover": "Ace Combat 5 - The Unsung War (USA) (En,Ja).jpg",
+    "boxart": "Ace Combat 5 - The Unsung War (USA) (En,Ja)",
+    "size": "4235.0 MB"
+  },
+  {
+    "title": "Max Payne",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Remedy",
+    "synopsis": "Un policía busca venganza con el tiempo bala.",
+    "cover": "Max Payne (USA).jpg",
+    "boxart": "Max Payne (USA)",
+    "size": "4171.6 MB"
+  },
+  {
+    "title": "Prince of Persia: The Sands of Time",
+    "year": 2003,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "El príncipe usa una daga para rebobinar el tiempo.",
+    "cover": "Prince of Persia - The Sands of Time (USA) (En,Fr,Es).jpg",
+    "boxart": "Prince of Persia - The Sands of Time (USA) (En,Fr,Es)",
+    "size": "2298.1 MB"
+  },
+  {
+    "title": "Tales of the Abyss",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Namco Tales Studio",
+    "synopsis": "Luke fon Fabre viaja para cumplir una profecía.",
+    "cover": "Tales of the Abyss (USA).jpg",
+    "boxart": "Tales of the Abyss (USA)",
+    "size": "3860.7 MB"
+  },
+  {
+    "title": "Xenosaga Episode I",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Monolith Soft",
+    "synopsis": "Una ciencia ficción filosófica con mechas."
+  },
+  {
+    "title": "Valkyrie Profile 2: Silmeria",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "tri-Ace",
+    "synopsis": "Una valquiria con tres almas viaja para evitar el Ragnarok.",
+    "cover": "Valkyrie Profile 2 - Silmeria (USA).jpg",
+    "boxart": "Valkyrie Profile 2 - Silmeria (USA)",
+    "size": "4445.8 MB"
+  },
+  {
+    "title": "Suikoden V",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Konami",
+    "synopsis": "Un príncipe reúne a las 108 estrellas del destino.",
+    "cover": "Suikoden V (USA).jpg",
+    "boxart": "Suikoden V (USA)",
+    "size": "4296.0 MB"
+  }
+]

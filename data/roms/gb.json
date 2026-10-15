@@ -1,1 +1,625 @@
-[]
+[
+  {
+    "title": "Tetris",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzzle",
+    "developer": "Nintendo",
+    "synopsis": "El puzle de bloques que vendió millones de consolas Game Boy.",
+    "cover": "Tetris (World) (Rev 1).jpg",
+    "boxart": "Tetris (World) (Rev 1)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Super Mario Land",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Mario viaja por Sarasaland para rescatar a la princesa Daisy.",
+    "cover": "Super Mario Land (World).jpg",
+    "boxart": "Super Mario Land (World)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Super Mario Land 2: 6 Golden Coins",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Mario reclama su castillo de Wario recogiendo seis monedas doradas.",
+    "cover": "Super Mario Land 2 - 6 Golden Coins (USA, Europe).jpg",
+    "boxart": "Super Mario Land 2 - 6 Golden Coins (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "The Legend of Zelda: Link's Awakening",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link despierta en la isla Koholint para escapar sin pistas del sueño del Pez Viento."
+  },
+  {
+    "title": "Pokémon Red Version",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "El inicio de la fiebre Pokémon: captura criaturas y conviértete en maestro.",
+    "cover": "Pokemon - Red Version (USA, Europe) (SGB Enhanced).jpg",
+    "boxart": "Pokemon - Red Version (USA, Europe) (SGB Enhanced)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Pokémon Blue Version",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "La versión azul de la aventura original de Kanto con otras criaturas exclusivas.",
+    "cover": "Pokemon - Blue Version (USA, Europe) (SGB Enhanced).jpg",
+    "boxart": "Pokemon - Blue Version (USA, Europe) (SGB Enhanced)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Pokémon Yellow Version",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Pikachu acompaña al jugador en una edición inspirada en el anime."
+  },
+  {
+    "title": "Kirby's Dream Land",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "El debut de Kirby: aspira enemigos para recuperar la comida del Dream Land.",
+    "cover": "Kirby's Dream Land (USA, Europe).jpg",
+    "boxart": "Kirby's Dream Land (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Kirby's Dream Land 2",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby y sus amigos animales recuperan los arcoíris de Dream Land.",
+    "cover": "Kirby's Dream Land 2 (USA, Europe) (SGB Enhanced).jpg",
+    "boxart": "Kirby's Dream Land 2 (USA, Europe) (SGB Enhanced)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Metroid II: Return of Samus",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Samus exterminará a los Metroid en su mundo natal.",
+    "cover": "Metroid II - Return of Samus (World).jpg",
+    "boxart": "Metroid II - Return of Samus (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Donkey Kong",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Reinvención del arcade original con más de cien pantallas de puzles y plataformas.",
+    "cover": "Donkey Kong (World) (Rev 1) (SGB Enhanced).jpg",
+    "boxart": "Donkey Kong (World) (Rev 1) (SGB Enhanced)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Wario Land: Super Mario Land 3",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Wario viaja para recuperar su castillo y hacerse con un tesoro de monedas.",
+    "cover": "Wario Land - Super Mario Land 3 (World).jpg",
+    "boxart": "Wario Land - Super Mario Land 3 (World)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Wario Land II",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Wario no puede morir y aprovecha sus transformaciones para encontrar el tesoro.",
+    "cover": "Wario Land II (USA, Europe) (SGB Enhanced).jpg",
+    "boxart": "Wario Land II (USA, Europe) (SGB Enhanced)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Mega Man V",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Mega Man se enfrenta a los Stardroids en el último juego de la saga clásica en Game Boy.",
+    "cover": "Mega Man V (USA) (SGB Enhanced).jpg",
+    "boxart": "Mega Man V (USA) (SGB Enhanced)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Castlevania: The Adventure",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Christopher Belmont se enfrenta a Drácula en una aventura clásica para consola portátil.",
+    "cover": "Castlevania - The Adventure (USA).jpg",
+    "boxart": "Castlevania - The Adventure (USA)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Castlevania II: Belmont's Revenge",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Christopher regresa para rescatar a su hijo del conde.",
+    "cover": "Castlevania II - Belmont's Revenge (USA, Europe).jpg",
+    "boxart": "Castlevania II - Belmont's Revenge (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Final Fantasy Adventure",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square",
+    "synopsis": "Un esclavo gladiador escapa para proteger el Árbol Mana en un acción-RPG precursor de la saga Mana.",
+    "cover": "Final Fantasy Adventure (USA).jpg",
+    "boxart": "Final Fantasy Adventure (USA)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Final Fantasy Legend II",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Viaje de aventuras por mundos conectados con un sistema de razas y mutaciones.",
+    "cover": "Final Fantasy Legend II (USA).jpg",
+    "boxart": "Final Fantasy Legend II (USA)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Dr. Mario",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzzle",
+    "developer": "Nintendo",
+    "synopsis": "Elimina los virus a base de cápsulas de colores en un puzle adictivo.",
+    "cover": "Dr. Mario (World).jpg",
+    "boxart": "Dr. Mario (World)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Bubble Bobble",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Taito",
+    "synopsis": "Adaptación del clásico arcade con dos dragones que atrapan enemigos en burbujas.",
+    "cover": "Bubble Bobble (USA, Europe).jpg",
+    "boxart": "Bubble Bobble (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Gargoyle's Quest",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Capcom",
+    "synopsis": "Firebrand protagoniza este spin-off de Ghosts 'n Goblins con elementos de RPG.",
+    "cover": "Gargoyle's Quest (USA, Europe).jpg",
+    "boxart": "Gargoyle's Quest (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Duck Tales",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Tío Gilito recorre el mundo en busca de tesoros con su bastón rebotante.",
+    "cover": "DuckTales (USA).jpg",
+    "boxart": "DuckTales (USA)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Duck Tales 2",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Nuevo viaje del avaro pato en busca de tesoros por el mundo.",
+    "cover": "DuckTales 2 (USA).jpg",
+    "boxart": "DuckTales 2 (USA)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Mole Mania",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Un topo planifica cada movimiento para rescatar a su familia de Jinbe.",
+    "cover": "Mole Mania (USA, Europe) (SGB Enhanced).jpg",
+    "boxart": "Mole Mania (USA, Europe) (SGB Enhanced)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Operation C",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Versión portátil de Contra con jefes y fases clásicas.",
+    "cover": "Operation C (USA).jpg",
+    "boxart": "Operation C (USA)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Pokémon Gold Version",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Segunda generación con Johto, ciclo día/noche y la cría de Pokémon."
+  },
+  {
+    "title": "Pokémon Silver Version",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Edición plateada de la segunda generación con criaturas exclusivas."
+  },
+  {
+    "title": "Pokémon Crystal Version",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Freak",
+    "synopsis": "Edición mejorada de Gold y Silver con trama de Suicune y animaciones."
+  },
+  {
+    "title": "Pokémon Trading Card Game",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Hudson Soft",
+    "synopsis": "Enfréntate a maestros del juego de cartas para ganar las cartas legendarias."
+  },
+  {
+    "title": "Tetris Attack",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzzle",
+    "developer": "Intelligent Systems",
+    "synopsis": "Puzzle de combos con protagonistas de Yoshi's Island.",
+    "cover": "Tetris Attack (USA, Europe) (SGB Enhanced).jpg",
+    "boxart": "Tetris Attack (USA, Europe) (SGB Enhanced)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Mega Man IV",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Mega Man se enfrenta al Dr. Cossack y sus ocho robots en Game Boy.",
+    "cover": "Mega Man IV (USA).jpg",
+    "boxart": "Mega Man IV (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Bionic Commando",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "El soldado de brazo biónico regresa en esta edición exclusiva para portátil.",
+    "cover": "Bionic Commando (USA).jpg",
+    "boxart": "Bionic Commando (USA)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Kid Dracula",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Konami",
+    "synopsis": "El joven vampiro Kid Dracula se enfrenta a un villano que quiere dominar el mundo.",
+    "cover": "Kid Dracula (USA, Europe).jpg",
+    "boxart": "Kid Dracula (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Qix",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Taito",
+    "synopsis": "Delimita áreas sin tocar al enemigo Qix en este juego arcade clásico.",
+    "cover": "QIX (World).jpg",
+    "boxart": "QIX (World)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Boxxle",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Atlus",
+    "synopsis": "Empuja cajas hasta su lugar en un clásico del Sokoban.",
+    "cover": "Boxxle (USA).jpg",
+    "boxart": "Boxxle (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Space Invaders",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Taito",
+    "synopsis": "Los invasores del espacio llegan a la portátil con mejoras.",
+    "cover": "Space Invaders (USA) (SGB Enhanced).jpg",
+    "boxart": "Space Invaders (USA) (SGB Enhanced)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Trip World",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sunsoft",
+    "synopsis": "Aventura de plataformas con transformaciones animales y estilo colorido.",
+    "cover": "Trip World (Europe).jpg",
+    "boxart": "Trip World (Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Kirby's Pinball Land",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby se convierte en la bola de un pinball con tres mesas.",
+    "cover": "Kirby's Pinball Land (USA, Europe).jpg",
+    "boxart": "Kirby's Pinball Land (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Mega Man III",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Mega Man se enfrenta a los Terra y sus ocho robots para poner fin a la amenaza.",
+    "cover": "Mega Man III (USA).jpg",
+    "boxart": "Mega Man III (USA)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Alleyway",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Rompe bloques con la bola en uno de los primeros títulos de la portátil.",
+    "cover": "Alleyway (World).jpg",
+    "boxart": "Alleyway (World)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Baseball",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Béisbol para dos jugadores con cable link y reglas sencillas.",
+    "cover": "Baseball (World).jpg",
+    "boxart": "Baseball (World)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Golf",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Golf para una portátil con unos hoyos clásicos.",
+    "cover": "Golf (World).jpg",
+    "boxart": "Golf (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "F-1 Race",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Carreras de Fórmula 1 con cuatro jugadores gracias al adaptador.",
+    "cover": "F-1 Race (World).jpg",
+    "boxart": "F-1 Race (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Bubble Bobble Part 2",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Taito",
+    "synopsis": "Nueva entrega de Bubble Bobble con otros dragones y nuevas habilidades.",
+    "cover": "Bubble Bobble Part 2 (USA, Europe).jpg",
+    "boxart": "Bubble Bobble Part 2 (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Burai Fighter Deluxe",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Taxan",
+    "synopsis": "Un guerrero armado con jetpack se enfrenta a los alienígenas.",
+    "cover": "Burai Fighter Deluxe (USA, Europe).jpg",
+    "boxart": "Burai Fighter Deluxe (USA, Europe)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Wizards & Warriors X: Fortress of Fear",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rare",
+    "synopsis": "Kuros regresa a la portátil para rescatar a la princesa."
+  }
+]

@@ -1,1 +1,554 @@
-[]
+[
+  {
+    "title": "Bloodborne",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FromSoftware",
+    "synopsis": "Un cazador explora Yharnam en una pesadilla gótica."
+  },
+  {
+    "title": "The Last of Us Part II",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Naughty Dog",
+    "synopsis": "Ellie busca venganza en un mundo postapocalíptico."
+  },
+  {
+    "title": "God of War",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Santa Monica Studio",
+    "synopsis": "Kratos y Atreus recorren los reinos nórdicos."
+  },
+  {
+    "title": "God of War Ragnarök",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Santa Monica Studio",
+    "synopsis": "Kratos y Atreus se enfrentan al Ragnarök."
+  },
+  {
+    "title": "Marvel's Spider-Man",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Insomniac Games",
+    "synopsis": "Peter Parker protege Nueva York."
+  },
+  {
+    "title": "Marvel's Spider-Man: Miles Morales",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Insomniac Games",
+    "synopsis": "Miles Morales protege su barrio."
+  },
+  {
+    "title": "Horizon Zero Dawn",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Guerrilla Games",
+    "synopsis": "Aloy cazadora explora un mundo de máquinas."
+  },
+  {
+    "title": "Ghost of Tsushima",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sucker Punch",
+    "synopsis": "Un samurái defiende Tsushima de los mongoles."
+  },
+  {
+    "title": "Uncharted 4: A Thief's End",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Naughty Dog",
+    "synopsis": "Nathan Drake sale de su retiro para una última aventura."
+  },
+  {
+    "title": "Death Stranding",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Kojima Productions",
+    "synopsis": "Sam Bridges reconecta una América fragmentada."
+  },
+  {
+    "title": "Persona 5",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Los Ladrones Fantasma cambian los corazones de los malvados."
+  },
+  {
+    "title": "The Witcher 3: Wild Hunt",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "CD Projekt Red",
+    "synopsis": "Geralt busca a Ciri en un mundo abierto."
+  },
+  {
+    "title": "Red Dead Redemption 2",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar Games",
+    "synopsis": "Arthur Morgan y la banda Van der Linde en el declive del Oeste."
+  },
+  {
+    "title": "Grand Theft Auto V",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rockstar North",
+    "synopsis": "Tres criminales y su vida de atracos en Los Santos."
+  },
+  {
+    "title": "Dark Souls III",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FromSoftware",
+    "synopsis": "Un no muerto recorre un reino de ceniza."
+  },
+  {
+    "title": "Sekiro: Shadows Die Twice",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "FromSoftware",
+    "synopsis": "Un shinobi busca rescatar a su amo."
+  },
+  {
+    "title": "Nioh",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Team Ninja",
+    "synopsis": "Un samurái combate yokai en el periodo Sengoku."
+  },
+  {
+    "title": "Final Fantasy VII Remake",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Cloud y AVALANCHE en la ciudad de Midgar."
+  },
+  {
+    "title": "Final Fantasy XV",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Noctis y sus amigos en un viaje por carretera."
+  },
+  {
+    "title": "Monster Hunter: World",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Capcom",
+    "synopsis": "Cazadores de un Nuevo Mundo con monstruos gigantes."
+  },
+  {
+    "title": "Resident Evil 2",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Remake de Raccoon City con cámara al hombro."
+  },
+  {
+    "title": "Resident Evil 7: Biohazard",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Ethan investiga una casa de la familia Baker."
+  },
+  {
+    "title": "Resident Evil Village",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Ethan Winters se enfrenta a los señores del pueblo."
+  },
+  {
+    "title": "Devil May Cry 5",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Dante, Nero y V se enfrentan a Urizen."
+  },
+  {
+    "title": "Nier: Automata",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "PlatinumGames",
+    "synopsis": "Androides luchan en un mundo postapocalíptico."
+  },
+  {
+    "title": "Yakuza 0",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Kiryu y Majima en el Japón de los ochenta."
+  },
+  {
+    "title": "Tekken 7",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Bandai Namco",
+    "synopsis": "Un torneo con la historia de Heihachi y Kazuya."
+  },
+  {
+    "title": "Street Fighter V",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha con la vuelta de los luchadores clásicos."
+  },
+  {
+    "title": "Mortal Kombat 11",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "NetherRealm",
+    "synopsis": "El brutal Mortal Kombat con tiempo manipulado."
+  },
+  {
+    "title": "Gran Turismo Sport",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Polyphony Digital",
+    "synopsis": "Simulador con enfoque en lo online."
+  },
+  {
+    "title": "Assassin's Creed Odyssey",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Ubisoft Quebec",
+    "synopsis": "Un mercenario espartano en la Antigua Grecia."
+  },
+  {
+    "title": "Batman: Arkham Knight",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rocksteady",
+    "synopsis": "Batman se enfrenta al Caballero de Arkham."
+  },
+  {
+    "title": "Control",
+    "year": 2019,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Remedy",
+    "synopsis": "Jesse Faden investiga en la Oficina Federal de Control."
+  },
+  {
+    "title": "Hades",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Roguelike",
+    "developer": "Supergiant Games",
+    "synopsis": "Zagreus intenta salir del inframundo."
+  },
+  {
+    "title": "Celeste",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Maddy Makes Games",
+    "synopsis": "Madeline sube una montaña con un plataformas desafiante."
+  },
+  {
+    "title": "Hollow Knight",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Team Cherry",
+    "synopsis": "Un caballero explora Hallownest."
+  },
+  {
+    "title": "Dead Cells",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Roguelike",
+    "developer": "Motion Twin",
+    "synopsis": "Un prisionero recorre un castillo cambiante."
+  },
+  {
+    "title": "Stardew Valley",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "ConcernedApe",
+    "synopsis": "Un granjero hereda una granja."
+  },
+  {
+    "title": "Cuphead",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Studio MDHR",
+    "synopsis": "Run and gun de jefes con estética de los años treinta."
+  },
+  {
+    "title": "Disco Elysium: The Final Cut",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "ZA/UM",
+    "synopsis": "Un detective sin memoria resuelve un asesinato."
+  },
+  {
+    "title": "Doom",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "id Software",
+    "synopsis": "Un marine combate demonios en Marte."
+  },
+  {
+    "title": "Doom Eternal",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "id Software",
+    "synopsis": "Doom Slayer lleva la guerra al infierno."
+  },
+  {
+    "title": "Wolfenstein II: The New Colossus",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "MachineGames",
+    "synopsis": "B.J. Blazkowicz lidera la resistencia contra los nazis en Estados Unidos."
+  },
+  {
+    "title": "Dragon Quest XI",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "El Luminary recorre el mundo para salvar Erdrea."
+  },
+  {
+    "title": "Ni no Kuni II: Revenant Kingdom",
+    "year": 2018,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Level-5",
+    "synopsis": "Evan Pettiwhisker Tildrum recupera su reino."
+  },
+  {
+    "title": "Yakuza: Like a Dragon",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Ichiban Kasuga emprende una nueva vida con combate por turnos."
+  }
+]

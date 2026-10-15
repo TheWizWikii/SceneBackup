@@ -1,1 +1,125 @@
-[]
+[
+  {
+    "title": "Mario's Tennis",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Tenis con Mario y efecto estereoscópico en rojo y negro.",
+    "cover": "Mario's Tennis (Japan, USA) (En).jpg",
+    "boxart": "Mario's Tennis (Japan, USA) (En)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Wario Land: Virtual Boy",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Wario recorre un mundo en dos planos de profundidad."
+  },
+  {
+    "title": "Galactic Pinball",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "Intelligent Systems",
+    "synopsis": "Pinball espacial con gráficos en profundidad.",
+    "cover": "Galactic Pinball (Japan, USA) (En).jpg",
+    "boxart": "Galactic Pinball (Japan, USA) (En)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Teleroboxer",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Boxeo de robots con perspectiva en primera persona.",
+    "cover": "Teleroboxer (Japan, USA) (En).jpg",
+    "boxart": "Teleroboxer (Japan, USA) (En)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Red Alarm",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "T&E Soft",
+    "synopsis": "Shooter 3D de naves con gráficos de vectores.",
+    "cover": "Red Alarm (USA).jpg",
+    "boxart": "Red Alarm (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Vertical Force",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Hudson Soft",
+    "synopsis": "Shooter vertical con planos de profundidad.",
+    "cover": "Vertical Force (USA).jpg",
+    "boxart": "Vertical Force (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Jack Bros.",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atlus",
+    "synopsis": "Los gemelos Jack y su aventura de acción.",
+    "cover": "Jack Bros. (USA).jpg",
+    "boxart": "Jack Bros. (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Panic Bomber",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Hudson Soft",
+    "synopsis": "Puzle de bombas con Bomberman.",
+    "cover": "Panic Bomber (USA).jpg",
+    "boxart": "Panic Bomber (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "3-D Tetris",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Versión del clásico con piezas 3D.",
+    "cover": "3-D Tetris (USA).jpg",
+    "boxart": "3-D Tetris (USA)",
+    "size": "1.0 MB"
+  }
+]

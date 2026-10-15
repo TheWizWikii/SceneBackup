@@ -1,1 +1,699 @@
-[]
+[
+  {
+    "title": "Sonic the Hedgehog",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "El erizo azul corre a toda velocidad para detener al Dr. Robotnik.",
+    "cover": "Sonic The Hedgehog (USA, Europe).jpg",
+    "boxart": "Sonic The Hedgehog (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Sonic the Hedgehog 2",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Sonic y Tails recorren mundos con la espiral y el modo versus.",
+    "cover": "Sonic The Hedgehog 2 (World).jpg",
+    "boxart": "Sonic The Hedgehog 2 (World)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Sonic the Hedgehog 3",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Sonic, Tails y Knuckles combaten al Dr. Eggman en la Isla Ángel.",
+    "cover": "Sonic The Hedgehog 3 (USA).jpg",
+    "boxart": "Sonic The Hedgehog 3 (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Sonic & Knuckles",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "El cartucho con Lock-On que completa la historia de Sonic 3.",
+    "cover": "Sonic & Knuckles (World).jpg",
+    "boxart": "Sonic & Knuckles (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Streets of Rage",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Tres ex policías limpian la ciudad de la banda del Sr. X.",
+    "cover": "Streets of Rage (World) (En,Ja).jpg",
+    "boxart": "Streets of Rage (World) (En,Ja)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Streets of Rage 2",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Secuela con más personajes y banda sonora de Yuzo Koshiro.",
+    "cover": "Streets of Rage 2 (USA).jpg",
+    "boxart": "Streets of Rage 2 (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Streets of Rage 3",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "El Dr. Zan y la bomba de Mr. X en un beat 'em up muy dinámico.",
+    "cover": "Streets of Rage 3 (USA).jpg",
+    "boxart": "Streets of Rage 3 (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Golden Axe",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Tres héroes luchan contra Death Adder en un mundo de fantasía.",
+    "cover": "Golden Axe (World).jpg",
+    "boxart": "Golden Axe (World)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Golden Axe II",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Secuela con nuevos magos y movimientos del clásico.",
+    "cover": "Golden Axe II (World).jpg",
+    "boxart": "Golden Axe II (World)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Phantasy Star IV: The End of the Millennium",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Chaz y sus compañeros salvan al sistema Algo de un mal ancestral."
+  },
+  {
+    "title": "Phantasy Star II",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Rolf lucha contra la inteligencia artificial Mother Brain.",
+    "cover": "Phantasy Star II (USA, Europe).jpg",
+    "boxart": "Phantasy Star II (USA, Europe)",
+    "size": "768 KB"
+  },
+  {
+    "title": "Shining Force",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sonic! Software Planning",
+    "synopsis": "Rol táctico con héroes de Guardiana que recorren territorios.",
+    "cover": "Shining Force (USA).jpg",
+    "boxart": "Shining Force (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Shining Force II",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sonic! Software Planning",
+    "synopsis": "Bowie y sus amigos recuperan las joyas sagradas.",
+    "cover": "Shining Force II (USA).jpg",
+    "boxart": "Shining Force II (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Gunstar Heroes",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Treasure",
+    "synopsis": "Run and gun frenético con hermanos y armas combinables.",
+    "cover": "Gunstar Heroes (USA).jpg",
+    "boxart": "Gunstar Heroes (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Ristar",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Ristar usa sus brazos estirables para recorrer planetas.",
+    "cover": "Ristar (USA, Europe).jpg",
+    "boxart": "Ristar (USA, Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Castlevania: Bloodlines",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "John Morris y Eric Lecarde se enfrentan a Drácula en la Europa de 1917.",
+    "cover": "Castlevania - Bloodlines (USA).jpg",
+    "boxart": "Castlevania - Bloodlines (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Contra: Hard Corps",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Run and gun con rutas alternativas y personajes distintos.",
+    "cover": "Contra - Hard Corps (USA, Korea) (En).jpg",
+    "boxart": "Contra - Hard Corps (USA, Korea) (En)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Alien Soldier",
+    "year": 1995,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Treasure",
+    "synopsis": "Run and gun de jefes con una dificultad extrema.",
+    "cover": "Alien Soldier (Europe).jpg",
+    "boxart": "Alien Soldier (Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Vectorman",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "BlueSky Software",
+    "synopsis": "Un robot de esferas limpia la Tierra de residuos.",
+    "cover": "Vectorman (USA, Europe).jpg",
+    "boxart": "Vectorman (USA, Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Vectorman 2",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "BlueSky Software",
+    "synopsis": "Vectorman regresa para destruir a una plaga de insectos.",
+    "cover": "Vectorman 2 (USA).jpg",
+    "boxart": "Vectorman 2 (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Comix Zone",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega Technical Institute",
+    "synopsis": "Sketch Turner combate en un cómic que cobra vida.",
+    "cover": "Comix Zone (USA).jpg",
+    "boxart": "Comix Zone (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Dynamite Headdy",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Treasure",
+    "synopsis": "Un muñeco con cabezas intercambiables se enfrenta a un ejército de marionetas.",
+    "cover": "Dynamite Headdy (USA, Europe).jpg",
+    "boxart": "Dynamite Headdy (USA, Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Earthworm Jim",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Shiny Entertainment",
+    "synopsis": "Un gusano con traje espacial se enfrenta al malvado Psy-Crow.",
+    "cover": "Earthworm Jim (USA).jpg",
+    "boxart": "Earthworm Jim (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Earthworm Jim 2",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Shiny Entertainment",
+    "synopsis": "Jim vuelve para rescatar a la princesa What's-Her-Name.",
+    "cover": "Earthworm Jim 2 (USA).jpg",
+    "boxart": "Earthworm Jim 2 (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Aladdin",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Virgin Interactive",
+    "synopsis": "Aladdin combate con su espada en el reino de Agrabah.",
+    "cover": "Aladdin (USA).jpg",
+    "boxart": "Aladdin (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Virgin Interactive",
+    "synopsis": "Simba recorre la sabana en una aventura basada en la película.",
+    "cover": "Lion King, The (World).jpg",
+    "boxart": "Lion King, The (World)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Ecco the Dolphin",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Novotrade",
+    "synopsis": "Un delfín investiga la desaparición de su manada.",
+    "cover": "Ecco the Dolphin (USA, Europe, Korea) (En).jpg",
+    "boxart": "Ecco the Dolphin (USA, Europe, Korea) (En)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Ecco: The Tides of Time",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Novotrade",
+    "synopsis": "Ecco viaja en el tiempo para salvar a los suyos.",
+    "cover": "Ecco - The Tides of Time (USA).jpg",
+    "boxart": "Ecco - The Tides of Time (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Altered Beast",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Un centurión resucitado se transforma en bestias.",
+    "cover": "Altered Beast (USA, Europe) (Rev 2).jpg",
+    "boxart": "Altered Beast (USA, Europe) (Rev 2)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Shinobi III: Return of the Ninja Master",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Joe Musashi se enfrenta a Neo Zeed.",
+    "cover": "Shinobi III - Return of the Ninja Master (USA).jpg",
+    "boxart": "Shinobi III - Return of the Ninja Master (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "The Revenge of Shinobi",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Joe Musashi busca venganza contra Neo Zeed.",
+    "cover": "Revenge of Shinobi, The (USA, Europe).jpg",
+    "boxart": "Revenge of Shinobi, The (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Strider",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Strider Hiryu se infiltra en la ciudad de Kazakh.",
+    "cover": "Strider (USA, Europe).jpg",
+    "boxart": "Strider (USA, Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Mortal Kombat II",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Probe Entertainment",
+    "synopsis": "Versión doméstica del arcade de lucha de Midway.",
+    "cover": "Mortal Kombat II (World).jpg",
+    "boxart": "Mortal Kombat II (World)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Mortal Kombat 3",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Midway",
+    "synopsis": "Los luchadores regresan en la tercera entrega.",
+    "cover": "Mortal Kombat 3 (USA).jpg",
+    "boxart": "Mortal Kombat 3 (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Street Fighter II': Special Champion Edition",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Edición con jefes controlables y duelos entre mismos personajes.",
+    "cover": "Street Fighter II' - Special Champion Edition (USA).jpg",
+    "boxart": "Street Fighter II' - Special Champion Edition (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Virtua Fighter 2",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Sega",
+    "synopsis": "Versión de Mega Drive del juego 3D de Sega.",
+    "cover": "Virtua Fighter 2 (USA, Europe).jpg",
+    "boxart": "Virtua Fighter 2 (USA, Europe)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Toejam & Earl",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Johnny Earl",
+    "synopsis": "Dos alienígenas recorren la Tierra para encontrar piezas de su nave.",
+    "cover": "ToeJam & Earl (USA, Europe, Korea) (En).jpg",
+    "boxart": "ToeJam & Earl (USA, Europe, Korea) (En)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Toejam & Earl in Panic on Funkotron",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Johnny Earl",
+    "synopsis": "Los alienígenas rescatan su planeta en un plataformas.",
+    "cover": "ToeJam & Earl in Panic on Funkotron (USA).jpg",
+    "boxart": "ToeJam & Earl in Panic on Funkotron (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Landstalker: The Treasures of King Nole",
+    "year": 1992,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Climax Entertainment",
+    "synopsis": "Nigel explora mazmorras isométricas para dar con un tesoro.",
+    "cover": "Landstalker - The Treasures of King Nole (Europe).jpg",
+    "boxart": "Landstalker - The Treasures of King Nole (Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Beyond Oasis",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ancient",
+    "synopsis": "Un príncipe usa un brazalete para derrotar al mal.",
+    "cover": "Beyond Oasis (USA).jpg",
+    "boxart": "Beyond Oasis (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Super Hang-On",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carreras de motos por el mundo.",
+    "cover": "Super Hang-On (USA) (En,Ja) (Sega Smash Pack 2).jpg",
+    "boxart": "Super Hang-On (USA) (En,Ja) (Sega Smash Pack 2)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Road Rash II",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Electronic Arts",
+    "synopsis": "Carreras de moto con golpes entre pilotos.",
+    "cover": "Road Rash II (USA, Europe).jpg",
+    "boxart": "Road Rash II (USA, Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Virtua Racing",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carreras 3D con el chip SVP.",
+    "cover": "Virtua Racing (USA).jpg",
+    "boxart": "Virtua Racing (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "NBA Jam",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Iguana Entertainment",
+    "synopsis": "Baloncesto 2 contra 2 con mates imposibles.",
+    "cover": "NBA Jam (USA, Europe).jpg",
+    "boxart": "NBA Jam (USA, Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Sonic Spinball",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "Sega Technical Institute",
+    "synopsis": "Sonic como bola en mesas de pinball.",
+    "cover": "Sonic Spinball (USA).jpg",
+    "boxart": "Sonic Spinball (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Kid Chameleon",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Un chico con máscaras se adentra en un videojuego peligroso.",
+    "cover": "Kid Chameleon (USA, Europe).jpg",
+    "boxart": "Kid Chameleon (USA, Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Flashback",
+    "year": 1993,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Delphine Software",
+    "synopsis": "Conrad recupera su memoria en un futuro distópico.",
+    "cover": "Flashback (Europe) (En,Fr).jpg",
+    "boxart": "Flashback (Europe) (En,Fr)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Herzog Zwei",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Technosoft",
+    "synopsis": "Un robot transformable lidera tropas en una guerra en tiempo real.",
+    "cover": "Herzog Zwei (USA, Europe).jpg",
+    "boxart": "Herzog Zwei (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Columns",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sega",
+    "synopsis": "Alinea gemas de colores en columnas descendentes.",
+    "cover": "Columns (USA, Europe).jpg",
+    "boxart": "Columns (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Mega Man: The Wily Wars",
+    "year": 1994,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Remake de tres clásicos de Mega Man en 16 bits.",
+    "cover": "Mega Man - The Wily Wars (Europe).jpg",
+    "boxart": "Mega Man - The Wily Wars (Europe)",
+    "size": "2.0 MB"
+  }
+]

@@ -1,1 +1,470 @@
-[]
+[
+  {
+    "title": "Super Mario 3D World",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Mario y sus amigos persiguen a Bowser en un plataformas 3D cooperativo."
+  },
+  {
+    "title": "Super Mario Maker",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Crea y comparte niveles de Mario con la tablet del GamePad."
+  },
+  {
+    "title": "Mario Kart 8",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Kart antigravedad con tramos 3D en circuitos en el cielo."
+  },
+  {
+    "title": "Super Smash Bros. for Wii U",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Bandai Namco",
+    "synopsis": "Smash con ocho jugadores, personajes de otras compañías y escenarios nuevos."
+  },
+  {
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link despierta en un Hyrule abierto en el que todo es explorable."
+  },
+  {
+    "title": "The Legend of Zelda: The Wind Waker HD",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "El clásico de GameCube en alta definición."
+  },
+  {
+    "title": "The Legend of Zelda: Twilight Princess HD",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Remasterización con amiibo y modo difícil."
+  },
+  {
+    "title": "Splatoon",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Nintendo",
+    "synopsis": "Equipos de Inklings cubren el escenario con tinta."
+  },
+  {
+    "title": "Xenoblade Chronicles X",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Monolith Soft",
+    "synopsis": "Exploración de un planeta abierto con enormes mechas."
+  },
+  {
+    "title": "Bayonetta 2",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Bayonetta regresa para combatir contra ángeles y demonios."
+  },
+  {
+    "title": "Bayonetta",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Versión de Wii U con recreación del original."
+  },
+  {
+    "title": "The Wonderful 101",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Cientos de héroes se unen en una masa para vencer a invasores."
+  },
+  {
+    "title": "Pikmin 3",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nintendo",
+    "synopsis": "Tres exploradores buscan comida en el planeta PNF-404."
+  },
+  {
+    "title": "Donkey Kong Country: Tropical Freeze",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Retro Studios",
+    "synopsis": "Donkey Kong y su familia recuperan su isla del hielo vikingo."
+  },
+  {
+    "title": "Yoshi's Woolly World",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Good-Feel",
+    "synopsis": "Yoshi recorre un mundo de lana con su amigo."
+  },
+  {
+    "title": "Kirby and the Rainbow Curse",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby, convertido en arcilla, rueda por rampas de arcoíris."
+  },
+  {
+    "title": "Captain Toad: Treasure Tracker",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Captain Toad busca estrellas por mundos de diorama."
+  },
+  {
+    "title": "Star Fox Zero",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Nintendo",
+    "synopsis": "Fox y el equipo regresan con controles de doble pantalla."
+  },
+  {
+    "title": "Paper Mario: Color Splash",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Intelligent Systems",
+    "synopsis": "Mario recupera el color de Prisma Island."
+  },
+  {
+    "title": "Mario Party 10",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "NDcube",
+    "synopsis": "La fiesta de Mario con el amiibo y vehículos."
+  },
+  {
+    "title": "Mario Tennis: Ultra Smash",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Camelot",
+    "synopsis": "Tenis arcade con el sistema Mega Mushroom."
+  },
+  {
+    "title": "Fire Emblem Warriors",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Omega Force",
+    "synopsis": "Los héroes de Fire Emblem combaten en estilo Musou."
+  },
+  {
+    "title": "Hyrule Warriors",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Omega Force",
+    "synopsis": "Los personajes de Zelda se enfrentan a ejércitos enteros."
+  },
+  {
+    "title": "Tokyo Mirage Sessions #FE",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Atlus",
+    "synopsis": "Idols combaten con espíritus de Fire Emblem."
+  },
+  {
+    "title": "Mario & Sonic at the Rio 2016 Olympic Games",
+    "year": 2016,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Sega",
+    "synopsis": "Los héroes compiten en los juegos olímpicos."
+  },
+  {
+    "title": "Wii Party U",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Nintendo",
+    "synopsis": "Minijuegos y tableros con el mando de Wii."
+  },
+  {
+    "title": "NES Remix",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Retos rápidos con clásicos de NES."
+  },
+  {
+    "title": "New Super Mario Bros. U",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Plataformas 2D con cooperativo y mundos conectados."
+  },
+  {
+    "title": "New Super Luigi U",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Misma campaña con Luigi y tiempo limitado."
+  },
+  {
+    "title": "Splatoon 2",
+    "year": 2017,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Nintendo",
+    "synopsis": "Secuela del shooter de tinta con modos nuevos."
+  },
+  {
+    "title": "Lego City Undercover",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "TT Games",
+    "synopsis": "Un policía de ladrillos en una ciudad de mundo abierto."
+  },
+  {
+    "title": "Rayman Legends",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ubisoft Montpellier",
+    "synopsis": "Rayman, Globox y los pequeños recorren mundos con ritmo."
+  },
+  {
+    "title": "Child of Light",
+    "year": 2014,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Ubisoft Montreal",
+    "synopsis": "Aurora recorre un cuento de hadas en un RPG por turnos."
+  },
+  {
+    "title": "Shovel Knight",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Yacht Club Games",
+    "synopsis": "Plataformas de ocho bits con una pala como arma."
+  },
+  {
+    "title": "Game & Wario",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Nintendo",
+    "synopsis": "Minijuegos que aprovechan la tablet del GamePad."
+  },
+  {
+    "title": "Nintendo Land",
+    "year": 2012,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Nintendo",
+    "synopsis": "Parque temático de minijuegos de franquicias de Nintendo."
+  },
+  {
+    "title": "Affordable Space Adventures",
+    "year": 2013,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nifflas",
+    "synopsis": "Pilota una nave con la tablet en cooperación."
+  },
+  {
+    "title": "Runbow",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "13AM Games",
+    "synopsis": "Carreras de plataformas en un mundo de colores cambiantes."
+  },
+  {
+    "title": "Mario vs. Donkey Kong: Tipping Stars",
+    "year": 2015,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Crea niveles de puzle con minis."
+  }
+]

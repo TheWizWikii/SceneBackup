@@ -1,1 +1,149 @@
-[]
+[
+  {
+    "title": "Final Fantasy",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Remake del primer Final Fantasy para WonderSwan."
+  },
+  {
+    "title": "Final Fantasy II",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Remake del segundo FF."
+  },
+  {
+    "title": "Guilty Gear Petit",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Bandai",
+    "synopsis": "Versión portátil de Guilty Gear."
+  },
+  {
+    "title": "Klonoa: Moonlight Museum",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Namco",
+    "synopsis": "Klonoa en portátil."
+  },
+  {
+    "title": "Gunpey",
+    "year": 1999,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Bandai",
+    "synopsis": "Puzle de Gunpey.",
+    "cover": "GunPey (Japan).jpg",
+    "boxart": "GunPey (Japan)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Mr. Driller",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Namco",
+    "synopsis": "Excava bloques."
+  },
+  {
+    "title": "Rockman & Forte: Mirai Kara no Chousensha",
+    "year": 2002,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Megaman Forte.",
+    "cover": "Rockman & Forte - Mirai Kara no Chousensha (Japan).jpg",
+    "boxart": "Rockman & Forte - Mirai Kara no Chousensha (Japan)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Densha de Go!",
+    "year": 1999,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Taito",
+    "synopsis": "Conduce trenes.",
+    "cover": "Densha de Go! (Japan) (Rev 1).jpg",
+    "boxart": "Densha de Go! (Japan) (Rev 1)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Digimon Tamers: Digimon Medley",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bandai",
+    "synopsis": "Digimon."
+  },
+  {
+    "title": "Super Robot Taisen Compact",
+    "year": 1999,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Banpresto",
+    "synopsis": "Estrategia mecha.",
+    "cover": "Super Robot Taisen Compact (Japan).jpg",
+    "boxart": "Super Robot Taisen Compact (Japan)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Tetris",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Bandai",
+    "synopsis": "Tetris para WonderSwan."
+  },
+  {
+    "title": "Pocket Fighter",
+    "year": 1999,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha chibi.",
+    "cover": "Pocket Fighter (Japan).jpg",
+    "boxart": "Pocket Fighter (Japan)",
+    "size": "2.0 MB"
+  }
+]

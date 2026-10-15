@@ -1,1 +1,178 @@
-[]
+[
+  {
+    "title": "Sonic CD",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Sonic viaja en el tiempo para detener a Robotnik y salvar a Amy.",
+    "cover": "Sonic CD (USA) (RE125).jpg",
+    "boxart": "Sonic CD (USA) (RE125)",
+    "size": "132.9 MB"
+  },
+  {
+    "title": "Lunar: The Silver Star",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Arts",
+    "synopsis": "Alex y sus amigos buscan la aventura que les lleva a convertirse en héroes.",
+    "cover": "Lunar - The Silver Star (USA).jpg",
+    "boxart": "Lunar - The Silver Star (USA)",
+    "size": "12.2 MB"
+  },
+  {
+    "title": "Lunar 2: Eternal Blue",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Arts",
+    "synopsis": "Hiro y Lucia se enfrentan a un destino épico."
+  },
+  {
+    "title": "Snatcher",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Konami",
+    "synopsis": "Un cazador de androides investiga una conspiración en Neo Kobe.",
+    "cover": "Snatcher (USA).jpg",
+    "boxart": "Snatcher (USA)",
+    "size": "125.6 MB"
+  },
+  {
+    "title": "Popful Mail",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Falcom",
+    "synopsis": "Una cazarrecompensas elfa y sus amigos se aventuran en un mundo de fantasía.",
+    "cover": "Popful Mail (USA).jpg",
+    "boxart": "Popful Mail (USA)",
+    "size": "401.6 MB"
+  },
+  {
+    "title": "Shining Force CD",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sonic! Software Planning",
+    "synopsis": "Estrategia táctica con escenarios de la saga Shining Force.",
+    "cover": "Shining Force CD (USA) (5R, 6R).jpg",
+    "boxart": "Shining Force CD (USA) (5R, 6R)",
+    "size": "65.5 MB"
+  },
+  {
+    "title": "Silpheed",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Game Arts",
+    "synopsis": "Shooter espacial con fondos en 3D.",
+    "cover": "Silpheed (USA).jpg",
+    "boxart": "Silpheed (USA)",
+    "size": "352.1 MB"
+  },
+  {
+    "title": "Final Fight CD",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Capcom",
+    "synopsis": "Cody, Guy y Haggar combaten en una versión completa del arcade.",
+    "cover": "Final Fight CD (USA).jpg",
+    "boxart": "Final Fight CD (USA)",
+    "size": "26.9 MB"
+  },
+  {
+    "title": "Ecco the Dolphin",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Sega",
+    "synopsis": "Versión mejorada de la aventura de Ecco con música CD.",
+    "cover": "Ecco the Dolphin (USA).jpg",
+    "boxart": "Ecco the Dolphin (USA)",
+    "size": "56.9 MB"
+  },
+  {
+    "title": "Night Trap",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Digital Pictures",
+    "synopsis": "Controla cámaras para proteger a las chicas de unos vampiros.",
+    "cover": "Night Trap (USA) (Disc 1).jpg",
+    "boxart": "Night Trap (USA) (Disc 1)",
+    "size": "588.4 MB"
+  },
+  {
+    "title": "Keio Flying Squadron",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Telenet Japan",
+    "synopsis": "Una joven monta un dragón en un shooter de colores.",
+    "cover": "Keio Flying Squadron (USA).jpg",
+    "boxart": "Keio Flying Squadron (USA)",
+    "size": "74.2 MB"
+  },
+  {
+    "title": "Eternal Champions CD",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Sega",
+    "synopsis": "Lucha con combatientes de distintas épocas."
+  },
+  {
+    "title": "Thunderhawk",
+    "year": 1994,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Core Design",
+    "synopsis": "Pilota un helicóptero de combate en misiones por el mundo.",
+    "cover": "Thunderhawk (Japan).jpg",
+    "boxart": "Thunderhawk (Japan)",
+    "size": "99.7 MB"
+  }
+]

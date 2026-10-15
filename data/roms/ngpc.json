@@ -1,1 +1,166 @@
-[]
+[
+  {
+    "title": "Sonic the Hedgehog Pocket Adventure",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "SNK",
+    "synopsis": "Sonic corre por zonas clásicas en color.",
+    "cover": "Sonic The Hedgehog - Pocket Adventure (World) (En,Ja).jpg",
+    "boxart": "Sonic The Hedgehog - Pocket Adventure (World) (En,Ja)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "King of Fighters R-2",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "KOF portátil con color y más personajes."
+  },
+  {
+    "title": "Samurai Shodown! 2",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Segunda parte portátil de Samurai Shodown."
+  },
+  {
+    "title": "Metal Slug: 2nd Mission",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Continuación de Metal Slug portátil.",
+    "cover": "Metal Slug - 2nd Mission (World) (En,Ja).jpg",
+    "boxart": "Metal Slug - 2nd Mission (World) (En,Ja)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Card Fighters' Clash",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Cartas",
+    "developer": "SNK",
+    "synopsis": "Juego de cartas con personajes de SNK y Capcom."
+  },
+  {
+    "title": "Card Fighters' Clash 2",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Cartas",
+    "developer": "SNK",
+    "synopsis": "Segunda parte de Card Fighters' Clash."
+  },
+  {
+    "title": "Faselei!",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "SNK",
+    "synopsis": "Estrategia por turnos con robots.",
+    "cover": "Faselei! (USA, Europe).jpg",
+    "boxart": "Faselei! (USA, Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Pocket Tennis Color",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Yumekobo",
+    "synopsis": "Tenis portátil en color."
+  },
+  {
+    "title": "Dive Alert: Becky's Version",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "SNK",
+    "synopsis": "Aventura submarina de rescate.",
+    "cover": "Dive Alert - Becky's Version (USA, Europe).jpg",
+    "boxart": "Dive Alert - Becky's Version (USA, Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Dive Alert: Matt's Version",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "SNK",
+    "synopsis": "Versión alternativa de Dive Alert.",
+    "cover": "Dive Alert - Matt's Version (USA, Europe).jpg",
+    "boxart": "Dive Alert - Matt's Version (USA, Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Biomotor Unitron",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Yumekobo",
+    "synopsis": "RPG de criaturas con combates.",
+    "cover": "Biomotor Unitron (USA, Europe).jpg",
+    "boxart": "Biomotor Unitron (USA, Europe)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Big Bang Pro Wrestling",
+    "year": 1999,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "SNK",
+    "synopsis": "Lucha libre con luchadores.",
+    "cover": "Big Bang Pro Wrestling (Japan) (En,Ja).jpg",
+    "boxart": "Big Bang Pro Wrestling (Japan) (En,Ja)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Fatal Fury: First Contact",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Fatal Fury en la portátil de SNK."
+  }
+]

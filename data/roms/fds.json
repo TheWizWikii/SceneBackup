@@ -1,1 +1,330 @@
-[]
+[
+  {
+    "title": "The Legend of Zelda",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "La primera aventura de Link, con guardado en disquete y sonido mejorado."
+  },
+  {
+    "title": "Zelda no Densetsu 2: Link no Bouken",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "La secuela de Zelda con un enfoque más RPG en el Famicom Disk System."
+  },
+  {
+    "title": "Metroid",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Samus Aran explora el planeta Zebes en busca de los Metroid.",
+    "cover": "Metroid (Japan) (Rev 1).jpg",
+    "boxart": "Metroid (Japan) (Rev 1)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Kid Icarus",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Nintendo",
+    "synopsis": "Pit debe escapar del inframundo y derrotar a Medusa."
+  },
+  {
+    "title": "Super Mario Bros. 2",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "La secuela japonesa con más dificultad que el original.",
+    "cover": "Super Mario Bros. 2 (Japan) (En).jpg",
+    "boxart": "Super Mario Bros. 2 (Japan) (En)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Doki Doki Panic",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "El juego que se convertiría en Super Mario Bros. 2 fuera de Japón."
+  },
+  {
+    "title": "Castlevania",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Simon Belmont entra en el castillo de Drácula."
+  },
+  {
+    "title": "Akumajō Dracula",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "La versión del disquete del Castlevania original con sonido propio."
+  },
+  {
+    "title": "Bubble Bobble",
+    "year": 1987,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Taito",
+    "synopsis": "Dos dragones atrapan enemigos en burbujas.",
+    "cover": "Bubble Bobble (Japan).jpg",
+    "boxart": "Bubble Bobble (Japan)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Gradius",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Konami",
+    "synopsis": "El shooter de naves en el que eliges tu equipo."
+  },
+  {
+    "title": "Dig Dug II",
+    "year": 1987,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Namco",
+    "synopsis": "Aplasta a los monstruos con una estaca para derrotarlos.",
+    "cover": "Dig Dug II (Japan) (Disk Writer).jpg",
+    "boxart": "Dig Dug II (Japan) (Disk Writer)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Golf: Japan Course",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Golf en Japón con cuatro hoyos para jugar.",
+    "cover": "Golf - Japan Course (Japan).jpg",
+    "boxart": "Golf - Japan Course (Japan)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Golf: US Course",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Golf en los Estados Unidos con campos distintos.",
+    "cover": "Golf - US Course (Japan).jpg",
+    "boxart": "Golf - US Course (Japan)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Famicom Mukashibanashi: Shin Onigashima",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Una aventura basada en cuentos populares japoneses."
+  },
+  {
+    "title": "Ice Hockey",
+    "year": 1988,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Hockey sobre hielo con equipos nacionales.",
+    "cover": "Ice Hockey (Japan).jpg",
+    "boxart": "Ice Hockey (Japan)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Baseball",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Béisbol con control sencillo.",
+    "cover": "Baseball (Japan).jpg",
+    "boxart": "Baseball (Japan)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Pro Wrestling",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Lucha libre con seis luchadores."
+  },
+  {
+    "title": "Tennis",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Tenis en el que juegan Mario como árbitro.",
+    "cover": "Tennis (Japan).jpg",
+    "boxart": "Tennis (Japan)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Excitebike",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Motocross con editor de pistas."
+  },
+  {
+    "title": "Soccer",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Fútbol a siete con un control sencillo.",
+    "cover": "Soccer (Japan) (En).jpg",
+    "boxart": "Soccer (Japan) (En)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Pinball",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "Nintendo",
+    "synopsis": "Pinball con mesas inspiradas en el arcade.",
+    "cover": "Pinball (Japan) (Disk Writer).jpg",
+    "boxart": "Pinball (Japan) (Disk Writer)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Balloon Fight",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Flota con globos para vencer a los rivales.",
+    "cover": "Balloon Fight (Japan) (En) (Proto).jpg",
+    "boxart": "Balloon Fight (Japan) (En) (Proto)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Clu Clu Land",
+    "year": 1984,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Atrapa los lingotes en un laberinto circular.",
+    "cover": "Clu Clu Land (Japan) (En) (Disk Writer).jpg",
+    "boxart": "Clu Clu Land (Japan) (En) (Disk Writer)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Donkey Kong Jr. Math",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Educativo",
+    "developer": "Nintendo",
+    "synopsis": "Juego educativo con operaciones matemáticas."
+  },
+  {
+    "title": "Popeye",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Popeye recoge corazones de Olivia mientras esquiva a Brutus."
+  },
+  {
+    "title": "Wrecking Crew",
+    "year": 1985,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Mario destruye muros en un puzle de plataformas.",
+    "cover": "Wrecking Crew (Japan) (Disk Writer).jpg",
+    "boxart": "Wrecking Crew (Japan) (Disk Writer)",
+    "size": "64 KB"
+  }
+]

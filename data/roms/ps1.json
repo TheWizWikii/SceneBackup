@@ -1,1 +1,587 @@
-[]
+[
+  {
+    "title": "Final Fantasy VII",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Cloud y AVALANCHE se enfrentan a Shinra y Sephiroth en Midgar y más allá.",
+    "cover": "Final Fantasy VII (USA) (Interactive Sampler CD).jpg",
+    "boxart": "Final Fantasy VII (USA) (Interactive Sampler CD)",
+    "size": "188.8 MB"
+  },
+  {
+    "title": "Final Fantasy VIII",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Squall y los SeeD luchan contra la bruja Ultimecia.",
+    "cover": "Final Fantasy VIII (USA) (Disc 1).jpg",
+    "boxart": "Final Fantasy VIII (USA) (Disc 1)",
+    "size": "698.3 MB"
+  },
+  {
+    "title": "Final Fantasy IX",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Zidane y sus compañeros en un homenaje a la saga clásica.",
+    "cover": "Final Fantasy IX (USA, Canada) (Disc 1).jpg",
+    "boxart": "Final Fantasy IX (USA, Canada) (Disc 1)",
+    "size": "706.4 MB"
+  },
+  {
+    "title": "Final Fantasy Tactics",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Square",
+    "synopsis": "Ramza se ve envuelto en una guerra con política y traiciones.",
+    "cover": "Final Fantasy Tactics (USA).jpg",
+    "boxart": "Final Fantasy Tactics (USA)",
+    "size": "516.2 MB"
+  },
+  {
+    "title": "Chrono Cross",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Serge viaja entre dimensiones para descubrir su destino.",
+    "cover": "Chrono Cross (USA, Canada) (Disc 1).jpg",
+    "boxart": "Chrono Cross (USA, Canada) (Disc 1)",
+    "size": "702.5 MB"
+  },
+  {
+    "title": "Metal Gear Solid",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Solid Snake se infiltra en Shadow Moses para detener a Foxhound.",
+    "cover": "Metal Gear Solid (USA) (Disc 1).jpg",
+    "boxart": "Metal Gear Solid (USA) (Disc 1)",
+    "size": "672.9 MB"
+  },
+  {
+    "title": "Resident Evil",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "STARS investiga una mansión llena de horrores.",
+    "cover": "Resident Evil (USA).jpg",
+    "boxart": "Resident Evil (USA)",
+    "size": "648.9 MB"
+  },
+  {
+    "title": "Resident Evil 2",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Leon y Claire sobreviven a una Raccoon City infestada.",
+    "cover": "Resident Evil 2 (USA) (Disc 1).jpg",
+    "boxart": "Resident Evil 2 (USA) (Disc 1)",
+    "size": "590.8 MB"
+  },
+  {
+    "title": "Resident Evil 3: Nemesis",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Jill Valentine es perseguida por el Nemesis.",
+    "cover": "Resident Evil 3 - Nemesis (USA, Canada).jpg",
+    "boxart": "Resident Evil 3 - Nemesis (USA, Canada)",
+    "size": "688.7 MB"
+  },
+  {
+    "title": "Silent Hill",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Konami",
+    "synopsis": "Harry Mason busca a su hija en un pueblo cubierto de niebla.",
+    "cover": "Silent Hill (USA).jpg",
+    "boxart": "Silent Hill (USA)",
+    "size": "587.9 MB"
+  },
+  {
+    "title": "Castlevania: Symphony of the Night",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Alucard explora el castillo de su padre Drácula.",
+    "cover": "Castlevania - Symphony of the Night (USA).jpg",
+    "boxart": "Castlevania - Symphony of the Night (USA)",
+    "size": "513.7 MB"
+  },
+  {
+    "title": "Crash Bandicoot",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Naughty Dog",
+    "synopsis": "Crash se enfrenta al Dr. Neo Cortex en una isla tropical.",
+    "cover": "Crash Bandicoot (USA).jpg",
+    "boxart": "Crash Bandicoot (USA)",
+    "size": "602.8 MB"
+  },
+  {
+    "title": "Crash Bandicoot 2: Cortex Strikes Back",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Naughty Dog",
+    "synopsis": "Crash recoge cristales para detener a Cortex.",
+    "cover": "Crash Bandicoot 2 - Cortex Strikes Back (USA).jpg",
+    "boxart": "Crash Bandicoot 2 - Cortex Strikes Back (USA)",
+    "size": "183.9 MB"
+  },
+  {
+    "title": "Crash Bandicoot: Warped",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Naughty Dog",
+    "synopsis": "Crash viaja en el tiempo para frenar a Uka Uka.",
+    "cover": "Crash Bandicoot - Warped (USA).jpg",
+    "boxart": "Crash Bandicoot - Warped (USA)",
+    "size": "271.9 MB"
+  },
+  {
+    "title": "Spyro the Dragon",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Insomniac Games",
+    "synopsis": "Un dragón púrpura rescata a sus congéneres.",
+    "cover": "Spyro the Dragon (USA).jpg",
+    "boxart": "Spyro the Dragon (USA)",
+    "size": "630.9 MB"
+  },
+  {
+    "title": "Spyro 2: Ripto's Rage!",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Insomniac Games",
+    "synopsis": "Spyro viaja a Avalar para derrotar a Ripto.",
+    "cover": "Spyro 2 - Ripto's Rage! (USA).jpg",
+    "boxart": "Spyro 2 - Ripto's Rage! (USA)",
+    "size": "539.2 MB"
+  },
+  {
+    "title": "Gran Turismo",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Polyphony Digital",
+    "synopsis": "Simulador de conducción con cientos de coches.",
+    "cover": "Gran Turismo (USA).jpg",
+    "boxart": "Gran Turismo (USA)",
+    "size": "661.5 MB"
+  },
+  {
+    "title": "Gran Turismo 2",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Polyphony Digital",
+    "synopsis": "Más coches y circuitos en la secuela del simulador.",
+    "cover": "Gran Turismo 2 (USA) (Arcade Mode).jpg",
+    "boxart": "Gran Turismo 2 (USA) (Arcade Mode)",
+    "size": "695.6 MB"
+  },
+  {
+    "title": "Tekken 3",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Lucha 3D con Jin Kazama y una de las plantillas más queridas.",
+    "cover": "Tekken 3 (USA).jpg",
+    "boxart": "Tekken 3 (USA)",
+    "size": "603.2 MB"
+  },
+  {
+    "title": "Tekken 2",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Lucha con nuevos personajes y fondos mejores.",
+    "cover": "Tekken 2 (USA).jpg",
+    "boxart": "Tekken 2 (USA)",
+    "size": "684.7 MB"
+  },
+  {
+    "title": "Street Fighter Alpha 3",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha con la plantilla más amplia de la saga Alpha.",
+    "cover": "Street Fighter Alpha 3 (USA).jpg",
+    "boxart": "Street Fighter Alpha 3 (USA)",
+    "size": "461.7 MB"
+  },
+  {
+    "title": "Soul Blade",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Combates con armas en 3D y un modo de misión.",
+    "cover": "Soul Blade (USA).jpg",
+    "boxart": "Soul Blade (USA)",
+    "size": "477.2 MB"
+  },
+  {
+    "title": "Tomb Raider",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Core Design",
+    "synopsis": "Lara Croft explora tumbas en busca del Scion.",
+    "cover": "Tomb Raider (USA).jpg",
+    "boxart": "Tomb Raider (USA)",
+    "size": "279.7 MB"
+  },
+  {
+    "title": "Tomb Raider II",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Core Design",
+    "synopsis": "Lara busca la daga de Xian en China."
+  },
+  {
+    "title": "Tony Hawk's Pro Skater 2",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Neversoft",
+    "synopsis": "Skateboard con trucos y objetivos.",
+    "cover": "Tony Hawk's Pro Skater 2 (USA).jpg",
+    "boxart": "Tony Hawk's Pro Skater 2 (USA)",
+    "size": "713.4 MB"
+  },
+  {
+    "title": "Vagrant Story",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Ashley Riot persigue a un culto en la ciudad de Lea Monde.",
+    "cover": "Vagrant Story (USA).jpg",
+    "boxart": "Vagrant Story (USA)",
+    "size": "715.9 MB"
+  },
+  {
+    "title": "Xenogears",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Fei y sus aliados pilotan Gears en una historia filosófica.",
+    "cover": "Xenogears (USA) (Disc 1).jpg",
+    "boxart": "Xenogears (USA) (Disc 1)",
+    "size": "685.4 MB"
+  },
+  {
+    "title": "Suikoden II",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Konami",
+    "synopsis": "Un joven soldado reúne a 108 estrellas del destino.",
+    "cover": "Suikoden II (USA).jpg",
+    "boxart": "Suikoden II (USA)",
+    "size": "490.1 MB"
+  },
+  {
+    "title": "Legend of Dragoon",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sony",
+    "synopsis": "Dart busca venganza en un mundo de dragones.",
+    "cover": "Legend of Dragoon, The (USA, Canada) (Disc 1).jpg",
+    "boxart": "Legend of Dragoon, The (USA, Canada) (Disc 1)",
+    "size": "462.5 MB"
+  },
+  {
+    "title": "Parasite Eve",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Aya Brea investiga una amenaza mitocondrial en Nueva York.",
+    "cover": "Parasite Eve (USA) (Disc 1).jpg",
+    "boxart": "Parasite Eve (USA) (Disc 1)",
+    "size": "472.6 MB"
+  },
+  {
+    "title": "Dino Crisis",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Regina se enfrenta a dinosaurios en una instalación secreta.",
+    "cover": "Dino Crisis (USA).jpg",
+    "boxart": "Dino Crisis (USA)",
+    "size": "362.4 MB"
+  },
+  {
+    "title": "Alundra",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Matrix Software",
+    "synopsis": "Alundra viaja a sueños de aldeanos.",
+    "cover": "Alundra (USA).jpg",
+    "boxart": "Alundra (USA)",
+    "size": "572.5 MB"
+  },
+  {
+    "title": "Vib-Ribbon",
+    "year": 1999,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "NanaOn-Sha",
+    "synopsis": "Una conejita recorre un camino lineal al ritmo de tu música.",
+    "cover": "Vib-Ribbon (Japan, Asia).jpg",
+    "boxart": "Vib-Ribbon (Japan, Asia)",
+    "size": "7.7 MB"
+  },
+  {
+    "title": "Driver",
+    "year": 1999,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Reflections Interactive",
+    "synopsis": "Un policía infiltrado conduce coches de huida.",
+    "cover": "Driver (Europe).jpg",
+    "boxart": "Driver (Europe)",
+    "size": "712.9 MB"
+  },
+  {
+    "title": "Wipeout 2097",
+    "year": 1996,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Psygnosis",
+    "synopsis": "Carreras futuristas con armas.",
+    "cover": "Wipeout 2097 (Europe).jpg",
+    "boxart": "Wipeout 2097 (Europe)",
+    "size": "82.3 MB"
+  },
+  {
+    "title": "Twisted Metal 2",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "SingleTrac",
+    "synopsis": "Combates de coches con armas.",
+    "cover": "Twisted Metal 2 (USA).jpg",
+    "boxart": "Twisted Metal 2 (USA)",
+    "size": "398.8 MB"
+  },
+  {
+    "title": "Ape Escape",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "SCE Japan",
+    "synopsis": "Atrapa a monos con un gadget del Dual Shock.",
+    "cover": "Ape Escape (USA).jpg",
+    "boxart": "Ape Escape (USA)",
+    "size": "412.2 MB"
+  },
+  {
+    "title": "Dance Dance Revolution",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Konami",
+    "synopsis": "Baila sobre la alfombra al ritmo.",
+    "cover": "Dance Dance Revolution (USA).jpg",
+    "boxart": "Dance Dance Revolution (USA)",
+    "size": "320.1 MB"
+  },
+  {
+    "title": "PaRappa the Rapper",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "NanaOn-Sha",
+    "synopsis": "Un perro rapero sigue el ritmo.",
+    "cover": "PaRappa the Rapper (USA) (En,Fr,De,Es,It).jpg",
+    "boxart": "PaRappa the Rapper (USA) (En,Fr,De,Es,It)",
+    "size": "694.0 MB"
+  },
+  {
+    "title": "Mega Man X4",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "X y Zero se enfrentan a los Repliforce.",
+    "cover": "Mega Man X4 (USA).jpg",
+    "boxart": "Mega Man X4 (USA)",
+    "size": "564.8 MB"
+  },
+  {
+    "title": "Mega Man Legends",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Capcom",
+    "synopsis": "Mega Man Volnutt explora ruinas.",
+    "cover": "Mega Man Legends (USA).jpg",
+    "boxart": "Mega Man Legends (USA)",
+    "size": "464.6 MB"
+  },
+  {
+    "title": "Klonoa: Door to Phantomile",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Namco",
+    "synopsis": "Klonoa y Huepow recorren mundos en 2.5D.",
+    "cover": "Klonoa - Door to Phantomile (USA).jpg",
+    "boxart": "Klonoa - Door to Phantomile (USA)",
+    "size": "702.1 MB"
+  }
+]

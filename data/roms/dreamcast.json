@@ -1,1 +1,444 @@
-[]
+[
+  {
+    "title": "Shenmue",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Sega AM2",
+    "synopsis": "Ryo Hazuki busca al asesino de su padre en el Yokosuka de 1986.",
+    "cover": "Shenmue (USA) (Shenmue Passport).jpg",
+    "boxart": "Shenmue (USA) (Shenmue Passport)",
+    "size": "1015.4 MB"
+  },
+  {
+    "title": "Shenmue II",
+    "year": 2001,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Sega AM2",
+    "synopsis": "Ryo viaja a Hong Kong para continuar su venganza.",
+    "cover": "Shenmue II (Japan) (Disc 1).jpg",
+    "boxart": "Shenmue II (Japan) (Disc 1)",
+    "size": "983.3 MB"
+  },
+  {
+    "title": "Sonic Adventure",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Sonic y sus amigos en un 3D con la aventura de Chaos.",
+    "cover": "Sonic Adventure (USA) (En,Ja,Fr,De,Es).jpg",
+    "boxart": "Sonic Adventure (USA) (En,Ja,Fr,De,Es)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Sonic Adventure 2",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Héroes y villanos con Sonic y Shadow en una historia de dos caras.",
+    "cover": "Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es).jpg",
+    "boxart": "Sonic Adventure 2 (USA) (En,Ja,Fr,De,Es)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Jet Set Radio",
+    "year": 2000,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Smilebit",
+    "synopsis": "Bandas de patinadores graffiteros recorren Tokyo-to.",
+    "cover": "Jet Set Radio (Japan).jpg",
+    "boxart": "Jet Set Radio (Japan)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Crazy Taxi",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Hitmaker",
+    "synopsis": "Conduce un taxi de forma alocada por una ciudad.",
+    "cover": "Crazy Taxi (USA) (En,Ja).jpg",
+    "boxart": "Crazy Taxi (USA) (En,Ja)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Crazy Taxi 2",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Hitmaker",
+    "synopsis": "Secuela en Nueva York con saltos.",
+    "cover": "Crazy Taxi 2 (USA).jpg",
+    "boxart": "Crazy Taxi 2 (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Skies of Arcadia",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Overworks",
+    "synopsis": "Piratas aéreos de islas flotantes.",
+    "cover": "Skies of Arcadia (USA) (Disc 1).jpg",
+    "boxart": "Skies of Arcadia (USA) (Disc 1)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Phantasy Star Online",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sonic Team",
+    "synopsis": "El primer RPG online de consola con cazadores de Ragol.",
+    "cover": "Phantasy Star Online (USA) (En,Ja,Fr,De,Es).jpg",
+    "boxart": "Phantasy Star Online (USA) (En,Ja,Fr,De,Es)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Power Stone",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Combates libres en 3D con objetos y transformaciones.",
+    "cover": "Power Stone (USA).jpg",
+    "boxart": "Power Stone (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Power Stone 2",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Secuela con cuatro jugadores y escenarios interactivos.",
+    "cover": "Power Stone 2 (USA).jpg",
+    "boxart": "Power Stone 2 (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Soulcalibur",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Namco",
+    "synopsis": "Lucha con armas con gráficos 3D de última generación.",
+    "cover": "Soulcalibur (USA).jpg",
+    "boxart": "Soulcalibur (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Marvel vs. Capcom 2",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Combates de tres contra tres con cincuenta y seis personajes.",
+    "cover": "Marvel vs. Capcom 2 (USA).jpg",
+    "boxart": "Marvel vs. Capcom 2 (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Street Fighter III: 3rd Strike",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha con parry y personajes carismáticos.",
+    "cover": "Street Fighter III - 3rd Strike (USA).jpg",
+    "boxart": "Street Fighter III - 3rd Strike (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Dead or Alive 2",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Team Ninja",
+    "synopsis": "Lucha con entornos interactivos y combos de gran rapidez.",
+    "cover": "Dead or Alive 2 (USA).jpg",
+    "boxart": "Dead or Alive 2 (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Virtua Tennis",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Hitmaker",
+    "synopsis": "Tenis arcade con un control accesible.",
+    "cover": "Virtua Tennis (USA).jpg",
+    "boxart": "Virtua Tennis (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Space Channel 5",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "United Game Artists",
+    "synopsis": "Ulala baila al ritmo contra invasores alienígenas.",
+    "cover": "Space Channel 5 (USA).jpg",
+    "boxart": "Space Channel 5 (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Space Channel 5: Part 2",
+    "year": 2002,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "United Game Artists",
+    "synopsis": "Ulala regresa con ritmo.",
+    "cover": "Space Channel 5 Part 2 (Japan).jpg",
+    "boxart": "Space Channel 5 Part 2 (Japan)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Rez",
+    "year": 2001,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "United Game Artists",
+    "synopsis": "Shooter sobre raíles que mezcla música y visuales.",
+    "cover": "Rez (Europe) (En,Ja,Fr,De,Es,It).jpg",
+    "boxart": "Rez (Europe) (En,Ja,Fr,De,Es,It)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Seaman",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Vivarium",
+    "synopsis": "Cría a un extraño pez con rostro humano hablándole.",
+    "cover": "Seaman (USA).jpg",
+    "boxart": "Seaman (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Chu Chu Rocket!",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sonic Team",
+    "synopsis": "Guía ratones con flechas para evitar a los gatos.",
+    "cover": "ChuChu Rocket! (USA) (En,Ja,Fr,De,Es).jpg",
+    "boxart": "ChuChu Rocket! (USA) (En,Ja,Fr,De,Es)",
+    "size": "694.5 MB"
+  },
+  {
+    "title": "Samba de Amigo",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Sonic Team",
+    "synopsis": "Agita maracas al ritmo de la música latina.",
+    "cover": "Samba de Amigo (USA).jpg",
+    "boxart": "Samba de Amigo (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Grandia II",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Arts",
+    "synopsis": "Ryudo y Elena enfrentados al Dios de la Oscuridad.",
+    "cover": "Grandia II (USA).jpg",
+    "boxart": "Grandia II (USA)",
+    "size": "1118.7 MB"
+  },
+  {
+    "title": "Resident Evil Code: Veronica",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Claire Redfield investiga a Umbrella en una isla.",
+    "cover": "Resident Evil - Code - Veronica (USA) (Disc 1).jpg",
+    "boxart": "Resident Evil - Code - Veronica (USA) (Disc 1)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Ikaruga",
+    "year": 2001,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Treasure",
+    "synopsis": "Shooter con polaridad de colores.",
+    "cover": "Ikaruga (Japan).jpg",
+    "boxart": "Ikaruga (Japan)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Mr. Driller",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Namco",
+    "synopsis": "Perfora bloques de colores en un puzle de rapidez.",
+    "cover": "Mr. Driller (USA).jpg",
+    "boxart": "Mr. Driller (USA)",
+    "size": "648.2 MB"
+  },
+  {
+    "title": "Metropolis Street Racer",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Bizarre Creations",
+    "synopsis": "Carreras en ciudades con kudos."
+  },
+  {
+    "title": "Sega Bass Fishing",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Sega",
+    "synopsis": "Pesca con caña de plástico.",
+    "cover": "Sega Bass Fishing (USA).jpg",
+    "boxart": "Sega Bass Fishing (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "The House of the Dead 2",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Sega",
+    "synopsis": "Shooter con pistola contra zombis.",
+    "cover": "House of the Dead 2, The (USA).jpg",
+    "boxart": "House of the Dead 2, The (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Capcom vs. SNK 2",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Los héroes de Capcom y SNK se enfrentan."
+  },
+  {
+    "title": "Project Justice",
+    "year": 2000,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha de equipos con combos de tres personajes.",
+    "cover": "Project Justice (USA).jpg",
+    "boxart": "Project Justice (USA)",
+    "size": "1130.8 MB"
+  },
+  {
+    "title": "Zombie Revenge",
+    "year": 1999,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Un beat 'em up contra zombis con armas.",
+    "cover": "Zombie Revenge (USA).jpg",
+    "boxart": "Zombie Revenge (USA)",
+    "size": "1130.8 MB"
+  }
+]

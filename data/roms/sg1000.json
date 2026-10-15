@@ -1,1 +1,142 @@
-[]
+[
+  {
+    "title": "Congo Bongo",
+    "year": 1983,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Un cazador persigue a un gorila por una selva isométrica.",
+    "cover": "Congo Bongo (Japan).jpg",
+    "boxart": "Congo Bongo (Japan)",
+    "size": "24 KB"
+  },
+  {
+    "title": "Zaxxon",
+    "year": 1982,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Sega",
+    "synopsis": "Shooter isométrico con naves y fortalezas espaciales.",
+    "cover": "Zaxxon (Japan).jpg",
+    "boxart": "Zaxxon (Japan)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Flicky",
+    "year": 1984,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Sega",
+    "synopsis": "Un pájaro azul reúne a sus polluelos y esquiva al gato.",
+    "cover": "Flicky (Japan) (Rev 1).jpg",
+    "boxart": "Flicky (Japan) (Rev 1)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Choplifter",
+    "year": 1985,
+    "region": "Corea",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Un helicóptero rescata prisioneros de la zona enemiga.",
+    "cover": "Choplifter (Korea) (En).jpg",
+    "boxart": "Choplifter (Korea) (En)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Pitfall II",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Activision",
+    "synopsis": "Harry explora cavernas en busca de un tesoro.",
+    "cover": "Pitfall II (Taiwan) (Chinese Logo).jpg",
+    "boxart": "Pitfall II (Taiwan) (Chinese Logo)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Bomberman Special",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Hudson Soft",
+    "synopsis": "La primera aventura de Bomberman en el SG-1000.",
+    "cover": "Bomberman Special (Taiwan) (Chinese Logo).jpg",
+    "boxart": "Bomberman Special (Taiwan) (Chinese Logo)",
+    "size": "48 KB"
+  },
+  {
+    "title": "Elevator Action",
+    "year": 1985,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Taito",
+    "synopsis": "Un espía baja por un edificio recogiendo documentos.",
+    "cover": "Elevator Action (Japan).jpg",
+    "boxart": "Elevator Action (Japan)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Space Invaders",
+    "year": 1984,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Taito",
+    "synopsis": "El clásico de naves invasoras.",
+    "cover": "Space Invaders (Japan).jpg",
+    "boxart": "Space Invaders (Japan)",
+    "size": "16 KB"
+  },
+  {
+    "title": "The Black Onyx",
+    "year": 1984,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bullet-Proof Software",
+    "synopsis": "Uno de los primeros RPG japoneses de la consola.",
+    "cover": "Black Onyx, The (Japan).jpg",
+    "boxart": "Black Onyx, The (Japan)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Monaco GP",
+    "year": 1985,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carreras de Fórmula 1 por el circuito de Mónaco.",
+    "cover": "Monaco GP (Japan) (Rev 1).jpg",
+    "boxart": "Monaco GP (Japan) (Rev 1)",
+    "size": "32 KB"
+  }
+]

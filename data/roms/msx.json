@@ -1,1 +1,258 @@
-[]
+[
+  {
+    "title": "Metal Gear",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Infiltración de Solid Snake."
+  },
+  {
+    "title": "Metal Gear 2: Solid Snake",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Secuela."
+  },
+  {
+    "title": "Penguin Adventure",
+    "year": 1986,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Konami",
+    "synopsis": "Aventura de un pingüino.",
+    "cover": "Penguin Adventure (Japan, Europe) (En).jpg",
+    "boxart": "Penguin Adventure (Japan, Europe) (En)",
+    "size": "128 KB"
+  },
+  {
+    "title": "King's Valley II",
+    "year": 1988,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Konami",
+    "synopsis": "Puzzles egipcios.",
+    "cover": "King's Valley II (Japan, Europe) (En).jpg",
+    "boxart": "King's Valley II (Japan, Europe) (En)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Nemesis 2",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up.",
+    "cover": "Nemesis 2 (Japan, Europe) (En).jpg",
+    "boxart": "Nemesis 2 (Japan, Europe) (En)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Salamander",
+    "year": 1987,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up.",
+    "cover": "Salamander (Japan) (Wii U Virtual Console).jpg",
+    "boxart": "Salamander (Japan) (Wii U Virtual Console)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Vampire Killer",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Castlevania."
+  },
+  {
+    "title": "The Treasure of Usas",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Konami",
+    "synopsis": "Plataformas."
+  },
+  {
+    "title": "Knightmare",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Maze of Galious",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Konami",
+    "synopsis": "Aventura."
+  },
+  {
+    "title": "Antarctic Adventure",
+    "year": 1983,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Carrera de pingüinos.",
+    "cover": "Antarctic Adventure (Europe).jpg",
+    "boxart": "Antarctic Adventure (Europe)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Hyper Sports 2",
+    "year": 1984,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Konami",
+    "synopsis": "Deportes.",
+    "cover": "Hyper Sports 2 (Japan) (Wii U Virtual Console).jpg",
+    "boxart": "Hyper Sports 2 (Japan) (Wii U Virtual Console)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Gradius 2",
+    "year": 1987,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up.",
+    "cover": "Gradius 2 (Japan, Europe) (En) (Wii U Virtual Console).jpg",
+    "boxart": "Gradius 2 (Japan, Europe) (En) (Wii U Virtual Console)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Q*bert",
+    "year": 1983,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Saltos.",
+    "cover": "Q-bert (Japan).jpg",
+    "boxart": "Q-bert (Japan)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Aleste",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Compile",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Yie Ar Kung-Fu",
+    "year": 1985,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Konami",
+    "synopsis": "Lucha.",
+    "cover": "Yie Ar Kung-Fu (Japan).jpg",
+    "boxart": "Yie Ar Kung-Fu (Japan)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Pippols",
+    "year": 1985,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Konami",
+    "synopsis": "Plataformas.",
+    "cover": "Pippols (Japan).jpg",
+    "boxart": "Pippols (Japan)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Road Fighter",
+    "year": 1984,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Konami",
+    "synopsis": "Carrera.",
+    "cover": "Road Fighter (Japan).jpg",
+    "boxart": "Road Fighter (Japan)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Hydlide",
+    "year": 1986,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "T&E Soft",
+    "synopsis": "RPG.",
+    "cover": "Hydlide (Japan).jpg",
+    "boxart": "Hydlide (Japan)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Space Manbow",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up."
+  }
+]

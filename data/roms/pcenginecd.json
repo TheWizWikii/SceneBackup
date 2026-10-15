@@ -1,1 +1,138 @@
-[]
+[
+  {
+    "title": "Castlevania: Rondo of Blood",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Konami",
+    "synopsis": "Richter Belmont viaja al castillo de Drácula para rescatar a su prometida."
+  },
+  {
+    "title": "Ys Book I & II",
+    "year": 1989,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG de acción",
+    "developer": "Nihon Falcom",
+    "synopsis": "Adol Christin explora Esteria y la torre de Darm.",
+    "cover": "Ys Book I & II (USA).jpg",
+    "boxart": "Ys Book I & II (USA)",
+    "size": "19.4 MB"
+  },
+  {
+    "title": "Ys III: Wanderers from Ys",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG de acción",
+    "developer": "Nihon Falcom",
+    "synopsis": "Adol viaja por Felghana en una aventura de plataformas.",
+    "cover": "Ys III - Wanderers from Ys (USA).jpg",
+    "boxart": "Ys III - Wanderers from Ys (USA)",
+    "size": "56.0 MB"
+  },
+  {
+    "title": "Gate of Thunder",
+    "year": 1992,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Red Company",
+    "synopsis": "Matamarcianos con banda sonora de rock espectacular.",
+    "cover": "Gate of Thunder (Japan) (FACT, FADT).jpg",
+    "boxart": "Gate of Thunder (Japan) (FACT, FADT)",
+    "size": "4.6 MB"
+  },
+  {
+    "title": "Lords of Thunder",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hudson Soft",
+    "synopsis": "Matamarcianos fantástico con armaduras y elementos.",
+    "cover": "Lords of Thunder (USA).jpg",
+    "boxart": "Lords of Thunder (USA)",
+    "size": "8.9 MB"
+  },
+  {
+    "title": "Dracula X",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Konami",
+    "synopsis": "Aventura de Richter Belmont en CD con voz y música arreglada."
+  },
+  {
+    "title": "Dungeon Master",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FTL Games",
+    "synopsis": "Clásico RPG en primera persona con grid y combates en tiempo real."
+  },
+  {
+    "title": "Snatcher",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "Konami",
+    "synopsis": "Aventura cyberpunk de Hideo Kojima sobre androides infiltrados."
+  },
+  {
+    "title": "Cosmic Fantasy 2",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Telenet Japan",
+    "synopsis": "RPG por turnos con un joven héroe y una galaxia que salvar.",
+    "cover": "Cosmic Fantasy 2 (USA).jpg",
+    "boxart": "Cosmic Fantasy 2 (USA)",
+    "size": "7.8 MB"
+  },
+  {
+    "title": "Magical Chase",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Quest",
+    "synopsis": "Una bruja novata que vuela por mundos mágicos con sus armas."
+  },
+  {
+    "title": "Rayxanber",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hudson Soft",
+    "synopsis": "Matamarcianos de scroll horizontal en CD."
+  }
+]

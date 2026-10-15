@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "title": "California Games",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Epyx",
+    "synopsis": "Skate, surf y otros deportes playeros.",
+    "cover": "California Games (World).jpg",
+    "boxart": "California Games (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Chip's Challenge",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Epyx",
+    "synopsis": "Resuelve niveles de puzzle recogiendo chips.",
+    "cover": "Chip's Challenge (World).jpg",
+    "boxart": "Chip's Challenge (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Blue Lightning",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Epyx",
+    "synopsis": "Combate aéreo con perspectiva en tercera persona.",
+    "cover": "Blue Lightning (World).jpg",
+    "boxart": "Blue Lightning (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Gates of Zendocon",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Epyx",
+    "synopsis": "Shoot'em up horizontal intenso.",
+    "cover": "Gates of Zendocon (World).jpg",
+    "boxart": "Gates of Zendocon (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Klax",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Atari",
+    "synopsis": "Clasifica bloques de colores en una rejilla.",
+    "cover": "Klax (World).jpg",
+    "boxart": "Klax (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Rampart",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Atari",
+    "synopsis": "Construye castillos y defiéndelos.",
+    "cover": "Rampart (USA, Europe).jpg",
+    "boxart": "Rampart (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Todd's Adventures in Slime World",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Epyx",
+    "synopsis": "Explora un mundo viscoso.",
+    "cover": "Todd's Adventures in Slime World (World).jpg",
+    "boxart": "Todd's Adventures in Slime World (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Xenophobe",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Combate contra alienígenas en la nave.",
+    "cover": "Xenophobe (World).jpg",
+    "boxart": "Xenophobe (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Electrocop",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Epyx",
+    "synopsis": "Acción de disparos a través de instalaciones.",
+    "cover": "Electrocop (World).jpg",
+    "boxart": "Electrocop (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Awesome Golf",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Atari",
+    "synopsis": "Golf portátil de Atari.",
+    "cover": "Awesome Golf (USA, Europe).jpg",
+    "boxart": "Awesome Golf (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Ninja Gaiden",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Tecmo",
+    "synopsis": "Aventura de ninjas en plataformas.",
+    "cover": "Ninja Gaiden (USA, Europe).jpg",
+    "boxart": "Ninja Gaiden (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Road Blasters",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Atari",
+    "synopsis": "Carrera con armas.",
+    "cover": "RoadBlasters (World).jpg",
+    "boxart": "RoadBlasters (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Ms. Pac-Man",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Ms. Pac-Man en la Lynx.",
+    "cover": "Ms. Pac-Man (World).jpg",
+    "boxart": "Ms. Pac-Man (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Rygar",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Tecmo",
+    "synopsis": "Plataformas de acción con guerreros.",
+    "cover": "Rygar (World).jpg",
+    "boxart": "Rygar (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "S.T.U.N. Runner",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Atari",
+    "synopsis": "Carrera futurista en túneles.",
+    "cover": "S.T.U.N. Runner (USA, Europe).jpg",
+    "boxart": "S.T.U.N. Runner (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Shanghai",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Activision",
+    "synopsis": "Mahjong solitario.",
+    "cover": "Shanghai (World).jpg",
+    "boxart": "Shanghai (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Lemmings",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Atari",
+    "synopsis": "Guía a los lemmings a la salida.",
+    "cover": "Lemmings (USA, Europe).jpg",
+    "boxart": "Lemmings (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Zarlor Mercenary",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Epyx",
+    "synopsis": "Shoot'em up con mejoras.",
+    "cover": "Zarlor Mercenary (World).jpg",
+    "boxart": "Zarlor Mercenary (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Gauntlet: The Third Encounter",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Mazmorras para varios jugadores.",
+    "cover": "Gauntlet - The Third Encounter (World).jpg",
+    "boxart": "Gauntlet - The Third Encounter (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Turbo Sub",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Submarino de combate.",
+    "cover": "Turbo Sub (USA, Europe).jpg",
+    "boxart": "Turbo Sub (USA, Europe)",
+    "size": "128 KB"
+  }
+]

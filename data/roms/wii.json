@@ -1,1 +1,650 @@
-[]
+[
+  {
+    "title": "Super Mario Galaxy",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Mario salta entre planetas para rescatar a Peach en el espacio.",
+    "cover": "Super Mario Galaxy (USA, Canada) (En,Fr,Es).jpg",
+    "boxart": "Super Mario Galaxy (USA, Canada) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Super Mario Galaxy 2",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas 3D",
+    "developer": "Nintendo",
+    "synopsis": "Más galaxias, Yoshi y nuevos trajes en el plataformas de Mario.",
+    "cover": "Super Mario Galaxy 2 (USA) (En,Fr,Es).jpg",
+    "boxart": "Super Mario Galaxy 2 (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "New Super Mario Bros. Wii",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "El plataformas 2D con cooperativo para cuatro jugadores.",
+    "cover": "New Super Mario Bros. Wii (USA) (En,Fr,Es) (Rev 1).jpg",
+    "boxart": "New Super Mario Bros. Wii (USA) (En,Fr,Es) (Rev 1)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Mario Kart Wii",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Kart con motos, el volante Wii Wheel y juego en línea para doce.",
+    "cover": "Mario Kart Wii (USA) (En,Fr,Es).jpg",
+    "boxart": "Mario Kart Wii (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Super Smash Bros. Brawl",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Game Arts",
+    "synopsis": "La batalla de Nintendo con Snake y Sonic y modo aventura.",
+    "cover": "Super Smash Bros. Brawl (USA) (Rev 1).jpg",
+    "boxart": "Super Smash Bros. Brawl (USA) (Rev 1)",
+    "size": "8116.9 MB"
+  },
+  {
+    "title": "The Legend of Zelda: Skyward Sword",
+    "year": 2011,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "El origen de la Espada Maestra en las islas del cielo."
+  },
+  {
+    "title": "The Legend of Zelda: Twilight Princess",
+    "year": 2006,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link y Midna salvan Hyrule del Crepúsculo."
+  },
+  {
+    "title": "Metroid Prime 3: Corruption",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Retro Studios",
+    "synopsis": "Samus lucha contra la corrupción de Phazon.",
+    "cover": "Metroid Prime 3 - Corruption (USA).jpg",
+    "boxart": "Metroid Prime 3 - Corruption (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Metroid: Other M",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Team Ninja",
+    "synopsis": "Samus investiga una nave espacial con un enfoque cinematográfico.",
+    "cover": "Metroid - Other M (USA) (En,Fr,Es).jpg",
+    "boxart": "Metroid - Other M (USA) (En,Fr,Es)",
+    "size": "8116.9 MB"
+  },
+  {
+    "title": "Donkey Kong Country Returns",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Retro Studios",
+    "synopsis": "El regreso del plataformas de Donkey y Diddy Kong.",
+    "cover": "Donkey Kong Country Returns (USA) (En,Fr,Es).jpg",
+    "boxart": "Donkey Kong Country Returns (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Kirby's Epic Yarn",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Good-Feel",
+    "synopsis": "Kirby recorre un mundo de lana donde se transforma.",
+    "cover": "Kirby's Epic Yarn (USA) (En,Fr,Es).jpg",
+    "boxart": "Kirby's Epic Yarn (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Kirby's Return to Dream Land",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Kirby y su equipo reparan una nave para volver a casa.",
+    "cover": "Kirby's Return to Dream Land (USA) (En,Fr,Es).jpg",
+    "boxart": "Kirby's Return to Dream Land (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Wii Sports",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Tenis, bolos y boxeo con el mando Wii para toda la familia.",
+    "cover": "Wii Sports (USA).jpg",
+    "boxart": "Wii Sports (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Wii Sports Resort",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Pruebas de ocio con Wii MotionPlus en Wuhu Island.",
+    "cover": "Wii Sports Resort (USA) (En,Fr,Es).jpg",
+    "boxart": "Wii Sports Resort (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Wii Fit",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Salud",
+    "developer": "Nintendo",
+    "synopsis": "Ejercicios y yoga con la Wii Balance Board.",
+    "cover": "Wii Fit (USA) (En,Fr,Es).jpg",
+    "boxart": "Wii Fit (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Wii Play",
+    "year": 2006,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Nintendo",
+    "synopsis": "Minijuegos sencillos para aprender a usar el mando.",
+    "cover": "Wii Play (USA).jpg",
+    "boxart": "Wii Play (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Mario Party 8",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Hudson Soft",
+    "synopsis": "La fiesta de Mario con tableros y minijuegos de movimiento.",
+    "cover": "Mario Party 8 (USA) (Rev 1).jpg",
+    "boxart": "Mario Party 8 (USA) (Rev 1)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Mario Strikers Charged",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Next Level Games",
+    "synopsis": "Fútbol arcade con partidos en línea y habilidades especiales.",
+    "cover": "Mario Strikers Charged (USA) (En,Fr,Es) (Rev 1).jpg",
+    "boxart": "Mario Strikers Charged (USA) (En,Fr,Es) (Rev 1)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Super Paper Mario",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Intelligent Systems",
+    "synopsis": "Mario cambia entre 2D y 3D para detener al conde Bleck.",
+    "cover": "Super Paper Mario (USA).jpg",
+    "boxart": "Super Paper Mario (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Mario Sports Mix",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Square Enix",
+    "synopsis": "Cuatro deportes con los héroes de Mario y Final Fantasy.",
+    "cover": "Mario Sports Mix (USA) (En,Fr,Es).jpg",
+    "boxart": "Mario Sports Mix (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Animal Crossing: City Folk",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Nintendo",
+    "synopsis": "Vive en un pueblo y viaja a la ciudad con amigos.",
+    "cover": "Animal Crossing - City Folk (USA) (En,Fr,Es).jpg",
+    "boxart": "Animal Crossing - City Folk (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Xenoblade Chronicles",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Monolith Soft",
+    "synopsis": "Shulk y sus amigos recorren un mundo sobre dos titanes.",
+    "cover": "Xenoblade Chronicles (USA, Asia) (En,Fr,Es).jpg",
+    "boxart": "Xenoblade Chronicles (USA, Asia) (En,Fr,Es)",
+    "size": "8116.9 MB"
+  },
+  {
+    "title": "The Last Story",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Mistwalker",
+    "synopsis": "Zael y mercenarios luchan en una trama de ruinas.",
+    "cover": "Last Story, The (USA) (En,Fr,Es).jpg",
+    "boxart": "Last Story, The (USA) (En,Fr,Es)",
+    "size": "8116.9 MB"
+  },
+  {
+    "title": "Pandora's Tower",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Ganbarion",
+    "synopsis": "Aeron lucha contra monstruos para salvar a su amada.",
+    "cover": "Pandora's Tower (USA) (En,Fr,Es).jpg",
+    "boxart": "Pandora's Tower (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Fire Emblem: Radiant Dawn",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Intelligent Systems",
+    "synopsis": "Continuación de Path of Radiance en el continente de Tellius.",
+    "cover": "Fire Emblem - Radiant Dawn (USA).jpg",
+    "boxart": "Fire Emblem - Radiant Dawn (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Okami",
+    "year": 2008,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ready at Dawn",
+    "synopsis": "Amaterasu recorre Japón con el pincel celestial."
+  },
+  {
+    "title": "Resident Evil 4: Wii Edition",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Leon en la versión del clásico con apuntado con el mando.",
+    "cover": "Resident Evil 4 - Wii Edition (USA).jpg",
+    "boxart": "Resident Evil 4 - Wii Edition (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Resident Evil: The Umbrella Chronicles",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Shooter sobre raíles que repasa la historia de la saga.",
+    "cover": "Resident Evil - The Umbrella Chronicles (USA).jpg",
+    "boxart": "Resident Evil - The Umbrella Chronicles (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Madworld",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "PlatinumGames",
+    "synopsis": "Un luchador sangriento en un juego de violencia estilizada en blanco y negro.",
+    "cover": "MadWorld (USA) (En,Fr,Es).jpg",
+    "boxart": "MadWorld (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "No More Heroes",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Grasshopper Manufacture",
+    "synopsis": "Travis Touchdown sube al número uno de los asesinos.",
+    "cover": "No More Heroes (USA, Canada) (En,Fr,Es).jpg",
+    "boxart": "No More Heroes (USA, Canada) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "No More Heroes 2: Desperate Struggle",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Grasshopper Manufacture",
+    "synopsis": "Travis vuelve a luchar por el título de asesino número uno.",
+    "cover": "No More Heroes 2 - Desperate Struggle (USA) (En,Fr,Es).jpg",
+    "boxart": "No More Heroes 2 - Desperate Struggle (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Punch-Out!!",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Next Level Games",
+    "synopsis": "Little Mac regresa en un reboot del clásico de boxeo.",
+    "cover": "Punch-Out!! (USA) (En,Fr,Es).jpg",
+    "boxart": "Punch-Out!! (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Sin & Punishment: Star Successor",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Treasure",
+    "synopsis": "Shooter sobre raíles de Treasure con jefes espectaculares.",
+    "cover": "Sin & Punishment - Star Successor (USA).jpg",
+    "boxart": "Sin & Punishment - Star Successor (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Rhythm Heaven Fever",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Nintendo",
+    "synopsis": "Minijuegos de ritmo con humor absurdo.",
+    "cover": "Rhythm Heaven Fever (USA).jpg",
+    "boxart": "Rhythm Heaven Fever (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Guitar Hero III: Legends of Rock",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Neversoft",
+    "synopsis": "Toca la guitarra con una gran lista de canciones.",
+    "cover": "Guitar Hero III - Legends of Rock (USA).jpg",
+    "boxart": "Guitar Hero III - Legends of Rock (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Rock Band",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Harmonix",
+    "synopsis": "Guitarra, batería y voces con un repertorio enorme.",
+    "cover": "Rock Band (USA).jpg",
+    "boxart": "Rock Band (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Just Dance 3",
+    "year": 2011,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Música",
+    "developer": "Ubisoft",
+    "synopsis": "Baila siguiendo la coreografía con el mando.",
+    "cover": "Just Dance 3 (USA) (En,Fr,Es).jpg",
+    "boxart": "Just Dance 3 (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Epic Mickey",
+    "year": 2010,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Junction Point",
+    "synopsis": "Mickey explora un mundo de personajes olvidados con pincel y disolvente."
+  },
+  {
+    "title": "Donkey Kong Jungle Beat",
+    "year": 2008,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Plataformas con bongos como mando.",
+    "cover": "Donkey Kong Jungle Beat (USA) (En,Fr,Es).jpg",
+    "boxart": "Donkey Kong Jungle Beat (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Tatsunoko vs. Capcom: Ultimate All-Stars",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Eighting",
+    "synopsis": "Combates por parejas con héroes de Capcom y Tatsunoko.",
+    "cover": "Tatsunoko vs. Capcom - Ultimate All-Stars (USA).jpg",
+    "boxart": "Tatsunoko vs. Capcom - Ultimate All-Stars (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Zack & Wiki: Quest for Barbaros' Treasure",
+    "year": 2007,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Capcom",
+    "synopsis": "Aventura de puzles con piratas.",
+    "cover": "Zack & Wiki - Quest for Barbaros' Treasure (USA).jpg",
+    "boxart": "Zack & Wiki - Quest for Barbaros' Treasure (USA)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Little King's Story",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Cing",
+    "synopsis": "Un joven rey recluta súbditos para construir un reino.",
+    "cover": "Little King's Story (USA) (En,Fr,Es).jpg",
+    "boxart": "Little King's Story (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "The Conduit",
+    "year": 2009,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "High Voltage Software",
+    "synopsis": "Shooter en primera persona con alienígenas y controles personalizables.",
+    "cover": "Conduit, The (USA) (En,Fr,Es).jpg",
+    "boxart": "Conduit, The (USA) (En,Fr,Es)",
+    "size": "4482.2 MB"
+  },
+  {
+    "title": "Lost in Shadow",
+    "year": 2010,
+    "region": "USA",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Hudson Soft",
+    "synopsis": "Un niño sin sombra escala una torre en un plataformas de sombras.",
+    "cover": "Lost in Shadow (USA) (En,Fr,Es) (Rev 1).jpg",
+    "boxart": "Lost in Shadow (USA) (En,Fr,Es) (Rev 1)",
+    "size": "4482.2 MB"
+  }
+]

@@ -1,1 +1,279 @@
-[]
+[
+  {
+    "title": "Pole Position",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Atari",
+    "synopsis": "Carrera de Fórmula 1 con vista trasera.",
+    "cover": "Pole Position (USA).jpg",
+    "boxart": "Pole Position (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Centipede",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Dispara a ciempiés en un campo de setas.",
+    "cover": "Centipede (USA).jpg",
+    "boxart": "Centipede (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Galaxian",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Aviones alienígenas se lanzan sobre tu nave.",
+    "cover": "Galaxian (USA).jpg",
+    "boxart": "Galaxian (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Pac-Man",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Adaptación de Pac-Man para Atari 5200.",
+    "cover": "Pac-Man (USA).jpg",
+    "boxart": "Pac-Man (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Ms. Pac-Man",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Ms. Pac-Man en versión 5200.",
+    "cover": "Ms. Pac-Man (USA).jpg",
+    "boxart": "Ms. Pac-Man (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Defender",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Defiende a los humanos de los invasores.",
+    "cover": "Defender (USA).jpg",
+    "boxart": "Defender (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Missile Command",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Defiende las ciudades con misiles.",
+    "cover": "Missile Command (USA).jpg",
+    "boxart": "Missile Command (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Space Invaders",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Invasores en la 5200.",
+    "cover": "Space Invaders (USA).jpg",
+    "boxart": "Space Invaders (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Dig Dug",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Cava túneles y derrota a los monstruos.",
+    "cover": "Dig Dug (USA).jpg",
+    "boxart": "Dig Dug (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Joust",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Combate de jinetes de avestruz voladores.",
+    "cover": "Joust (USA).jpg",
+    "boxart": "Joust (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Moon Patrol",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Conduce sobre la Luna disparando.",
+    "cover": "Moon Patrol (USA).jpg",
+    "boxart": "Moon Patrol (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Frogger",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Cruza la carretera y el río.",
+    "cover": "Frogger (USA).jpg",
+    "boxart": "Frogger (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Q*bert",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Saltos sobre cubos.",
+    "cover": "Q-bert (USA).jpg",
+    "boxart": "Q-bert (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Star Raiders",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Combate espacial en primera persona.",
+    "cover": "Star Raiders (USA).jpg",
+    "boxart": "Star Raiders (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Robotron: 2084",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Sobrevive a oleadas de robots.",
+    "cover": "Robotron 2084 (USA).jpg",
+    "boxart": "Robotron 2084 (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Berzerk",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Laberintos con robots.",
+    "cover": "BerZerk (USA).jpg",
+    "boxart": "BerZerk (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Zaxxon",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Sega",
+    "synopsis": "Shoot'em up isométrico.",
+    "cover": "Zaxxon (USA).jpg",
+    "boxart": "Zaxxon (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Choplifter",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Broderbund",
+    "synopsis": "Rescata rehenes con un helicóptero.",
+    "cover": "Choplifter! (USA).jpg",
+    "boxart": "Choplifter! (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Donkey Kong",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Atari",
+    "synopsis": "Adaptación de Donkey Kong a 5200."
+  },
+  {
+    "title": "Gorf",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Midway",
+    "synopsis": "Shoot'em up con varios niveles.",
+    "cover": "Gorf (USA).jpg",
+    "boxart": "Gorf (USA)",
+    "size": "8 KB"
+  }
+]

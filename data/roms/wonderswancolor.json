@@ -1,1 +1,158 @@
-[]
+[
+  {
+    "title": "Final Fantasy",
+    "year": 2000,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Remake en color del primer FF.",
+    "cover": "Final Fantasy (Japan).jpg",
+    "boxart": "Final Fantasy (Japan)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Final Fantasy II",
+    "year": 2001,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Remake en color de FF II.",
+    "cover": "Final Fantasy II (Japan).jpg",
+    "boxart": "Final Fantasy II (Japan)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Final Fantasy IV",
+    "year": 2002,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Remake de FF IV.",
+    "cover": "Final Fantasy IV (Japan).jpg",
+    "boxart": "Final Fantasy IV (Japan)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Rockman & Forte",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Megaman Forte en color."
+  },
+  {
+    "title": "Gunpey EX",
+    "year": 2001,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Bandai",
+    "synopsis": "Puzle Gunpey en color.",
+    "cover": "GunPey EX (Japan).jpg",
+    "boxart": "GunPey EX (Japan)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Mr. Driller",
+    "year": 2000,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Namco",
+    "synopsis": "Excava bloques de colores.",
+    "cover": "Mr. Driller (Japan).jpg",
+    "boxart": "Mr. Driller (Japan)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Digimon Adventure",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bandai",
+    "synopsis": "Aventura Digimon."
+  },
+  {
+    "title": "Judgement Silversword",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Cavia",
+    "synopsis": "Shoot'em up vertical.",
+    "cover": "Judgement Silversword (World) (Ja) (WonderWitch).jpg",
+    "boxart": "Judgement Silversword (World) (Ja) (WonderWitch)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Dicing Knight",
+    "year": 2001,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "RPG de dados.",
+    "cover": "Dicing Knight. (Japan).jpg",
+    "boxart": "Dicing Knight. (Japan)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Klonoa: Moonlight Museum",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Namco",
+    "synopsis": "Klonoa en color."
+  },
+  {
+    "title": "Tetris",
+    "year": 2000,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Bandai",
+    "synopsis": "Tetris en color.",
+    "cover": "Tetris (Japan).jpg",
+    "boxart": "Tetris (Japan)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Densha de Go! 2",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Taito",
+    "synopsis": "Conduce trenes."
+  }
+]

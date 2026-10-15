@@ -1,1 +1,637 @@
-[]
+[
+  {
+    "title": "Pitfall!",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Activision",
+    "synopsis": "Pitfall Harry salta lagartos y cocodrilos buscando tesoros en la selva."
+  },
+  {
+    "title": "Adventure",
+    "year": 1979,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Atari",
+    "synopsis": "Aventura pionera con dragones, castillos y un cáliz encantado.",
+    "cover": "Adventure (USA).jpg",
+    "boxart": "Adventure (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "River Raid",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Activision",
+    "synopsis": "Vuela por un río enemigo disparando a barcos y puentes.",
+    "cover": "River Raid (USA).jpg",
+    "boxart": "River Raid (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Combat",
+    "year": 1977,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Duelos de tanques y aviones para dos jugadores.",
+    "cover": "Combat (Europe).jpg",
+    "boxart": "Combat (Europe)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Space Invaders",
+    "year": 1980,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Adaptación del clásico arcade de invasores.",
+    "cover": "Space Invaders (USA).jpg",
+    "boxart": "Space Invaders (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Pac-Man",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Versión de Pac-Man para la Atari 2600.",
+    "cover": "Pac-Man (USA).jpg",
+    "boxart": "Pac-Man (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Asteroids",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Destruye asteroides en el espacio con tu nave.",
+    "cover": "Asteroids (USA).jpg",
+    "boxart": "Asteroids (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Missile Command",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Defiende las ciudades de misiles balísticos.",
+    "cover": "Missile Command (USA).jpg",
+    "boxart": "Missile Command (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Breakout",
+    "year": 1978,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Destruye ladrillos con una pelota y una paleta.",
+    "cover": "Breakout (Europe).jpg",
+    "boxart": "Breakout (Europe)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Yars' Revenge",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Yar ataca a los Qotile en un clásico del 2600.",
+    "cover": "Yars' Revenge (USA).jpg",
+    "boxart": "Yars' Revenge (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Frogger",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Cruza la carretera y el río con una rana.",
+    "cover": "Frogger (USA).jpg",
+    "boxart": "Frogger (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Donkey Kong",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Coleco",
+    "synopsis": "Adaptación de Donkey Kong para el 2600.",
+    "cover": "Donkey Kong (USA).jpg",
+    "boxart": "Donkey Kong (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Demon Attack",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Imagic",
+    "synopsis": "Dispara a demonios alados sobre un planeta helado.",
+    "cover": "Demon Attack (USA) (Rev 1).jpg",
+    "boxart": "Demon Attack (USA) (Rev 1)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Kaboom!",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Activision",
+    "synopsis": "Atrapa bombas que lanza un loco bombardero.",
+    "cover": "Kaboom! (USA).jpg",
+    "boxart": "Kaboom! (USA)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Enduro",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Activision",
+    "synopsis": "Carrera de resistencia con cambios de clima y tiempo.",
+    "cover": "Enduro (USA).jpg",
+    "boxart": "Enduro (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "H.E.R.O.",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Activision",
+    "synopsis": "Rescata mineros con propulsor y dinamita.",
+    "cover": "H.E.R.O. (USA).jpg",
+    "boxart": "H.E.R.O. (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Pitfall II: Lost Caverns",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Activision",
+    "synopsis": "Secuela de Pitfall con cavernas subterráneas."
+  },
+  {
+    "title": "Ms. Pac-Man",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Ms. Pac-Man adaptado a 2600.",
+    "cover": "Ms. Pac-Man (USA).jpg",
+    "boxart": "Ms. Pac-Man (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Defender",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Defiende a los humanos de invasores alienígenas.",
+    "cover": "Defender (USA).jpg",
+    "boxart": "Defender (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Berzerk",
+    "year": 1982,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Escapa de robots en laberintos.",
+    "cover": "Berzerk (Europe).jpg",
+    "boxart": "Berzerk (Europe)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Centipede",
+    "year": 1983,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Dispara a ciempiés y arañas.",
+    "cover": "Centipede (Europe).jpg",
+    "boxart": "Centipede (Europe)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Haunted House",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Atari",
+    "synopsis": "Explora una mansión encantada con poca luz.",
+    "cover": "Haunted House (USA).jpg",
+    "boxart": "Haunted House (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Warlords",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Defiende tu castillo con un escudo.",
+    "cover": "Warlords (USA).jpg",
+    "boxart": "Warlords (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Joust",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Combate montado sobre avestruces voladores.",
+    "cover": "Joust (USA).jpg",
+    "boxart": "Joust (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Dig Dug",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Cava túneles y derrota monstruos.",
+    "cover": "Dig Dug (USA).jpg",
+    "boxart": "Dig Dug (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Q*bert",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Parker Brothers",
+    "synopsis": "Salta por cubos para cambiar su color.",
+    "cover": "Q-bert (USA).jpg",
+    "boxart": "Q-bert (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Moon Patrol",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Conduce sobre la Luna disparando.",
+    "cover": "Moon Patrol (USA).jpg",
+    "boxart": "Moon Patrol (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Mr. Do!",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "CBS Electronics",
+    "synopsis": "Excava túneles y evita monstruos.",
+    "cover": "Mr. Do! (USA).jpg",
+    "boxart": "Mr. Do! (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Ghostbusters",
+    "year": 1984,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Activision",
+    "synopsis": "Atrapa fantasmas con trampas y protones.",
+    "cover": "Ghostbusters (USA).jpg",
+    "boxart": "Ghostbusters (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Barnstorming",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Activision",
+    "synopsis": "Pilota un avión a través de graneros.",
+    "cover": "Barnstorming (USA).jpg",
+    "boxart": "Barnstorming (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Keystone Kapers",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Activision",
+    "synopsis": "Persigue a un ladrón en unos grandes almacenes.",
+    "cover": "Keystone Kapers (USA).jpg",
+    "boxart": "Keystone Kapers (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Chopper Command",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Activision",
+    "synopsis": "Defiende convoyes con un helicóptero.",
+    "cover": "Chopper Command (USA).jpg",
+    "boxart": "Chopper Command (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Megamania",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Activision",
+    "synopsis": "Dispara a objetos que descienden."
+  },
+  {
+    "title": "Seaquest",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Activision",
+    "synopsis": "Submarino que rescata buzos.",
+    "cover": "Seaquest (USA).jpg",
+    "boxart": "Seaquest (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Stampede",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Activision",
+    "synopsis": "Atrapa ganado con un lazo.",
+    "cover": "Stampede (USA).jpg",
+    "boxart": "Stampede (USA)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Skiing",
+    "year": 1980,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Activision",
+    "synopsis": "Esquí cuesta abajo evitando árboles.",
+    "cover": "Skiing (USA).jpg",
+    "boxart": "Skiing (USA)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Boxing",
+    "year": 1980,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Activision",
+    "synopsis": "Combate de boxeo para dos jugadores.",
+    "cover": "Boxing (USA).jpg",
+    "boxart": "Boxing (USA)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Tennis",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Activision",
+    "synopsis": "Tenis con jugadores en pantalla.",
+    "cover": "Tennis (USA).jpg",
+    "boxart": "Tennis (USA)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Ice Hockey",
+    "year": 1981,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Activision",
+    "synopsis": "Hockey sobre hielo para dos jugadores.",
+    "cover": "Ice Hockey (USA).jpg",
+    "boxart": "Ice Hockey (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Fishing Derby",
+    "year": 1980,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Activision",
+    "synopsis": "Pesca competitiva entre dos jugadores.",
+    "cover": "Fishing Derby (USA).jpg",
+    "boxart": "Fishing Derby (USA)",
+    "size": "2 KB"
+  },
+  {
+    "title": "Kung-Fu Master",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Atari",
+    "synopsis": "Beat'em up de artes marciales.",
+    "cover": "Kung-Fu Master (USA).jpg",
+    "boxart": "Kung-Fu Master (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Solaris",
+    "year": 1986,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Aventura espacial con mapa galáctico.",
+    "cover": "Solaris (USA).jpg",
+    "boxart": "Solaris (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Crackpots",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Activision",
+    "synopsis": "Defiende macetas de insectos.",
+    "cover": "Crackpots (USA).jpg",
+    "boxart": "Crackpots (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Lock'n'Chase",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Mattel",
+    "synopsis": "Persecución de ladrones en un laberinto.",
+    "cover": "Lock 'n' Chase (USA).jpg",
+    "boxart": "Lock 'n' Chase (USA)",
+    "size": "4 KB"
+  },
+  {
+    "title": "Vanguard",
+    "year": 1982,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Shoot'em up de nave en túneles.",
+    "cover": "Vanguard (USA).jpg",
+    "boxart": "Vanguard (USA)",
+    "size": "8 KB"
+  },
+  {
+    "title": "Pooyan",
+    "year": 1983,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Defiende a cerditos de lobos.",
+    "cover": "Pooyan (USA).jpg",
+    "boxart": "Pooyan (USA)",
+    "size": "4 KB"
+  }
+]

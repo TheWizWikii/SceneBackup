@@ -1,1 +1,237 @@
-[]
+[
+  {
+    "title": "Metal Gear 2: Solid Snake",
+    "year": 1990,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Infiltración y espionaje.",
+    "cover": "Metal Gear 2 - Solid Snake (Japan).jpg",
+    "boxart": "Metal Gear 2 - Solid Snake (Japan)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Snatcher",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura gráfica",
+    "developer": "Konami",
+    "synopsis": "Aventura cyberpunk."
+  },
+  {
+    "title": "SD Snatcher",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Konami",
+    "synopsis": "RPG de Snatcher."
+  },
+  {
+    "title": "Aleste 2",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Compile",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Space Manbow",
+    "year": 1989,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up.",
+    "cover": "Space Manbow (Japan) (Wii U Virtual Console).jpg",
+    "boxart": "Space Manbow (Japan) (Wii U Virtual Console)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Contra",
+    "year": 1988,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Run and gun.",
+    "cover": "Contra (Japan) (Wii U Virtual Console).jpg",
+    "boxart": "Contra (Japan) (Wii U Virtual Console)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Gradius 2",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Salamander",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Penguin Adventure",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Konami",
+    "synopsis": "Aventura."
+  },
+  {
+    "title": "Parodius",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Konami",
+    "synopsis": "Parodia de Gradius."
+  },
+  {
+    "title": "Hydlide 3",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "T&E Soft",
+    "synopsis": "RPG."
+  },
+  {
+    "title": "Illusion City",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Micro Cabin",
+    "synopsis": "RPG."
+  },
+  {
+    "title": "Fray",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Microcabin",
+    "synopsis": "RPG."
+  },
+  {
+    "title": "Xak",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Micro Cabin",
+    "synopsis": "RPG."
+  },
+  {
+    "title": "Ys",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Nihon Falcom",
+    "synopsis": "RPG de acción."
+  },
+  {
+    "title": "Dragon Slayer",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Nihon Falcom",
+    "synopsis": "RPG."
+  },
+  {
+    "title": "Super Laydock",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "T&E Soft",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Gall Force",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Sony",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Tetris",
+    "year": 1987,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Bullet-Proof Software",
+    "synopsis": "Tetris.",
+    "cover": "Tetris (Japan).jpg",
+    "boxart": "Tetris (Japan)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Vampire Killer",
+    "year": 1986,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Castlevania.",
+    "cover": "Vampire Killer (Japan, Europe) (En).jpg",
+    "boxart": "Vampire Killer (Japan, Europe) (En)",
+    "size": "128 KB"
+  }
+]

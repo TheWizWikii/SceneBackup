@@ -1,1 +1,376 @@
-[]
+[
+  {
+    "title": "NiGHTS into Dreams...",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sonic Team",
+    "synopsis": "Dos niños vuelan en sueños con el bufón NiGHTS para derrotar a Wizeman.",
+    "cover": "Nights into Dreams... (USA) (with 3D Control Pad).jpg",
+    "boxart": "Nights into Dreams... (USA) (with 3D Control Pad)",
+    "size": "175.9 MB"
+  },
+  {
+    "title": "Panzer Dragoon Saga",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Team Andromeda",
+    "synopsis": "Edge y su dragón recorren un mundo postapocalíptico.",
+    "cover": "Panzer Dragoon Saga (USA) (Disc 1).jpg",
+    "boxart": "Panzer Dragoon Saga (USA) (Disc 1)",
+    "size": "615.6 MB"
+  },
+  {
+    "title": "Panzer Dragoon Zwei",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Team Andromeda",
+    "synopsis": "Shooter sobre raíles con un dragón."
+  },
+  {
+    "title": "Virtua Fighter 2",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Sega AM2",
+    "synopsis": "Lucha 3D a 60 fps con arcade casi idéntico.",
+    "cover": "Virtua Fighter 2 (USA).jpg",
+    "boxart": "Virtua Fighter 2 (USA)",
+    "size": "57.5 MB"
+  },
+  {
+    "title": "Virtua Cop 2",
+    "year": 1996,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Sega AM2",
+    "synopsis": "Dispara a los criminales con pistola en este shooter de arcade.",
+    "cover": "Virtua Cop 2 (Europe).jpg",
+    "boxart": "Virtua Cop 2 (Europe)",
+    "size": "35.9 MB"
+  },
+  {
+    "title": "Sega Rally Championship",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega AM3",
+    "synopsis": "Rally arcade con coches clásicos y circuitos variados.",
+    "cover": "Sega Rally Championship (USA).jpg",
+    "boxart": "Sega Rally Championship (USA)",
+    "size": "29.9 MB"
+  },
+  {
+    "title": "Daytona USA",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega AM2",
+    "synopsis": "Carreras de stock cars con la música inolvidable del arcade.",
+    "cover": "Daytona USA (USA).jpg",
+    "boxart": "Daytona USA (USA)",
+    "size": "9.1 MB"
+  },
+  {
+    "title": "Burning Rangers",
+    "year": 1998,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sonic Team",
+    "synopsis": "Bomberos del futuro rescatan a civiles en estaciones espaciales.",
+    "cover": "Burning Rangers (USA).jpg",
+    "boxart": "Burning Rangers (USA)",
+    "size": "355.8 MB"
+  },
+  {
+    "title": "Dragon Force",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sega",
+    "synopsis": "Ocho ejércitos pelean por conquistar el continente de Legendra.",
+    "cover": "Dragon Force (USA).jpg",
+    "boxart": "Dragon Force (USA)",
+    "size": "631.1 MB"
+  },
+  {
+    "title": "Shining Force III",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Camelot",
+    "synopsis": "Rol táctico épico en tres escenarios.",
+    "cover": "Shining Force III (USA).jpg",
+    "boxart": "Shining Force III (USA)",
+    "size": "234.5 MB"
+  },
+  {
+    "title": "Radiant Silvergun",
+    "year": 1998,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Treasure",
+    "synopsis": "Shooter vertical de Treasure con una trama enrevesada.",
+    "cover": "Radiant Silvergun (Japan).jpg",
+    "boxart": "Radiant Silvergun (Japan)",
+    "size": "183.3 MB"
+  },
+  {
+    "title": "Guardian Heroes",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Treasure",
+    "synopsis": "Beat 'em up con rol, cooperativo y ramificaciones de historia.",
+    "cover": "Guardian Heroes (USA).jpg",
+    "boxart": "Guardian Heroes (USA)",
+    "size": "73.9 MB"
+  },
+  {
+    "title": "Street Fighter Alpha 3",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha con una gran plantilla y modos de combate."
+  },
+  {
+    "title": "X-Men vs. Street Fighter",
+    "year": 1997,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Combates por equipos entre héroes de Marvel y de Street Fighter.",
+    "cover": "X-Men vs. Street Fighter (Japan) (3M).jpg",
+    "boxart": "X-Men vs. Street Fighter (Japan) (3M)",
+    "size": "161.3 MB"
+  },
+  {
+    "title": "Marvel Super Heroes vs. Street Fighter",
+    "year": 1998,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Los héroes de Marvel y los luchadores de Capcom se enfrentan.",
+    "cover": "Marvel Super Heroes vs. Street Fighter (Japan).jpg",
+    "boxart": "Marvel Super Heroes vs. Street Fighter (Japan)",
+    "size": "431.4 MB"
+  },
+  {
+    "title": "Metal Slug",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Run and gun con soldados y vehículos."
+  },
+  {
+    "title": "The King of Fighters '97",
+    "year": 1998,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Luchas por equipos de tres con el torneo de King of Fighters.",
+    "cover": "King of Fighters '97, The (Japan).jpg",
+    "boxart": "King of Fighters '97, The (Japan)",
+    "size": "54.8 MB"
+  },
+  {
+    "title": "Samurai Shodown IV",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Combates con armas con muchos personajes."
+  },
+  {
+    "title": "Fighting Vipers",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Sega AM2",
+    "synopsis": "Luchadores con armadura combaten en arenas cerradas.",
+    "cover": "Fighting Vipers (USA) (5S, 6S).jpg",
+    "boxart": "Fighting Vipers (USA) (5S, 6S)",
+    "size": "71.4 MB"
+  },
+  {
+    "title": "Sonic R",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Traveller's Tales",
+    "synopsis": "Carreras a pie de Sonic en circuitos 3D.",
+    "cover": "Sonic R (USA, Brazil).jpg",
+    "boxart": "Sonic R (USA, Brazil)",
+    "size": "15.5 MB"
+  },
+  {
+    "title": "Sonic 3D Blast",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Traveller's Tales",
+    "synopsis": "Sonic recorre mundos isométricos.",
+    "cover": "Sonic 3D Blast (USA).jpg",
+    "boxart": "Sonic 3D Blast (USA)",
+    "size": "63.1 MB"
+  },
+  {
+    "title": "Sonic Jam",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sonic Team",
+    "synopsis": "Recopilación con los clásicos de Sonic y un mundo 3D.",
+    "cover": "Sonic Jam (USA).jpg",
+    "boxart": "Sonic Jam (USA)",
+    "size": "602.1 MB"
+  },
+  {
+    "title": "Saturn Bomberman",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Hudson Soft",
+    "synopsis": "Bomberman con partidas para diez jugadores.",
+    "cover": "Saturn Bomberman (USA) (1S).jpg",
+    "boxart": "Saturn Bomberman (USA) (1S)",
+    "size": "136.8 MB"
+  },
+  {
+    "title": "Die Hard Arcade",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Beat 'em up de acción con aspecto de película.",
+    "cover": "Die Hard Arcade (USA).jpg",
+    "boxart": "Die Hard Arcade (USA)",
+    "size": "63.0 MB"
+  },
+  {
+    "title": "Resident Evil",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Los miembros de STARS se enfrentan a zombis en una mansión.",
+    "cover": "Resident Evil (USA).jpg",
+    "boxart": "Resident Evil (USA)",
+    "size": "558.2 MB"
+  },
+  {
+    "title": "Dracula X: Nocturne in the Moonlight",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Alucard se enfrenta a su padre en una aventura."
+  },
+  {
+    "title": "Castlevania: Symphony of the Night",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Alucard explora el castillo con elementos de RPG."
+  },
+  {
+    "title": "Grandia",
+    "year": 1997,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Game Arts",
+    "synopsis": "Justin y Sue en un viaje de aventuras para encontrar la civilización perdida.",
+    "cover": "Grandia (Japan) (Disc 1) (4M).jpg",
+    "boxart": "Grandia (Japan) (Disc 1) (4M)",
+    "size": "589.8 MB"
+  }
+]

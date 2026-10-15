@@ -1,1 +1,496 @@
-[]
+[
+  {
+    "title": "Metal Slug",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Nazca Corporation",
+    "synopsis": "Run and gun cooperativo con un humor y animación impecables."
+  },
+  {
+    "title": "Metal Slug 2",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Continuación del run and gun con más vehículos y armas."
+  },
+  {
+    "title": "Metal Slug X",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Revisión mejorada de Metal Slug 2 con nuevos enemigos."
+  },
+  {
+    "title": "Metal Slug 3",
+    "year": 2000,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Run and gun con rutas alternativas, mucho humor y jefes enormes.",
+    "cover": "Metal Slug 3 (NGH-2560).jpg",
+    "boxart": "Metal Slug 3 (NGH-2560)",
+    "size": "86.0 MB"
+  },
+  {
+    "title": "The King of Fighters '98",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Dream match de la saga con enorme plantilla de luchadores."
+  },
+  {
+    "title": "The King of Fighters '94",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Primer KOF con equipos de tres luchadores.",
+    "cover": "The King of Fighters '94 (NGM-055)(NGH-055).jpg",
+    "boxart": "The King of Fighters '94 (NGM-055)(NGH-055)",
+    "size": "24.3 MB"
+  },
+  {
+    "title": "The King of Fighters '95",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Segunda entrega de la saga, con modos de equipo editable.",
+    "cover": "The King of Fighters '95 (NGH-084).jpg",
+    "boxart": "The King of Fighters '95 (NGH-084)",
+    "size": "37.3 MB"
+  },
+  {
+    "title": "The King of Fighters '96",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Entrega con nuevos personajes y mejoras en el combate.",
+    "cover": "The King of Fighters '96 (NGH-214).jpg",
+    "boxart": "The King of Fighters '96 (NGH-214)",
+    "size": "45.3 MB"
+  },
+  {
+    "title": "The King of Fighters '97",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Nueva historia con Orochi y sistema de modos Advanced y Extra.",
+    "cover": "The King of Fighters '97 (NGH-2320).jpg",
+    "boxart": "The King of Fighters '97 (NGH-2320)",
+    "size": "57.3 MB"
+  },
+  {
+    "title": "The King of Fighters 2002",
+    "year": 2002,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Eolith",
+    "synopsis": "Dream match con más de cuarenta personajes.",
+    "cover": "The King of Fighters 2002 (bootleg).jpg",
+    "boxart": "The King of Fighters 2002 (bootleg)",
+    "size": "85.3 MB"
+  },
+  {
+    "title": "Garou: Mark of the Wolves",
+    "year": 1999,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Juego de lucha técnico con sistema T.O.P. y estética cuidada.",
+    "cover": "Garou - Mark of the Wolves (bootleg).jpg",
+    "boxart": "Garou - Mark of the Wolves (bootleg)",
+    "size": "85.6 MB"
+  },
+  {
+    "title": "Samurai Shodown II",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Lucha con armas blancas ambientada en el Japón feudal."
+  },
+  {
+    "title": "Samurai Shodown",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Primer Samurai Shodown de lucha con armas."
+  },
+  {
+    "title": "Fatal Fury Special",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Versión extendida de Fatal Fury 2."
+  },
+  {
+    "title": "Fatal Fury 3: Road to the Final Victory",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Tercera entrega con tres planos de combate."
+  },
+  {
+    "title": "Real Bout Fatal Fury",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Entrega con sistema de planos y movimientos más rápidos."
+  },
+  {
+    "title": "Art of Fighting",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Lucha con personajes enormes y barra de espíritu."
+  },
+  {
+    "title": "Art of Fighting 2",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Secuela con más personajes y combos."
+  },
+  {
+    "title": "World Heroes 2",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "ADK",
+    "synopsis": "Juego de lucha con viajes en el tiempo y héroes históricos.",
+    "cover": "World Heroes 2 (ALH-006).jpg",
+    "boxart": "World Heroes 2 (ALH-006)",
+    "size": "18.3 MB"
+  },
+  {
+    "title": "Last Blade 2",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Lucha con armas blancas ambientada en el final del shogunato."
+  },
+  {
+    "title": "The Last Blade",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Primer Last Blade con estética de samuráis y estilo propio."
+  },
+  {
+    "title": "Magician Lord",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Alpha Denshi",
+    "synopsis": "Plataformas fantástico con transformaciones.",
+    "cover": "Magician Lord (NGH-005).jpg",
+    "boxart": "Magician Lord (NGH-005)",
+    "size": "5.4 MB"
+  },
+  {
+    "title": "Blue's Journey",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Alpha Denshi",
+    "synopsis": "Plataformas de un héroe que salva a su princesa."
+  },
+  {
+    "title": "Sengoku 3",
+    "year": 2001,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "SNK",
+    "synopsis": "Beat'em up histórico con múltiples personajes."
+  },
+  {
+    "title": "Sengoku",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Alpha Denshi",
+    "synopsis": "Beat'em up de ambientación japonesa."
+  },
+  {
+    "title": "Ninja Combat",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Alpha Denshi",
+    "synopsis": "Beat'em up de ninjas en el que luchar contra hordas de enemigos.",
+    "cover": "Ninja Combat (NGH-009).jpg",
+    "boxart": "Ninja Combat (NGH-009)",
+    "size": "5.8 MB"
+  },
+  {
+    "title": "Burning Fight",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Alpha Denshi",
+    "synopsis": "Beat'em up callejero para uno o dos jugadores.",
+    "cover": "Burning Fight (NGH-018)(US).jpg",
+    "boxart": "Burning Fight (NGH-018)(US)",
+    "size": "6.8 MB"
+  },
+  {
+    "title": "Pulstar",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Aicom",
+    "synopsis": "Shoot'em up horizontal de gran espectáculo visual.",
+    "cover": "Pulstar.jpg",
+    "boxart": "Pulstar",
+    "size": "39.3 MB"
+  },
+  {
+    "title": "Blazing Star",
+    "year": 1998,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Yumekobo",
+    "synopsis": "Shoot'em up vertical muy popular.",
+    "cover": "Blazing Star.jpg",
+    "boxart": "Blazing Star",
+    "size": "43.3 MB"
+  },
+  {
+    "title": "Twinkle Star Sprites",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "ADK",
+    "synopsis": "Combate de puzzle con disparos y bloques.",
+    "cover": "Twinkle Star Sprites.jpg",
+    "boxart": "Twinkle Star Sprites",
+    "size": "18.3 MB"
+  },
+  {
+    "title": "Puzzle Bobble",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzles",
+    "developer": "Taito",
+    "synopsis": "Lanza burbujas de colores para formar grupos y despejar la pantalla."
+  },
+  {
+    "title": "Neo Turf Masters",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nazca Corporation",
+    "synopsis": "Golf arcade con diseño colorido."
+  },
+  {
+    "title": "Windjammers",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Data East",
+    "synopsis": "Un juego de lanzamiento de frisbee frenético."
+  },
+  {
+    "title": "Super Sidekicks",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "SNK",
+    "synopsis": "Fútbol arcade con jugadores y equipos de varios países."
+  },
+  {
+    "title": "Baseball Stars 2",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "SNK",
+    "synopsis": "Béisbol arcade con estadísticas y mejoras.",
+    "cover": "Baseball Stars 2.jpg",
+    "boxart": "Baseball Stars 2",
+    "size": "7.3 MB"
+  },
+  {
+    "title": "Top Hunter",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Plataformas de acción con misiones y mundo abierto."
+  },
+  {
+    "title": "Shock Troopers",
+    "year": 1997,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Saurus",
+    "synopsis": "Run and gun de ocho personajes con scroll a ocho direcciones.",
+    "cover": "Shock Troopers (set 1).jpg",
+    "boxart": "Shock Troopers (set 1)",
+    "size": "43.3 MB"
+  },
+  {
+    "title": "Cyber-Lip",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "SNK",
+    "synopsis": "Run and gun futurista con escenarios de ciencia ficción.",
+    "cover": "Cyber-Lip (NGM-010).jpg",
+    "boxart": "Cyber-Lip (NGM-010)",
+    "size": "6.3 MB"
+  },
+  {
+    "title": "Robo Army",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "SNK",
+    "synopsis": "Beat'em up de robots gigantes.",
+    "cover": "Robo Army (set 1).jpg",
+    "boxart": "Robo Army (set 1)",
+    "size": "5.8 MB"
+  },
+  {
+    "title": "Spin Master",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Data East",
+    "synopsis": "Acción de plataformas con un héroe que usa discos."
+  }
+]

@@ -1,1 +1,273 @@
-[]
+[
+  {
+    "title": "Gex",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Crystal Dynamics",
+    "synopsis": "Un gecko con actitud en un mundo de televisión.",
+    "cover": "Gex (USA, Europe).jpg",
+    "boxart": "Gex (USA, Europe)",
+    "size": "442.8 MB"
+  },
+  {
+    "title": "Road Rash",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Electronic Arts",
+    "synopsis": "Carreras de motos violentas.",
+    "cover": "Road Rash (USA).jpg",
+    "boxart": "Road Rash (USA)",
+    "size": "736.0 MB"
+  },
+  {
+    "title": "Need for Speed",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "EA",
+    "synopsis": "Carreras de superdeportivos."
+  },
+  {
+    "title": "Super Street Fighter II Turbo",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Versión de lucha.",
+    "cover": "Super Street Fighter II Turbo (USA).jpg",
+    "boxart": "Super Street Fighter II Turbo (USA)",
+    "size": "340.3 MB"
+  },
+  {
+    "title": "Star Control II",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Toys for Bob",
+    "synopsis": "Aventura espacial y combate.",
+    "cover": "Star Control II (USA, Europe).jpg",
+    "boxart": "Star Control II (USA, Europe)",
+    "size": "735.3 MB"
+  },
+  {
+    "title": "Wing Commander III",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Origin",
+    "synopsis": "Combate espacial con FMV."
+  },
+  {
+    "title": "Doom",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "id Software",
+    "synopsis": "Conversión de Doom.",
+    "cover": "Doom (USA, Japan).jpg",
+    "boxart": "Doom (USA, Japan)",
+    "size": "230.7 MB"
+  },
+  {
+    "title": "Crash 'n Burn",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Crystal Dynamics",
+    "synopsis": "Carrera con armas.",
+    "cover": "Crash 'n Burn (USA, Korea).jpg",
+    "boxart": "Crash 'n Burn (USA, Korea)",
+    "size": "689.6 MB"
+  },
+  {
+    "title": "Gridders",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Crystal Dynamics",
+    "synopsis": "Fútbol americano.",
+    "cover": "Gridders (USA, Korea).jpg",
+    "boxart": "Gridders (USA, Korea)",
+    "size": "552.3 MB"
+  },
+  {
+    "title": "Return Fire",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Silent Software",
+    "synopsis": "Combates de vehículos.",
+    "cover": "Return Fire (USA).jpg",
+    "boxart": "Return Fire (USA)",
+    "size": "517.5 MB"
+  },
+  {
+    "title": "Policenauts",
+    "year": 1996,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Konami",
+    "synopsis": "Aventura de Kojima.",
+    "cover": "Policenauts (Japan) (Disc 1).jpg",
+    "boxart": "Policenauts (Japan) (Disc 1)",
+    "size": "729.6 MB"
+  },
+  {
+    "title": "Shock Wave",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Electronic Arts",
+    "synopsis": "Combate aéreo.",
+    "cover": "Shock Wave (USA) (Rev 1).jpg",
+    "boxart": "Shock Wave (USA) (Rev 1)",
+    "size": "690.1 MB"
+  },
+  {
+    "title": "Samurai Shodown",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Crystal Dynamics",
+    "synopsis": "Versión de lucha de SNK.",
+    "cover": "Samurai Shodown (USA, Europe).jpg",
+    "boxart": "Samurai Shodown (USA, Europe)",
+    "size": "546.2 MB"
+  },
+  {
+    "title": "Sewer Shark",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "Digital Pictures",
+    "synopsis": "Disparos con FMV.",
+    "cover": "Sewer Shark (USA, Europe).jpg",
+    "boxart": "Sewer Shark (USA, Europe)",
+    "size": "741.2 MB"
+  },
+  {
+    "title": "Myst",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Cyan",
+    "synopsis": "Aventura gráfica en una isla misteriosa.",
+    "cover": "Myst (USA).jpg",
+    "boxart": "Myst (USA)",
+    "size": "712.4 MB"
+  },
+  {
+    "title": "Alone in the Dark",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Infogrames",
+    "synopsis": "Terror clásico.",
+    "cover": "Alone in the Dark (USA).jpg",
+    "boxart": "Alone in the Dark (USA)",
+    "size": "402.6 MB"
+  },
+  {
+    "title": "The Need for Speed",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "EA",
+    "synopsis": "Carreras con coches reales."
+  },
+  {
+    "title": "Escape from Monster Manor",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Electronic Arts",
+    "synopsis": "Mansión encantada.",
+    "cover": "Escape from Monster Manor (USA).jpg",
+    "boxart": "Escape from Monster Manor (USA)",
+    "size": "517.5 MB"
+  },
+  {
+    "title": "Total Eclipse",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Disparos",
+    "developer": "Crystal Dynamics",
+    "synopsis": "Acción espacial.",
+    "cover": "Total Eclipse (USA).jpg",
+    "boxart": "Total Eclipse (USA)",
+    "size": "367.8 MB"
+  },
+  {
+    "title": "Space Hulk: Vengeance of the Blood Angels",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Electronic Arts",
+    "synopsis": "Estrategia Warhammer.",
+    "cover": "Space Hulk - Vengeance of the Blood Angels (USA).jpg",
+    "boxart": "Space Hulk - Vengeance of the Blood Angels (USA)",
+    "size": "460.1 MB"
+  }
+]

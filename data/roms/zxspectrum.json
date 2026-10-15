@@ -1,1 +1,487 @@
-[]
+[
+  {
+    "title": "Manic Miner",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Bug-Byte",
+    "synopsis": "Minero en cavernas."
+  },
+  {
+    "title": "Jet Set Willy",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Software Projects",
+    "synopsis": "Willy en su mansión."
+  },
+  {
+    "title": "Knight Lore",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ultimate",
+    "synopsis": "Aventura isométrica."
+  },
+  {
+    "title": "Atic Atac",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ultimate",
+    "synopsis": "Aventura de castillos."
+  },
+  {
+    "title": "Sabre Wulf",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ultimate",
+    "synopsis": "Aventura de selva."
+  },
+  {
+    "title": "Elite",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Firebird",
+    "synopsis": "Comercio espacial.",
+    "cover": "Elite (Firebird Software Ltd).jpg",
+    "boxart": "Elite (Firebird Software Ltd)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Skool Daze",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Microsphere",
+    "synopsis": "Colegio.",
+    "cover": "Skool Daze (Microsphere).jpg",
+    "boxart": "Skool Daze (Microsphere)",
+    "size": "81 KB"
+  },
+  {
+    "title": "Head Over Heels",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ocean",
+    "synopsis": "Aventura isométrica."
+  },
+  {
+    "title": "Chaos",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Games Workshop",
+    "synopsis": "Magos.",
+    "cover": "Chaos (Games Workshop).jpg",
+    "boxart": "Chaos (Games Workshop)",
+    "size": "41 KB"
+  },
+  {
+    "title": "Lords of Midnight",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Beyond",
+    "synopsis": "Épica."
+  },
+  {
+    "title": "Dizzy",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Codemasters",
+    "synopsis": "Aventuras de Dizzy."
+  },
+  {
+    "title": "Cobra",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ocean",
+    "synopsis": "Cobra.",
+    "cover": "Cobra (Ocean Software Ltd).jpg",
+    "boxart": "Cobra (Ocean Software Ltd)",
+    "size": "47 KB"
+  },
+  {
+    "title": "R-Type",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Electric Dreams",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Chase H.Q.",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Ocean",
+    "synopsis": "Persecución."
+  },
+  {
+    "title": "Renegade",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Imagine",
+    "synopsis": "Beat'em up."
+  },
+  {
+    "title": "Bomb Jack",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Elite",
+    "synopsis": "Arcade.",
+    "cover": "Bomb Jack (Elite Systems Ltd).jpg",
+    "boxart": "Bomb Jack (Elite Systems Ltd)",
+    "size": "43 KB"
+  },
+  {
+    "title": "Paperboy",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Elite",
+    "synopsis": "Repartidor."
+  },
+  {
+    "title": "Rainbow Islands",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Ocean",
+    "synopsis": "Plataformas."
+  },
+  {
+    "title": "Gauntlet",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "U.S. Gold",
+    "synopsis": "Mazmorras."
+  },
+  {
+    "title": "Cybernoid",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Hewson",
+    "synopsis": "Shoot'em up.",
+    "cover": "Cybernoid (Hewson Consultants Ltd).jpg",
+    "boxart": "Cybernoid (Hewson Consultants Ltd)",
+    "size": "44 KB"
+  },
+  {
+    "title": "Exolon",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Hewson",
+    "synopsis": "Acción.",
+    "cover": "Exolon (Hewson Consultants Ltd).jpg",
+    "boxart": "Exolon (Hewson Consultants Ltd)",
+    "size": "42 KB"
+  },
+  {
+    "title": "Sentinel",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Firebird",
+    "synopsis": "Estrategia."
+  },
+  {
+    "title": "Commando",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Elite",
+    "synopsis": "Acción.",
+    "cover": "Commando (Pocket Money Software).jpg",
+    "boxart": "Commando (Pocket Money Software)",
+    "size": "18 KB"
+  },
+  {
+    "title": "Ghosts 'n Goblins",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Elite",
+    "synopsis": "Plataformas."
+  },
+  {
+    "title": "Bubble Bobble",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Firebird",
+    "synopsis": "Burbujas.",
+    "cover": "Bubble Bobble (Firebird Software Ltd).jpg",
+    "boxart": "Bubble Bobble (Firebird Software Ltd)",
+    "size": "54 KB"
+  },
+  {
+    "title": "Midnight Resistance",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Ocean",
+    "synopsis": "Run and gun."
+  },
+  {
+    "title": "Match Day",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Ocean",
+    "synopsis": "Fútbol."
+  },
+  {
+    "title": "Daley Thompson's Decathlon",
+    "year": 1984,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Ocean",
+    "synopsis": "Atletismo."
+  },
+  {
+    "title": "Hobbit",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Melbourne House",
+    "synopsis": "Texto."
+  },
+  {
+    "title": "Horace Goes Skiing",
+    "year": 1982,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Psion",
+    "synopsis": "Esquí."
+  },
+  {
+    "title": "Lunar Jetman",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Ultimate",
+    "synopsis": "Espacio."
+  },
+  {
+    "title": "Pssst",
+    "year": 1983,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Ultimate",
+    "synopsis": "Jardín."
+  },
+  {
+    "title": "Tir Na Nog",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Gargoyle",
+    "synopsis": "Aventura.",
+    "cover": "Tir Na Nog (Gargoyle Games).jpg",
+    "boxart": "Tir Na Nog (Gargoyle Games)",
+    "size": "46 KB"
+  },
+  {
+    "title": "Dun Darach",
+    "year": 1985,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Gargoyle",
+    "synopsis": "Aventura.",
+    "cover": "Dun Darach (Gargoyle Games).jpg",
+    "boxart": "Dun Darach (Gargoyle Games)",
+    "size": "45 KB"
+  },
+  {
+    "title": "Batman",
+    "year": 1986,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ocean",
+    "synopsis": "Batman.",
+    "cover": "Batman (Ocean Software Ltd).jpg",
+    "boxart": "Batman (Ocean Software Ltd)",
+    "size": "49 KB"
+  },
+  {
+    "title": "Rex",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Martech",
+    "synopsis": "Shoot'em up."
+  },
+  {
+    "title": "Turrican",
+    "year": 1990,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Rainbow Arts",
+    "synopsis": "Run and gun.",
+    "cover": "Turrican (Rainbow Arts).jpg",
+    "boxart": "Turrican (Rainbow Arts)",
+    "size": "260 KB"
+  },
+  {
+    "title": "Wizball",
+    "year": 1987,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Ocean",
+    "synopsis": "Shoot'em up.",
+    "cover": "Wizball (Ocean Software Ltd).jpg",
+    "boxart": "Wizball (Ocean Software Ltd)",
+    "size": "54 KB"
+  },
+  {
+    "title": "Fantasy World Dizzy",
+    "year": 1989,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Codemasters",
+    "synopsis": "Dizzy."
+  },
+  {
+    "title": "Where Time Stood Still",
+    "year": 1988,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Ocean",
+    "synopsis": "Aventura.",
+    "cover": "Where Time Stood Still (Ocean Software Ltd).jpg",
+    "boxart": "Where Time Stood Still (Ocean Software Ltd)",
+    "size": "122 KB"
+  }
+]

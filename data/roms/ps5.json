@@ -1,1 +1,338 @@
-[]
+[
+  {
+    "title": "Astro's Playroom",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Team Asobi",
+    "synopsis": "Astro explora mundos que celebran la historia de PlayStation y el DualSense."
+  },
+  {
+    "title": "Demon's Souls",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Bluepoint Games",
+    "synopsis": "Remake del clásico de FromSoftware con gráficos de nueva generación."
+  },
+  {
+    "title": "Returnal",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Roguelike",
+    "developer": "Housemarque",
+    "synopsis": "Selene queda atrapada en un ciclo en el planeta Atropos."
+  },
+  {
+    "title": "Ratchet & Clank: Rift Apart",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Insomniac Games",
+    "synopsis": "Ratchet y Rivet saltan entre dimensiones."
+  },
+  {
+    "title": "Marvel's Spider-Man 2",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Insomniac Games",
+    "synopsis": "Peter y Miles se enfrentan a Venom y Kraven."
+  },
+  {
+    "title": "Marvel's Spider-Man: Miles Morales",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Insomniac Games",
+    "synopsis": "Miles protege Harlem en invierno."
+  },
+  {
+    "title": "God of War Ragnarök",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Santa Monica Studio",
+    "synopsis": "Kratos y Atreus se enfrentan al fin de los tiempos."
+  },
+  {
+    "title": "Horizon Forbidden West",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Guerrilla Games",
+    "synopsis": "Aloy explora el oeste americano postapocalíptico."
+  },
+  {
+    "title": "Gran Turismo 7",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Polyphony Digital",
+    "synopsis": "El simulador regresa con gran variedad de coches."
+  },
+  {
+    "title": "Ghost of Tsushima Director's Cut",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sucker Punch",
+    "synopsis": "Jin Sakai en una versión con la isla de Iki."
+  },
+  {
+    "title": "The Last of Us Part I",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Naughty Dog",
+    "synopsis": "Remake del primer juego con gráficos renovados."
+  },
+  {
+    "title": "Final Fantasy VII Rebirth",
+    "year": 2024,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Cloud y sus aliados continúan su viaje fuera de Midgar."
+  },
+  {
+    "title": "Final Fantasy XVI",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square Enix",
+    "synopsis": "Clive Rosfield en el mundo de Valisthea."
+  },
+  {
+    "title": "Resident Evil 4",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Remake del clásico con Leon S. Kennedy."
+  },
+  {
+    "title": "Resident Evil Village",
+    "year": 2021,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Capcom",
+    "synopsis": "Ethan Winters en un pueblo europeo."
+  },
+  {
+    "title": "Street Fighter 6",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Lucha con modo de mundo abierto."
+  },
+  {
+    "title": "Tekken 8",
+    "year": 2024,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Bandai Namco",
+    "synopsis": "Jin y Kazuya en el enfrentamiento definitivo."
+  },
+  {
+    "title": "Mortal Kombat 1",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "NetherRealm",
+    "synopsis": "Una nueva línea de tiempo con luchadores clásicos."
+  },
+  {
+    "title": "Elden Ring",
+    "year": 2022,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "FromSoftware",
+    "synopsis": "Un Sinluz recorre las Tierras Intermedias para ser Señor del Círculo."
+  },
+  {
+    "title": "Armored Core VI: Fires of Rubicon",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "FromSoftware",
+    "synopsis": "Un mercenario pilota mechas en Rubicon."
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Larian Studios",
+    "synopsis": "Un grupo con parásitos mentales recorre Faerûn."
+  },
+  {
+    "title": "Cyberpunk 2077",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "CD Projekt Red",
+    "synopsis": "V persigue su destino en Night City."
+  },
+  {
+    "title": "Alan Wake 2",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Remedy",
+    "synopsis": "Saga Anderson y Alan Wake en una pesadilla."
+  },
+  {
+    "title": "Hi-Fi Rush",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Tango Gameworks",
+    "synopsis": "Chai combate al ritmo de la música."
+  },
+  {
+    "title": "Astro Bot",
+    "year": 2024,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Team Asobi",
+    "synopsis": "Astro Bot recupera piezas de su nave."
+  },
+  {
+    "title": "Sackboy: A Big Adventure",
+    "year": 2020,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sumo Digital",
+    "synopsis": "Sackboy recorre mundos de tela."
+  },
+  {
+    "title": "Like a Dragon: Infinite Wealth",
+    "year": 2024,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Ryu Ga Gotoku Studio",
+    "synopsis": "Ichiban visita Hawái."
+  },
+  {
+    "title": "Dead Space",
+    "year": 2023,
+    "region": "Mundial",
+    "languages": [
+      "Español",
+      "Inglés"
+    ],
+    "genre": "Terror",
+    "developer": "Motive Studio",
+    "synopsis": "Remake del clásico de terror espacial."
+  }
+]

@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "title": "Knuckles' Chaotix",
+    "year": 1995,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Knuckles y sus amigos están atados por unos anillos mágicos.",
+    "cover": "Knuckles' Chaotix (Europe).jpg",
+    "boxart": "Knuckles' Chaotix (Europe)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Virtua Fighter",
+    "year": 1995,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Sega",
+    "synopsis": "El clásico de lucha 3D en la expansión de 32 bits.",
+    "cover": "Virtua Fighter (Europe).jpg",
+    "boxart": "Virtua Fighter (Europe)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Doom",
+    "year": 1994,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "id Software",
+    "synopsis": "El shooter en primera persona por excelencia en 32X.",
+    "cover": "Doom (Europe).jpg",
+    "boxart": "Doom (Europe)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Star Wars Arcade",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Sega",
+    "synopsis": "Shooter con polígonos de la guerra de las galaxias.",
+    "cover": "Star Wars Arcade (USA).jpg",
+    "boxart": "Star Wars Arcade (USA)",
+    "size": "2.5 MB"
+  },
+  {
+    "title": "Virtua Racing Deluxe",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carreras 3D con circuitos mejorados.",
+    "cover": "Virtua Racing Deluxe (USA).jpg",
+    "boxart": "Virtua Racing Deluxe (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "After Burner Complete",
+    "year": 1994,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Sega",
+    "synopsis": "El arcade de combates aéreos con extra de color.",
+    "cover": "After Burner Complete (Europe).jpg",
+    "boxart": "After Burner Complete (Europe)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Tempo",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Un saltamontes baila en un plataformas lleno de color.",
+    "cover": "Tempo (Japan, USA) (En).jpg",
+    "boxart": "Tempo (Japan, USA) (En)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "NBA Jam Tournament Edition",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Iguana",
+    "synopsis": "Baloncesto arcade con mates imposibles.",
+    "cover": "NBA Jam - Tournament Edition (World).jpg",
+    "boxart": "NBA Jam - Tournament Edition (World)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Blackthorne",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Blizzard",
+    "synopsis": "Un guerrero desafía a un tirano en un juego de acción cinematográfico.",
+    "cover": "Blackthorne (USA).jpg",
+    "boxart": "Blackthorne (USA)",
+    "size": "3.0 MB"
+  }
+]

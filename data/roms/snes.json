@@ -1,1 +1,662 @@
-[]
+[
+  {
+    "title": "Super Mario World",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Mario y Yoshi recorren la Isla de los Dinosaurios para derrotar a Bowser y rescatar a Peach.",
+    "cover": "Super Mario World (USA).jpg",
+    "boxart": "Super Mario World (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Super Metroid",
+    "year": 1994,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Samus regresa a Zebes para recuperar al último Metroid en una exploración atmosférica y no lineal.",
+    "cover": "Super Metroid (Europe) (En,Fr,De).jpg",
+    "boxart": "Super Metroid (Europe) (En,Fr,De)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "The Legend of Zelda: A Link to the Past",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "Link salta entre el Mundo de la Luz y el de la Oscuridad para detener a Ganon."
+  },
+  {
+    "title": "Super Mario Kart",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "El primer kart con objetos y circuitos de la saga, con modo versus a pantalla dividida.",
+    "cover": "Super Mario Kart (USA).jpg",
+    "boxart": "Super Mario Kart (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Donkey Kong Country",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Rare",
+    "synopsis": "Donkey y Diddy Kong recuperan su banana hoard en un plataformas con gráficos prerrenderizados.",
+    "cover": "Donkey Kong Country (USA).jpg",
+    "boxart": "Donkey Kong Country (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Rare",
+    "synopsis": "Diddy y Dixie rescatan a Donkey Kong de las garras del capitán K. Rool.",
+    "cover": "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr).jpg",
+    "boxart": "Donkey Kong Country 2 - Diddy's Kong Quest (USA) (En,Fr)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Rare",
+    "synopsis": "Dixie y Kiddy Kong buscan a Donkey y Diddy por el Reino Kremling.",
+    "cover": "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr).jpg",
+    "boxart": "Donkey Kong Country 3 - Dixie Kong's Double Trouble! (USA) (En,Fr)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Chrono Trigger",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Un grupo de viajeros en el tiempo intenta evitar la destrucción del mundo por Lavos.",
+    "cover": "Chrono Trigger (USA).jpg",
+    "boxart": "Chrono Trigger (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Final Fantasy VI",
+    "year": 1994,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Un grupo variopinto se alza contra el Imperio y el vil Kefka en una de las grandes épicas del género.",
+    "cover": "Final Fantasy VI (Japan).jpg",
+    "boxart": "Final Fantasy VI (Japan)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Final Fantasy IV",
+    "year": 1991,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Cecil, caballero oscuro, busca la redención en una historia pionera del combate de tiempo activo.",
+    "cover": "Final Fantasy IV (Japan).jpg",
+    "boxart": "Final Fantasy IV (Japan)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Secret of Mana",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square",
+    "synopsis": "Tres héroes empuñan la espada de Mana en un acción-RPG con modo cooperativo para tres.",
+    "cover": "Secret of Mana (USA).jpg",
+    "boxart": "Secret of Mana (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Super Mario RPG: Legend of the Seven Stars",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "Mario, Bowser y Peach unen fuerzas contra la banda de Smithy en una aventura por turnos.",
+    "cover": "Super Mario RPG - Legend of the Seven Stars (USA).jpg",
+    "boxart": "Super Mario RPG - Legend of the Seven Stars (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Earthbound",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "HAL Laboratory",
+    "synopsis": "Ness y sus amigos recorren una versión satírica de EE. UU. para frenar a Giygas.",
+    "cover": "EarthBound (USA).jpg",
+    "boxart": "EarthBound (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Yoshi's Island",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Yoshi lleva a un Baby Mario por mundos pintados a mano para rescatar a Luigi."
+  },
+  {
+    "title": "Super Mario All-Stars",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Recopilación remasterizada de los cuatro primeros plataformas de Mario.",
+    "cover": "Super Mario All-Stars (USA).jpg",
+    "boxart": "Super Mario All-Stars (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Street Fighter II: The World Warrior",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "La conversión doméstica del arcade que definió el género de lucha uno contra uno."
+  },
+  {
+    "title": "Street Fighter II Turbo: Hyper Fighting",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Versión más rápida con nuevos movimientos y la posibilidad de usar a los jefes."
+  },
+  {
+    "title": "Super Street Fighter II: The New Challengers",
+    "year": 1994,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "Cuatro nuevos luchadores y un renovado sistema de puntuación para el clásico de Capcom.",
+    "cover": "Super Street Fighter II - The New Challengers (Japan).jpg",
+    "boxart": "Super Street Fighter II - The New Challengers (Japan)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Mortal Kombat II",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Acclaim",
+    "synopsis": "Secuela brutal con más personajes, fatalities y escenarios del torneo de Shao Kahn.",
+    "cover": "Mortal Kombat II (USA).jpg",
+    "boxart": "Mortal Kombat II (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Contra III: The Alien Wars",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Run and gun frenético con fases de vista cenital y un arsenal de armas espectacular.",
+    "cover": "Contra III - The Alien Wars (USA).jpg",
+    "boxart": "Contra III - The Alien Wars (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Super Castlevania IV",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Simon Belmont regresa al castillo de Drácula con un látigo que ahora se mueve en ocho direcciones.",
+    "cover": "Super Castlevania IV (USA).jpg",
+    "boxart": "Super Castlevania IV (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Mega Man X",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "X y Zero se enfrentan a los Mavericks en una entrega más rápida y con mejoras ocultas.",
+    "cover": "Mega Man X (USA).jpg",
+    "boxart": "Mega Man X (USA)",
+    "size": "1.5 MB"
+  },
+  {
+    "title": "Mega Man X2",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Nuevos Mavericks y la amenaza de los tres Zero malvados ponen a prueba a X.",
+    "cover": "Mega Man X2 (USA).jpg",
+    "boxart": "Mega Man X2 (USA)",
+    "size": "1.5 MB"
+  },
+  {
+    "title": "Mega Man X3",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "X y Zero se enfrentan al Dr. Doppler en la tercera entrega para SNES con nuevos trajes y chips.",
+    "cover": "Mega Man X3 (USA).jpg",
+    "boxart": "Mega Man X3 (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "F-Zero",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Carreras futuristas a toda velocidad con el efecto Mode 7 como gran reclamo.",
+    "cover": "F-Zero (USA).jpg",
+    "boxart": "F-Zero (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Star Fox",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Nintendo",
+    "synopsis": "El equipo Star Fox defiende Lylat con el chip Super FX y polígonos en 3D.",
+    "cover": "Star Fox (USA).jpg",
+    "boxart": "Star Fox (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Kirby Super Star",
+    "year": 1996,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Ocho aventuras de Kirby con copia de habilidades y modo cooperativo con un ayudante.",
+    "cover": "Kirby Super Star (USA).jpg",
+    "boxart": "Kirby Super Star (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Kirby's Dream Land 3",
+    "year": 1997,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "HAL Laboratory",
+    "synopsis": "Aventura de estética de acuarela donde Kirby se alía con sus amigos animales.",
+    "cover": "Kirby's Dream Land 3 (USA).jpg",
+    "boxart": "Kirby's Dream Land 3 (USA)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Super Punch-Out!!",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Little Mac regresa al circuito de boxeo con nuevos rivales y un estilo más pulido.",
+    "cover": "Super Punch-Out!! (USA).jpg",
+    "boxart": "Super Punch-Out!! (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Illusion of Gaia",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Quintet",
+    "synopsis": "Will recorre lugares históricos del mundo para salvar a la humanidad de un cometa.",
+    "cover": "Illusion of Gaia (USA).jpg",
+    "boxart": "Illusion of Gaia (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Terranigma",
+    "year": 1995,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Quintet",
+    "synopsis": "Ark debe resucitar la superficie de la Tierra en una aventura poética y compleja.",
+    "cover": "Terranigma (Europe).jpg",
+    "boxart": "Terranigma (Europe)",
+    "size": "4.0 MB"
+  },
+  {
+    "title": "Secret of Evermore",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción RPG",
+    "developer": "Square",
+    "synopsis": "Un chico y su perro caen a un mundo extraño en un acción-RPG con alquimia.",
+    "cover": "Secret of Evermore (USA).jpg",
+    "boxart": "Secret of Evermore (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Breath of Fire II",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Capcom",
+    "synopsis": "Ryu, un joven con sangre de dragón, busca a su hermana en una aventura clásica.",
+    "cover": "Breath of Fire II (USA).jpg",
+    "boxart": "Breath of Fire II (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Lufia II: Rise of the Sinistrals",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Neverland",
+    "synopsis": "Un RPG con mazmorras de puzles y una historia de héroes ancestrales.",
+    "cover": "Lufia II - Rise of the Sinistrals (USA).jpg",
+    "boxart": "Lufia II - Rise of the Sinistrals (USA)",
+    "size": "2.5 MB"
+  },
+  {
+    "title": "Super Bomberman 2",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Hudson Soft",
+    "synopsis": "Explosivas batallas para hasta cuatro jugadores en laberintos llenos de bloques.",
+    "cover": "Super Bomberman 2 (USA).jpg",
+    "boxart": "Super Bomberman 2 (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Super Ghouls 'n Ghosts",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Sir Arthur vuelve a rescatar a su princesa en un plataformas de dificultad legendaria.",
+    "cover": "Super Ghouls 'N Ghosts (USA).jpg",
+    "boxart": "Super Ghouls 'N Ghosts (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Final Fight",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Capcom",
+    "synopsis": "Cody, Haggar y Guy limpian Metro City de la banda Mad Gear.",
+    "cover": "Final Fight (USA).jpg",
+    "boxart": "Final Fight (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Konami",
+    "synopsis": "Las Tortugas Ninja viajan en el tiempo contra Shredder en un beat 'em up cooperativo.",
+    "cover": "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).jpg",
+    "boxart": "Teenage Mutant Ninja Turtles IV - Turtles in Time (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Aladdin",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Plataformas inspirado en la película de Disney, con espada y manzanas arrojadizas.",
+    "cover": "Aladdin (USA).jpg",
+    "boxart": "Aladdin (USA)",
+    "size": "1.2 MB"
+  },
+  {
+    "title": "The Lion King",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Virgin Interactive",
+    "synopsis": "Simba crece y reclama su trono en una aventura de ritmo exigente.",
+    "cover": "Lion King, The (USA).jpg",
+    "boxart": "Lion King, The (USA)",
+    "size": "3.0 MB"
+  },
+  {
+    "title": "Pilotwings",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Simulación",
+    "developer": "Nintendo",
+    "synopsis": "Pruebas de vuelo con ala delta, paracaídas y helicóptero que lucen el Mode 7.",
+    "cover": "Pilotwings (USA).jpg",
+    "boxart": "Pilotwings (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "ActRaiser",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Enix",
+    "synopsis": "Mezcla de plataformas y de gestión de ciudad en la que el dios impone orden en el mundo.",
+    "cover": "ActRaiser (USA).jpg",
+    "boxart": "ActRaiser (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Pocky & Rocky",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Natsume",
+    "synopsis": "Una sacerdotisa y un tanuki combaten a los yokai en un shooter de vista cenital.",
+    "cover": "Pocky & Rocky (USA).jpg",
+    "boxart": "Pocky & Rocky (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Zombies Ate My Neighbors",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "LucasArts",
+    "synopsis": "Rescata a vecinos de zombis y monstruos de serie B en un run and gun con humor.",
+    "cover": "Zombies Ate My Neighbors (USA).jpg",
+    "boxart": "Zombies Ate My Neighbors (USA)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Metal Warriors",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "LucasArts",
+    "synopsis": "Combates de mechas con una trama de guerra intergaláctica.",
+    "cover": "Metal Warriors (USA).jpg",
+    "boxart": "Metal Warriors (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Super Turrican",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Factor 5",
+    "synopsis": "Run and gun de ciencia ficción con gran banda sonora y arma versátil.",
+    "cover": "Super Turrican (USA).jpg",
+    "boxart": "Super Turrican (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Demon's Crest",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Firebrand, un demonio gárgola, recorre un mundo en ruinas buscando poderes.",
+    "cover": "Demon's Crest (USA).jpg",
+    "boxart": "Demon's Crest (USA)",
+    "size": "2.0 MB"
+  },
+  {
+    "title": "Super R-Type",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Irem",
+    "synopsis": "Adaptación del clásico shooter de naves con fuerza orbital y jefes imponentes.",
+    "cover": "Super R-Type (USA).jpg",
+    "boxart": "Super R-Type (USA)",
+    "size": "1.0 MB"
+  }
+]

@@ -1,1 +1,466 @@
-[]
+[
+  {
+    "title": "Sonic the Hedgehog",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Versión de Game Gear del plataformas de Sonic.",
+    "cover": "Sonic The Hedgehog (World) (Rev A).jpg",
+    "boxart": "Sonic The Hedgehog (World) (Rev A)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Sonic the Hedgehog 2",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Aspect",
+    "synopsis": "Sonic y Tails recorren zonas contra el Dr. Robotnik.",
+    "cover": "Sonic The Hedgehog 2 (USA) (Auto Demo).jpg",
+    "boxart": "Sonic The Hedgehog 2 (USA) (Auto Demo)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Sonic Chaos",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Aspect",
+    "synopsis": "Sonic y Tails recogen las esmeraldas del caos.",
+    "cover": "Sonic Chaos (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Sonic Chaos (USA, Europe, Brazil) (En)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Sonic Triple Trouble",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Aspect",
+    "synopsis": "Sonic y Knuckles se enfrentan a Nack el Hurón."
+  },
+  {
+    "title": "Sonic Drift",
+    "year": 1994,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carreras de karts con los personajes de Sonic.",
+    "cover": "Sonic Drift (Japan) (En).jpg",
+    "boxart": "Sonic Drift (Japan) (En)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Sonic Blast",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Aspect",
+    "synopsis": "Sonic y Knuckles recorren mundos con gráficos prerrenderizados.",
+    "cover": "Sonic Blast (World).jpg",
+    "boxart": "Sonic Blast (World)",
+    "size": "1.0 MB"
+  },
+  {
+    "title": "Shinobi",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Joe Musashi se enfrenta a los villanos en la portátil.",
+    "cover": "Shinobi (World) (Rev A).jpg",
+    "boxart": "Shinobi (World) (Rev A)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Shinobi II: The Silent Fury",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Un ninja con poderes de cuatro héroes combate al enemigo.",
+    "cover": "Shinobi II - The Silent Fury (World).jpg",
+    "boxart": "Shinobi II - The Silent Fury (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Castle of Illusion Starring Mickey Mouse",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Mickey rescata a Minnie en un castillo de ilusiones.",
+    "cover": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Land of Illusion Starring Mickey Mouse",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Mickey busca un tesoro en una tierra de ilusiones.",
+    "cover": "Land of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Land of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Fantasy Zone",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot 'em up",
+    "developer": "Sega",
+    "synopsis": "Opa-Opa combate en un shooter colorido y absurdo.",
+    "cover": "Fantasy Zone (USA, Brazil) (En).jpg",
+    "boxart": "Fantasy Zone (USA, Brazil) (En)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Columns",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sega",
+    "synopsis": "Alinea gemas de colores en columnas.",
+    "cover": "Columns (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Columns (USA, Europe, Brazil) (En)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Mortal Kombat",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Probe",
+    "synopsis": "El brutal juego de lucha en portátil.",
+    "cover": "Mortal Kombat (USA, Europe).jpg",
+    "boxart": "Mortal Kombat (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Street Fighter II: The World Warrior",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "Capcom",
+    "synopsis": "El clásico de lucha en la portátil de Sega."
+  },
+  {
+    "title": "Streets of Rage",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Los policías y su lucha contra el crimen en portátil.",
+    "cover": "Streets of Rage (World).jpg",
+    "boxart": "Streets of Rage (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Streets of Rage 2",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat 'em up",
+    "developer": "Sega",
+    "synopsis": "Secuela con más personajes para la portátil.",
+    "cover": "Streets of Rage 2 (World).jpg",
+    "boxart": "Streets of Rage 2 (World)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Prince of Persia",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Domark",
+    "synopsis": "El príncipe escapa de la mazmorra con acrobacias.",
+    "cover": "Prince of Persia (USA, Europe).jpg",
+    "boxart": "Prince of Persia (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Lemmings",
+    "year": 1993,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sunsoft",
+    "synopsis": "Guía a los lemmings hasta la salida con habilidades.",
+    "cover": "Lemmings (World).jpg",
+    "boxart": "Lemmings (World)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Wonder Boy III: The Dragon's Trap",
+    "year": 1992,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción-Aventura",
+    "developer": "Westone",
+    "synopsis": "Una maldición convierte al héroe en distintos animales."
+  },
+  {
+    "title": "Ecco the Dolphin",
+    "year": 1994,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Aventura",
+    "developer": "Sega",
+    "synopsis": "Un delfín investiga la desaparición de su manada.",
+    "cover": "Ecco the Dolphin (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Ecco the Dolphin (USA, Europe, Brazil) (En)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Gunstar Heroes",
+    "year": 1995,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Treasure",
+    "synopsis": "Run and gun de Treasure adaptado a Game Gear.",
+    "cover": "Gunstar Heroes (Japan).jpg",
+    "boxart": "Gunstar Heroes (Japan)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Phantasy Star Gaiden",
+    "year": 1992,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Una historia que enlaza los hechos del mundo de Phantasy Star.",
+    "cover": "Phantasy Star Gaiden (Japan).jpg",
+    "boxart": "Phantasy Star Gaiden (Japan)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Shining Force: The Sword of Hajya",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Sega",
+    "synopsis": "Rol táctico en la portátil de Sega.",
+    "cover": "Shining Force - The Sword of Hajya (USA).jpg",
+    "boxart": "Shining Force - The Sword of Hajya (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Defenders of Oasis",
+    "year": 1992,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Un joven héroe lucha contra un tirano en el desierto.",
+    "cover": "Defenders of Oasis (USA, Europe).jpg",
+    "boxart": "Defenders of Oasis (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Dragon Crystal",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Exploración de mazmorras con dificultad alta.",
+    "cover": "Dragon Crystal (USA, Europe).jpg",
+    "boxart": "Dragon Crystal (USA, Europe)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Ristar",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Ristar usa sus brazos para atravesar niveles.",
+    "cover": "Ristar (World).jpg",
+    "boxart": "Ristar (World)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Ax Battler: A Legend of Golden Axe",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "RPG",
+    "developer": "Sega",
+    "synopsis": "Una aventura de rol con el mundo de Golden Axe.",
+    "cover": "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Ax Battler - A Legend of Golden Axe (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Earthworm Jim",
+    "year": 1995,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Eurocom",
+    "synopsis": "El gusano con supertraje se enfrenta a Psy-Crow.",
+    "cover": "Earthworm Jim (USA).jpg",
+    "boxart": "Earthworm Jim (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Super Monaco GP",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Sega",
+    "synopsis": "Carreras de Fórmula 1 con licencia.",
+    "cover": "Super Monaco GP (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Super Monaco GP (USA, Europe, Brazil) (En)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Baku Baku Animal",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sega",
+    "synopsis": "Puzle de animales y comida."
+  },
+  {
+    "title": "Dr. Robotnik's Mean Bean Machine",
+    "year": 1993,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Sega",
+    "synopsis": "Puzle de alubias con Robotnik.",
+    "cover": "Dr. Robotnik's Mean Bean Machine (USA, Europe).jpg",
+    "boxart": "Dr. Robotnik's Mean Bean Machine (USA, Europe)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Space Harrier",
+    "year": 1991,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shooter",
+    "developer": "Sega",
+    "synopsis": "Shooter sobre raíles con un héroe volador.",
+    "cover": "Space Harrier (World).jpg",
+    "boxart": "Space Harrier (World)",
+    "size": "128 KB"
+  },
+  {
+    "title": "The Lucky Dime Caper Starring Donald Duck",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Sega",
+    "synopsis": "Donald recorre mundos en busca de una moneda.",
+    "cover": "Lucky Dime Caper Starring Donald Duck, The (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Lucky Dime Caper Starring Donald Duck, The (USA, Europe, Brazil) (En)",
+    "size": "256 KB"
+  },
+  {
+    "title": "Ninja Gaiden",
+    "year": 1991,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Sega",
+    "synopsis": "Ryu Hayabusa combate con dragones y enemigos.",
+    "cover": "Ninja Gaiden (USA, Europe, Brazil) (En).jpg",
+    "boxart": "Ninja Gaiden (USA, Europe, Brazil) (En)",
+    "size": "128 KB"
+  }
+]

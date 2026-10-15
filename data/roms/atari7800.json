@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "title": "Ms. Pac-Man",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Ms. Pac-Man en la Atari 7800.",
+    "cover": "Ms. Pac-Man (USA).jpg",
+    "boxart": "Ms. Pac-Man (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Donkey Kong",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Atari",
+    "synopsis": "Adaptación mejorada de Donkey Kong.",
+    "cover": "Donkey Kong (USA).jpg",
+    "boxart": "Donkey Kong (USA)",
+    "size": "48 KB"
+  },
+  {
+    "title": "Donkey Kong Junior",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Atari",
+    "synopsis": "Rescata a Donkey Kong del cautiverio.",
+    "cover": "Donkey Kong Junior (USA).jpg",
+    "boxart": "Donkey Kong Junior (USA)",
+    "size": "48 KB"
+  },
+  {
+    "title": "Joust",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Combate de jinetes de avestruz.",
+    "cover": "Joust (USA).jpg",
+    "boxart": "Joust (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Dig Dug",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Cava y derrota monstruos.",
+    "cover": "Dig Dug (USA).jpg",
+    "boxart": "Dig Dug (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Galaga",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Destruye alienígenas en formación.",
+    "cover": "Galaga (USA).jpg",
+    "boxart": "Galaga (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Centipede",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Dispara a ciempiés.",
+    "cover": "Centipede (USA).jpg",
+    "boxart": "Centipede (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Food Fight",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Un chico lanza comida contra los cocineros.",
+    "cover": "Food Fight (USA).jpg",
+    "boxart": "Food Fight (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Asteroids",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Destruye asteroides en el espacio.",
+    "cover": "Asteroids (USA).jpg",
+    "boxart": "Asteroids (USA)",
+    "size": "16 KB"
+  },
+  {
+    "title": "Xevious",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Atari",
+    "synopsis": "Shoot'em up vertical.",
+    "cover": "Xevious (USA).jpg",
+    "boxart": "Xevious (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Commando",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Soldado solitario contra el ejército enemigo.",
+    "cover": "Commando (USA).jpg",
+    "boxart": "Commando (USA)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Double Dragon",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Beat'em up",
+    "developer": "Atari",
+    "synopsis": "Beat'em up de hermanos.",
+    "cover": "Double Dragon (USA).jpg",
+    "boxart": "Double Dragon (USA)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Ikari Warriors",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Dos comandos avanzan en la jungla.",
+    "cover": "Ikari Warriors (USA).jpg",
+    "boxart": "Ikari Warriors (USA)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Mario Bros.",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Los hermanos Mario saltan para eliminar enemigos.",
+    "cover": "Mario Bros. (USA).jpg",
+    "boxart": "Mario Bros. (USA)",
+    "size": "48 KB"
+  },
+  {
+    "title": "Pole Position II",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Atari",
+    "synopsis": "Carrera de F1 con vista trasera.",
+    "cover": "Pole Position II (USA).jpg",
+    "boxart": "Pole Position II (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Choplifter!",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "Atari",
+    "synopsis": "Rescate de rehenes en helicóptero.",
+    "cover": "Choplifter! (USA).jpg",
+    "boxart": "Choplifter! (USA)",
+    "size": "32 KB"
+  },
+  {
+    "title": "Fatal Run",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Atari",
+    "synopsis": "Carrera con coches armados.",
+    "cover": "Fatal Run (USA).jpg",
+    "boxart": "Fatal Run (USA)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Tower Toppler",
+    "year": 1988,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Plataformas",
+    "developer": "Atari",
+    "synopsis": "Escala torres circulares.",
+    "cover": "Tower Toppler (USA).jpg",
+    "boxart": "Tower Toppler (USA)",
+    "size": "64 KB"
+  },
+  {
+    "title": "Ninja Golf",
+    "year": 1990,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Deportes",
+    "developer": "Atari",
+    "synopsis": "Golf con ninjas.",
+    "cover": "Ninja Golf (USA).jpg",
+    "boxart": "Ninja Golf (USA)",
+    "size": "128 KB"
+  },
+  {
+    "title": "Jinks",
+    "year": 1987,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Atari",
+    "synopsis": "Rebota una bola en un laberinto.",
+    "cover": "Jinks (USA).jpg",
+    "boxart": "Jinks (USA)",
+    "size": "128 KB"
+  }
+]

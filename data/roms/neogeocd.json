@@ -1,1 +1,113 @@
-[]
+[
+  {
+    "title": "The King of Fighters '95",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Versión CD de KOF '95.",
+    "cover": "King of Fighters '95, The (World) (En,Ja).jpg",
+    "boxart": "King of Fighters '95, The (World) (En,Ja)",
+    "size": "42.7 MB"
+  },
+  {
+    "title": "Samurai Shodown III",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Lucha con armas blancas más oscura y técnica."
+  },
+  {
+    "title": "Samurai Shodown IV",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Cuarta entrega de la saga Samurai Shodown."
+  },
+  {
+    "title": "Fatal Fury 3",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Versión CD de Fatal Fury 3."
+  },
+  {
+    "title": "Art of Fighting 3",
+    "year": 1996,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "SNK",
+    "synopsis": "Tercera entrega con gráficos más realistas."
+  },
+  {
+    "title": "World Heroes Perfect",
+    "year": 1995,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Lucha",
+    "developer": "ADK",
+    "synopsis": "Versión extendida de World Heroes 2.",
+    "cover": "World Heroes Perfect (World) (En,Ja).jpg",
+    "boxart": "World Heroes Perfect (World) (En,Ja)",
+    "size": "28.6 MB"
+  },
+  {
+    "title": "Viewpoint",
+    "year": 1992,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "Sammy",
+    "synopsis": "Shoot'em up isométrico de gran dificultad.",
+    "cover": "Viewpoint (Japan).jpg",
+    "boxart": "Viewpoint (Japan)",
+    "size": "7.0 MB"
+  },
+  {
+    "title": "Zed Blade",
+    "year": 1994,
+    "region": "Mundial",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Shoot'em up",
+    "developer": "NMK",
+    "synopsis": "Shoot'em up horizontal de ritmo rápido."
+  },
+  {
+    "title": "Crossed Swords",
+    "year": 1991,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Acción",
+    "developer": "ADK",
+    "synopsis": "Aventura de acción de espadas con vistas laterales.",
+    "cover": "Crossed Swords (Japan).jpg",
+    "boxart": "Crossed Swords (Japan)",
+    "size": "7.1 MB"
+  }
+]

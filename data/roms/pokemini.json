@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "title": "Pokémon Pinball Mini",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Pinball",
+    "developer": "Nintendo",
+    "synopsis": "Pinball con Pokémon en la consola más pequeña de Nintendo.",
+    "cover": "Pokemon Pinball Mini (USA, Europe).jpg",
+    "boxart": "Pokemon Pinball Mini (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Pokémon Puzzle Collection",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Puzle",
+    "developer": "Nintendo",
+    "synopsis": "Colección de puzles con Pokémon como protagonistas.",
+    "cover": "Pokemon Puzzle Collection (USA, Europe).jpg",
+    "boxart": "Pokemon Puzzle Collection (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Pokémon Party Mini",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Fiesta",
+    "developer": "Nintendo",
+    "synopsis": "Minijuegos de Pokémon para jugar en la portátil diminuta.",
+    "cover": "Pokemon Party Mini (USA).jpg",
+    "boxart": "Pokemon Party Mini (USA)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Pokémon Race Mini",
+    "year": 2002,
+    "region": "Japón",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Carreras de Pokémon en circuitos cortos.",
+    "cover": "Pokemon Race Mini (Japan).jpg",
+    "boxart": "Pokemon Race Mini (Japan)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Pokémon Zany Cards",
+    "year": 2001,
+    "region": "USA",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Estrategia",
+    "developer": "Nintendo",
+    "synopsis": "Juegos de cartas con los Pokémon de la primera generación.",
+    "cover": "Pokemon Zany Cards (USA, Europe).jpg",
+    "boxart": "Pokemon Zany Cards (USA, Europe)",
+    "size": "512 KB"
+  },
+  {
+    "title": "Snorlax's Lunch Time",
+    "year": 2001,
+    "region": "Europa",
+    "languages": [
+      "Inglés"
+    ],
+    "genre": "Arcade",
+    "developer": "Nintendo",
+    "synopsis": "Dale de comer a Snorlax con la comida que cae.",
+    "cover": "Snorlax's Lunch Time (Europe) (GameCube).jpg",
+    "boxart": "Snorlax's Lunch Time (Europe) (GameCube)",
+    "size": "512 KB"
+  }
+]
