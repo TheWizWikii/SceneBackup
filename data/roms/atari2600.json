@@ -8,7 +8,9 @@
     ],
     "genre": "Plataformas",
     "developer": "Activision",
-    "synopsis": "Pitfall Harry salta lagartos y cocodrilos buscando tesoros en la selva."
+    "synopsis": "Pitfall Harry salta lagartos y cocodrilos buscando tesoros en la selva.",
+    "cover": "Pitfall! - Pitfall Harry's Jungle Adventure (USA).jpg",
+    "boxart": "Pitfall! - Pitfall Harry's Jungle Adventure (USA)"
   },
   {
     "title": "Adventure",
@@ -229,7 +231,9 @@
     ],
     "genre": "Plataformas",
     "developer": "Activision",
-    "synopsis": "Secuela de Pitfall con cavernas subterráneas."
+    "synopsis": "Secuela de Pitfall con cavernas subterráneas.",
+    "cover": "Pitfall II - Lost Caverns (USA).jpg",
+    "boxart": "Pitfall II - Lost Caverns (USA)"
   },
   {
     "title": "Ms. Pac-Man",
