@@ -34,8 +34,13 @@
     "sourceUrl": "https://github.com/ricowp81/Salsa64",
     "repo": "ricowp81/Salsa64",
     "added": "2026-10-14",
-    "requirements": ["Tener una PS3 con HEN o CFW"],
-    "install": ["Descarga y instala salsa64.pkg", "Copia tus roms .z64, .v64 o .n64 en /dev_hdd0/salsa64 o en una carpeta llamada salsa64 en tu USB FAT32"],
+    "requirements": [
+      "Tener una PS3 con HEN o CFW"
+    ],
+    "install": [
+      "Descarga y instala salsa64.pkg",
+      "Copia tus roms .z64, .v64 o .n64 en /dev_hdd0/salsa64 o en una carpeta llamada salsa64 en tu USB FAT32"
+    ],
     "warning": "Necesitas una PS3 con Jailbreak."
   },
   {
@@ -79,8 +84,8 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/gowrport.jpg",
-    "version": "windows-v2.2.0",
-    "releaseDate": "2026-10-14",
+    "version": "windows-v2.3.0",
+    "releaseDate": "2026-10-15",
     "description": "Port para PC de God of War III Remastered (PS4) para Windows 10 y 11.",
     "downloadUrl": "https://github.com/FelipePrado0/gow3_pc/releases",
     "sourceUrl": "https://github.com/FelipePrado0/gow3_pc",
@@ -103,8 +108,8 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/dbzbt3.jpg",
-    "version": "0.1.35",
-    "releaseDate": "2026-10-14",
+    "version": "0.1.35.2",
+    "releaseDate": "2026-10-15",
     "description": "Port nativo de Budokai Tenkaichi 3 (PS2) para PC mediante descompilación.",
     "downloadUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases",
     "sourceUrl": "https://github.com/z3xox/Tenkaichi3Decomp",

@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.35",
+    "to": "0.1.35.2",
+    "date": "2026-10-15"
+  },
+  {
+    "title": "God of War III Remastered",
+    "platform": "PC",
+    "from": "windows-v2.2.0",
+    "to": "windows-v2.3.0",
+    "date": "2026-10-15"
+  }
+]
