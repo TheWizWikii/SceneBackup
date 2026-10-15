@@ -73,6 +73,21 @@
     "warning": "Versión Alpha 2 experimental. Requiere PS5 liberada y archivos originales de Xbox. Algunos juegos presentan errores y problemas de rendimiento."
   },
   {
+    "title": "PS5SX2",
+    "category": "Emulador",
+    "platform": "PS5",
+    "cover": "assets/covers/PS5SX2.jpg",
+    "version": "2.10",
+    "releaseDate": "2026-10-13",
+    "description": "Emulador de PS2 para PS5 con jailbreak (port nativo de PCSX2).",
+    "downloadUrl": "https://github.com/Swordpdf/PS5SX2/releases",
+    "sourceUrl": "https://github.com/Swordpdf/PS5SX2",
+    "repo": "Swordpdf/PS5SX2",
+    "requirements": ["Tener una PS5 con Jailbreak, kstuff y ShadowMountPlus","Disponer de una BIOS original de PS2"],
+    "install": ["Descarga PS5SX2Helper.elf y PS5SX2Installer.elf desde GitHub","Añade ambos archivos al autoload de tu Jailbreak","Copia la BIOS de PS2 en /data/PCSX2/bios","Copia tus juegos .iso, .chd, .cso o .zso en /data/PCSX2/games","Inicia PS5SX2 desde el menú de PS5"],
+    "warning": "Necesitas una PS5 con Jailbreak. Emulador en desarrollo: algunos juegos pueden presentar errores o problemas de rendimiento."
+  },
+  {
     "title": "ProsperoStore",
     "category": "App",
     "platform": "PS5",
