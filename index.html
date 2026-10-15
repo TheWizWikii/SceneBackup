@@ -323,11 +323,6 @@ a.tab { display: inline-flex; align-items: center; text-decoration: none; white-
 .rmeta dt { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--mut); }
 .rmeta dd { margin: 2px 0 0; font-size: 14px; overflow-wrap: anywhere; }
 .rlic { font-size: 13px; color: #9dffcb; margin: 0; }
-.hashbox { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; background: rgba(255,255,255,.03); }
-.hashbox h4 { margin: 0 0 6px; font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--mut); font-weight: 500; }
-.hashbox code { display: block; font-family: var(--f-mono); font-size: 11.5px; line-height: 1.8; color: #d6dcff; overflow-wrap: anywhere; }
-.hashbox code em { font-style: normal; color: var(--mut); display: inline-block; min-width: 50px; }
-.hashbox p { margin: 8px 0 0; font-size: 12.5px; color: #ffcf8a; }
 @media (max-width: 480px) { .rmeta { grid-template-columns: 1fr 1fr; } }
 
 /* ficha de juego del archivo: portada completa + capturas ampliables */
@@ -598,7 +593,7 @@ function renderArc() {
     <h1 class="stitle">Archivo</h1>
     <p class="sdesc">Preservación por sistema, de retro a actual. Elige una consola.</p>
   </div></section>
-  <div class="wrap"><div class="callout arcnote">${I_WARN}<span>Los botones de descarga solo aparecen en los títulos con licencia de distribución (homebrew, freeware, dominio público o permiso del autor). Del resto se muestran la ficha y los hashes para verificar tu propio volcado.</span></div>
+  <div class="wrap"><div class="callout arcnote">${I_WARN}<span>Los botones de descarga solo aparecen en los títulos con licencia de distribución (homebrew, freeware, dominio público o permiso del autor). Del resto se muestra la ficha.</span></div>
   <div class="gates">${gates || '<p class="empty">Añade sistemas en data/roms/systems.json.</p>'}</div></div>`;
 }
 function renderArcSys() {
@@ -619,7 +614,7 @@ function renderArcSys() {
         <select class="sel" id="rsort" aria-label="Ordenar"><option value="title-asc">Nombre A–Z</option><option value="year-asc">Año ↑</option><option value="year-desc">Año ↓</option></select>
       </div>
     </div>
-    <p class="rlegend"><span><i></i>Distribución permitida</span><span><i class="c"></i>Catálogo y verificación</span></p>
+    <p class="rlegend"><span><i></i>Distribución permitida</span><span><i class="c"></i>Solo ficha</span></p>
     <div id="results"></div>
   </div>`;
 }
@@ -688,7 +683,7 @@ function renderHome() {
     <div class="stats"><span><b>${games.length}</b>elementos</span><span><b>${systems.length}</b>sistemas</span>${latest[0] ? `<span><b>${esc(fmtDate(latest[0].releaseDate) || '—')}</b>última subida</span>` : ''}</div>
   </div></section>
   <section class="block"><div class="wrap"><h2>Elige sistema</h2><p class="sub">Cada consola tiene su sección con sus propios colores.</p><div class="gates">${gates}</div></div></section>
-  ${arc.systems.length ? `<section class="block"><div class="wrap"><h2>Archivo de preservación</h2><p class="sub">Catálogo de juegos por sistema, de retro a actual, con ficha, hashes de verificación y descargas del contenido que se puede distribuir.</p><div class="types"><a class="type" href="#archivo">${svg('<rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11h14V8M10 12h4"/>')}<div><b>Entrar al archivo</b><span>${arc.systems.length} sistemas · portadas, fichas y verificación</span></div></a></div></div></section>` : ''}
+  ${arc.systems.length ? `<section class="block"><div class="wrap"><h2>Archivo de preservación</h2><p class="sub">Catálogo de juegos por sistema, de retro a actual, con ficha completa y descargas del contenido que se puede distribuir.</p><div class="types"><a class="type" href="#archivo">${svg('<rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11h14V8M10 12h4"/>')}<div><b>Entrar al archivo</b><span>${arc.systems.length} sistemas · portadas, capturas y fichas</span></div></a></div></div></section>` : ''}
   <section class="block"><div class="wrap hrow"><h2>Últimas subidas</h2><a href="#novedades">Ver historial de novedades →</a></div><div class="rail">${latest.slice(0, 10).map(card).join('')}</div></section>
   <section class="block"><div class="wrap"><h2>Por tipo</h2><p class="sub">También puedes recorrer todo el archivo por tipo de contenido.</p><div class="types">${types}</div></div></section>`;
 }
@@ -874,19 +869,16 @@ function renderRomModal() {
   const cp = String(g.cover || '').split('|').filter(Boolean);
   const coverHTML = `<div class="rcover"><span class="fb">${esc(init)}</span>${cp.length ? `<img data-cv src="${esc(cp[0])}" ${cp.length > 1 ? `data-alt="${esc(cp.slice(1).join('|'))}"` : ''} alt="Portada de ${esc(g.title)}" referrerpolicy="no-referrer">` : ''}</div>`;
   const meta = [['Plataforma', g.sys.name], ['Año', g.year], ['Región', g.region], ['Género', g.genre], ['Desarrolladora', g.developer], ['Idiomas', g.langs.join(', ')], ['Tamaño', g.size]].filter(v => v[1]);
-  const h = g.hashes || {}, hl = [['CRC32', h.crc32], ['MD5', h.md5], ['SHA-1', h.sha1]].filter(v => v[1]);
   let panel;
   if (cur.tab === 'video') panel = `<button class="facade" type="button" data-play aria-label="Reproducir tráiler">${cover(g, shots[0] || g.cover)}<span class="play"><span>${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}</span></span></button>`;
   else panel = `<dl class="rmeta">${meta.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl><p class="mdesc">${esc(g.description || 'Sin sinopsis todavía.')}</p>`
     + (shots.length ? `<div class="rshots-h">Capturas</div><div class="rshots">${shots.map((x, k) => `<button class="rshot" type="button" data-lb="${k}" aria-label="Ampliar captura ${k + 1}">${cover(g, x)}</button>`).join('')}</div>` : '')
     + (g.free ? `<p class="rlic">✔ ${esc(g.license)}: distribución permitida</p>` : '')
-    + (hl.length ? `<div class="hashbox"><h4>Hashes de verificación</h4><code>${hl.map(([k, v]) => `<em>${k}</em>${esc(v)}`).join('<br>')}</code>${g.free ? '' : '<p>Este título no se distribuye aquí. Compara tu propio volcado con estos valores.</p>'}</div>` : (g.free ? '' : '<div class="hashbox"><p>Este título no se distribuye aquí.</p></div>'));
+    ;
   const links = [
     g.free && isMagnet(g.magnet) ? `<a class="mbtn pri" href="${esc(g.magnet)}">${I_DL}Magnet</a>` : '',
     g.free && isFile(g.torrent) ? `<a class="mbtn" href="${esc(g.torrent)}" ${hasLink(g.torrent) ? 'target="_blank" rel="noopener"' : 'download'}>Torrent</a>` : '',
     g.free && hasLink(g.mirror) ? `<a class="mbtn" href="${esc(g.mirror)}" target="_blank" rel="noopener">${esc(g.mirrorLabel)}</a>` : '',
-    !g.free && hasLink(g.sys.hashdb) ? `<a class="mbtn pri" href="${esc(g.sys.hashdb)}" target="_blank" rel="noopener">Base de hashes</a>` : '',
-    !g.free && hasLink(g.sys.guide) ? `<a class="mbtn" href="${esc(g.sys.guide)}" target="_blank" rel="noopener">Guía de volcado</a>` : '',
     hasLink(g.youtubeUrl) ? `<a class="mbtn yt" href="${esc(g.youtubeUrl)}" target="_blank" rel="noopener">${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}Tráiler</a>` : ''
   ].join('');
   const n = shots.length, i = cur.shot;
