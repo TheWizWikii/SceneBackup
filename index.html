@@ -299,6 +299,36 @@ html.winter .tube { background: #fff; }
 html.winter .card, html.winter .gate { border-color: rgba(200,235,255,.28); }
 html.winter .vignette::after { content: ""; position: absolute; inset: 0; box-shadow: inset 0 0 120px 10px rgba(190,235,255,.14); }
 
+/* ---------- archivo de preservación ---------- */
+a.tab { display: inline-flex; align-items: center; text-decoration: none; }
+.rgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 156px), 1fr)); gap: 22px 16px; }
+.rcard { all: unset; box-sizing: border-box; cursor: pointer; display: flex; flex-direction: column; gap: 10px; min-width: 0; --ca: var(--a); --cb: var(--b); }
+.rcard:focus-visible { outline: 2px solid var(--ca); outline-offset: 5px; border-radius: 14px; }
+.rcv { position: relative; display: block; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: var(--panel-solid); transition: transform .3s cubic-bezier(.2,.8,.2,1), box-shadow .3s, border-color .3s; }
+.rcv .cover { aspect-ratio: 3/4; }
+.rcard:hover .rcv, .rcard:focus-visible .rcv { transform: translateY(-5px); border-color: var(--ca); box-shadow: 0 14px 44px color-mix(in srgb, var(--ca) 45%, transparent); }
+.rcard:hover .cover img { transform: scale(1.06); }
+.rcard b { font-weight: 600; font-size: 14px; line-height: 1.3; color: var(--ink); overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.rdot { position: absolute; z-index: 2; top: 9px; right: 9px; width: 10px; height: 10px; border-radius: 50%; background: #3dff9a; box-shadow: 0 0 10px #3dff9a; }
+.rdot.c { background: #ffb347; box-shadow: 0 0 10px #ffb347; }
+.rlegend { display: flex; flex-wrap: wrap; gap: 6px 18px; color: var(--mut); font-size: 13px; margin: 0 0 18px; }
+.rlegend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 7px; background: #3dff9a; box-shadow: 0 0 8px #3dff9a; }
+.rlegend i.c { background: #ffb347; box-shadow: 0 0 8px #ffb347; }
+.rmore { display: flex; justify-content: center; padding-top: 34px; }
+.arcnote { margin-bottom: 26px; max-width: 70ch; }
+.gate .gdesc { font-size: 14px; color: #b8c0e8; margin-top: 8px; padding-right: 46px; max-width: 34ch; }
+.rmeta { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 16px; margin: 0; }
+.rmeta div { min-width: 0; }
+.rmeta dt { font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--mut); }
+.rmeta dd { margin: 2px 0 0; font-size: 14px; overflow-wrap: anywhere; }
+.rlic { font-size: 13px; color: #9dffcb; margin: 0; }
+.hashbox { border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; background: rgba(255,255,255,.03); }
+.hashbox h4 { margin: 0 0 6px; font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--mut); font-weight: 500; }
+.hashbox code { display: block; font-family: var(--f-mono); font-size: 11.5px; line-height: 1.8; color: #d6dcff; overflow-wrap: anywhere; }
+.hashbox code em { font-style: normal; color: var(--mut); display: inline-block; min-width: 50px; }
+.hashbox p { margin: 8px 0 0; font-size: 12.5px; color: #ffcf8a; }
+@media (max-width: 480px) { .rmeta { grid-template-columns: 1fr 1fr; } }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition-duration: .01ms !important; }
   html { scroll-behavior: auto; }
@@ -382,8 +412,45 @@ const catKey = c => { const s = slug(c); if (s.startsWith('emul')) return 'emula
 const theme = p => THEMES[p] || THEMES.def;
 const pname = g => PNAMES[g.ps] || g.platform || 'Otros';
 
+
+/* ---------- archivo de preservación (data/roms/*.json) ---------- */
+const ARC_PAGE = 60;
+const ARC_COLORS = [['#ff4d6d', '#ffb347'], ['#a78bfa', '#4cc9ff'], ['#4cc9ff', '#2b59ff'], ['#7b61ff', '#ff6ad5'], ['#34d96a', '#b8ff4a'], ['#ff9a3d', '#ff3b4e'], ['#35e0ff', '#7b61ff']];
+const arc = { systems: [], cur: null, cache: new Map() };
+const isMagnet = u => typeof u === 'string' && /^magnet:\?xt=/i.test(u.trim());
+const isFile = u => hasLink(u) || (typeof u === 'string' && /\.torrent$/i.test(u.trim()));
+const asset = (kind, id, p) => !p ? '' : (/^(https?:)?\/\//i.test(p) || p.includes('/')) ? p : `assets/${kind}/${id}/${p}`;
+function normSystems(list) {
+  return (Array.isArray(list) ? list : []).filter(x => x && x.id && x.name).map((x, i) => {
+    const id = slug(x.id), ac = Array.isArray(x.accent) && x.accent.length > 1 ? x.accent : ARC_COLORS[i % ARC_COLORS.length];
+    THEMES['r:' + id] = ac;
+    return { id, name: String(x.name), desc: String(x.desc || ''), accent: ac, file: x.file || `data/roms/${id}.json`, hashdb: x.hashdb || '', guide: x.guide || '' };
+  });
+}
+function normRoms(sys, list) {
+  const langs = v => Array.isArray(v) ? v.map(String) : String(v || '').split(/\s*,\s*/).filter(Boolean);
+  return list.filter(r => r && r.title).map((r, i) => {
+    const free = !!(r.license && (isMagnet(r.magnet) || isFile(r.torrent) || hasLink(r.mirror)));
+    return {
+      _i: i, _rom: true, sys, title: String(r.title), ps: 'r:' + sys.id, free,
+      year: r.year || '', region: r.region || '', langs: langs(r.languages), size: r.size || '',
+      description: r.synopsis || r.description || '',
+      cover: asset('covers', sys.id, r.cover || slug(r.title) + '.jpg'),
+      shots: toList(r.screenshots).map(x => asset('screenshots', sys.id, x)),
+      youtubeUrl: r.trailer || '', license: r.license || '', magnet: r.magnet || '', torrent: r.torrent || '',
+      mirror: r.mirror || '', mirrorLabel: r.mirrorLabel || 'Alternativo', hashes: r.hashes || {},
+      reqs: [], inst: [], warn: ''
+    };
+  });
+}
+function loadRoms(sys) {
+  if (!arc.cache.has(sys.id)) arc.cache.set(sys.id, fetch(sys.file, { cache: 'no-store' }).then(r => r.ok ? r.json() : []).catch(() => []).then(a => normRoms(sys, Array.isArray(a) ? a : [])));
+  return arc.cache.get(sys.id);
+}
+const arcSys = id => arc.systems.find(s => s.id === id);
+
 let games = [], systems = [], winter = false;
-const state = { q: '', sort: 'date-desc', page: 1, cat: 'all' };
+const state = { q: '', sort: 'date-desc', page: 1, cat: 'all', rf: 'all', rsort: 'title-asc' };
 let route = { name: 'home' };
 
 /* ---------- datos ---------- */
@@ -469,12 +536,84 @@ function card(g) {
   </article>`;
 }
 
+/* ---------- vistas del archivo ---------- */
+function renderArc() {
+  setAccent(HOME);
+  const gates = arc.systems.map(sy => {
+    const t = sy.accent;
+    return `<a class="gate" href="#a-${sy.id}" style="--ca:${t[0]};--cb:${t[1]}" data-sid="${sy.id}">
+      <div><h3>${esc(sy.name)}</h3>${sy.desc ? `<p class="gdesc">${esc(sy.desc)}</p>` : ''}
+      <div class="gmeta"><span><span class="n" data-count="${sy.id}">·</span> juegos</span></div></div>
+      <span class="go">${I_GO}</span></a>`;
+  }).join('');
+  return `<section class="shead"><div class="wrap">
+    <a class="crumb" href="#inicio">← Inicio</a>
+    <h1 class="stitle">Archivo</h1>
+    <p class="sdesc">Preservación por sistema, de retro a actual. Elige una consola.</p>
+  </div></section>
+  <div class="wrap"><div class="callout arcnote">${I_WARN}<span>Los botones de descarga solo aparecen en los títulos con licencia de distribución (homebrew, freeware, dominio público o permiso del autor). Del resto se muestran la ficha y los hashes para verificar tu propio volcado.</span></div>
+  <div class="gates">${gates || '<p class="empty">Añade sistemas en data/roms/systems.json.</p>'}</div></div>`;
+}
+function renderArcSys() {
+  const sy = arcSys(route.id); setAccent(sy.accent);
+  const f = (k, l) => `<button class="tab" type="button" data-rf="${k}" aria-pressed="${state.rf === k}">${l}</button>`;
+  return `<section class="shead"><div class="wrap">
+    <a class="crumb" href="#archivo">← Archivo</a>
+    <h1 class="stitle">${esc(sy.name)}</h1>
+    ${sy.desc ? `<p class="sdesc">${esc(sy.desc)}</p>` : ''}
+    <p class="sinfo" id="rinfo">Cargando…</p>
+  </div></section>
+  <div class="wrap">
+    <div class="toolbar">
+      <div class="tabs" role="group" aria-label="Sistema">${arc.systems.map(x => `<a class="tab" href="#a-${x.id}" aria-pressed="${x.id === sy.id}">${esc(x.name)}</a>`).join('')}</div>
+      <div class="tabs" role="group" aria-label="Filtro">${f('all', 'Todos')}${f('free', 'Descargables')}${f('cat', 'Solo catálogo')}</div>
+      <div class="tools">
+        <label class="field" for="q">${I_SEARCH}<input id="q" type="search" placeholder="Buscar en ${esc(sy.name)}" autocomplete="off" value="${esc(state.q)}"></label>
+        <select class="sel" id="rsort" aria-label="Ordenar"><option value="title-asc">Nombre A–Z</option><option value="year-asc">Año ↑</option><option value="year-desc">Año ↓</option></select>
+      </div>
+    </div>
+    <p class="rlegend"><span><i></i>Distribución permitida</span><span><i class="c"></i>Catálogo y verificación</span></p>
+    <div id="results"></div>
+  </div>`;
+}
+function romFiltered() {
+  let l = arc.cur || [];
+  if (state.rf !== 'all') l = l.filter(g => (state.rf === 'free') === g.free);
+  const q = state.q.trim().toLowerCase();
+  if (q) l = l.filter(g => [g.title, g.region, g.year, g.langs.join(' ')].join(' ').toLowerCase().includes(q));
+  const s = state.rsort, y = g => parseInt(g.year) || 0;
+  return [...l].sort(s === 'year-asc' ? (a, b) => y(a) - y(b) || a.title.localeCompare(b.title) : s === 'year-desc' ? (a, b) => y(b) - y(a) || a.title.localeCompare(b.title) : (a, b) => a.title.localeCompare(b.title));
+}
+function renderRoms() {
+  if (!arc.cur) { $('#results').innerHTML = '<p class="empty">Cargando…</p>'; return; }
+  const all = arc.cur, l = romFiltered(), total = Math.max(1, Math.ceil(l.length / ARC_PAGE));
+  if (state.page > total) state.page = total;
+  const info = $('#rinfo'); if (info) info.textContent = `${all.length} ${all.length === 1 ? 'juego' : 'juegos'} · ${all.filter(g => g.free).length} descargables`;
+  const slice = l.slice((state.page - 1) * ARC_PAGE, state.page * ARC_PAGE);
+  let html = slice.length ? `<div class="rgrid">${slice.map(g => `<button class="rcard" type="button" data-rom="${g._i}" aria-label="Abrir ${esc(g.title)}" style="--ca:${g.sys.accent[0]};--cb:${g.sys.accent[1]}"><span class="rcv">${cover(g)}<span class="rdot ${g.free ? '' : 'c'}" aria-hidden="true"></span></span><b>${esc(g.title)}</b></button>`).join('')}</div>`
+    : `<p class="empty">${all.length ? 'No hay resultados. Cambia el filtro o la búsqueda.' : `Todavía no hay juegos aquí. Añade entradas en ${esc(route.id ? arcSys(route.id).file : 'data/roms')}.`}</p>`;
+  if (total > 1) {
+    let prev = 0, btns = '';
+    pages(state.page, total).forEach(n => {
+      if (prev && n - prev > 1) btns += '<span aria-hidden="true" style="align-self:center;color:var(--mut)">…</span>';
+      btns += `<button type="button" data-page="${n}" ${n === state.page ? 'aria-current="page"' : ''} aria-label="Página ${n}">${n}</button>`; prev = n;
+    });
+    html += `<nav class="pager" aria-label="Paginación"><button type="button" data-page="${state.page - 1}" ${state.page === 1 ? 'disabled' : ''} aria-label="Anterior">←</button>${btns}<button type="button" data-page="${state.page + 1}" ${state.page === total ? 'disabled' : ''} aria-label="Siguiente">→</button></nav>`;
+  }
+  $('#results').innerHTML = html;
+}
+function loadArcView() {
+  if (route.name === 'arc') { arc.systems.forEach(sy => loadRoms(sy).then(l => { const el = document.querySelector(`[data-count="${sy.id}"]`); if (el) el.textContent = l.length; })); return; }
+  const sy = arcSys(route.id); arc.cur = null; renderRoms();
+  loadRoms(sy).then(l => { if (route.name === 'asys' && route.id === sy.id) { arc.cur = l; renderRoms(); } });
+}
+
 /* ---------- vistas ---------- */
 function navHTML() {
-  const cur = route.name === 'home' ? 'inicio' : route.name === 'news' ? 'novedades' : route.name === 'sys' ? 's-' + route.ps : route.name === 'cat' ? 't-' + route.ck : 'todo';
+  const cur = route.name === 'home' ? 'inicio' : route.name === 'news' ? 'novedades' : (route.name === 'arc' || route.name === 'asys') ? 'archivo' : route.name === 'sys' ? 's-' + route.ps : route.name === 'cat' ? 't-' + route.ck : 'todo';
   const link = (id, label, ps, extra) => `<a href="#${id}" ${cur === id ? 'aria-current="page"' : ''} style="--pa:${theme(ps || '')[0]}">${esc(label)}${extra || ''}</a>`;
   const hot = events.some(e => isRecent(e.date));
-  return link('inicio', 'Inicio', 'def') + link('todo', 'Todo', 'def') + link('novedades', 'Novedades', 'def', hot ? '<span class="dot" aria-label="con novedades recientes"></span>' : '') + systems.map(s => link('s-' + s.ps, s.name, s.ps)).join('');
+  return link('inicio', 'Inicio', 'def') + link('todo', 'Todo', 'def') + link('novedades', 'Novedades', 'def', hot ? '<span class="dot" aria-label="con novedades recientes"></span>' : '') + (arc.systems.length ? link('archivo', 'Archivo', 'def') : '') + systems.map(s => link('s-' + s.ps, s.name, s.ps)).join('');
 }
 function renderHome() {
   setAccent(HOME);
@@ -502,6 +641,7 @@ function renderHome() {
     <div class="stats"><span><b>${games.length}</b>elementos</span><span><b>${systems.length}</b>sistemas</span>${latest[0] ? `<span><b>${esc(fmtDate(latest[0].releaseDate) || '—')}</b>última subida</span>` : ''}</div>
   </div></section>
   <section class="block"><div class="wrap"><h2>Elige sistema</h2><p class="sub">Cada consola tiene su sección con sus propios colores.</p><div class="gates">${gates}</div></div></section>
+  ${arc.systems.length ? `<section class="block"><div class="wrap"><h2>Archivo de preservación</h2><p class="sub">Catálogo de juegos por sistema, de retro a actual, con ficha, hashes de verificación y descargas del contenido que se puede distribuir.</p><div class="types"><a class="type" href="#archivo">${svg('<rect x="3" y="4" width="18" height="4" rx="1"/><path d="M5 8v11h14V8M10 12h4"/>')}<div><b>Entrar al archivo</b><span>${arc.systems.length} sistemas · portadas, fichas y verificación</span></div></a></div></div></section>` : ''}
   <section class="block"><div class="wrap hrow"><h2>Últimas subidas</h2><a href="#novedades">Ver historial de novedades →</a></div><div class="rail">${latest.slice(0, 10).map(card).join('')}</div></section>
   <section class="block"><div class="wrap"><h2>Por tipo</h2><p class="sub">También puedes recorrer todo el archivo por tipo de contenido.</p><div class="types">${types}</div></div></section>`;
 }
@@ -558,6 +698,7 @@ function pages(cur, total) {
   return [...out].filter(n => n >= 1 && n <= total).sort((a, b) => a - b);
 }
 function renderResults() {
+  if (route.name === 'asys') return renderRoms();
   const l = filtered(), total = Math.max(1, Math.ceil(l.length / PAGE_SIZE));
   if (state.page > total) state.page = total;
   const slice = l.slice((state.page - 1) * PAGE_SIZE, state.page * PAGE_SIZE);
@@ -601,6 +742,8 @@ function parseRoute() {
   if (h.startsWith('t-') && CATS[h.slice(2)]) return { name: 'cat', ck: h.slice(2) };
   if (h === 'todo') return { name: 'all' };
   if (h === 'novedades') return { name: 'news' };
+  if (h === 'archivo' && arc.systems.length) return { name: 'arc' };
+  if (h.startsWith('a-') && arcSys(h.slice(2))) return { name: 'asys', id: h.slice(2) };
   return { name: 'home' };
 }
 let keepQ = false;
@@ -608,14 +751,15 @@ function render() {
   route = parseRoute();
   if (!keepQ) state.q = '';
   keepQ = false;
-  state.page = 1; state.cat = 'all'; state.sys = null;
+  state.page = 1; state.cat = 'all'; state.sys = null; state.rf = 'all';
   const v = $('#view');
-  v.innerHTML = route.name === 'home' ? renderHome() : route.name === 'news' ? renderNews() : renderSection();
+  v.innerHTML = route.name === 'home' ? renderHome() : route.name === 'news' ? renderNews() : route.name === 'arc' ? renderArc() : route.name === 'asys' ? renderArcSys() : renderSection();
   $('#navlinks').innerHTML = navHTML();
   const cur = $('#navlinks [aria-current="page"]'); if (cur) cur.scrollIntoView({ inline: 'center', block: 'nearest' });
-  if (route.name !== 'home' && route.name !== 'news') { $('#sort').value = state.sort; renderResults(); }
+  if (route.name === 'arc' || route.name === 'asys') { if (route.name === 'asys') $('#rsort').value = state.rsort; loadArcView(); }
+  else if (route.name !== 'home' && route.name !== 'news') { $('#sort').value = state.sort; renderResults(); }
   window.scrollTo(0, 0);
-  document.title = route.name === 'sys' ? `${systems.find(s => s.ps === route.ps).name} · Scene Backup` : 'Scene Backup';
+  document.title = route.name === 'asys' ? `${arcSys(route.id).name} · Archivo · Scene Backup` : route.name === 'arc' ? 'Archivo · Scene Backup' : route.name === 'sys' ? `${systems.find(s => s.ps === route.ps).name} · Scene Backup` : 'Scene Backup';
 }
 
 /* ---------- eventos ---------- */
@@ -627,8 +771,12 @@ view.addEventListener('submit', e => {
   if (location.hash === '#todo') render(); else location.hash = 'todo';
 });
 view.addEventListener('input', e => { if (e.target.id === 'q') { state.q = e.target.value; state.page = 1; renderResults(); } });
-view.addEventListener('change', e => { if (e.target.id === 'sort') { state.sort = e.target.value; state.page = 1; renderResults(); } });
+view.addEventListener('change', e => { if (e.target.id === 'rsort') { state.rsort = e.target.value; state.page = 1; renderResults(); } if (e.target.id === 'sort') { state.sort = e.target.value; state.page = 1; renderResults(); } });
 view.addEventListener('click', e => {
+  const rf = e.target.closest('[data-rf]');
+  if (rf) { state.rf = rf.dataset.rf; state.page = 1; document.querySelectorAll('[data-rf]').forEach(b => b.setAttribute('aria-pressed', b === rf)); renderResults(); return; }
+  const rc = e.target.closest('.rcard');
+  if (rc) { openRom(+rc.dataset.rom, rc); return; }
   const tab = e.target.closest('[data-cat]'), st = e.target.closest('[data-sys]'), pg = e.target.closest('[data-page]');
   if (tab) { state.cat = tab.dataset.cat; state.page = 1; document.querySelectorAll('[data-cat]').forEach(b => b.setAttribute('aria-pressed', b === tab)); renderResults(); return; }
   if (st) { state.sys = st.dataset.sys === 'all' ? null : st.dataset.sys; state.page = 1; document.querySelectorAll('[data-sys]').forEach(b => b.setAttribute('aria-pressed', b === st)); renderResults(); return; }
@@ -670,17 +818,31 @@ function renderModal() {
   cur.n = list.length;
   if (cur.shot >= list.length) cur.shot = 0;
   cur.vid = hasLink(g.youtubeUrl) ? ytId(g.youtubeUrl) : '';
-  const tabs = [['info', 'Info'], g.reqs.length ? ['req', 'Requisitos'] : null, g.inst.length ? ['ins', 'Instalación'] : null, cur.vid ? ['video', 'Vídeo'] : null].filter(Boolean);
+  const R = !!g._rom;
+  const tabs = [['info', R ? 'Ficha' : 'Info'], g.reqs.length ? ['req', 'Requisitos'] : null, g.inst.length ? ['ins', 'Instalación'] : null, cur.vid ? ['video', R ? 'Tráiler' : 'Vídeo'] : null].filter(Boolean);
   cur.tabKeys = tabs.map(x => x[0]);
   if (!cur.tabKeys.includes(cur.tab)) cur.tab = 'info';
   let panel = '';
-  if (cur.tab === 'info') panel = `<p class="mdesc">${esc(g.description || 'Sin descripción todavía.')}</p>${g.warn ? `<div class="callout">${I_WARN}<span>${esc(g.warn)}</span></div>` : ''}`;
+  if (cur.tab === 'info' && R) {
+    const meta = [['Plataforma', g.sys.name], ['Año', g.year], ['Región', g.region], ['Idiomas', g.langs.join(', ')], ['Tamaño', g.size]].filter(v => v[1]);
+    const h = g.hashes || {}, hl = [['CRC32', h.crc32], ['MD5', h.md5], ['SHA-1', h.sha1]].filter(v => v[1]);
+    panel = `<dl class="rmeta">${meta.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl><p class="mdesc">${esc(g.description || 'Sin sinopsis todavía.')}</p>`
+      + (g.free ? `<p class="rlic">✔ ${esc(g.license)}: distribución permitida</p>` : '')
+      + (hl.length ? `<div class="hashbox"><h4>Hashes de verificación</h4><code>${hl.map(([k, v]) => `<em>${k}</em>${esc(v)}`).join('<br>')}</code>${g.free ? '' : '<p>Este título no se distribuye aquí. Compara tu propio volcado con estos valores.</p>'}</div>` : (g.free ? '' : `<div class="hashbox"><p>Este título no se distribuye aquí.</p></div>`));
+  } else if (cur.tab === 'info') panel = `<p class="mdesc">${esc(g.description || 'Sin descripción todavía.')}</p>${g.warn ? `<div class="callout">${I_WARN}<span>${esc(g.warn)}</span></div>` : ''}`;
   if (cur.tab === 'req') panel = `<ul class="mlist">${g.reqs.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
   if (cur.tab === 'ins') panel = `<ol class="msteps">${g.inst.map(x => `<li><span>${esc(x)}</span></li>`).join('')}</ol>`;
   if (cur.tab === 'video') panel = `<button class="facade" type="button" data-play aria-label="Reproducir vídeo">${cover(g, list[0])}<span class="play"><span>${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}</span></span></button>`;
   const multi = list.length > 1, i = cur.shot, n = list.length;
   const gal = `<div class="gal"><div class="gstage">${cover(g, list[i])}${multi ? `<button class="gnav prev" type="button" data-shot="${(i - 1 + n) % n}" aria-label="Imagen anterior">${svg('<path d="M15 6l-6 6 6 6"/>')}</button><button class="gnav next" type="button" data-shot="${(i + 1) % n}" aria-label="Imagen siguiente">${svg('<path d="M9 6l6 6-6 6"/>')}</button><span class="gcount">${i + 1} / ${n}</span>` : ''}</div>${multi ? `<div class="thumbs">${list.map((s, k) => `<button class="thumb" type="button" data-shot="${k}" aria-label="Imagen ${k + 1}" ${k === i ? 'aria-current="true"' : ''}>${cover(g, s)}</button>`).join('')}</div>` : ''}</div>`;
-  const links = [
+  const links = R ? [
+    g.free && isMagnet(g.magnet) ? `<a class="mbtn pri" href="${esc(g.magnet)}">${I_DL}Magnet</a>` : '',
+    g.free && isFile(g.torrent) ? `<a class="mbtn" href="${esc(g.torrent)}" ${hasLink(g.torrent) ? 'target="_blank" rel="noopener"' : 'download'}>Torrent</a>` : '',
+    g.free && hasLink(g.mirror) ? `<a class="mbtn" href="${esc(g.mirror)}" target="_blank" rel="noopener">${esc(g.mirrorLabel)}</a>` : '',
+    !g.free && hasLink(g.sys.hashdb) ? `<a class="mbtn pri" href="${esc(g.sys.hashdb)}" target="_blank" rel="noopener">Base de hashes</a>` : '',
+    !g.free && hasLink(g.sys.guide) ? `<a class="mbtn" href="${esc(g.sys.guide)}" target="_blank" rel="noopener">Guía de volcado</a>` : '',
+    hasLink(g.youtubeUrl) ? `<a class="mbtn yt" href="${esc(g.youtubeUrl)}" target="_blank" rel="noopener">${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}Tráiler</a>` : ''
+  ].join('') || '<p class="hint">No hay enlaces disponibles.</p>' : [
     hasLink(g.downloadUrl) ? `<a class="mbtn pri" href="${esc(g.downloadUrl)}" target="_blank" rel="noopener">${I_DL}Descargar</a>` : '',
     hasLink(g.sourceUrl) ? `<a class="mbtn" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener">Código fuente</a>` : '',
     hasLink(g.youtubeUrl) ? `<a class="mbtn yt" href="${esc(g.youtubeUrl)}" target="_blank" rel="noopener">${svg('<path d="M7 5l12 7-12 7z" fill="currentColor"/>')}YouTube</a>` : ''
@@ -688,7 +850,7 @@ function renderModal() {
   modal.dataset.tab = cur.tab;
   modal.innerHTML = `<button class="mx" id="mx" type="button" aria-label="Cerrar">${I_X}</button>${gal}
     <div class="mbody">
-      <div class="mtags"><span>${esc(pname(g))}</span><span>${esc(CAT_ONE[g.ck])}</span>${g.version ? `<span>v${esc(g.version)}</span>` : ''}${fmtDate(g.releaseDate) ? `<span>${esc(fmtDate(g.releaseDate))}</span>` : ''}</div>
+      <div class="mtags">${R ? `<span>${esc(g.sys.name)}</span>${g.region ? `<span>${esc(g.region)}</span>` : ''}${g.year ? `<span>${esc(g.year)}</span>` : ''}` : `<span>${esc(pname(g))}</span><span>${esc(CAT_ONE[g.ck])}</span>`}${!R && g.version ? `<span>v${esc(g.version)}</span>` : ''}${!R && fmtDate(g.releaseDate) ? `<span>${esc(fmtDate(g.releaseDate))}</span>` : ''}</div>
       <h2 class="mtitle" id="m-title">${esc(g.title)}</h2>
       ${tabs.length > 1 ? `<div class="mtabs" role="tablist">${tabs.map(([k, l]) => `<button class="mtab" role="tab" type="button" data-tab="${k}" aria-selected="${k === cur.tab}">${l}</button>`).join('')}</div>` : ''}
       <div class="mpanel" ${tabs.length > 1 ? 'role="tabpanel"' : ''}>${panel}</div>
@@ -698,6 +860,15 @@ function renderModal() {
 function openModal(id, from) {
   const g = games.find(x => x._id === id); if (!g) return;
   const t = theme(g.ps);
+  lastFocus = from || document.activeElement;
+  modal.style.setProperty('--ca', winter ? WINTER[0] : t[0]); modal.style.setProperty('--cb', winter ? WINTER[1] : t[1]);
+  cur = { g, tab: 'info', shot: 0 };
+  renderModal();
+  ov.hidden = false; document.body.style.overflow = 'hidden'; $('#mx').focus();
+}
+function openRom(i, from) {
+  const g = (arc.cur || []).find(x => x._i === i); if (!g) return;
+  const t = g.sys.accent;
   lastFocus = from || document.activeElement;
   modal.style.setProperty('--ca', winter ? WINTER[0] : t[0]); modal.style.setProperty('--cb', winter ? WINTER[1] : t[1]);
   cur = { g, tab: 'info', shot: 0 };
@@ -812,6 +983,7 @@ async function boot() {
   games = normalize(data); buildSystems();
   let log = []; try { const r = await fetch('data/changelog.json', { cache: 'no-store' }); if (r.ok) log = await r.json(); } catch (_) {}
   buildEvents(log);
+  try { const r = await fetch('data/roms/systems.json', { cache: 'no-store' }); if (r.ok) arc.systems = normSystems(await r.json()); } catch (_) {}
   let w = false; try { w = localStorage.getItem(WINTER_KEY) === '1'; } catch (_) {}
   resize(); setWinter(w, false);
   render();
