@@ -1,6 +1,7 @@
 [
   {
     "title": "Super Mario Bros",
+    "license": "Homebrew del autor (con permiso)",
     "year": 1985,
     "region": "Mundial",
     "languages": ["Español", "Inglés"],
