@@ -1,1 +1,502 @@
-[]
+[
+  {
+    "title": "Super Mario Bros",
+    "year": 1985,
+    "region": "Mundial",
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "El clásico juego que revolucionó los plataformas. Mario debe rescatar a la princesa Peach del malvado Bowser.",
+    "cover": "Super Mario Bros. (World).jpg",
+    "boxart": "Super Mario Bros. (World)"
+  },
+  {
+    "title": "Super Mario Bros 2",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "La secuela americana de Super Mario Bros. Mario, Luigi, Toad y Peach viajan al mundo de los sueños Subcon para derrotar a Wart.",
+    "cover": "Super Mario Bros. 2 (USA) (Rev 1).jpg",
+    "boxart": "Super Mario Bros. 2 (USA) (Rev 1)"
+  },
+  {
+    "title": "Super Mario Bros 3",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Uno de los mejores juegos de plataformas de la historia. Mario viaja por el Reino Champiñón con nuevos poderes como el traje de mapache.",
+    "cover": "Super Mario Bros. 3 (USA) (Rev 1).jpg",
+    "boxart": "Super Mario Bros. 3 (USA) (Rev 1)"
+  },
+  {
+    "title": "The Legend of Zelda",
+    "year": 1986,
+    "region": "USA",
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "El primer juego de la legendaria saga. Link debe derrotar a Ganon y salvar a la princesa Zelda.",
+    "cover": "Legend of Zelda, The (USA) (Rev 1).jpg",
+    "boxart": "Legend of Zelda, The (USA) (Rev 1)"
+  },
+  {
+    "title": "Zelda II: The Adventure of Link",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Aventura",
+    "developer": "Nintendo",
+    "synopsis": "La secuela de The Legend of Zelda con un enfoque más RPG y combates laterales. Link busca despertar a la princesa Zelda.",
+    "cover": "Zelda II - The Adventure of Link (USA).jpg",
+    "boxart": "Zelda II - The Adventure of Link (USA)"
+  },
+  {
+    "title": "Metroid",
+    "year": 1986,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Nintendo",
+    "synopsis": "Samus Aran explora el planeta Zebes en busca del Metroid. Un clásico de exploración y acción.",
+    "cover": "Metroid (USA).jpg",
+    "boxart": "Metroid (USA)"
+  },
+  {
+    "title": "Mega Man",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "El primer juego de la saga Mega Man. El robot Mega Man lucha contra los robots del Dr. Wily en seis etapas.",
+    "cover": "Mega Man (USA).jpg",
+    "boxart": "Mega Man (USA)"
+  },
+  {
+    "title": "Mega Man 2",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "La secuela más aclamada de la saga. Mega Man se enfrenta a ocho nuevos robots y al Dr. Wily.",
+    "cover": "Mega Man 2 (USA).jpg",
+    "boxart": "Mega Man 2 (USA)"
+  },
+  {
+    "title": "Mega Man 3",
+    "year": 1990,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "La tercera entrega con nuevos robots y la introducción de Rush, el perro robot de Mega Man.",
+    "cover": "Mega Man 3 (USA).jpg",
+    "boxart": "Mega Man 3 (USA)"
+  },
+  {
+    "title": "Castlevania",
+    "year": 1986,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Simon Belmont entra al castillo de Drácula para derrotarlo. Un clásico de acción y plataformas.",
+    "cover": "Castlevania (USA) (Rev 1).jpg",
+    "boxart": "Castlevania (USA) (Rev 1)"
+  },
+  {
+    "title": "Castlevania II: Simon's Quest",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Acción-Aventura",
+    "developer": "Konami",
+    "synopsis": "Simon Belmont viaja por Transilvania para destruir las partes del cuerpo de Drácula.",
+    "cover": "Castlevania II - Simon's Quest (USA).jpg",
+    "boxart": "Castlevania II - Simon's Quest (USA)"
+  },
+  {
+    "title": "Castlevania III: Dracula's Curse",
+    "year": 1989,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "La tercera entrega con múltiples personajes jugables y rutas alternativas en el castillo de Drácula.",
+    "cover": "Castlevania III - Dracula's Curse (USA).jpg",
+    "boxart": "Castlevania III - Dracula's Curse (USA)"
+  },
+  {
+    "title": "Contra",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "El clásico juego de acción con el código Konami. Dos soldados luchan contra una amenaza alienígena.",
+    "cover": "Contra (USA).jpg",
+    "boxart": "Contra (USA)"
+  },
+  {
+    "title": "Super C",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "La secuela de Contra con más acción, nuevas armas y enemigos más desafiantes.",
+    "cover": "Super C (USA).jpg",
+    "boxart": "Super C (USA)"
+  },
+  {
+    "title": "DuckTales",
+    "year": 1989,
+    "region": "USA",
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Basado en la serie animada. Rico McPato viaja por el mundo en busca de tesoros.",
+    "cover": "DuckTales (USA).jpg",
+    "boxart": "DuckTales (USA)"
+  },
+  {
+    "title": "Chip 'n Dale Rescue Rangers",
+    "year": 1990,
+    "region": "USA",
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Chip y Dale trabajan como equipo en este juego de plataformas basado en la serie animada.",
+    "cover": "Chip 'n Dale - Rescue Rangers (USA).jpg",
+    "boxart": "Chip 'n Dale - Rescue Rangers (USA)"
+  },
+  {
+    "title": "Ninja Gaiden",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Tecmo",
+    "synopsis": "Ryu Hayabusa busca venganza contra el asesino de su padre en este clásico de acción.",
+    "cover": "Ninja Gaiden (USA).jpg",
+    "boxart": "Ninja Gaiden (USA)"
+  },
+  {
+    "title": "Ninja Gaiden II: The Dark Sword of Chaos",
+    "year": 1990,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Tecmo",
+    "synopsis": "La secuela del Ninja Gaiden original con más acción y una historia más profunda.",
+    "cover": "Ninja Gaiden II - The Dark Sword of Chaos (USA).jpg",
+    "boxart": "Ninja Gaiden II - The Dark Sword of Chaos (USA)"
+  },
+  {
+    "title": "Ninja Gaiden III: The Ancient Ship of Doom",
+    "year": 1991,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Tecmo",
+    "synopsis": "La tercera entrega de la saga Ninja Gaiden, con nuevas mecánicas y una historia que cierra la trilogía.",
+    "cover": "Ninja Gaiden III - The Ancient Ship of Doom (USA).jpg",
+    "boxart": "Ninja Gaiden III - The Ancient Ship of Doom (USA)"
+  },
+  {
+    "title": "Kirby's Adventure",
+    "year": 1993,
+    "region": "USA",
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "El primer juego de Kirby en NES. Kirby debe restaurar los sueños de Dream Land.",
+    "cover": "Kirby's Adventure (USA) (Rev 1).jpg",
+    "boxart": "Kirby's Adventure (USA) (Rev 1)"
+  },
+  {
+    "title": "Punch-Out!!",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Little Mac sube al ring para enfrentar a los boxeadores más duros del mundo.",
+    "cover": "Punch-Out!! (USA).jpg",
+    "boxart": "Punch-Out!! (USA)"
+  },
+  {
+    "title": "Excitebike",
+    "year": 1984,
+    "region": "Japón",
+    "genre": "Carreras",
+    "developer": "Nintendo",
+    "synopsis": "Un juego de carreras de motocross con un editor de pistas. Uno de los primeros juegos de NES.",
+    "cover": "Excitebike (Japan, USA) (En).jpg",
+    "boxart": "Excitebike (Japan, USA) (En)"
+  },
+  {
+    "title": "Ice Hockey",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Un juego de hockey sobre hielo con equipos de diferentes países. Un clásico deportivo.",
+    "cover": "Ice Hockey (USA).jpg",
+    "boxart": "Ice Hockey (USA)"
+  },
+  {
+    "title": "Pro Wrestling",
+    "year": 1986,
+    "region": "USA",
+    "genre": "Deportes",
+    "developer": "Nintendo",
+    "synopsis": "Un juego de lucha libre con personajes icónicos como el luchador con máscara.",
+    "cover": "Pro Wrestling (USA) (Rev 1).jpg",
+    "boxart": "Pro Wrestling (USA) (Rev 1)"
+  },
+  {
+    "title": "Double Dragon",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Technos Japan",
+    "synopsis": "Los hermanos Lee se enfrentan a una pandilla para rescatar a la novia de Billy. Un clásico de los beat 'em up.",
+    "cover": "Double Dragon (USA).jpg",
+    "boxart": "Double Dragon (USA)"
+  },
+  {
+    "title": "Double Dragon II: The Revenge",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Technos Japan",
+    "synopsis": "La secuela del Double Dragon original con más acción y combates.",
+    "cover": "Double Dragon II - The Revenge (USA) (Rev 1).jpg",
+    "boxart": "Double Dragon II - The Revenge (USA) (Rev 1)"
+  },
+  {
+    "title": "Battletoads",
+    "year": 1991,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Rare",
+    "synopsis": "Los Battletoads, tres sapos mutantes, luchan contra la Dark Queen. Conocido por su dificultad extrema.",
+    "cover": "Battletoads (USA).jpg",
+    "boxart": "Battletoads (USA)"
+  },
+  {
+    "title": "Ghosts 'n Goblins",
+    "year": 1985,
+    "region": "USA",
+    "genre": "Plataformas",
+    "developer": "Capcom",
+    "synopsis": "Sir Arthur debe rescatar a la princesa del reino demoníaco. Un juego de dificultad legendaria.",
+    "cover": "Ghosts'n Goblins (USA).jpg",
+    "boxart": "Ghosts'n Goblins (USA)"
+  },
+  {
+    "title": "Bionic Commando",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Capcom",
+    "synopsis": "Un soldado con un brazo biónico debe infiltrarse en una base enemiga.",
+    "cover": "Bionic Commando (USA).jpg",
+    "boxart": "Bionic Commando (USA)"
+  },
+  {
+    "title": "Blaster Master",
+    "year": 1988,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Sunsoft",
+    "synopsis": "Un joven pilota un tanque para rescatar a su rana. Un juego con mecánicas de plataformas y metroidvania.",
+    "cover": "Blaster Master (USA).jpg",
+    "boxart": "Blaster Master (USA)"
+  },
+  {
+    "title": "Gradius",
+    "year": 1985,
+    "region": "USA",
+    "genre": "Shoot 'em up",
+    "developer": "Konami",
+    "synopsis": "Un clásico de los shoot 'em up con un sistema de power-ups que se puede seleccionar.",
+    "cover": "Gradius (USA).jpg",
+    "boxart": "Gradius (USA)"
+  },
+  {
+    "title": "Life Force",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Shoot 'em up",
+    "developer": "Konami",
+    "synopsis": "Un shooter vertical y horizontal con naves espaciales. Conocido por su modo cooperativo.",
+    "cover": "Life Force (USA).jpg",
+    "boxart": "Life Force (USA)"
+  },
+  {
+    "title": "Kid Icarus",
+    "year": 1986,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Nintendo",
+    "synopsis": "Pit, el ángel, debe escapar del inframundo y derrotar a Medusa en este clásico de Nintendo.",
+    "cover": "Kid Icarus (USA, Europe) (Rev 1).jpg",
+    "boxart": "Kid Icarus (USA, Europe) (Rev 1)"
+  },
+  {
+    "title": "Ice Climber",
+    "year": 1985,
+    "region": "USA",
+    "genre": "Plataformas",
+    "developer": "Nintendo",
+    "synopsis": "Dos escaladores deben subir una montaña de hielo mientras evitan enemigos.",
+    "cover": "Ice Climber (USA, Europe, Korea) (En).jpg",
+    "boxart": "Ice Climber (USA, Europe, Korea) (En)"
+  },
+  {
+    "title": "Balloon Fight",
+    "year": 1984,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Nintendo",
+    "synopsis": "Controla a un personaje con globos y lucha contra enemigos en el aire.",
+    "cover": "Balloon Fight (USA).jpg",
+    "boxart": "Balloon Fight (USA)"
+  },
+  {
+    "title": "Dr. Mario",
+    "year": 1990,
+    "region": "USA",
+    "genre": "Puzzle",
+    "developer": "Nintendo",
+    "synopsis": "Un juego de puzzle donde debes eliminar virus con pastillas de colores. Un clásico adictivo.",
+    "cover": "Dr. Chaos (USA).jpg",
+    "boxart": "Dr. Chaos (USA)"
+  },
+  {
+    "title": "Tetris",
+    "year": 1985,
+    "region": "USA",
+    "genre": "Puzzle",
+    "developer": "Nintendo",
+    "synopsis": "El clásico juego de puzzle donde debes encajar bloques que caen. Adictivo y eterno.",
+    "cover": "Tetris (USA) (Tengen) (Unl).jpg",
+    "boxart": "Tetris (USA) (Tengen) (Unl)"
+  },
+  {
+    "title": "Final Fantasy",
+    "year": 1987,
+    "region": "USA",
+    "genre": "RPG",
+    "developer": "Square",
+    "synopsis": "El primer juego de la saga Final Fantasy. Cuatro guerreros de la luz deben salvar el mundo.",
+    "cover": "Final Fantasy (USA).jpg",
+    "boxart": "Final Fantasy (USA)"
+  },
+  {
+    "title": "Dragon Warrior",
+    "year": 1986,
+    "region": "USA",
+    "genre": "RPG",
+    "developer": "Chunsoft",
+    "synopsis": "El primer juego de la saga Dragon Quest en occidente. El héroe debe rescatar a la princesa y derrotar al Dragonlord.",
+    "cover": "Dragon Warrior (USA) (Rev 1).jpg",
+    "boxart": "Dragon Warrior (USA) (Rev 1)"
+  },
+  {
+    "title": "Dragon Warrior II",
+    "year": 1987,
+    "region": "USA",
+    "genre": "RPG",
+    "developer": "Chunsoft",
+    "synopsis": "La secuela de Dragon Warrior con un mundo más grande y un grupo de héroes.",
+    "cover": "Dragon Warrior II (USA).jpg",
+    "boxart": "Dragon Warrior II (USA)"
+  },
+  {
+    "title": "Dragon Warrior III",
+    "year": 1988,
+    "region": "USA",
+    "genre": "RPG",
+    "developer": "Chunsoft",
+    "synopsis": "La tercera entrega de la saga Dragon Quest, considerada una de las mejores de NES.",
+    "cover": "Dragon Warrior III (USA).jpg",
+    "boxart": "Dragon Warrior III (USA)"
+  },
+  {
+    "title": "Dragon Warrior IV",
+    "year": 1990,
+    "region": "USA",
+    "genre": "RPG",
+    "developer": "Chunsoft",
+    "synopsis": "La cuarta entrega con una historia dividida en capítulos y personajes únicos.",
+    "cover": "Dragon Warrior IV (USA).jpg",
+    "boxart": "Dragon Warrior IV (USA)"
+  },
+  {
+    "title": "Home Alone",
+    "year": 1991,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "THQ",
+    "synopsis": "Basado en la película. Kevin McCallister debe proteger su casa de los ladrones con trampas y objetos.",
+    "cover": "Home Alone (USA) (Rev 1).jpg",
+    "boxart": "Home Alone (USA) (Rev 1)"
+  },
+  {
+    "title": "Home Alone 2: Lost in New York",
+    "year": 1992,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "THQ",
+    "synopsis": "La secuela del juego de Home Alone. Kevin está perdido en Nueva York y debe evadir a los ladrones.",
+    "cover": "Home Alone 2 - Lost in New York (USA).jpg",
+    "boxart": "Home Alone 2 - Lost in New York (USA)"
+  },
+  {
+    "title": "The Goonies",
+    "year": 1985,
+    "region": "Japón",
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "Basado en la película. Los Goonies buscan el tesoro de One-Eyed Willy en una cueva subterránea.",
+    "cover": "Goonies (Japan).jpg",
+    "boxart": "Goonies (Japan)"
+  },
+  {
+    "title": "The Goonies II",
+    "year": 1987,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Konami",
+    "synopsis": "La secuela del juego de The Goonies con más exploración y acción.",
+    "cover": "Goonies II, The (USA).jpg",
+    "boxart": "Goonies II, The (USA)"
+  },
+  {
+    "title": "Back to the Future",
+    "year": 1989,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "LJN",
+    "synopsis": "Basado en la película. Marty McFly viaja en el tiempo para asegurarse de que sus padres se conozcan.",
+    "cover": "Back to the Future (USA).jpg",
+    "boxart": "Back to the Future (USA)"
+  },
+  {
+    "title": "Back to the Future II & III",
+    "year": 1990,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "LJN",
+    "synopsis": "Un juego que combina las dos últimas películas de Back to the Future en una sola aventura.",
+    "cover": "Back to the Future Part II & III (USA).jpg",
+    "boxart": "Back to the Future Part II & III (USA)"
+  },
+  {
+    "title": "Ghostbusters",
+    "year": 1984,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Activision",
+    "synopsis": "Basado en la película. Los Cazafantasmas deben atrapar fantasmas en la ciudad de Nueva York.",
+    "cover": "Ghostbusters (USA).jpg",
+    "boxart": "Ghostbusters (USA)"
+  },
+  {
+    "title": "Ghostbusters II",
+    "year": 1989,
+    "region": "USA",
+    "genre": "Acción",
+    "developer": "Activision",
+    "synopsis": "La secuela del juego de Ghostbusters, basada en la segunda película.",
+    "cover": "Ghostbusters II (USA).jpg",
+    "boxart": "Ghostbusters II (USA)"
+  }
+]
