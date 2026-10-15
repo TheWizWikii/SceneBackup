@@ -61,15 +61,23 @@
     "category": "Emulador",
     "platform": "PS5",
     "cover": "assets/covers/xpsemu.jpg",
-    "version": "2.1",
+    "version": "Alpha-2.1",
     "releaseDate": "2026-10-10",
     "description": "Port nativo de xemu para PS5. La Xbox original emulada en PS5, con su propio dashboard estilo Xbox.",
     "downloadUrl": "https://github.com/ZiZc3/XPSemu/releases",
     "sourceUrl": "https://github.com/ZiZc3/XPSemu",
     "repo": "ZiZc3/XPSemu",
-    "requirements": ["Tener una PS5 con Jailbreak, kstuff y ShadowMountPlus","Disponer de la BIOS y ROM MCPX de Xbox original"],
-    "install": ["Descarga PPSA97358.zip, extráelo y copia la carpeta PPSA97358 en /data/homebrew/","Carga helper.elf mediante kstuff","Copia mcpx_1.0.bin y Complex_4627.bin en /data/xemu/","Copia tus juegos .iso o .xiso en /data/xemu/games/ o en xemu/games/ de un USB",
-    "Inicia XPSemu desde el menú de PS5"],
+    "requirements": [
+      "Tener una PS5 con Jailbreak, kstuff y ShadowMountPlus",
+      "Disponer de la BIOS y ROM MCPX de Xbox original"
+    ],
+    "install": [
+      "Descarga PPSA97358.zip, extráelo y copia la carpeta PPSA97358 en /data/homebrew/",
+      "Carga helper.elf mediante kstuff",
+      "Copia mcpx_1.0.bin y Complex_4627.bin en /data/xemu/",
+      "Copia tus juegos .iso o .xiso en /data/xemu/games/ o en xemu/games/ de un USB",
+      "Inicia XPSemu desde el menú de PS5"
+    ],
     "warning": "Versión Alpha 2 experimental. Requiere PS5 liberada y archivos originales de Xbox. Algunos juegos presentan errores y problemas de rendimiento."
   },
   {
@@ -77,14 +85,23 @@
     "category": "Emulador",
     "platform": "PS5",
     "cover": "assets/covers/PS5SX2.jpg",
-    "version": "2.10",
-    "releaseDate": "2026-10-13",
+    "version": "vk-285-171",
+    "releaseDate": "2026-10-14",
     "description": "Emulador de PS2 para PS5 con jailbreak (port nativo de PCSX2).",
     "downloadUrl": "https://github.com/Swordpdf/PS5SX2/releases",
     "sourceUrl": "https://github.com/Swordpdf/PS5SX2",
     "repo": "Swordpdf/PS5SX2",
-    "requirements": ["Tener una PS5 con Jailbreak, kstuff y ShadowMountPlus","Disponer de una BIOS original de PS2"],
-    "install": ["Descarga PS5SX2Helper.elf y PS5SX2Installer.elf desde GitHub","Añade ambos archivos al autoload de tu Jailbreak","Copia la BIOS de PS2 en /data/PCSX2/bios","Copia tus juegos .iso, .chd, .cso o .zso en /data/PCSX2/games","Inicia PS5SX2 desde el menú de PS5"],
+    "requirements": [
+      "Tener una PS5 con Jailbreak, kstuff y ShadowMountPlus",
+      "Disponer de una BIOS original de PS2"
+    ],
+    "install": [
+      "Descarga PS5SX2Helper.elf y PS5SX2Installer.elf desde GitHub",
+      "Añade ambos archivos al autoload de tu Jailbreak",
+      "Copia la BIOS de PS2 en /data/PCSX2/bios",
+      "Copia tus juegos .iso, .chd, .cso o .zso en /data/PCSX2/games",
+      "Inicia PS5SX2 desde el menú de PS5"
+    ],
     "warning": "Necesitas una PS5 con Jailbreak para poder usarlo."
   },
   {
@@ -98,8 +115,17 @@
     "downloadUrl": "https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5/releases",
     "sourceUrl": "https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5",
     "repo": "elripalda/Porpoise-Dolphin-Emulator-for-PS5",
-    "requirements": ["Tener una PS5 con Jailbreak, etaHEN, kstuff y ShadowMountPlus 1.7 beta 4 o superior","Disponer de FTP o PS5 Upload para transferir archivos"],
-    "install": ["Descarga Porpoise desde GitHub y extrae el archivo ZIP","Copia la carpeta PPSA99764 en /data/homebrew/ mediante FTP","Registra la aplicación utilizando ShadowMountPlus","Copia tus juegos de GameCube y Wii (.iso, .rvz, .gcm, .wbfs y otros) en /data/porpoise/games/ o en un USB exFAT","Inicia Porpoise desde el menú de PS5"],
+    "requirements": [
+      "Tener una PS5 con Jailbreak, etaHEN, kstuff y ShadowMountPlus 1.7 beta 4 o superior",
+      "Disponer de FTP o PS5 Upload para transferir archivos"
+    ],
+    "install": [
+      "Descarga Porpoise desde GitHub y extrae el archivo ZIP",
+      "Copia la carpeta PPSA99764 en /data/homebrew/ mediante FTP",
+      "Registra la aplicación utilizando ShadowMountPlus",
+      "Copia tus juegos de GameCube y Wii (.iso, .rvz, .gcm, .wbfs y otros) en /data/porpoise/games/ o en un USB exFAT",
+      "Inicia Porpoise desde el menú de PS5"
+    ],
     "warning": "Necesitas una PS5 con Jailbreak. La emulación de Wii es experimental y algunos juegos pueden presentar problemas de rendimiento o compatibilidad."
   },
   {

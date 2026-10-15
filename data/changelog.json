@@ -1,5 +1,19 @@
 [
   {
+    "title": "PS5SX2",
+    "platform": "PS5",
+    "from": "2.10",
+    "to": "vk-285-171",
+    "date": "2026-10-14"
+  },
+  {
+    "title": "XPSemu",
+    "platform": "PS5",
+    "from": "2.1",
+    "to": "Alpha-2.1",
+    "date": "2026-10-10"
+  },
+  {
     "title": "Salsa64",
     "platform": "PS3",
     "from": "0.2.5",
