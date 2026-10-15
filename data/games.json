@@ -85,7 +85,7 @@
     "repo": "Swordpdf/PS5SX2",
     "requirements": ["Tener una PS5 con Jailbreak, kstuff y ShadowMountPlus","Disponer de una BIOS original de PS2"],
     "install": ["Descarga PS5SX2Helper.elf y PS5SX2Installer.elf desde GitHub","Añade ambos archivos al autoload de tu Jailbreak","Copia la BIOS de PS2 en /data/PCSX2/bios","Copia tus juegos .iso, .chd, .cso o .zso en /data/PCSX2/games","Inicia PS5SX2 desde el menú de PS5"],
-    "warning": "Necesitas una PS5 con Jailbreak. Emulador en desarrollo: algunos juegos pueden presentar errores o problemas de rendimiento."
+    "warning": "Necesitas una PS5 con Jailbreak para poder usarlo."
   },
   {
     "title": "ProsperoStore",
