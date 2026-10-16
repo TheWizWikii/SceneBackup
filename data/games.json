@@ -61,6 +61,22 @@
     "warning": "Necesitas una PS3 con Jailbreak."
   },
   {
+    "title": "PS4SX2",
+    "category": "Emulador",
+    "platform": "PS4",
+    "cover": "assets/covers/PS4SX2.png",
+    "version": "01.00",
+    "releaseDate": "2026-10-12",
+    "description": "Emulador de PS2 para PS4 basado en PCSX2 (Vulkan, interfaz para mando).",
+    "downloadUrl": "https://github.com/Phoenixx1202/PS4SX2/releases",
+    "sourceUrl": "https://github.com/Phoenixx1202/PS4SX2",
+    "repo": "Phoenixx1202/PS4SX2",
+    "added": "2026-10-14",
+    "requirements": ["Tener una PS4 con Jailbreak","Disponer de una BIOS original de PS2"],
+    "install": ["Descarga el PKG de PS4SX2 desde GitHub e instálalo en tu PS4","Ejecuta PS4SX2 una vez para crear las carpetas necesarias","Copia la BIOS de PS2 en /data/PS4SX2/bios/","Copia tus juegos .iso, .bin o .chd en /data/PS4SX2/roms/","Abre Library y pulsa Triángulo para actualizar la lista de juegos"],
+    "warning": "Necesitas una PS4 con Jailbreak. Emulador en fase Alpha: algunos juegos presentan ralentizaciones, errores gráficos, problemas de audio o cierres inesperados."
+  },
+  {
     "title": "Cell64",
     "category": "Emulador",
     "platform": "PS3",
