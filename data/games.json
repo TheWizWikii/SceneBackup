@@ -64,7 +64,7 @@
     "title": "PS4SX2",
     "category": "Emulador",
     "platform": "PS4",
-    "cover": "assets/covers/PS4SX2.png",
+    "cover": "assets/covers/PS4SX2.jpg",
     "version": "01.00",
     "releaseDate": "2026-10-12",
     "description": "Emulador de PS2 para PS4 basado en PCSX2 (Vulkan, interfaz para mando).",
