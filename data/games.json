@@ -35,8 +35,16 @@
     "sourceUrl": "https://github.com/Ryu7w7/OCTR-NitroFueled-PC",
     "repo": "Ryu7w7/OCTR-NitroFueled-PC",
     "youtubeUrl": "",
-    "requirements": ["PC con Windows 10/11 de 64 bits y GPU compatible con Vulkan 1.3","Copia desencriptada de Crash Team Racing Nitro-Fueled de PS4 (CUSA13795) y actualización 1.21"],
-    "install": ["Descarga CTR-NitroFueled-PC-portable-windows.zip desde GitHub","Extrae el ZIP y ejecuta CTR-NitroFueled-PC.exe","Selecciona las carpetas del juego base y la actualización 1.21","Pulsa Prepare the game y después Play"],
+    "requirements": [
+      "PC con Windows 10/11 de 64 bits y GPU compatible con Vulkan 1.3",
+      "Copia desencriptada de Crash Team Racing Nitro-Fueled de PS4 (CUSA13795) y actualización 1.21"
+    ],
+    "install": [
+      "Descarga CTR-NitroFueled-PC-portable-windows.zip desde GitHub",
+      "Extrae el ZIP y ejecuta CTR-NitroFueled-PC.exe",
+      "Selecciona las carpetas del juego base y la actualización 1.21",
+      "Pulsa Prepare the game y después Play"
+    ],
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
@@ -44,8 +52,8 @@
     "category": "Emulador",
     "platform": "PS3",
     "cover": "assets/covers/salsa64.png",
-    "version": "0.2.6",
-    "releaseDate": "2026-10-15",
+    "version": "0.2.7",
+    "releaseDate": "2026-10-17",
     "description": "Emulador de Nintendo 64 para PS3 (homebrew, HEN/CFW).",
     "downloadUrl": "https://github.com/ricowp81/Salsa64/releases",
     "sourceUrl": "https://github.com/ricowp81/Salsa64",
@@ -72,8 +80,17 @@
     "sourceUrl": "https://github.com/Phoenixx1202/PS4SX2",
     "repo": "Phoenixx1202/PS4SX2",
     "added": "2026-10-14",
-    "requirements": ["Tener una PS4 con Jailbreak","Disponer de una BIOS original de PS2"],
-    "install": ["Descarga el PKG de PS4SX2 desde GitHub e instálalo en tu PS4","Ejecuta PS4SX2 una vez para crear las carpetas necesarias","Copia la BIOS de PS2 en /data/PS4SX2/bios/","Copia tus juegos .iso, .bin o .chd en /data/PS4SX2/roms/","Abre Library y pulsa Triángulo para actualizar la lista de juegos"],
+    "requirements": [
+      "Tener una PS4 con Jailbreak",
+      "Disponer de una BIOS original de PS2"
+    ],
+    "install": [
+      "Descarga el PKG de PS4SX2 desde GitHub e instálalo en tu PS4",
+      "Ejecuta PS4SX2 una vez para crear las carpetas necesarias",
+      "Copia la BIOS de PS2 en /data/PS4SX2/bios/",
+      "Copia tus juegos .iso, .bin o .chd en /data/PS4SX2/roms/",
+      "Abre Library y pulsa Triángulo para actualizar la lista de juegos"
+    ],
     "warning": "Necesitas una PS4 con Jailbreak. Emulador en fase Alpha: algunos juegos presentan ralentizaciones, errores gráficos, problemas de audio o cierres inesperados."
   },
   {
@@ -210,7 +227,7 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/gowrport.jpg",
-    "version": "windows-v2.4.0",
+    "version": "windows-v2.4.1",
     "releaseDate": "2026-10-16",
     "description": "Port para PC de God of War III Remastered (PS4) para Windows 10 y 11.",
     "downloadUrl": "https://github.com/FelipePrado0/gow3_pc/releases",
@@ -234,8 +251,8 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/dbzbt3.jpg",
-    "version": "0.1.35.4",
-    "releaseDate": "2026-10-15",
+    "version": "0.1.36",
+    "releaseDate": "2026-10-17",
     "description": "Port nativo de Budokai Tenkaichi 3 (PS2) para PC mediante descompilación.",
     "downloadUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases",
     "sourceUrl": "https://github.com/z3xox/Tenkaichi3Decomp",
@@ -258,8 +275,8 @@
     "category": "Emulador",
     "platform": "PS4",
     "cover": "assets/covers/dolphin ps4.png",
-    "version": "04.13",
-    "releaseDate": "2026-10-16",
+    "version": "04.15",
+    "releaseDate": "2026-10-17",
     "description": "Port de Dolphin para PS4 con jailbreak. Emula GameCube y Wii desde el menú principal.",
     "downloadUrl": "https://github.com/iHaiDeeZ/DolphinPS4/releases",
     "sourceUrl": "https://github.com/iHaiDeeZ/DolphinPS4",

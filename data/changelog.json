@@ -1,5 +1,33 @@
 [
   {
+    "title": "Dolphin",
+    "platform": "PS4",
+    "from": "04.13",
+    "to": "04.15",
+    "date": "2026-10-17"
+  },
+  {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.35.4",
+    "to": "0.1.36",
+    "date": "2026-10-17"
+  },
+  {
+    "title": "God of War III Remastered",
+    "platform": "PC",
+    "from": "windows-v2.4.0",
+    "to": "windows-v2.4.1",
+    "date": "2026-10-16"
+  },
+  {
+    "title": "Salsa64",
+    "platform": "PS3",
+    "from": "0.2.6",
+    "to": "0.2.7",
+    "date": "2026-10-17"
+  },
+  {
     "title": "God of War III Remastered",
     "platform": "PC",
     "from": "windows-v2.3.0",
