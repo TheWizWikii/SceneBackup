@@ -1,5 +1,12 @@
 [
   {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.5",
+    "to": "0.5.2",
+    "date": "2026-10-17"
+  },
+  {
     "title": "Dolphin",
     "platform": "PS4",
     "from": "04.13",
