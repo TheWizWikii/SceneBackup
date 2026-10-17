@@ -1,5 +1,19 @@
 [
   {
+    "title": "Dolphin",
+    "platform": "PS4",
+    "from": "04.15",
+    "to": "04.16",
+    "date": "2026-10-17"
+  },
+  {
+    "title": "ProsperoStore",
+    "platform": "PS5",
+    "from": "1.000.070",
+    "to": "1.000.080",
+    "date": "2026-10-17"
+  },
+  {
     "title": "CTR-NitroFueled",
     "platform": "PC",
     "from": "0.5",
