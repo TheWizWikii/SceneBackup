@@ -251,7 +251,7 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/dbzbt3.jpg",
-    "version": "0.1.36",
+    "version": "0.1.37",
     "releaseDate": "2026-10-17",
     "description": "Port nativo de Budokai Tenkaichi 3 (PS2) para PC mediante descompilación.",
     "downloadUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases",

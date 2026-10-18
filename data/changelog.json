@@ -1,5 +1,12 @@
 [
   {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.36",
+    "to": "0.1.37",
+    "date": "2026-10-17"
+  },
+  {
     "title": "Dolphin",
     "platform": "PS4",
     "from": "04.15",
