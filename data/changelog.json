@@ -1,5 +1,12 @@
 [
   {
+    "title": "ProsperoStore",
+    "platform": "PS5",
+    "from": "1.000.080",
+    "to": "1.000.090",
+    "date": "2026-10-18"
+  },
+  {
     "title": "Legend of Zelda The Minish Cap",
     "platform": "3DS",
     "from": "2.1",
