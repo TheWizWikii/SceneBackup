@@ -1,5 +1,33 @@
 [
   {
+    "title": "Legend of Zelda The Minish Cap",
+    "platform": "3DS",
+    "from": "2.1",
+    "to": "2.2",
+    "date": "2026-10-18"
+  },
+  {
+    "title": "God of War III Remastered",
+    "platform": "PC",
+    "from": "windows-v2.4.1",
+    "to": "windows-v2.5.0",
+    "date": "2026-10-18"
+  },
+  {
+    "title": "VLC media player",
+    "platform": "PS5",
+    "from": "0.4",
+    "to": "0.4.5",
+    "date": "2026-10-18"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.5.2",
+    "to": "0.5.3",
+    "date": "2026-10-18"
+  },
+  {
     "title": "Tenkaichi3Decomp",
     "platform": "PC",
     "from": "0.1.36",
