@@ -60,16 +60,16 @@
     "repo": "iHaiDeeZ/Resonance",
     "youtubeUrl": "",
     "requirements": [
-    "Tener una PS4 con Jailbreak y GoldHEN",
-    "Disponer de FTP para transferir juegos"
+      "Tener una PS4 con Jailbreak y GoldHEN",
+      "Disponer de FTP para transferir juegos"
     ],
     "install": [
-    "Descarga Resonance-vXX.XX.pkg desde las Releases de GitHub",
-    "Instala el PKG mediante Package Installer de GoldHEN",
-    "Ejecuta Resonance una vez para crear las carpetas",
-    "Copia tus juegos .gdi, .chd, .cdi o .cue/.bin en /data/Resonance/games/",
-    "Opcional: copia dc_boot.bin y dc_flash.bin en /data/Resonance/data/",
-    "Inicia Resonance desde el menú de PS4 y selecciona un juego"
+      "Descarga Resonance-vXX.XX.pkg desde las Releases de GitHub",
+      "Instala el PKG mediante Package Installer de GoldHEN",
+      "Ejecuta Resonance una vez para crear las carpetas",
+      "Copia tus juegos .gdi, .chd, .cdi o .cue/.bin en /data/Resonance/games/",
+      "Opcional: copia dc_boot.bin y dc_flash.bin en /data/Resonance/data/",
+      "Inicia Resonance desde el menú de PS4 y selecciona un juego"
     ],
     "warning": "Necesitas una PS4 con Jailbreak. Algunos juegos pueden presentar ralentizaciones o errores. Los juegos arcade NAOMI y Atomiswave requieren sus BIOS correspondientes."
   },
@@ -78,7 +78,7 @@
     "category": "Emulador",
     "platform": "PS4",
     "cover": "assets/covers/m33.jpg",
-    "version": "1.02",
+    "version": "1.03",
     "releaseDate": "2026-10-19",
     "description": "Emulador de PSP para PS4 con jailbreak (basado en PPSSPP).",
     "downloadUrl": "https://github.com/iHaiDeeZ/M33/releases",
@@ -86,16 +86,16 @@
     "repo": "iHaiDeeZ/M33",
     "youtubeUrl": "",
     "requirements": [
-    "Tener una PS4 con Jailbreak y GoldHEN",
-    "Disponer de FTP para transferir juegos"
+      "Tener una PS4 con Jailbreak y GoldHEN",
+      "Disponer de FTP para transferir juegos"
     ],
     "install": [
-    "Descarga M33-vX.XX.pkg desde las Releases de GitHub",
-    "Instala el PKG mediante Package Installer de GoldHEN",
-    "Ejecuta M33 una vez para crear las carpetas necesarias",
-    "Copia tus juegos .iso, .cso o .chd en /data/March33/games/",
-    "Opcional: descarga el firmware PSP 6.61 desde los ajustes para activar el XMB original",
-    "Inicia M33 desde el menú de PS4 y selecciona un juego"
+      "Descarga M33-vX.XX.pkg desde las Releases de GitHub",
+      "Instala el PKG mediante Package Installer de GoldHEN",
+      "Ejecuta M33 una vez para crear las carpetas necesarias",
+      "Copia tus juegos .iso, .cso o .chd en /data/March33/games/",
+      "Opcional: descarga el firmware PSP 6.61 desde los ajustes para activar el XMB original",
+      "Inicia M33 desde el menú de PS4 y selecciona un juego"
     ],
     "warning": "Necesitas una PS4 con Jailbreak. Algunos juegos pueden presentar ralentizaciones o errores. La generación de fotogramas es experimental."
   },
@@ -112,16 +112,16 @@
     "repo": "RafaelNGP/xbox-cloud-gaming-ps5",
     "youtubeUrl": "",
     "requirements": [
-    "Tener una PS5 con Jailbreak y ShadowMountPlus o cargador homebrew compatible",
-    "Cuenta Microsoft y suscripción Game Pass compatible con Xbox Cloud Gaming",
-    "Conexión estable a Internet"
+      "Tener una PS5 con Jailbreak y ShadowMountPlus o cargador homebrew compatible",
+      "Cuenta Microsoft y suscripción Game Pass compatible con Xbox Cloud Gaming",
+      "Conexión estable a Internet"
     ],
     "install": [
-    "Descarga PPSA99810.zip desde las Releases de GitHub",
-    "Extrae el ZIP y copia la carpeta PPSA99810 en /data/homebrew/ mediante FTP",
-    "Utiliza ShadowMountPlus para registrar la aplicación en el menú de PS5",
-    "Inicia PSBox Cloud Gaming y vincula tu cuenta desde microsoft.com/link usando el código mostrado",
-    "Selecciona un juego del catálogo y comienza a jugar en streaming"
+      "Descarga PPSA99810.zip desde las Releases de GitHub",
+      "Extrae el ZIP y copia la carpeta PPSA99810 en /data/homebrew/ mediante FTP",
+      "Utiliza ShadowMountPlus para registrar la aplicación en el menú de PS5",
+      "Inicia PSBox Cloud Gaming y vincula tu cuenta desde microsoft.com/link usando el código mostrado",
+      "Selecciona un juego del catálogo y comienza a jugar en streaming"
     ],
     "warning": "Requiere PS5 con Jailbreak y conexión a Internet. El catálogo depende de Game Pass y la calidad del streaming de tu conexión. Aplicación no oficial."
   },
@@ -233,8 +233,8 @@
     "category": "Emulador",
     "platform": "PS5",
     "cover": "assets/covers/PS5SX2.jpg",
-    "version": "vk-285-171",
-    "releaseDate": "2026-10-14",
+    "version": "vk-285-177",
+    "releaseDate": "2026-10-19",
     "description": "Emulador de PS2 para PS5 con jailbreak (port nativo de PCSX2).",
     "downloadUrl": "https://github.com/Swordpdf/PS5SX2/releases",
     "sourceUrl": "https://github.com/Swordpdf/PS5SX2",
@@ -305,8 +305,8 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/gowrport.jpg",
-    "version": "windows-v2.5.0",
-    "releaseDate": "2026-10-18",
+    "version": "windows-v2.6.0",
+    "releaseDate": "2026-10-19",
     "description": "Port para PC de God of War III Remastered (PS4) para Windows 10 y 11.",
     "downloadUrl": "https://github.com/FelipePrado0/gow3_pc/releases",
     "sourceUrl": "https://github.com/FelipePrado0/gow3_pc",
@@ -329,8 +329,8 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/dbzbt3.jpg",
-    "version": "0.1.37",
-    "releaseDate": "2026-10-17",
+    "version": "0.1.37.1",
+    "releaseDate": "2026-10-19",
     "description": "Port nativo de Budokai Tenkaichi 3 (PS2) para PC mediante descompilación.",
     "downloadUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases",
     "sourceUrl": "https://github.com/z3xox/Tenkaichi3Decomp",
@@ -377,7 +377,7 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/wiicompiled.png",
-    "version": "0.2.35",
+    "version": "0.2.36",
     "releaseDate": "2026-10-19",
     "description": "WiiCompiled es un port nativo para PC de Mario Kart Wii mediante recompilación estática.",
     "downloadUrl": "https://github.com/patchzyy/wiicompiled",
@@ -505,7 +505,7 @@
     "category": "Port",
     "platform": "VITA",
     "cover": "assets/covers/crash_team_racing_high_octane.jpg",
-    "version": "1.5",
+    "version": "v.1.5",
     "releaseDate": "2026-10-12",
     "description": "Port natico de Crash Team Racing para PS Vita, basado en ctr-native. Enfocado en nuevas funciones, mejoras y optimización.",
     "downloadUrl": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/releases",
@@ -513,14 +513,14 @@
     "repo": "Rinnegatamante/Crash-Team-Racing-High-Octane",
     "added": "2026-10-14",
     "requirements": [
-    "Tener una PS Vita con HENkaku/enso y VitaShell",
-    "Disponer de una copia NTSC-U de Crash Team Racing de PS1"
+      "Tener una PS Vita con HENkaku/enso y VitaShell",
+      "Disponer de una copia NTSC-U de Crash Team Racing de PS1"
     ],
     "install": [
-    "Descarga el archivo .vpk de CTR: High Octane desde GitHub",
-    "Instala el VPK utilizando VitaShell",
-    "Copia el archivo BIN del juego en ux0:data/ctr/assets/ con el nombre ctr-u.bin",
-    "Inicia Crash Team Racing: High Octane desde el menú de PS Vita"
+      "Descarga el archivo .vpk de CTR: High Octane desde GitHub",
+      "Instala el VPK utilizando VitaShell",
+      "Copia el archivo BIN del juego en ux0:data/ctr/assets/ con el nombre ctr-u.bin",
+      "Inicia Crash Team Racing: High Octane desde el menú de PS Vita"
     ],
     "warning": "Necesitas una PS Vita modificada y los archivos originales de Crash Team Racing NTSC-U."
   },
