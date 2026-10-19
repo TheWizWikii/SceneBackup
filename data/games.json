@@ -48,6 +48,32 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+    "title": "Resonance",
+    "category": "Emulador",
+    "platform": "PS4",
+    "cover": "assets/covers/Resonance.jpg",
+    "version": "01.39",
+    "releaseDate": "2026-10-18",
+    "description": "Emulador de Dreamcast, NAOMI y Atomiswave para PS4 basado en Flycast.",
+    "downloadUrl": "https://github.com/iHaiDeeZ/Resonance/releases",
+    "sourceUrl": "https://github.com/iHaiDeeZ/Resonance",
+    "repo": "iHaiDeeZ/Resonance",
+    "youtubeUrl": "",
+    "requirements": [
+    "Tener una PS4 con Jailbreak y GoldHEN",
+    "Disponer de FTP para transferir juegos"
+    ],
+    "install": [
+    "Descarga Resonance-vXX.XX.pkg desde las Releases de GitHub",
+    "Instala el PKG mediante Package Installer de GoldHEN",
+    "Ejecuta Resonance una vez para crear las carpetas",
+    "Copia tus juegos .gdi, .chd, .cdi o .cue/.bin en /data/Resonance/games/",
+    "Opcional: copia dc_boot.bin y dc_flash.bin en /data/Resonance/data/",
+    "Inicia Resonance desde el menú de PS4 y selecciona un juego"
+    ],
+    "warning": "Necesitas una PS4 con Jailbreak. Algunos juegos pueden presentar ralentizaciones o errores. Los juegos arcade NAOMI y Atomiswave requieren sus BIOS correspondientes."
+  },
+  {
     "title": "M33 (March33)",
     "category": "Emulador",
     "platform": "PS4",
