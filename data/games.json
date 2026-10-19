@@ -48,6 +48,32 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+    "title": "PSBox Cloud Gaming",
+    "category": "App",
+    "platform": "PS5",
+    "cover": "assets/covers/psbox.jpg",
+    "version": "1.3.0",
+    "releaseDate": "2026-10-19",
+    "description": "Xbox Cloud Gaming nativo para PS5: catálogo en la nube y streaming 1080p60 con el DualSense como mando Xbox.",
+    "downloadUrl": "https://github.com/RafaelNGP/xbox-cloud-gaming-ps5/releases",
+    "sourceUrl": "https://github.com/RafaelNGP/xbox-cloud-gaming-ps5",
+    "repo": "RafaelNGP/xbox-cloud-gaming-ps5",
+    "youtubeUrl": "",
+    "requirements": [
+    "Tener una PS5 con Jailbreak y ShadowMountPlus o cargador homebrew compatible",
+    "Cuenta Microsoft y suscripción Game Pass compatible con Xbox Cloud Gaming",
+    "Conexión estable a Internet"
+    ],
+    "install": [
+    "Descarga PPSA99810.zip desde las Releases de GitHub",
+    "Extrae el ZIP y copia la carpeta PPSA99810 en /data/homebrew/ mediante FTP",
+    "Utiliza ShadowMountPlus para registrar la aplicación en el menú de PS5",
+    "Inicia PSBox Cloud Gaming y vincula tu cuenta desde microsoft.com/link usando el código mostrado",
+    "Selecciona un juego del catálogo y comienza a jugar en streaming"
+    ],
+    "warning": "Requiere PS5 con Jailbreak y conexión a Internet. El catálogo depende de Game Pass y la calidad del streaming de tu conexión. Aplicación no oficial."
+  },
+  {
     "title": "Salsa64",
     "category": "Emulador",
     "platform": "PS3",
