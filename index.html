@@ -1128,6 +1128,38 @@ const scv = $('#scene'), SCENES = (function () {
         if(q===0)continue;cx.globalAlpha=q===1?.55:q===2?.32:.2;cx.fillStyle=tones[q];cx.fillRect(x,y,c-1,c-1);}
       cx.globalAlpha=1};
   },
+  nin(){ // objetos de plataformas en píxeles: monedas, bloques ?, setas, estrellas y suelo de ladrillos
+    const P={y:'#c47f00',Y:'#ffd23a',o:'#6b2f00',O:'#f5a623',w:'#ffffff',r:'#e52521',g:'#2fbf3a',k:'#3a1a10',s:'#f7d9a8'};
+    const SP={
+      coin:['..yyyy..','.yYYYYy.','yYYyyYYy','yYYyyYYy','yYYyyYYy','yYYyyYYy','.yYYYYy.','..yyyy..'],
+      block:['oooooooo','oOOOOOOo','oOwwwwOo','oOOOOwOo','oOOwwOOo','oOOOOOOo','oOOwOOOo','oooooooo'],
+      mush:['..rrrr..','.rwwrrr.','rwwwrrwr','rrrrrwwr','rrrrrrrr','.kssssk.','..ssss..','..kkkk..'],
+      oneup:['..gggg..','.gwwggg.','gwwwggwg','gggggwwg','gggggggg','.kssssk.','..ssss..','..kkkk..'],
+      star:['...YY...','...YY...','YYYYYYYY','.YYYYYY.','..YYYY..','.YYYYYY.','.YY..YY.','YY....YY']
+    };
+    const kinds=['coin','coin','coin','block','mush','oneup','star','star'];
+    const n=Math.max(14,Math.round(W/80));
+    const o=Array.from({length:n},(_,i)=>({k:kinds[i%kinds.length],x:R(0,W),y:R(0,H),s:[3,4,5,6][Math.floor(R(0,4))],v:R(10,34),ph:R(0,TAU),a:R(.45,.9)}));
+    const clouds=Array.from({length:Math.max(4,Math.round(W/320))},()=>({x:R(0,W),y:R(H*.05,H*.5),s:R(5,9),v:R(4,12)}));
+    const draw=(m,x,y,s,sx)=>{cx.save();cx.translate(Math.round(x),Math.round(y));if(sx)cx.scale(sx,1);
+      for(let j=0;j<8;j++)for(let i=0;i<8;i++){const c=P[m[j][i]];if(!c)continue;cx.fillStyle=c;cx.fillRect((i-4)*s,(j-4)*s,s+.5,s+.5)}cx.restore()};
+    return(t,dt)=>{
+      const g=cx.createLinearGradient(0,0,0,H);g.addColorStop(0,'#060a2a');g.addColorStop(1,'#1d3fae');cx.fillStyle=g;cx.fillRect(0,0,W,H);
+      cx.fillStyle='rgba(255,255,255,.14)';
+      for(const c of clouds){c.x+=c.v*dt;if(c.x>W+c.s*14)c.x=-c.s*14;const u=c.s;
+        cx.fillRect(c.x,c.y,u*8,u*2);cx.fillRect(c.x+u,c.y-u,u*3,u);cx.fillRect(c.x+u*4,c.y-u*2,u*3,u*2)}
+      for(const q of o){q.y-=q.v*dt;if(q.y<-60){q.y=H+60;q.x=R(0,W)}
+        const bx=q.x+Math.sin(t*.7+q.ph)*16,m=SP[q.k];cx.globalAlpha=q.a;
+        if(q.k==='coin')draw(m,bx,q.y,q.s,Math.max(.12,Math.abs(Math.cos(t*3+q.ph))));
+        else if(q.k==='star'){cx.globalAlpha=q.a*(.6+.4*Math.abs(Math.sin(t*4+q.ph)));draw(m,bx,q.y,q.s)}
+        else draw(m,bx,q.y+Math.sin(t*2+q.ph)*5,q.s);}
+      cx.globalAlpha=1;
+      const bs=32,fy=H-bs*2,off=(t*40)%bs;
+      cx.fillStyle='#8f3d12';cx.fillRect(0,fy,W,bs*2);cx.fillStyle='#c5611f';
+      for(let r=0;r<2;r++)for(let x=-bs;x<W+bs;x+=bs){const sh=r?bs/2:0;cx.fillRect(x-off+sh+2,fy+r*bs+2,bs-4,bs-4)}
+      cx.fillStyle='rgba(0,0,0,.35)';cx.fillRect(0,fy,W,3);
+    };
+  },
   n64(){ // sólidos alámbricos girando
     const cols=['#e60012','#00a651','#0066ff','#ffcc00'];
     const n=Math.max(7,Math.round(W/170));
@@ -1224,7 +1256,7 @@ const scv = $('#scene'), SCENES = (function () {
   return SCENES;
 })();
 const FAMILY = {};
-[['nes', 'nes fds'], ['snes', 'snes'], ['gb', 'gb gbc gba virtualboy pokemini'], ['n64', 'n64 gamecube wii wiiu nds 3ds switch'],
+[['nes', 'nes fds'], ['snes', 'snes'], ['gb', 'gb gbc gba virtualboy pokemini'], ['n64', 'n64'], ['nin', 'gamecube wii wiiu nds 3ds switch'],
  ['md', 'sg1000 mastersystem gamegear megadrive megacd 32x'], ['ps', 'ps1 ps2 psp ps3 vita ps4 ps5'], ['xbox', 'xbox xbox360 xboxone xboxseries'],
  ['neo', 'neogeo neogeocd ngp ngpc arcade pcengine supergrafx pcenginecd pcfx'], ['c64', 'c64 amiga atarist msx msx2 zxspectrum'],
  ['atari', 'atari2600 atari5200 atari7800 lynx jaguar colecovision intellivision vectrex'], ['dc', 'dreamcast saturn 3do wonderswan wonderswancolor']]
