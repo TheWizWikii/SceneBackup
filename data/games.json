@@ -48,6 +48,32 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+    "title": "M33 (March33)",
+    "category": "Emulador",
+    "platform": "PS4",
+    "cover": "assets/covers/m33.jpg",
+    "version": "1.02",
+    "releaseDate": "2026-10-19",
+    "description": "Emulador de PSP para PS4 con jailbreak (basado en PPSSPP).",
+    "downloadUrl": "https://github.com/iHaiDeeZ/M33/releases",
+    "sourceUrl": "https://github.com/iHaiDeeZ/M33",
+    "repo": "iHaiDeeZ/M33",
+    "youtubeUrl": "",
+    "requirements": [
+    "Tener una PS4 con Jailbreak y GoldHEN",
+    "Disponer de FTP para transferir juegos"
+    ],
+    "install": [
+    "Descarga M33-vX.XX.pkg desde las Releases de GitHub",
+    "Instala el PKG mediante Package Installer de GoldHEN",
+    "Ejecuta M33 una vez para crear las carpetas necesarias",
+    "Copia tus juegos .iso, .cso o .chd en /data/March33/games/",
+    "Opcional: descarga el firmware PSP 6.61 desde los ajustes para activar el XMB original",
+    "Inicia M33 desde el menú de PS4 y selecciona un juego"
+    ],
+    "warning": "Necesitas una PS4 con Jailbreak. Algunos juegos pueden presentar ralentizaciones o errores. La generación de fotogramas es experimental."
+  },
+  {
     "title": "PSBox Cloud Gaming",
     "category": "App",
     "platform": "PS5",
