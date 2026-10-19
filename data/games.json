@@ -423,6 +423,30 @@
     "sourceUrl": "https://capitanbarbacoa.itch.io/duskgxm"
   },
   {
+    "title": "Crash Team Racing: High Octane",
+    "category": "Port",
+    "platform": "VITA",
+    "cover": "assets/covers/crash_team_racing_high_octane.jpg",
+    "version": "1.5",
+    "releaseDate": "2026-10-12",
+    "description": "Port natico de Crash Team Racing para PS Vita, basado en ctr-native. Enfocado en nuevas funciones, mejoras y optimización.",
+    "downloadUrl": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane/releases",
+    "sourceUrl": "https://github.com/Rinnegatamante/Crash-Team-Racing-High-Octane",
+    "repo": "Rinnegatamante/Crash-Team-Racing-High-Octane",
+    "added": "2026-10-14",
+    "requirements": [
+    "Tener una PS Vita con HENkaku/enso y VitaShell",
+    "Disponer de una copia NTSC-U de Crash Team Racing de PS1"
+    ],
+    "install": [
+    "Descarga el archivo .vpk de CTR: High Octane desde GitHub",
+    "Instala el VPK utilizando VitaShell",
+    "Copia el archivo BIN del juego en ux0:data/ctr/assets/ con el nombre ctr-u.bin",
+    "Inicia Crash Team Racing: High Octane desde el menú de PS Vita"
+    ],
+    "warning": "Necesitas una PS Vita modificada y los archivos originales de Crash Team Racing NTSC-U."
+  },
+  {
     "title": "Bully NX",
     "category": "Port",
     "platform": "Switch",
