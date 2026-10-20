@@ -1,5 +1,19 @@
 [
   {
+    "title": "ProsperoStore",
+    "platform": "PS5",
+    "from": "1.000.103",
+    "to": "1.000.104",
+    "date": "2026-10-20"
+  },
+  {
+    "title": "SpartanPort",
+    "platform": "PC",
+    "from": "2.6.0",
+    "to": "windows-v2.6.0",
+    "date": "2026-10-19"
+  },
+  {
     "title": "M33 (March33)",
     "platform": "PS4",
     "from": "1.03",
