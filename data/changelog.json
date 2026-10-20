@@ -1,5 +1,19 @@
 [
   {
+    "title": "M33 (March33)",
+    "platform": "PS4",
+    "from": "1.03",
+    "to": "1.04",
+    "date": "2026-10-20"
+  },
+  {
+    "title": "Resonance",
+    "platform": "PS4",
+    "from": "01.40",
+    "to": "01.41",
+    "date": "2026-10-20"
+  },
+  {
     "title": "VLC media player",
     "platform": "PS5",
     "from": "0.4.6",
