@@ -48,6 +48,31 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+  "title": "NotDC-PS3",
+  "category": "Emulador",
+  "platform": "PS3",
+  "cover": "assets/covers/notdc_ps3.jpg",
+  "version": "0.8.1",
+  "releaseDate": "2026-10-19",
+  "description": "Emulador de Sega Dreamcast para PS3 (homebrew, CFW/HEN), construido con el SDK open-source PSL1GHT.",
+  "downloadUrl": "https://github.com/Mayo1970/NotDC-PS3/releases",
+  "sourceUrl": "https://github.com/Mayo1970/NotDC-PS3",
+  "repo": "Mayo1970/NotDC-PS3",
+  "youtubeUrl": "",
+  "requirements": [
+    "Tener una PS3 con firmware personalizado (CFW/HEN)",
+    "Disponer de los archivos originales (dump, BIOS o copia propia del juego) que indica el proyecto"
+  ],
+  "install": [
+    "Install notdcps3.pkg with the Package Manager on the XMB.",
+    "Copy dcboot.bin to /devhdd0/data/NotDC/data/.",
+    "Optional: copy dcflash.bin to the same folder. Without it, NotDC makes a flash (USA, English, NTSC).",
+    "Copy your disc images to /devhdd0/data/NotDC/discs/ or to a USB drive.",
+    "Start NotDC from the Game column and select a disc."
+  ],
+  "warning": "Emulador experimental para PS3; requiere una consola con jailbreak o firmware personalizado y archivos originales del juego o del sistema (no incluidos) y puede presentar errores gráficos o de rendimiento."
+  },
+  {
     "title": "SpartanPort",
     "category": "Port",
     "platform": "PC",
