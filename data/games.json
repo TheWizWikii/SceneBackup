@@ -154,7 +154,7 @@
     "category": "App",
     "platform": "PS5",
     "cover": "assets/covers/psbox.jpg",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "releaseDate": "2026-10-23",
     "description": "Xbox Cloud Gaming nativo para PS5: catálogo en la nube y streaming 1080p60 con el DualSense como mando Xbox.",
     "downloadUrl": "https://github.com/RafaelNGP/xbox-cloud-gaming-ps5/releases",
