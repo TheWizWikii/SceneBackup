@@ -1,5 +1,12 @@
 [
   {
+    "title": "Dolphin",
+    "platform": "PS4",
+    "from": "04.17",
+    "to": "04.18",
+    "date": "2026-10-24"
+  },
+  {
     "title": "Mario Kart Wii (WiiCompiled)",
     "platform": "PC",
     "from": "0.9.0",
