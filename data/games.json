@@ -176,6 +176,33 @@
     "warning": "Requiere PS5 con Jailbreak y conexión a Internet. El catálogo depende de Game Pass y la calidad del streaming de tu conexión. Aplicación no oficial."
   },
   {
+    "title": "Playden",
+    "category": "App",
+    "platform": "PS5",
+    "cover": "assets/covers/playden.jpg",
+    "version": "0.7.0",
+    "releaseDate": "2026-10-24",
+    "description": "Launcher de Steam para PS5 con jailbreak (juegos Windows vía Wine).",
+    "downloadUrl": "https://github.com/leolobato/playden-ps5/releases",
+    "sourceUrl": "https://github.com/leolobato/playden-ps5",
+    "repo": "leolobato/playden-ps5",
+    "youtubeUrl": "https://youtu.be/Z8HAw3-iUtE",
+    "requirements": [
+    "Tener una PS5 con Jailbreak, kstuff, ShadowMountPlus y elfldr (puerto 9021)",
+    "Conexión a Internet y cuenta de Steam con juegos, o juegos de Windows propios",
+    "FTP para transferir archivos a la PS5"
+    ],
+    "install": [
+    "Descarga playden-ps5-<version>.zip desde las Releases de GitHub",
+    "Extrae el ZIP y copia la carpeta FAKE77031 en /data/homebrew/ mediante FTP",
+    "Espera a que ShadowMountPlus añada Playden al menú de PS5",
+    "Inicia Playden y descarga el runtime kit cuando lo solicite",
+    "Inicia sesión en Steam mediante QR o importa tus juegos de Windows",
+    "Descarga y prepara un juego compatible para ejecutarlo desde el menú de PS5"
+    ],
+    "warning": "Software Alpha experimental. Probado en PS5 13.60; otros firmwares no verificados. Puede provocar fallos, y almacena el token de Steam sin cifrar. Haz copias de seguridad de tus partidas."
+  },
+  {
     "title": "Salsa64",
     "category": "Emulador",
     "platform": "PS3",
