@@ -1,5 +1,33 @@
 [
   {
+    "title": "ProsperoStore",
+    "platform": "PS5",
+    "from": "1.000.111",
+    "to": "1.000.112",
+    "date": "2026-10-26"
+  },
+  {
+    "title": "Salsa64",
+    "platform": "PS3",
+    "from": "0.2.12",
+    "to": "0.2.13",
+    "date": "2026-10-27"
+  },
+  {
+    "title": "Playden",
+    "platform": "PS5",
+    "from": "0.7.1",
+    "to": "0.7.2",
+    "date": "2026-10-26"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.6.4",
+    "to": "0.6.5",
+    "date": "2026-10-27"
+  },
+  {
     "title": "Tenkaichi3Decomp",
     "platform": "PC",
     "from": "0.1.38.7",
