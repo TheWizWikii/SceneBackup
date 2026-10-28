@@ -48,6 +48,30 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+    "title": "Mario Kart 64 3DS",
+    "category": "Port",
+    "platform": "3DS",
+    "cover": "assets/covers/mario-kart-3ds.jfif",
+    "version": "2.0",
+    "releaseDate": "2026-10-23",
+    "description": "Mario Kart 64 para Nintendo 3DS (port nativo de SpaghettiKart con doble pantalla y menús táctiles).",
+    "downloadUrl": "https://github.com/EstebanPdN/mario-kart-64-3ds/releases",
+    "sourceUrl": "https://github.com/EstebanPdN/mario-kart-64-3ds",
+    "repo": "EstebanPdN/mario-kart-64-3ds",
+    "youtubeUrl": "",
+    "requirements": [
+    "Tener una Nintendo 3DS o 2DS con Luma3DS y FBI o Homebrew Launcher",
+    "Disponer de una ROM original USA de Mario Kart 64 en formato .z64"
+    ],
+    "install": [
+    "Descarga el archivo .cia o .3dsx desde las Releases de GitHub",
+    "Instala el CIA mediante FBI o ejecuta el 3DSX desde Homebrew Launcher",
+    "Copia tu ROM USA en sd:/3ds/MK64/mk64.z64",
+    "Inicia Mario Kart 64 desde el menú de 3DS y espera a que extraiga los datos la primera vez"
+    ],
+    "warning": "Requiere una ROM USA original en formato .z64. La primera extracción puede tardar varios minutos. Port no oficial en desarrollo."
+  },
+  {
     "title": "PPSSPP",
     "category": "Emulador",
     "platform": "PS3",
