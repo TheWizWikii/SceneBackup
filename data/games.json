@@ -48,6 +48,32 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+    "title": "Super Mario Galaxy Vita",
+    "category": "Port",
+    "platform": "Vita",
+    "cover": "assets/covers/Super Mario Galaxy Vita.png",
+    "version": "1.0",
+    "releaseDate": "2026-10-28",
+    "description": "Super Mario Galaxy nativo para PS Vita, sin emulador ni streaming (recompilado para la consola).",
+    "downloadUrl": "https://github.com/CBOC-Vita-Lab/galaxy-vita/releases",
+    "sourceUrl": "https://github.com/CBOC-Vita-Lab/galaxy-vita",
+    "repo": "CBOC-Vita-Lab/galaxy-vita",
+    "youtubeUrl": "https://youtu.be/AclvQwehwYE",
+    "requirements": [
+    "Tener una PS Vita con HENkaku/enso, VitaShell y libshacccg.suprx",
+    "Disponer de una copia original USA de Super Mario Galaxy de Wii (RMGE01)",
+    "Aproximadamente 2,5 GB de espacio libre"
+    ],
+    "install": [
+    "Descarga Galaxy-Vita.vpk desde las Releases de GitHub",
+    "Prepara los archivos del juego de Wii mediante CBOC Vita Installer o las herramientas oficiales",
+    "Copia los archivos preparados en ux0:data/smg/game/",
+    "Instala el VPK mediante VitaShell",
+    "Inicia Super Mario Galaxy desde el menú de PS Vita"
+    ],
+    "warning": "Requiere una PS Vita modificada y los archivos originales de Super Mario Galaxy USA (RMGE01). Port no oficial; puede presentar errores gráficos y bajadas de FPS."
+  },
+  {
     "title": "Mario Kart 64 3DS",
     "category": "Port",
     "platform": "3DS",
