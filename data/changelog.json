@@ -1,5 +1,19 @@
 [
   {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.38.9",
+    "to": "0.1.39",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "Salsa64",
+    "platform": "PS3",
+    "from": "0.2.13",
+    "to": "0.2.14",
+    "date": "2026-10-28"
+  },
+  {
     "title": "ProsperoStore",
     "platform": "PS5",
     "from": "1.000.112",
