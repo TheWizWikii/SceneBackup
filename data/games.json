@@ -60,16 +60,16 @@
     "repo": "CBOC-Vita-Lab/galaxy-vita",
     "youtubeUrl": "https://youtu.be/AclvQwehwYE",
     "requirements": [
-    "Tener una PS Vita con HENkaku/enso, VitaShell y libshacccg.suprx",
-    "Disponer de una copia original USA de Super Mario Galaxy de Wii (RMGE01)",
-    "Aproximadamente 2,5 GB de espacio libre"
+      "Tener una PS Vita con HENkaku/enso, VitaShell y libshacccg.suprx",
+      "Disponer de una copia original USA de Super Mario Galaxy de Wii (RMGE01)",
+      "Aproximadamente 2,5 GB de espacio libre"
     ],
     "install": [
-    "Descarga Galaxy-Vita.vpk desde las Releases de GitHub",
-    "Prepara los archivos del juego de Wii mediante CBOC Vita Installer o las herramientas oficiales",
-    "Copia los archivos preparados en ux0:data/smg/game/",
-    "Instala el VPK mediante VitaShell",
-    "Inicia Super Mario Galaxy desde el menú de PS Vita"
+      "Descarga Galaxy-Vita.vpk desde las Releases de GitHub",
+      "Prepara los archivos del juego de Wii mediante CBOC Vita Installer o las herramientas oficiales",
+      "Copia los archivos preparados en ux0:data/smg/game/",
+      "Instala el VPK mediante VitaShell",
+      "Inicia Super Mario Galaxy desde el menú de PS Vita"
     ],
     "warning": "Requiere una PS Vita modificada y los archivos originales de Super Mario Galaxy USA (RMGE01). Port no oficial; puede presentar errores gráficos y bajadas de FPS."
   },
@@ -86,14 +86,14 @@
     "repo": "EstebanPdN/mario-kart-64-3ds",
     "youtubeUrl": "",
     "requirements": [
-    "Tener una Nintendo 3DS o 2DS con Luma3DS y FBI o Homebrew Launcher",
-    "Disponer de una ROM original USA de Mario Kart 64 en formato .z64"
+      "Tener una Nintendo 3DS o 2DS con Luma3DS y FBI o Homebrew Launcher",
+      "Disponer de una ROM original USA de Mario Kart 64 en formato .z64"
     ],
     "install": [
-    "Descarga el archivo .cia o .3dsx desde las Releases de GitHub",
-    "Instala el CIA mediante FBI o ejecuta el 3DSX desde Homebrew Launcher",
-    "Copia tu ROM USA en sd:/3ds/MK64/mk64.z64",
-    "Inicia Mario Kart 64 desde el menú de 3DS y espera a que extraiga los datos la primera vez"
+      "Descarga el archivo .cia o .3dsx desde las Releases de GitHub",
+      "Instala el CIA mediante FBI o ejecuta el 3DSX desde Homebrew Launcher",
+      "Copia tu ROM USA en sd:/3ds/MK64/mk64.z64",
+      "Inicia Mario Kart 64 desde el menú de 3DS y espera a que extraiga los datos la primera vez"
     ],
     "warning": "Requiere una ROM USA original en formato .z64. La primera extracción puede tardar varios minutos. Port no oficial en desarrollo."
   },
@@ -102,7 +102,7 @@
     "category": "Emulador",
     "platform": "PS3",
     "cover": "assets/covers/ppsspp-ps3.png",
-    "version": "0.2",
+    "version": "ppsspp_for_ps3_0.2_310",
     "releaseDate": "2026-10-28",
     "description": "Emulador de PSP para PS3 (port no oficial de PPSSPP).",
     "downloadUrl": "https://github.com/Calyps0man/ppsspp/releases",
@@ -110,15 +110,15 @@
     "repo": "Calyps0man/ppsspp",
     "youtubeUrl": "",
     "requirements": [
-    "Tener una PS3 con HEN o CFW",
-    "PS3MAPI para utilizar el modo JIT rápido (recomendado)",
-    "Disponer de juegos de PSP en formato ISO o CSO"
+      "Tener una PS3 con HEN o CFW",
+      "PS3MAPI para utilizar el modo JIT rápido (recomendado)",
+      "Disponer de juegos de PSP en formato ISO o CSO"
     ],
     "install": [
-    "Descarga el PKG correspondiente a HEN o CFW desde las Releases de GitHub",
-    "Activa HEN si corresponde e instala el PKG mediante Package Manager",
-    "Copia tus juegos .iso, .cso o .pbp en /dev_hdd0/PSPISO/ mediante FTP o multiMAN",
-    "Inicia PPSSPP desde el menú XMB de PS3 y selecciona un juego"
+      "Descarga el PKG correspondiente a HEN o CFW desde las Releases de GitHub",
+      "Activa HEN si corresponde e instala el PKG mediante Package Manager",
+      "Copia tus juegos .iso, .cso o .pbp en /dev_hdd0/PSPISO/ mediante FTP o multiMAN",
+      "Inicia PPSSPP desde el menú XMB de PS3 y selecciona un juego"
     ],
     "warning": "Emulador experimental con compatibilidad limitada. Muchos juegos no funcionan o presentan errores y bajo rendimiento. El desarrollador no continuará su desarrollo."
   },
@@ -255,8 +255,8 @@
     "category": "App",
     "platform": "PS5",
     "cover": "assets/covers/playden.jpg",
-    "version": "0.7.2",
-    "releaseDate": "2026-10-26",
+    "version": "0.8.0",
+    "releaseDate": "2026-10-28",
     "description": "Launcher de Steam para PS5 con jailbreak (juegos Windows vía Wine).",
     "downloadUrl": "https://github.com/leolobato/playden-ps5/releases",
     "sourceUrl": "https://github.com/leolobato/playden-ps5",
@@ -433,8 +433,8 @@
     "category": "App",
     "platform": "PS5",
     "cover": "assets/covers/ProsperoStore.jpg",
-    "version": "1.000.114",
-    "releaseDate": "2026-10-27",
+    "version": "1.000.115",
+    "releaseDate": "2026-10-28",
     "description": "Tienda nativa de homebrew para PS5 con soporte de mando y teclado.",
     "downloadUrl": "https://github.com/blackbearreloaded/ProsperoStore/releases",
     "sourceUrl": "https://github.com/blackbearreloaded/ProsperoStore",
@@ -481,7 +481,7 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/dbzbt3.jpg",
-    "version": "0.1.39",
+    "version": "0.1.39.1",
     "releaseDate": "2026-10-28",
     "description": "Port nativo de Budokai Tenkaichi 3 (PS2) para PC mediante descompilación.",
     "downloadUrl": "https://github.com/z3xox/Tenkaichi3Decomp/releases",

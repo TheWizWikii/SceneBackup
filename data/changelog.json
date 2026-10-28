@@ -2,6 +2,34 @@
   {
     "title": "Tenkaichi3Decomp",
     "platform": "PC",
+    "from": "0.1.39",
+    "to": "0.1.39.1",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "ProsperoStore",
+    "platform": "PS5",
+    "from": "1.000.114",
+    "to": "1.000.115",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "Playden",
+    "platform": "PS5",
+    "from": "0.7.2",
+    "to": "0.8.0",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "PPSSPP",
+    "platform": "PS3",
+    "from": "0.2",
+    "to": "ppsspp_for_ps3_0.2_310",
+    "date": "2026-10-28"
+  },
+  {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
     "from": "0.1.38.9",
     "to": "0.1.39",
     "date": "2026-10-28"
