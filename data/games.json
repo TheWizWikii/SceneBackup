@@ -48,6 +48,31 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+    "title": "PPSSPP",
+    "category": "Emulador",
+    "platform": "PS3",
+    "cover": "assets/covers/ppsspp-ps3.png",
+    "version": "0.2",
+    "releaseDate": "2026-10-28",
+    "description": "Emulador de PSP para PS3 (port no oficial de PPSSPP).",
+    "downloadUrl": "https://github.com/Calyps0man/ppsspp/releases",
+    "sourceUrl": "https://github.com/Calyps0man/ppsspp",
+    "repo": "Calyps0man/ppsspp",
+    "youtubeUrl": "",
+    "requirements": [
+    "Tener una PS3 con HEN o CFW",
+    "PS3MAPI para utilizar el modo JIT rápido (recomendado)",
+    "Disponer de juegos de PSP en formato ISO o CSO"
+    ],
+    "install": [
+    "Descarga el PKG correspondiente a HEN o CFW desde las Releases de GitHub",
+    "Activa HEN si corresponde e instala el PKG mediante Package Manager",
+    "Copia tus juegos .iso, .cso o .pbp en /dev_hdd0/PSPISO/ mediante FTP o multiMAN",
+    "Inicia PPSSPP desde el menú XMB de PS3 y selecciona un juego"
+    ],
+    "warning": "Emulador experimental con compatibilidad limitada. Muchos juegos no funcionan o presentan errores y bajo rendimiento. El desarrollador no continuará su desarrollo."
+  },
+  {
     "title": "NotDC-PS3",
     "category": "Emulador",
     "platform": "PS3",
