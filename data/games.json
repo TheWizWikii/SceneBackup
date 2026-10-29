@@ -74,6 +74,32 @@
     "warning": "Requiere una PS Vita modificada y los archivos originales de Super Mario Galaxy USA (RMGE01). Port no oficial; puede presentar errores gráficos y bajadas de FPS."
   },
   {
+    "title": "PS Vita Alive Store",
+    "category": "App",
+    "platform": "Vita",
+    "cover": "assets/covers/PS Vita Alive Store.jfif",
+    "version": "02.17",
+    "releaseDate": "2026-10-29",
+    "description": "Tienda/catálogo abierto para PS Vita: homebrew y contenido comercial.",
+    "downloadUrl": "https://github.com/VegettoSan/PSVitaAlive/releases",
+    "sourceUrl": "https://github.com/VegettoSan/PSVitaAlive",
+    "repo": "VegettoSan/PSVitaAlive",
+    "youtubeUrl": "",
+    "requirements": [
+    "Tener una PS Vita o PS TV con HENkaku/Enso y VitaShell",
+    "Conexión Wi-Fi e iTLS-Enso recomendado para descargas HTTPS",
+    "Plugins NoNpDrm y NoPspEmuDrm para determinados contenidos"
+    ],
+    "install": [
+    "Descarga PSVitaAlive.vpk desde las Releases de GitHub",
+    "Transfiere el VPK a tu PS Vita mediante USB o FTP",
+    "Instala el VPK utilizando VitaShell",
+    "Inicia PS Vita Alive Store desde LiveArea",
+    "Explora el catálogo y descarga aplicaciones, ports y homebrew directamente desde la consola"
+    ],
+    "warning": "Necesitas una PS Vita modificada. Algunas descargas requieren plugins adicionales, licencias válidas y espacio libre. No apagues la consola durante las instalaciones."
+  },
+  {
     "title": "Mario Kart 64 3DS",
     "category": "Port",
     "platform": "3DS",
