@@ -48,6 +48,33 @@
     "warning": "Port experimental para PC; requiere archivos originales desencriptados del juego y puede presentar errores gráficos o de rendimiento."
   },
   {
+    "title": "Resident Evil: Code Veronica X Vita",
+    "category": "Port",
+    "platform": "Vita",
+    "cover": "assets/covers/Resident Evil Code Veronica X Vita.jpg",
+    "version": "1.0",
+    "releaseDate": "2026-10-29",
+    "description": "Port de Resident Evil: Code Veronica X para PS Vita basado en la descompilación de la versión de PS2.",
+    "downloadUrl": "https://github.com/Rinnegatamante/recvx_vita/releases",
+    "sourceUrl": "https://github.com/Rinnegatamante/recvx_vita",
+    "repo": "Rinnegatamante/recvx_vita",
+    "youtubeUrl": "https://youtu.be/bwzgkd78_Tg",
+    "requirements": [
+    "PS Vita con HENkaku/Ensō, VitaShell y libshacccg.suprx",
+    "ISO NTSC-U de Resident Evil: Code Veronica X de PS2",
+    "PC con Python 3.10 o superior para preparar los archivos"
+    ],
+    "install": [
+    "Descarga el VPK, setup.zip y data.zip desde GitHub",
+    "Instala el VPK mediante VitaShell",
+    "Extrae setup.zip en tu PC y coloca recvx.iso en esa carpeta",
+    "Ejecuta: python pc-tools/prepare_assets.py \"recvx.iso\" \"recvx\" --ffmpeg \"ffmpeg.exe\"",
+    "Copia recvx.iso, native-assets.psarc y movies.psarc a ux0:data/recvx/",
+    "Extrae data.zip en ux0:data/recvx/ e inicia el juego"
+    ],
+    "warning": "Requiere una PS Vita modificada y una copia NTSC-U de Code Veronica X para PS2. Es un port no oficial y puede presentar errores."
+  },
+  {
     "title": "Super Mario Galaxy Vita",
     "category": "Port",
     "platform": "Vita",
