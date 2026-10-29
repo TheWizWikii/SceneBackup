@@ -28,8 +28,8 @@
     "category": "Port",
     "platform": "PC",
     "cover": "assets/covers/CTR-NitroFueled.jpg",
-    "version": "0.6.5",
-    "releaseDate": "2026-10-27",
+    "version": "0.7.1",
+    "releaseDate": "2026-10-29",
     "description": "Crash Team Racing: Nitro-Fueled (PS4) nativo para Windows 10/11.",
     "downloadUrl": "https://github.com/Ryu7w7/OCTR-NitroFueled-PC/releases",
     "sourceUrl": "https://github.com/Ryu7w7/OCTR-NitroFueled-PC",
@@ -86,16 +86,16 @@
     "repo": "VegettoSan/PSVitaAlive",
     "youtubeUrl": "",
     "requirements": [
-    "Tener una PS Vita o PS TV con HENkaku/Enso y VitaShell",
-    "Conexión Wi-Fi e iTLS-Enso recomendado para descargas HTTPS",
-    "Plugins NoNpDrm y NoPspEmuDrm para determinados contenidos"
+      "Tener una PS Vita o PS TV con HENkaku/Enso y VitaShell",
+      "Conexión Wi-Fi e iTLS-Enso recomendado para descargas HTTPS",
+      "Plugins NoNpDrm y NoPspEmuDrm para determinados contenidos"
     ],
     "install": [
-    "Descarga PSVitaAlive.vpk desde las Releases de GitHub",
-    "Transfiere el VPK a tu PS Vita mediante USB o FTP",
-    "Instala el VPK utilizando VitaShell",
-    "Inicia PS Vita Alive Store desde LiveArea",
-    "Explora el catálogo y descarga aplicaciones, ports y homebrew directamente desde la consola"
+      "Descarga PSVitaAlive.vpk desde las Releases de GitHub",
+      "Transfiere el VPK a tu PS Vita mediante USB o FTP",
+      "Instala el VPK utilizando VitaShell",
+      "Inicia PS Vita Alive Store desde LiveArea",
+      "Explora el catálogo y descarga aplicaciones, ports y homebrew directamente desde la consola"
     ],
     "warning": "Necesitas una PS Vita modificada. Algunas descargas requieren plugins adicionales, licencias válidas y espacio libre. No apagues la consola durante las instalaciones."
   },
@@ -128,8 +128,8 @@
     "category": "Emulador",
     "platform": "PS3",
     "cover": "assets/covers/ppsspp-ps3.png",
-    "version": "ppsspp_for_ps3_0.2_310",
-    "releaseDate": "2026-10-28",
+    "version": "ppsspp_for_ps3_0.2_313",
+    "releaseDate": "2026-10-29",
     "description": "Emulador de PSP para PS3 (port no oficial de PPSSPP).",
     "downloadUrl": "https://github.com/Calyps0man/ppsspp/releases",
     "sourceUrl": "https://github.com/Calyps0man/ppsspp",
@@ -459,8 +459,8 @@
     "category": "App",
     "platform": "PS5",
     "cover": "assets/covers/ProsperoStore.jpg",
-    "version": "1.000.115",
-    "releaseDate": "2026-10-28",
+    "version": "1.000.116",
+    "releaseDate": "2026-10-29",
     "description": "Tienda nativa de homebrew para PS5 con soporte de mando y teclado.",
     "downloadUrl": "https://github.com/blackbearreloaded/ProsperoStore/releases",
     "sourceUrl": "https://github.com/blackbearreloaded/ProsperoStore",
