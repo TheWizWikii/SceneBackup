@@ -1,5 +1,26 @@
 [
   {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.39.1",
+    "to": "0.1.39.2",
+    "date": "2026-10-29"
+  },
+  {
+    "title": "Salsa64",
+    "platform": "PS3",
+    "from": "0.2.14",
+    "to": "0.2.15",
+    "date": "2026-10-29"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.7.1",
+    "to": "0.7.2",
+    "date": "2026-10-30"
+  },
+  {
     "title": "Resident Evil: Code Veronica X Vita",
     "platform": "Vita",
     "from": "1.0",
