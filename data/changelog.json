@@ -1,5 +1,19 @@
 [
   {
+    "title": "PS5SX2",
+    "platform": "PS5",
+    "from": "vk-285-177",
+    "to": "vk-285-182",
+    "date": "2026-10-30"
+  },
+  {
+    "title": "PSBox Cloud Gaming",
+    "platform": "PS5",
+    "from": "1.5.4",
+    "to": "1.5.5",
+    "date": "2026-10-30"
+  },
+  {
     "title": "CTR-NitroFueled",
     "platform": "PC",
     "from": "0.7.2",
