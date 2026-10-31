@@ -1,5 +1,12 @@
 [
   {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.39.2",
+    "to": "0.1.39.3",
+    "date": "2026-10-31"
+  },
+  {
     "title": "CTR-NitroFueled",
     "platform": "PC",
     "from": "0.7.3",
