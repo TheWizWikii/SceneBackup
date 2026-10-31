@@ -1,5 +1,12 @@
 [
   {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.7.3",
+    "to": "0.7.5",
+    "date": "2026-10-31"
+  },
+  {
     "title": "PS5SX2",
     "platform": "PS5",
     "from": "vk-285-177",
