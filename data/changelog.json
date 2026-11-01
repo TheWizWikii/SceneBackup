@@ -1,5 +1,33 @@
 [
   {
+    "title": "Zelda A Link to the Past",
+    "platform": "3DS",
+    "from": "3.2",
+    "to": "4.0",
+    "date": "2026-11-01"
+  },
+  {
+    "title": "God of War III Remastered",
+    "platform": "PC",
+    "from": "windows-v2.7.0",
+    "to": "windows-v3.0.0",
+    "date": "2026-11-01"
+  },
+  {
+    "title": "SpartanPort",
+    "platform": "PC",
+    "from": "windows-v2.7.0",
+    "to": "windows-v3.0.0",
+    "date": "2026-11-01"
+  },
+  {
+    "title": "Resident Evil: Code Veronica X Vita",
+    "platform": "Vita",
+    "from": "v.1.1",
+    "to": "v.1.2",
+    "date": "2026-10-31"
+  },
+  {
     "title": "Tenkaichi3Decomp",
     "platform": "PC",
     "from": "0.1.39.2",
