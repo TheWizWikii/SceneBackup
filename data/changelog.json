@@ -1,5 +1,12 @@
 [
   {
+    "title": "NotDC-PS3",
+    "platform": "PS3",
+    "from": "0.8.2",
+    "to": "0.8.3",
+    "date": "2026-11-01"
+  },
+  {
     "title": "Zelda A Link to the Past",
     "platform": "3DS",
     "from": "3.2",
