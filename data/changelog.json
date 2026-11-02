@@ -2,6 +2,27 @@
   {
     "title": "Vita3K-NX",
     "platform": "Switch",
+    "from": "1.4.0",
+    "to": "1.4.1",
+    "date": "2026-11-02"
+  },
+  {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.39.4",
+    "to": "0.1.39.5",
+    "date": "2026-11-02"
+  },
+  {
+    "title": "Salsa64",
+    "platform": "PS3",
+    "from": "0.2.15",
+    "to": "0.2.16",
+    "date": "2026-11-02"
+  },
+  {
+    "title": "Vita3K-NX",
+    "platform": "Switch",
     "from": "1.3.1",
     "to": "1.4.0",
     "date": "2026-11-02"
