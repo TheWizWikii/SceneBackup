@@ -1,5 +1,26 @@
 [
   {
+    "title": "Tenkaichi3Decomp",
+    "platform": "PC",
+    "from": "0.1.39.5",
+    "to": "0.1.39.6",
+    "date": "2026-11-03"
+  },
+  {
+    "title": "Porpoise",
+    "platform": "PS5",
+    "from": "4.0",
+    "to": "4.5",
+    "date": "2026-11-03"
+  },
+  {
+    "title": "PS5SX2",
+    "platform": "PS5",
+    "from": "vk-285-182",
+    "to": "vk-285-187",
+    "date": "2026-11-03"
+  },
+  {
     "title": "Castlevania: Symphony of the Night",
     "platform": "PC",
     "from": "0.5.1b",
