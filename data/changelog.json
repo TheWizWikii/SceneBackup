@@ -1,5 +1,12 @@
 [
   {
+    "title": "Castlevania: Symphony of the Night",
+    "platform": "PC",
+    "from": "0.5.1b",
+    "to": "1.1.2p",
+    "date": "2026-11-03"
+  },
+  {
     "title": "Vita3K-NX",
     "platform": "Switch",
     "from": "1.4.0",
