@@ -1,5 +1,12 @@
 [
   {
+    "title": "PSBox Cloud Gaming",
+    "platform": "PS5",
+    "from": "1.5.5",
+    "to": "1.6.0",
+    "date": "2026-11-04"
+  },
+  {
     "title": "CTR-NitroFueled",
     "platform": "PC",
     "from": "0.7.5",
