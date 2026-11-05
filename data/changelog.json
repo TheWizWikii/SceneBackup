@@ -1,5 +1,19 @@
 [
   {
+    "title": "Resident Evil: Code Veronica X Vita",
+    "platform": "Vita",
+    "from": "v.1.2",
+    "to": "v.1.3",
+    "date": "2026-11-04"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.8",
+    "to": "0.8.1",
+    "date": "2026-11-04"
+  },
+  {
     "title": "PSBox Cloud Gaming",
     "platform": "PS5",
     "from": "1.5.5",
