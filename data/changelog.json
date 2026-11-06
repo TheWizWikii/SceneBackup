@@ -1,5 +1,19 @@
 [
   {
+    "title": "XPSemu",
+    "platform": "PS5",
+    "from": "Alpha-2.1",
+    "to": "Alpha-3",
+    "date": "2026-11-06"
+  },
+  {
+    "title": "Playden",
+    "platform": "PS5",
+    "from": "0.9.0",
+    "to": "0.10.0",
+    "date": "2026-11-06"
+  },
+  {
     "title": "M33 (March33)",
     "platform": "PS4",
     "from": "1.04",
