@@ -1,5 +1,26 @@
 [
   {
+    "title": "God of War III Remastered",
+    "platform": "PC",
+    "from": "windows-v3.0.0",
+    "to": "windows-v3.1.0",
+    "date": "2026-11-07"
+  },
+  {
+    "title": "SpartanPort",
+    "platform": "PC",
+    "from": "windows-v3.0.0",
+    "to": "windows-v3.1.0",
+    "date": "2026-11-07"
+  },
+  {
+    "title": "Super Mario Galaxy Vita",
+    "platform": "Vita",
+    "from": "1.0",
+    "to": "2.1.1",
+    "date": "2026-11-07"
+  },
+  {
     "title": "XPSemu",
     "platform": "PS5",
     "from": "Alpha-3",
