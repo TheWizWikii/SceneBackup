@@ -1,5 +1,19 @@
 [
   {
+    "title": "M33 (March33)",
+    "platform": "PS4",
+    "from": "1.18",
+    "to": "1.19",
+    "date": "2026-11-06"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.8.1",
+    "to": "0.8.2",
+    "date": "2026-11-06"
+  },
+  {
     "title": "XPSemu",
     "platform": "PS5",
     "from": "Alpha-2.1",
