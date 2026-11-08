@@ -1,5 +1,19 @@
 [
   {
+    "title": "Monster Hunter Tri",
+    "platform": "VITA",
+    "from": "0.2.2",
+    "to": "0.3",
+    "date": "2026-11-08"
+  },
+  {
+    "title": "XPSemu",
+    "platform": "PS5",
+    "from": "3.1",
+    "to": "3.2",
+    "date": "2026-11-08"
+  },
+  {
     "title": "PS Vita Alive Store",
     "platform": "Vita",
     "from": "02.17",
