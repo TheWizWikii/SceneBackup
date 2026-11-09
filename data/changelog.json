@@ -1,5 +1,12 @@
 [
   {
+    "title": "XPSemu",
+    "platform": "PS5",
+    "from": "3.2",
+    "to": "3.3",
+    "date": "2026-11-09"
+  },
+  {
     "title": "Monster Hunter Tri",
     "platform": "VITA",
     "from": "0.2.2",
