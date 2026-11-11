@@ -1,5 +1,26 @@
 [
   {
+    "title": "Zelda A Link to the Past",
+    "platform": "3DS",
+    "from": "4.0",
+    "to": "4.1",
+    "date": "2026-11-11"
+  },
+  {
+    "title": "Mario Kart Wii (WiiCompiled)",
+    "platform": "PC",
+    "from": "0.9.3",
+    "to": "0.9.4",
+    "date": "2026-11-10"
+  },
+  {
+    "title": "Resident Evil: Code Veronica X Vita",
+    "platform": "Vita",
+    "from": "v.1.3",
+    "to": "v.1.4",
+    "date": "2026-11-10"
+  },
+  {
     "title": "XPSemu",
     "platform": "PS5",
     "from": "3.3",
