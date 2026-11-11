@@ -1,5 +1,19 @@
 [
   {
+    "title": "XPSemu",
+    "platform": "PS5",
+    "from": "3.4",
+    "to": "3.5",
+    "date": "2026-11-11"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.8.3",
+    "to": "0.8.4",
+    "date": "2026-11-11"
+  },
+  {
     "title": "Zelda A Link to the Past",
     "platform": "3DS",
     "from": "4.0",
