@@ -1,5 +1,26 @@
 [
   {
+    "title": "Monster Hunter Tri",
+    "platform": "VITA",
+    "from": "0.3",
+    "to": "0.3.1",
+    "date": "2026-11-11"
+  },
+  {
+    "title": "Resident Evil: Code Veronica X Vita",
+    "platform": "Vita",
+    "from": "v.1.4",
+    "to": "v.1.4.1",
+    "date": "2026-11-11"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.8.4",
+    "to": "0.8.5",
+    "date": "2026-11-12"
+  },
+  {
     "title": "XPSemu",
     "platform": "PS5",
     "from": "3.4",
