@@ -1,5 +1,12 @@
 [
   {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.8.5",
+    "to": "0.8.6",
+    "date": "2026-11-13"
+  },
+  {
     "title": "Monster Hunter Tri",
     "platform": "VITA",
     "from": "0.3",
