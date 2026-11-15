@@ -1,5 +1,12 @@
 [
   {
+    "title": "The Simpsons Game Recompiled",
+    "platform": "PC",
+    "from": "0.0.7.0",
+    "to": "0.0.7.1",
+    "date": "2026-11-15"
+  },
+  {
     "title": "God of War III Remastered",
     "platform": "PC",
     "from": "windows-v3.1.0",
