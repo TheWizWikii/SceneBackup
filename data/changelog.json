@@ -1,5 +1,26 @@
 [
   {
+    "title": "God of War III Remastered",
+    "platform": "PC",
+    "from": "windows-v3.1.0",
+    "to": "windows-v3.2.0",
+    "date": "2026-11-14"
+  },
+  {
+    "title": "SpartanPort",
+    "platform": "PC",
+    "from": "windows-v3.1.0",
+    "to": "windows-v3.2.0",
+    "date": "2026-11-14"
+  },
+  {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.8.7",
+    "to": "0.8.8",
+    "date": "2026-11-15"
+  },
+  {
     "title": "Castlevania: Symphony of the Night",
     "platform": "PC",
     "from": "1.1.2p",
