@@ -1,5 +1,33 @@
 [
   {
+    "title": "ProsperoStore",
+    "platform": "PS5",
+    "from": "1.000.116",
+    "to": "1.000.119",
+    "date": "2026-11-16"
+  },
+  {
+    "title": "XPSemu",
+    "platform": "PS5",
+    "from": "3.5",
+    "to": "3.6",
+    "date": "2026-11-16"
+  },
+  {
+    "title": "Playden",
+    "platform": "PS5",
+    "from": "0.10.0",
+    "to": "0.11.0",
+    "date": "2026-11-16"
+  },
+  {
+    "title": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "platform": "Vita",
+    "from": "v.1.2.3",
+    "to": "1.2.3",
+    "date": "2026-11-15"
+  },
+  {
     "title": "God of War III Remastered",
     "platform": "PC",
     "from": "windows-v3.2.0",
