@@ -75,6 +75,32 @@
     "warning": "Requiere una PS Vita modificada y una copia NTSC-U de Code Veronica X para PS2. Es un port no oficial y puede presentar errores."
   },
   {
+    "title": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "category": "Port",
+    "platform": "Vita",
+    "cover": "assets/covers/budokai tenkaichi 3.jpg",
+    "version": "v.1.2.3",
+    "releaseDate": "2026-11-15",
+    "description": "Tenkaichi3Decomp para PS Vita: port nativo de Budokai Tenkaichi 3 con renderizador vitaGL y soporte táctil, basado en la descompilación BT3.",
+    "downloadUrl": "https://github.com/arielxflores/Tenkaichi3Decomp-Vita/releases",
+    "sourceUrl": "https://github.com/arielxflores/Tenkaichi3Decomp-Vita",
+    "repo": "arielxflores/Tenkaichi3Decomp-Vita",
+    "youtubeUrl": "",
+    "requirements": [
+    "Tener una PS Vita con HENkaku/Ensō y VitaShell",
+    "Disponer de una ISO original USA de Dragon Ball Z: Budokai Tenkaichi 3 (SLUS-21678)",
+    "Aproximadamente 3 GB libres; CapUnlocker recomendado"
+    ],
+    "install": [
+    "Descarga Tenkaichi3Decomp-Vita.vpk desde las Releases de GitHub",
+    "Instala el VPK utilizando VitaShell",
+    "Copia la ISO USA del juego en ux0:data/bt3/",
+    "Opcional: copia la ISO europea (SLES-54945) en ux0:data/bt3/eu/ para activar el español",
+    "Inicia Dragon Ball Z: Budokai Tenkaichi 3 desde LiveArea"
+    ],
+    "warning": "Requiere una PS Vita modificada y la versión USA original de PS2. La ISO europea solo añade idiomas, no sustituye a la USA. Port experimental con posibles bajadas de FPS."
+  },
+  {
     "title": "Super Mario Galaxy Vita",
     "category": "Port",
     "platform": "Vita",
