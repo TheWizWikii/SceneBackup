@@ -85,7 +85,6 @@ button { font: inherit; color: inherit; cursor: pointer; }
 .tl-img { display: grid; place-items: center; aspect-ratio: 8 / 5; border-radius: 12px; margin-bottom: 6px; overflow: hidden; background: radial-gradient(ellipse at 50% 70%, color-mix(in srgb, var(--a) 18%, transparent), rgba(255,255,255,.02) 70%); }
 .tl-img img { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 8px 14px rgba(0,0,0,.55)); transition: transform .25s; }
 .tl-look:hover .tl-img img, .tl-look[aria-checked="true"] .tl-img img { transform: scale(1.06); }
-.tl-rimg { display: block; width: min(100%, 210px); aspect-ratio: 8 / 5; object-fit: contain; margin: 0 auto 10px; filter: drop-shadow(0 10px 18px rgba(0,0,0,.6)); }
 .tl-look svg { width: 100%; height: 100%; fill: rgba(255,255,255,.05); stroke: var(--mut); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; margin-bottom: 6px; }
 .tl-look[aria-checked="true"] svg { stroke: var(--a); }
 .tl-look b { font-size: 14px; }
@@ -1475,7 +1474,7 @@ function tlResult(r) {
   if (!r) return '<p class="tl-empty">Tu respuesta aparecerá aquí.</p>';
   if (r.err) return `<p class="tl-err" role="alert">${esc(r.err)}</p>`;
   const pill = (k, label) => `<div class="tl-pill ${TL_ST[k][1]}"><span>${label}</span><b>${TL_ST[k][0]}</b></div>`;
-  return `${r.img ? `<img class="tl-rimg" src="${TL_DIR}${r.img}.webp" alt="" width="480" height="300">` : ''}<h3 class="tl-rt">${esc(r.title)}</h3>
+  return `<h3 class="tl-rt">${esc(r.title)}</h3>
     <div class="tl-pills">${pill(r.cfw, 'CFW')}${pill(r.hen, 'HEN')}</div>
     <p class="tl-why">${esc(r.why)}</p>
     ${r.steps.length ? `<h4>Qué hacer ahora</h4><ul class="tl-steps">${r.steps.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
@@ -1541,7 +1540,6 @@ function initTool() {
     const im = e.target; if (im.tagName !== 'IMG') return; const box = im.closest('.tl-img');
     if (box) box.innerHTML = TL_SVG[box.dataset.svg];
   }, true);
-  res.addEventListener('error', e => { if (e.target.classList && e.target.classList.contains('tl-rimg')) e.target.remove(); }, true);
   $('#tlForm').addEventListener('submit', e => e.preventDefault());
   $('#tlForm').addEventListener('click', e => {
     const b = e.target.closest('.tl-look'); if (!b) return;
