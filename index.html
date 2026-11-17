@@ -61,6 +61,66 @@ button { font: inherit; color: inherit; cursor: pointer; }
   box-shadow: 0 0 10px 2px var(--b), 0 0 60px 14px color-mix(in srgb, var(--b) 60%, transparent); opacity: .55; animation: none; }
 @keyframes breathe { 0% { opacity: .78; } 40% { opacity: 1; } 46% { opacity: .84; } 52% { opacity: 1; } 100% { opacity: .9; } }
 
+
+/* ---------- herramientas ---------- */
+.tl { padding-bottom: 60px; display: flex; flex-direction: column; gap: 36px; }
+.tl-main { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 20px; align-items: start; }
+.tl-form, .tl-res { border-radius: 22px; background: var(--panel); border: 1px solid var(--line); backdrop-filter: blur(10px); padding: clamp(18px, 3vw, 28px); }
+.tl-form { display: flex; flex-direction: column; gap: 22px; }
+.tl-res { position: sticky; top: 90px; min-height: 260px; border-style: dashed; }
+.tl-f { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.tl-f label, .tl-l { font-weight: 600; font-size: 15px; }
+.tl-o { font-weight: 400; color: var(--mut); }
+.tl-f input { min-height: 50px; padding: 0 18px; border-radius: 14px; background: rgba(255,255,255,.04); border: 1px solid var(--line); color: var(--ink); font: inherit; font-family: var(--f-mono); font-size: 16px; text-transform: uppercase; }
+.tl-f input#tlFw { text-transform: none; }
+.tl-f input:focus-visible, .tl-f .sel:focus-visible, .tl-look:focus-visible { outline: 2px solid var(--a); outline-offset: 2px; }
+.tl-f input::placeholder { color: #6f78a3; text-transform: none; }
+.tl-f .sel { border-radius: 14px; min-height: 50px; }
+.tl-h { margin: 0; font-size: 13px; color: var(--mut); }
+.tl-h code, .tl-note code { font-family: var(--f-mono); color: var(--ink); }
+.tl-looks { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.tl-look { text-align: left; display: flex; flex-direction: column; gap: 4px; padding: 14px; border-radius: 16px; background: rgba(255,255,255,.03); border: 1px solid var(--line); color: var(--ink); cursor: pointer; transition: border-color .2s, background .2s, transform .15s; }
+.tl-look:hover { border-color: color-mix(in srgb, var(--a) 60%, transparent); transform: translateY(-2px); }
+.tl-look[aria-checked="true"] { border-color: var(--a); background: color-mix(in srgb, var(--a) 14%, transparent); box-shadow: 0 0 22px color-mix(in srgb, var(--a) 30%, transparent); }
+.tl-look svg { width: 100%; height: 56px; fill: rgba(255,255,255,.05); stroke: var(--mut); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; margin-bottom: 6px; }
+.tl-look[aria-checked="true"] svg { stroke: var(--a); }
+.tl-look b { font-size: 14px; }
+.tl-look small { font-size: 12px; color: var(--mut); line-height: 1.35; }
+.tl-empty { margin: 60px 0 0; text-align: center; color: var(--mut); font-size: 17px; }
+.tl-err { margin: 0; padding: 14px 16px; border-radius: 14px; background: rgba(255,107,122,.12); border: 1px solid rgba(255,107,122,.4); color: #ffc2c9; }
+.tl-rt { margin: 0 0 14px; font-family: var(--f-display); font-size: clamp(20px, 3vw, 26px); line-height: 1.2; }
+.tl-pills { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+.tl-pill { display: flex; flex-direction: column; gap: 2px; padding: 14px 16px; border-radius: 16px; border: 1px solid; }
+.tl-pill span { font-family: var(--f-mono); font-size: 12px; letter-spacing: .1em; color: var(--mut); }
+.tl-pill b { font-size: 26px; line-height: 1.1; }
+.tl-pill.tl-yes { border-color: rgba(49,214,123,.5); background: rgba(49,214,123,.1); } .tl-pill.tl-yes b { color: #4ae394; }
+.tl-pill.tl-check { border-color: rgba(255,176,46,.5); background: rgba(255,176,46,.1); } .tl-pill.tl-check b { color: #ffbf55; }
+.tl-pill.tl-no { border-color: rgba(255,107,122,.5); background: rgba(255,107,122,.1); } .tl-pill.tl-no b { color: #ff8793; }
+.tl-why { margin: 0 0 14px; line-height: 1.55; }
+.tl-res h4 { margin: 0 0 8px; font-family: var(--f-mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--mut); font-weight: 500; }
+.tl-steps { margin: 0 0 14px; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; line-height: 1.5; }
+.tl-extra { margin: 0 0 12px; padding: 12px 14px; border-radius: 12px; background: rgba(255,255,255,.05); font-size: 14px; line-height: 1.5; color: var(--mut); }
+.tl-go { margin-top: 6px; }
+.tl-ref h2 { font-family: var(--f-display); font-size: clamp(22px, 3.4vw, 30px); margin: 0 0 16px; }
+.tl-tw { overflow-x: auto; border-radius: 18px; border: 1px solid var(--line); background: var(--panel); }
+.tl-tw table { width: 100%; border-collapse: collapse; min-width: 560px; }
+.tl-tw th, .tl-tw td { text-align: left; padding: 14px 18px; border-bottom: 1px solid var(--line); font-size: 15px; }
+.tl-tw th { font-family: var(--f-mono); font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--mut); font-weight: 500; background: rgba(255,255,255,.03); }
+.tl-tw tr:last-child td { border-bottom: 0; }
+.tl-tw td.tl-yes { color: #4ae394; font-weight: 600; } .tl-tw td.tl-check { color: #ffbf55; font-weight: 600; } .tl-tw td.tl-no { color: #ff8793; font-weight: 600; }
+.tl-note { max-width: 72ch; color: var(--mut); line-height: 1.6; font-size: 14.5px; margin: 14px 0 0; }
+.tl-note a { color: var(--a); }
+.tl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; padding-bottom: 60px; }
+.tl-card { display: flex; flex-direction: column; gap: 6px; padding: 22px; border-radius: 20px; text-decoration: none; background: linear-gradient(160deg, color-mix(in srgb, var(--ca) 16%, var(--panel-solid)), var(--panel-solid) 75%); border: 1px solid color-mix(in srgb, var(--ca) 40%, transparent); transition: transform .2s, box-shadow .25s; }
+.tl-card:hover { transform: translateY(-3px); box-shadow: 0 14px 40px color-mix(in srgb, var(--ca) 30%, transparent); }
+.tl-card small { font-family: var(--f-mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ca); }
+.tl-card b { font-size: 20px; }
+.tl-card span { color: var(--mut); font-size: 14px; line-height: 1.5; }
+.tl-banner { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 4px 0 18px; padding: 14px 18px; border-radius: 16px; text-decoration: none; background: color-mix(in srgb, var(--a) 12%, var(--panel)); border: 1px solid color-mix(in srgb, var(--a) 45%, transparent); transition: box-shadow .25s, transform .2s; }
+.tl-banner:hover { transform: translateY(-2px); box-shadow: 0 10px 30px color-mix(in srgb, var(--a) 28%, transparent); }
+.tl-banner small { font-family: var(--f-mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--a); }
+.tl-banner b { font-size: 16px; } .tl-banner span { color: var(--mut); font-size: 14px; flex: 1 1 220px; }
+@media (max-width: 860px) { .tl-main { grid-template-columns: minmax(0, 1fr); } .tl-res { position: static; min-height: 0; } }
 /* ---------- fondos animados por sistema ---------- */
 #scene { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; transition: opacity .45s ease; }
 .stage.scene #scene { opacity: 1; }
@@ -689,7 +749,7 @@ const ARC_GROUPS = [
 ];
 const I_CHEV = '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>';
 function navHTML() {
-  const here = route.name === 'home' ? 'inicio' : route.name === 'news' ? 'novedades' : route.name === 'arc' ? 'archivo' : route.name === 'asys' ? 'a-' + route.id : route.name === 'sys' ? 's-' + route.ps : route.name === 'cat' ? 't-' + route.ck : 'todo';
+  const here = route.name === 'home' ? 'inicio' : route.name === 'news' ? 'novedades' : route.name === 'arc' ? 'archivo' : route.name === 'asys' ? 'a-' + route.id : route.name === 'tools' ? 'herramientas' : route.name === 'tool' ? 'h-' + route.id : route.name === 'sys' ? 's-' + route.ps : route.name === 'cat' ? 't-' + route.ck : 'todo';
   const link = (id, label, ps, extra, cls) => `<a href="#${id}" ${here === id ? 'aria-current="page"' : ''} style="--pa:${theme(ps || '')[0]}">${cls ? `<span class="sw"></span>` : ''}${esc(label)}${extra || ''}</a>`;
   const dd = (key, label, on, body) => `<div class="dd"><button class="ddbtn${on ? ' on' : ''}" type="button" data-dd="${key}" aria-haspopup="true" aria-expanded="false" aria-controls="dd-${key}">${esc(label)}${I_CHEV}</button><div class="ddp" id="dd-${key}" hidden>${body}</div></div>`;
   const hot = events.some(e => isRecent(e.date));
@@ -717,8 +777,16 @@ function navHTML() {
       g.map(([n, l]) => `<div class="ddg"><b>${esc(n)}</b>${l.map(x => link('a-' + x.id, x.name, 'r:' + x.id, '', 1)).join('')}</div>`).join('');
     arcPart = dd('arc', 'Archivo', here === 'archivo' || here.startsWith('a-'), body);
   }
+  // Herramientas, agrupadas por sistema
+  let toolsPart = '';
+  if (TOOLS.length) {
+    const byPs = [...new Set(TOOLS.map(t => t.ps))];
+    const tb = `<a class="ddh" href="#herramientas" ${here === 'herramientas' ? 'aria-current="page"' : ''}>Todas las herramientas →</a>` +
+      byPs.map(ps => `<div class="ddg"><b>${esc(PNAMES[ps] || ps)}</b>${TOOLS.filter(t => t.ps === ps).map(t => link('h-' + t.id, t.name, ps, '', 1)).join('')}</div>`).join('');
+    toolsPart = dd('tools', 'Herramientas', here === 'herramientas' || here.startsWith('h-'), tb);
+  }
   return link('inicio', 'Inicio', 'def') + link('todo', 'Todo', 'def') + link('novedades', 'Novedades', 'def', hot ? '<span class="dot" aria-label="con novedades recientes"></span>' : '') +
-    (systems.length ? dd('sys', 'Sistemas', sysOn, sysBody) : '') + arcPart;
+    (systems.length ? dd('sys', 'Sistemas', sysOn, sysBody) : '') + toolsPart + arcPart;
 }
 function renderHome() {
   setAccent(HOME);
@@ -778,6 +846,7 @@ function renderSection() {
     <p class="sinfo">${base.length} ${base.length === 1 ? 'elemento' : 'elementos'}${last ? ' · última subida ' + esc(fmtDate(last.releaseDate)) : ''}</p>
   </div></section>
   <div class="wrap">
+    ${route.name === 'sys' ? TOOLS.filter(t => t.ps === route.ps).map(t => `<a class="tl-banner" href="#h-${t.id}"><small>Herramienta</small><b>${esc(t.name)}</b><span>${esc(t.desc)}</span></a>`).join('') : ''}
     <div class="toolbar">${tabs}${sysTabs}
       <div class="tools">
         <label class="field" for="q">${I_SEARCH}<input id="q" type="search" placeholder="Buscar por nombre" autocomplete="off" value="${esc(state.q)}"></label>
@@ -847,6 +916,8 @@ function parseRoute() {
   if (h.startsWith('t-') && CATS[h.slice(2)]) return { name: 'cat', ck: h.slice(2) };
   if (h === 'todo') return { name: 'all' };
   if (h === 'novedades') return { name: 'news' };
+  if (h === 'herramientas' && TOOLS.length) return { name: 'tools' };
+  if (h.startsWith('h-') && toolById(h.slice(2))) return { name: 'tool', id: h.slice(2) };
   if (h === 'archivo' && arc.systems.length) return { name: 'arc' };
   if (h.startsWith('a-') && arcSys(h.slice(2))) return { name: 'asys', id: h.slice(2) };
   return { name: 'home' };
@@ -858,13 +929,14 @@ function render() {
   keepQ = false;
   state.page = 1; state.cat = 'all'; state.sys = null; state.rf = 'all';
   const v = $('#view');
-  v.innerHTML = route.name === 'home' ? renderHome() : route.name === 'news' ? renderNews() : route.name === 'arc' ? renderArc() : route.name === 'asys' ? renderArcSys() : renderSection();
+  v.innerHTML = route.name === 'home' ? renderHome() : route.name === 'news' ? renderNews() : route.name === 'tools' ? renderTools() : route.name === 'tool' ? renderTool() : route.name === 'arc' ? renderArc() : route.name === 'asys' ? renderArcSys() : renderSection();
   $('#navlinks').innerHTML = navHTML();
   if (route.name === 'arc' || route.name === 'asys') { if (route.name === 'asys') { $('#rsort').value = state.rsort; const c = $('.sysrow [aria-pressed="true"]'); if (c) c.scrollIntoView({ inline: 'center', block: 'nearest' }); } loadArcView(); }
-  else if (route.name !== 'home' && route.name !== 'news') { $('#sort').value = state.sort; renderResults(); }
+  else if (route.name === 'tool') initTool();
+  else if (route.name !== 'home' && route.name !== 'news' && route.name !== 'tools') { $('#sort').value = state.sort; renderResults(); }
   window.scrollTo(0, 0);
   setScene(sceneForRoute());
-  document.title = route.name === 'asys' ? `${arcSys(route.id).name} · Archivo · Scene Backup` : route.name === 'arc' ? 'Archivo · Scene Backup' : route.name === 'sys' ? `${systems.find(s => s.ps === route.ps).name} · Scene Backup` : 'Scene Backup';
+  document.title = route.name === 'tool' ? `${toolById(route.id).name} · Scene Backup` : route.name === 'tools' ? 'Herramientas · Scene Backup' : route.name === 'asys' ? `${arcSys(route.id).name} · Archivo · Scene Backup` : route.name === 'arc' ? 'Archivo · Scene Backup' : route.name === 'sys' ? `${systems.find(s => s.ps === route.ps).name} · Scene Backup` : 'Scene Backup';
 }
 
 /* ---------- eventos ---------- */
@@ -1329,10 +1401,144 @@ function setScene(id) {
   scv.width = W * DPR; scv.height = H * DPR; scv.getContext('2d').setTransform(DPR, 0, 0, DPR, 0, 0);
   sceneDraw = SCENES[id](); stageEl.classList.add('scene'); sceneStart();
 }
-function sceneForRoute() { return route.name === 'sys' ? FAMILY[route.ps] : route.name === 'asys' ? FAMILY[route.id] : null; }
+function sceneForRoute() { return route.name === 'sys' ? FAMILY[route.ps] : route.name === 'tool' ? FAMILY[toolById(route.id).ps] : route.name === 'asys' ? FAMILY[route.id] : null; }
 window.addEventListener('resize', () => { if (sceneId) { const id = sceneId; sceneId = null; setScene(id); } });
 document.addEventListener('visibilitychange', () => { if (!document.hidden) sceneStart(); });
 
+
+/* ---------- herramientas (PS3 Jailbreak checker y las que vengan) ---------- */
+const TOOLS = [
+  { id: 'ps3-jailbreak', ps: 'ps3', name: 'Jailbreak checker', desc: 'Comprueba si tu PS3 admite CFW o HEN a partir del número de modelo.' }
+];
+const toolById = id => TOOLS.find(t => t.id === id);
+const TL_ST = { yes: ['Sí', 'tl-yes'], check: ['Comprobar', 'tl-check'], no: ['No', 'tl-no'] };
+const TL_SVG = {
+  fat: '<svg viewBox="0 0 120 56" aria-hidden="true"><path d="M8 40 L18 18 Q20 12 28 12 L92 12 Q100 12 104 18 L114 38 Q116 46 108 46 L14 46 Q6 46 8 40Z"/><path d="M30 38 H90" /></svg>',
+  slim: '<svg viewBox="0 0 120 56" aria-hidden="true"><path d="M10 34 L20 22 Q23 18 30 18 L90 18 Q97 18 100 22 L110 34 Q113 42 105 42 L15 42 Q7 42 10 34Z"/><path d="M34 34 H86"/></svg>',
+  super: '<svg viewBox="0 0 120 56" aria-hidden="true"><path d="M8 36 L22 24 Q25 21 31 21 L89 21 Q95 21 98 24 L112 36 Q114 41 108 41 L12 41 Q6 41 8 36Z"/><path d="M28 30 H92" stroke-dasharray="3 4"/></svg>'
+};
+
+function ps3Parse(raw) {
+  const m = String(raw || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  if (m.length < 6) return null;
+  let x;
+  if (/^DECR/.test(m)) return { fam: 'ref' };
+  if ((x = /^(CECH|DECH)([A-Q])(\d{2})/.exec(m))) return { fam: 'fat', dex: x[1] === 'DECH' };
+  if ((x = /^(CECH|DECH)(\d{2})/.exec(m))) {
+    const dex = x[1] === 'DECH', s = x[2];
+    if (s === '20' || s === '21') return { fam: 'slim', dex };
+    if (s === '25') return { fam: 'slim25', dex };
+    if (s === '30') return { fam: 'slim30', dex };
+    if (s === '40' || s === '42' || s === '43') return { fam: 'super', dex };
+  }
+  return { fam: 'unknown' };
+}
+function ps3Eval(model, look, date, fw) {
+  const p = ps3Parse(model);
+  const pick = p || (look ? { fam: look === 'fat' ? 'fat' : look === 'super' ? 'super' : 'slim?' } : null);
+  if (!pick) return null;
+  if (pick.fam === 'unknown') return { err: 'No reconozco ese número de modelo. Debe empezar por CECH (o DECH) seguido de una letra o cuatro cifras, por ejemplo CECHA01 o CECH-2501A.' };
+  const R = { title: '', cfw: 'check', hen: 'yes', why: '', steps: [], needsDate: false, dex: !!pick.dex };
+  const stepCfw = 'Instala un CFW compatible (por ejemplo Evilnat o Rebug) siguiendo su guía oficial.';
+  const stepHen = 'Si prefieres no modificar el firmware, PS3HEN se activa desde el navegador de la consola (o con un firmware híbrido, HFW).';
+  const stepCheck = 'Ejecuta MinVerChk desde un USB: si indica 3.56 o inferior, el CFW funciona. Si indica más, usa HEN.';
+  const stepNo = 'Usa HEN. Como alternativa avanzada, un modchip BadWDSD (Raspberry Pi Pico, microsoldadura) permite arrancar qCFW.';
+  switch (pick.fam) {
+    case 'fat': Object.assign(R, { title: 'PS3 original (Fat)', cfw: 'yes', why: 'Los modelos CECHA a CECHQ admiten CFW y HEN.', steps: [stepCfw, stepHen] }); break;
+    case 'slim': Object.assign(R, { title: 'PS3 Slim (serie 20xx/21xx)', cfw: 'yes', why: 'Las Slim 20xx y 21xx admiten CFW y HEN.', steps: [stepCfw, stepHen] }); break;
+    case 'slim25':
+      R.title = 'PS3 Slim (serie 25xx)'; R.needsDate = true;
+      if (date === '9' || date === '0' || date === '1A') { R.cfw = 'yes'; R.why = 'Con ese código de fecha la placa admite CFW y HEN.'; R.steps = [stepCfw, stepHen]; }
+      else if (date === '1B') { R.cfw = 'check'; R.why = 'Con código 1B depende del firmware mínimo que acepte tu consola. La mayoría lo pasan.'; R.steps = [stepCheck, stepHen]; }
+      else if (date === 'later') { R.cfw = 'check'; R.why = 'Con código 1C o posterior lo habitual es que no admita CFW estándar, pero conviene comprobarlo.'; R.steps = [stepCheck, stepHen, stepNo]; }
+      else { R.cfw = 'check'; R.why = 'En la serie 25xx el CFW depende del código de fecha que aparece en la pegatina. Elígelo abajo para afinar.'; R.steps = [stepHen]; }
+      break;
+    case 'slim?': Object.assign(R, { title: 'PS3 Slim', cfw: 'check', needsDate: false, why: 'En las Slim depende de la serie: 20xx y 21xx admiten CFW, la 25xx depende del código de fecha y la 30xx no admite CFW. Escribe el modelo para saber cuál es la tuya.', steps: [stepHen] }); break;
+    case 'slim30': Object.assign(R, { title: 'PS3 Slim (serie 30xx)', cfw: 'no', why: 'La serie 30xx no admite CFW estándar, pero sí HEN.', steps: [stepNo] }); break;
+    case 'super': Object.assign(R, { title: 'PS3 Super Slim', cfw: 'no', why: 'Las Super Slim (40xx, 42xx y 43xx) no admiten CFW estándar, pero sí HEN. En las terminadas en A (memoria eMMC) el soporte es menos fiable.', steps: [stepNo] }); break;
+    case 'ref': Object.assign(R, { title: 'Reference Tool (DECR)', cfw: 'check', hen: 'check', why: 'Los equipos de referencia usan builds propias (Rebug DECR Lite). Consulta una guía específica.', steps: [] }); break;
+  }
+  const extra = [];
+  if (R.dex) extra.push('Unidad de depuración (DECH): sigue el mismo reparto que el modelo normal, pero necesita builds DEX (Rebug D-REX o Evilnat D-PEX para CFW, HFW DEX para HEN).');
+  const v = parseFloat(String(fw || '').replace(',', '.'));
+  if (v) extra.push(`Firmware indicado: ${v.toFixed(2)}. Para HEN suele pedirse un firmware oficial reciente; revisa los requisitos de la versión vigente antes de instalar.`);
+  R.extra = extra;
+  return R;
+}
+function tlResult(r) {
+  if (!r) return '<p class="tl-empty">Tu respuesta aparecerá aquí.</p>';
+  if (r.err) return `<p class="tl-err" role="alert">${esc(r.err)}</p>`;
+  const pill = (k, label) => `<div class="tl-pill ${TL_ST[k][1]}"><span>${label}</span><b>${TL_ST[k][0]}</b></div>`;
+  return `<h3 class="tl-rt">${esc(r.title)}</h3>
+    <div class="tl-pills">${pill(r.cfw, 'CFW')}${pill(r.hen, 'HEN')}</div>
+    <p class="tl-why">${esc(r.why)}</p>
+    ${r.steps.length ? `<h4>Qué hacer ahora</h4><ul class="tl-steps">${r.steps.map(s => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
+    ${r.extra.map(e => `<p class="tl-extra">${esc(e)}</p>`).join('')}
+    ${systems.some(s => s.ps === 'ps3') ? '<a class="btn ghost tl-go" href="#s-ps3">Ver apps y homebrew de PS3 →</a>' : ''}`;
+}
+function renderTools() {
+  setAccent(HOME);
+  const cards = TOOLS.map(t => { const c = theme(t.ps); return `<a class="tl-card" href="#h-${t.id}" style="--ca:${c[0]};--cb:${c[1]}"><small>${esc(PNAMES[t.ps] || t.ps)}</small><b>${esc(t.name)}</b><span>${esc(t.desc)}</span></a>`; }).join('');
+  return `<section class="shead"><div class="wrap"><a class="crumb" href="#inicio">← Inicio</a><h1 class="stitle">Herramientas</h1>
+    <p class="sdesc">Utilidades para tus consolas. Irán creciendo con el tiempo.</p></div></section>
+    <div class="wrap"><div class="tl-grid">${cards}</div></div>`;
+}
+function renderTool() {
+  const t = toolById(route.id); setAccent(theme(t.ps));
+  return `<section class="shead"><div class="wrap"><a class="crumb" href="#herramientas">← Herramientas</a><h1 class="stitle">${esc(t.name)}</h1>
+    <p class="sdesc">¿Se puede liberar tu PS3? Escribe el número de modelo y comprueba en segundos si admite <b>CFW</b> (firmware personalizado) o <b>HEN</b> (activador de homebrew), y qué hacer después.</p></div></section>
+  <div class="wrap tl">
+    <div class="tl-main">
+      <form class="tl-form" id="tlForm" novalidate>
+        <div class="tl-f"><label for="tlModel">Número de modelo</label>
+          <input id="tlModel" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="p. ej. CECH-2501A o CECHA01" aria-describedby="tlModelH">
+          <p class="tl-h" id="tlModelH">Está en la pegatina de la parte trasera o inferior de la consola. ¿Sin pegatina? Elige el aspecto abajo.</p></div>
+        <div class="tl-f"><span class="tl-l" id="tlLookL">O elige el que se parece al tuyo</span>
+          <div class="tl-looks" role="radiogroup" aria-labelledby="tlLookL">
+            <button type="button" class="tl-look" role="radio" aria-checked="false" data-look="fat">${TL_SVG.fat}<b>Original (Fat)</b><small>Brillante, tapa curvada, 2006–2009</small></button>
+            <button type="button" class="tl-look" role="radio" aria-checked="false" data-look="slim">${TL_SVG.slim}<b>Slim</b><small>Más pequeña, mate, lector de ranura</small></button>
+            <button type="button" class="tl-look" role="radio" aria-checked="false" data-look="super">${TL_SVG.super}<b>Super Slim</b><small>Tapa deslizante superior, desde 2012</small></button>
+          </div></div>
+        <div class="tl-f" id="tlDateF" hidden><label for="tlDate">Código de fecha (solo CECH-25xx)</label>
+          <select id="tlDate" class="sel"><option value="">No lo sé</option><option value="9">9A / 9B / 9C (2009)</option><option value="0">0A / 0B / 0C (2010)</option><option value="1A">1A (principios de 2011)</option><option value="1B">1B</option><option value="later">1C o posterior (2A, 2B…)</option></select>
+          <p class="tl-h">Un código corto junto al final de la misma pegatina, como <code>0C</code> o <code>1A</code>.</p></div>
+        <div class="tl-f"><label for="tlFw">Versión de firmware <span class="tl-o">(opcional)</span></label>
+          <input id="tlFw" type="text" inputmode="decimal" autocomplete="off" placeholder="p. ej. 4.92" aria-describedby="tlFwH">
+          <p class="tl-h" id="tlFwH">En la PS3: <b>Ajustes → Ajustes del sistema → Información del sistema</b>.</p></div>
+      </form>
+      <div class="tl-res" id="tlRes" aria-live="polite"></div>
+    </div>
+    <section class="tl-ref" aria-labelledby="tlRefT"><h2 id="tlRefT">Referencia rápida</h2>
+      <div class="tl-tw"><table><thead><tr><th scope="col">Consola</th><th scope="col">Modelos</th><th scope="col">CFW</th><th scope="col">HEN</th></tr></thead><tbody>
+        <tr><td>Original (Fat)</td><td>CECHA–CECHQ (p. ej. CECHA01, CECHL04)</td><td class="tl-yes">Sí</td><td class="tl-yes">Sí</td></tr>
+        <tr><td>Slim</td><td>CECH-20xx, CECH-21xx</td><td class="tl-yes">Sí</td><td class="tl-yes">Sí</td></tr>
+        <tr><td>Slim</td><td>CECH-25xx, código 9x, 0x o 1A</td><td class="tl-yes">Sí</td><td class="tl-yes">Sí</td></tr>
+        <tr><td>Slim</td><td>CECH-25xx, código 1B o posterior</td><td class="tl-check">Comprobar</td><td class="tl-yes">Sí</td></tr>
+        <tr><td>Slim</td><td>CECH-30xx</td><td class="tl-no">No</td><td class="tl-yes">Sí</td></tr>
+        <tr><td>Super Slim</td><td>CECH-40xx, 42xx, 43xx</td><td class="tl-no">No</td><td class="tl-yes">Sí</td></tr></tbody></table></div>
+      <p class="tl-note">«Comprobar» significa que depende del firmware mínimo que pueda instalar tu consola. Ejecuta <b>MinVerChk</b> desde un USB: si indica <b>3.56 o inferior</b>, el CFW funciona. La mayoría de las 1B lo pasan; las 1C y posteriores normalmente no.</p>
+      <p class="tl-note">Las unidades de depuración empiezan por <code>DECH</code> y siguen el mismo reparto, pero usan builds DEX. Las Reference Tool (<code>DECR</code>) usan Rebug DECR Lite.</p>
+      <p class="tl-note">Información orientativa, revisada en octubre de 2026. Contrasta siempre con una guía actualizada, por ejemplo <a href="https://consolemods.org/wiki/PS3:Getting_Started" target="_blank" rel="noopener">ConsoleMods</a>.</p>
+    </section>
+  </div>`;
+}
+function initTool() {
+  const m = $('#tlModel'), fw = $('#tlFw'), d = $('#tlDate'), res = $('#tlRes'), df = $('#tlDateF'); let look = '';
+  const upd = () => {
+    const p = ps3Parse(m.value);
+    df.hidden = !((p && p.fam === 'slim25'));
+    res.innerHTML = tlResult(ps3Eval(m.value, look, d.value, fw.value));
+  };
+  [m, fw, d].forEach(el => el.addEventListener('input', upd));
+  $('#tlForm').addEventListener('submit', e => e.preventDefault());
+  $('#tlForm').addEventListener('click', e => {
+    const b = e.target.closest('.tl-look'); if (!b) return;
+    look = look === b.dataset.look ? '' : b.dataset.look;
+    $('#tlForm').querySelectorAll('.tl-look').forEach(x => x.setAttribute('aria-checked', String(x.dataset.look === look)));
+    upd();
+  });
+  upd();
+}
 
 /* ---------- menús desplegables de la barra ---------- */
 function closeDD(focusBtn) {
