@@ -1,5 +1,12 @@
 [
   {
+    "title": "CTR-NitroFueled",
+    "platform": "PC",
+    "from": "0.8.8",
+    "to": "0.9.4",
+    "date": "2026-11-21"
+  },
+  {
     "title": "Dragon Ball Z: Budokai Tenkaichi 3",
     "platform": "Vita",
     "from": "1.2.4",
