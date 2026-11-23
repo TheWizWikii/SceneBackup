@@ -1,5 +1,19 @@
 [
   {
+    "title": "Mario Kart Wii (WiiCompiled)",
+    "platform": "PC",
+    "from": "0.9.4",
+    "to": "0.9.5",
+    "date": "2026-11-23"
+  },
+  {
+    "title": "PS5SX2",
+    "platform": "PS5",
+    "from": "vk-285-321",
+    "to": "vk-285-329",
+    "date": "2026-11-23"
+  },
+  {
     "title": "CTR-NitroFueled",
     "platform": "PC",
     "from": "0.8.8",
