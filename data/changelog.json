@@ -1,5 +1,12 @@
 [
   {
+    "title": "Vita3K-NX",
+    "platform": "Switch",
+    "from": "1.4.2",
+    "to": "1.4.3",
+    "date": "2026-11-24"
+  },
+  {
     "title": "Mario Kart Wii (WiiCompiled)",
     "platform": "PC",
     "from": "0.9.4",
