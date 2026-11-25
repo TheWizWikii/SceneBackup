@@ -1,5 +1,19 @@
 [
   {
+    "title": "PS5SX2",
+    "platform": "PS5",
+    "from": "vk-285-329",
+    "to": "vk-285-345",
+    "date": "2026-11-24"
+  },
+  {
+    "title": "PS Vita Alive Store",
+    "platform": "Vita",
+    "from": "02.18",
+    "to": "02.19",
+    "date": "2026-11-25"
+  },
+  {
     "title": "Vita3K-NX",
     "platform": "Switch",
     "from": "1.4.2",
