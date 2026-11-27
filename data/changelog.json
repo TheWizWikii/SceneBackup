@@ -1,5 +1,12 @@
 [
   {
+    "title": "Resident Evil: Code Veronica X Vita",
+    "platform": "Vita",
+    "from": "v.1.4.5",
+    "to": "v.1.5",
+    "date": "2026-11-27"
+  },
+  {
     "title": "PS Vita Alive Store",
     "platform": "Vita",
     "from": "02.19",
