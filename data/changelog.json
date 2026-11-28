@@ -1,5 +1,12 @@
 [
   {
+    "title": "Super Mario Galaxy Vita",
+    "platform": "Vita",
+    "from": "3.0",
+    "to": "3.0.1",
+    "date": "2026-11-28"
+  },
+  {
     "title": "Dolphin",
     "platform": "PS4",
     "from": "04.19",
